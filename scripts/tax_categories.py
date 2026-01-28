@@ -52,6 +52,14 @@ TAX_CATEGORIES = {
         "notes": "Verify item is work-related before claiming"
     },
     
+    "amazon_documented_equipment": {
+        "description": "Amazon purchases with documented work-use receipts",
+        "keywords": [],  # Empty - must be matched by amount/date to receipt
+        "default_owner": "Thomas",
+        "work_use_percent": 100,
+        "notes": "Only claim if receipt in 2. Deductions/ folder confirms work equipment"
+    },
+    
     "office_supplies": {
         "description": "Stationery and office consumables",
         "keywords": [

@@ -11,10 +11,10 @@
 | Metric | Value |
 |--------|-------|
 | Total Transactions Analysed | 1,256 |
-| Deductible Transactions | 49 |
-| Thomas Deductible Total | $2,031.86 |
+| Deductible Transactions | 50 |
+| Thomas Deductible Total | $4,180.85 |
 | Isabelle Deductible Total (adjusted) | $1,293.79 |
-| **Combined Deductible** | **$3,325.65** |
+| **Combined Deductible** | **$5,474.64** |
 
 **Note:** Amounts shown are adjusted for work-use percentages where applicable.
 
@@ -39,20 +39,21 @@
 
 | Date | Description | Amount | Notes |
 |------|-------------|--------|-------|
+| 30/06/2025 | AMAZON - iPad Pro 13" M4 256GB | $2,148.99 | Tizzi ABN - Receipt: 250630 - Amazon iPad Invoice.pdf |
 | 30/06/2025 | OFFICEWORKS BENTLEIGH EAS | $1,705.00 | iPhone + Apple Pencil Pro |
 | 15/12/2024 | OFFICEWORKS 0327 CAMPBELLFIELD | $24.94 | Printing supplies |
 | 15/12/2024 | OFFICEWORKS 0327 CAMPB CVIC | $22.54 | Printing supplies |
 | 15/12/2024 | OFFICEWORKS 0327 CAMPBELLFIELD | $5.00 | Printing supplies |
 
-**Subtotal:** $1,757.48
+**Subtotal:** $3,906.47
 
 ### Thomas Total
 
 | Category | Raw Amount | Work % | Deductible |
 |----------|------------|--------|------------|
 | Software Subscriptions | $274.38 | 100% | $274.38 |
-| Home Office Equipment | $1,757.48 | 100% | $1,757.48 |
-| **Total** | **$2,031.86** | | **$2,031.86** |
+| Home Office Equipment | $3,906.47 | 100% | $3,906.47 |
+| **Total** | **$4,180.85** | | **$4,180.85** |
 
 ---
 
