@@ -1,0 +1,50 @@
+date_transaction,description,amount,owner,category,is_deductible,work_use_percent,category_owner,is_high_value,is_foreign,foreign_currency,matched_keyword,source_file
+15/09/2024,PRIME VIDEO CHANNELS SYDNEY,9.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+16/09/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+26/09/2024,PRIME VIDEO CHANNELS SYDNEY,6.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+15/10/2024,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+16/10/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,PRIME VIDEO CHANNELS SYDNEY,6.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+01/11/2024,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+03/11/2024,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+15/11/2024,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/11/2024,PRIME VIDEO CHANNELS SYDNEY,6.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,OFFICEWORKS 0327 CAMPB CVIC,22.54,Isabelle,home_office_equipment,True,100,Thomas,False,False,,officeworks,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,OFFICEWORKS 0327 CAMPBELLFIELD,24.94,Isabelle,home_office_equipment,True,100,Thomas,False,False,,officeworks,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,OFFICEWORKS 0327 CAMPBELLFIELD,5.0,Isabelle,home_office_equipment,True,100,Thomas,False,False,,officeworks,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/12/2024,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+03/01/2025,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+06/01/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+26/01/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+03/02/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+03/02/2025,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+05/02/2025,OPENAI OPENAI.COM,18.36,Isabelle,software_subscriptions,True,100,Thomas,False,True,11.00 USD,openai,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/02/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+04/03/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+26/03/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250422 - ANZ Credit Card Statement Apr-May.pdf
+03/05/2025,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,250422 - ANZ Credit Card Statement Apr-May.pdf
+25/05/2025,DISNEY PLUS 1800-965160,209.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,disney plus,250520 - ANZ Credit Card Statement May-Jun.pdf
+26/05/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250520 - ANZ Credit Card Statement May-Jun.pdf
+26/05/2025,OPENAI *CHATGPT SUBSCR OPENAI.COM,35.54,Isabelle,software_subscriptions,True,100,Thomas,False,True,22.00 USD,chatgpt,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250520 - ANZ Credit Card Statement May-Jun.pdf
+08/06/2025,"REPLIT, INC. REPLIT.COM",23.98,Isabelle,software_subscriptions,True,100,Thomas,False,True,15.00 USD,replit,250520 - ANZ Credit Card Statement May-Jun.pdf
+13/06/2025,"REPLIT, INC. REPLIT.COM",80.02,Isabelle,software_subscriptions,True,100,Thomas,False,True,50.06 USD,replit,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,UNICEF AUSTRALIA PYRMONT,250.0,Isabelle,donations,True,100,Isabelle,False,False,,unicef,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,BRAVEHEARTS FOUNDATION ARUNDEL,250.0,Isabelle,donations,True,100,Isabelle,False,False,,bravehearts,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/06/2025,"REPLIT, INC. REPLIT.COM",81.35,Isabelle,software_subscriptions,True,100,Thomas,False,True,50.64 USD,replit,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,OPENAI *CHATGPT SUBSCR OPENAI.COM,35.13,Isabelle,software_subscriptions,True,100,Thomas,False,True,22.00 USD,chatgpt,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,OFFICEWORKS BENTLEIGH EAS,1705.0,Isabelle,home_office_equipment,True,100,Thomas,True,False,,officeworks,250620 - ANZ Credit Card Statement Jun-Jul.pdf

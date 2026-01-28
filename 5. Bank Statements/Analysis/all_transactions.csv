@@ -1,0 +1,1257 @@
+date_transaction,description,amount,owner,category,is_deductible,work_use_percent,category_owner,is_high_value,is_foreign,foreign_currency,matched_keyword,source_file
+09/09/2024,SQ *FALCO BAKERY ABBOTSFORD,5.88,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+09/09/2024,TURN THE CORNER CLINIC NORTHCOTE,111.25,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+09/09/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,23.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+10/09/2024,CONVENT BAKERY ABBOTSFORD,21.64,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+10/09/2024,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,9.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+10/09/2024,SQ *FALCO BAKERY ABBOTSFORD,5.07,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+10/09/2024,SQ *FALCO BAKERY ABBOTSFORD,5.88,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+11/09/2024,ESTEE LAUDER AUSTRALIA ERSKINEVILLE,95.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+11/09/2024,UBER *EATS SYDNEY,83.34,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+12/09/2024,LGC*UBER EATS GIFTCARD SYDNEY,50.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber eats,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+12/09/2024,CHOMP 452 ABBOTSFORD,9.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+12/09/2024,CHOMP CAFE ABBOTSFORD,12.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+12/09/2024,ENTRECOTE BRASSERIE PRAHRAN,345.61,Isabelle,unclassified,False,0,Isabelle,True,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+13/09/2024,NO 22 CAFE MELBOURNE,19.58,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+14/09/2024,V*PLAN YOGA-GO.IO_ADN LIMASSOL,40.02,Isabelle,unclassified,False,0,Isabelle,False,True,25.99 USD,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+14/09/2024,WOOLWORTHS ONLINE BELLA VISTA,235.28,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+15/09/2024,MERRI CAFE BRUNSWICK EAS,99.12,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+15/09/2024,PRIME VIDEO CHANNELS SYDNEY,9.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+12/09/2024,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+16/09/2024,MCDONALDS PRESTON PRESTON,17.6,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+16/09/2024,AXIL COFFEE MELBOURNE,8.59,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+16/09/2024,SPOTIFY SYDNEY,23.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+16/09/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+17/09/2024,WOOLWORTHS ONLINE BELLA VISTA,138.63,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+19/09/2024,ANNUAL FEE,370.0,Thomas,unclassified,False,0,Thomas,True,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+19/09/2024,ADDITIONAL CARD FEE,10.0,Thomas,unclassified,False,0,Thomas,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+19/09/2024,REWARD PROGRAM FEE (2 CARDHOLDERS),110.0,Thomas,unclassified,False,0,Thomas,False,False,,,240820 - ANZ Credit Card Statement Aug-Sep.pdf
+18/09/2024,SQ *KELSO SANDWICH SHOP ABBOTSFORD,20.36,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+18/09/2024,CHOMP CAFE ABBOTSFORD,5.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+18/09/2024,METRO PETROLEUM RESERV RESERVOIR,73.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+18/09/2024,APPLE.COM/BILL SYDNEY,22.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+18/09/2024,MAID TO CLEAN BRUNSWICK EAS,132.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+19/09/2024,CAFE 306 ON ALBERT BRUNSWICK,15.23,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+20/09/2024,HELLOFRESH AU CHIPPENDALE,79.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+20/09/2024,WWW.TAKEAWAYPIZZA.MELB PRESTON,79.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+20/09/2024,D C ROASTERS PL RESERVOIR,27.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+21/09/2024,BEECHWORTH BAKERY BALL BALLARAT,44.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+21/09/2024,BEECHWORTH BAKERY BALL BALLARAT,3.82,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+21/09/2024,SQ *SYCAMORE MEADOWS RESERVOIR,6.62,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+22/09/2024,WOOLWORTHS/334 MURRAY RD PRESTON,224.02,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+21/09/2024,MCDONALDS ROCKBANK ROCKBANK,12.75,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+23/09/2024,SQ *KAEDE COLLINGWOOD,5.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+24/09/2024,APPLE.COM/BILL SYDNEY,1.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,SQ *CIBI FITZROY,15.18,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,SQ *CIBI FITZROY,11.44,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,WOOLWORTHS ONLINE BELLA VISTA,92.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,AMAZON AU SYDNEY SOUTH,24.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,85.79,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,SOUTH OF JOHNSTON COLLINGWOOD,6.09,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,15.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+25/09/2024,UBER *EATS SYDNEY,30.47,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,SARGENT CAKES RESERVOIR,14.75,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,MOON DOG WORLD ABBOTSFORD,20.27,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,MOON DOG WORLD ABBOTSFORD,18.24,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,MOON DOG WORLD ABBOTSFORD,173.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,SOCIAL BOOTH PTY LTD CHELTENHAM,8.25,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,METRO PETROLEUM RESERV RESERVOIR,72.87,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,PLINEPH RESERVOIR RESERVOIR,13.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+26/09/2024,PRIME VIDEO CHANNELS SYDNEY,6.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+27/09/2024,HELLOFRESH AU CHIPPENDALE,79.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+27/09/2024,TIMEZONE PRESTON,60.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+27/09/2024,MCDONALDS 951250 PRESTON,13.37,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+29/09/2024,ZLR*KISSATEN ALPHINGTON ALPHINGTON,45.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+30/09/2024,WOOLWORTHS ONLINE BELLA VISTA,173.94,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+30/09/2024,ZLR*WOLF AND SWILL THORNBURY,131.84,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+01/10/2024,ORGANICS AT PRESTON PRESTON,25.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+01/10/2024,WOOLWORTHS ONLINE BELLA VISTA,82.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+01/10/2024,QANTAS AIRWAYS LTD (EC MASCOT,100.34,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,qantas,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+02/10/2024,PROUD SPROUT COLLINGWOOD,21.88,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+02/10/2024,MGOS EAST MELBOURN,190.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+02/10/2024,SQ *CAM'S ABBOTSFORD,13.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+02/10/2024,ZLR*BLACKHEARTS & SPARR ABBOTSFORD,59.66,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+02/10/2024,SUNCORP INSURANCE BRISBANE,241.19,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+02/10/2024,MAID TO CLEAN BRUNSWICK EAS,132.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,EASYPARK PRAHRAN,7.18,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,SQ *CAM'S ABBOTSFORD,37.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+03/10/2024,NIB HEALTH FUNDS LIMITED NEWCASTLE,379.47,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,WOOLWORTHS ONLINE BELLA VISTA,237.69,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,SARDINAS MELBOURNE,37.41,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+05/10/2024,CERES MERRI TABLE BRUNSWICK EAS,41.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+05/10/2024,CERES MERRI TABLE BRUNSWICK EAS,38.06,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+06/10/2024,METRO PETROLEUM RESERV RESERVOIR,48.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+06/10/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,41.7,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,LOMOND HOTEL BRUNSWICK EAS,14.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,LOMOND HOTEL BRUNSWICK EAS,15.17,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,LOMOND HOTEL BRUNSWICK EAS,20.23,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,LOMOND HOTEL BRUNSWICK EAS,6.58,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+04/10/2024,LOMOND HOTEL BRUNSWICK EAS,4.05,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+06/10/2024,MCDONALDS PRESTON PRESTON,13.95,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+08/10/2024,SQ *CONO GELATERIA PRESTON,22.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+08/10/2024,DAREBIN CITY COUNCIL PRESTON,220.73,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+08/10/2024,YARRAVALLEYWATER YVOW MITCHAM,366.49,Isabelle,unclassified,False,0,Isabelle,True,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+09/10/2024,ZLR*FITZROY MORNING MAR FITZROY,25.25,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+09/10/2024,WW METRO/247-259 JOHNSON ABBOTSFORD,6.15,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+09/10/2024,WOOLWORTHS/18 WALPOLE ST KEW,13.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+08/10/2024,NIGHT OWL PHARMACY RESERVOIR,55.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+09/10/2024,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+10/10/2024,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,9.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+10/10/2024,EL JANNAH PRESTON PRESTON,47.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+10/10/2024,SARDINAS MELBOURNE,26.29,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+10/10/2024,LA PINTA RESERVOIR,170.91,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+11/10/2024,WOOLWORTHS ONLINE BELLA VISTA,121.23,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+12/10/2024,DD *DOORDASH FRIEDHUST MELBOURNE,72.59,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,doordash,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+13/10/2024,SQ *JOAN SPECIALTY COFFEE BRUNSWICK EAS,27.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+11/10/2024,LOMOND HOTEL BRUNSWICK EAS,19.22,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+13/10/2024,NORTHCOTE AQUATIC AND NORTHCOTE,14.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+14/10/2024,FOLINOS QUALITY MEAT RESERVOIR,52.75,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+15/10/2024,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+15/10/2024,WOOLWORTHS ONLINE BELLA VISTA,158.37,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+15/10/2024,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+15/10/2024,APPLE.COM/BILL SYDNEY,59.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+16/10/2024,SQ *FALCO BAKERY ABBOTSFORD,21.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,240920 - ANZ Credit Card Statement Sep-Oct.pdf
+16/10/2024,SPOTIFY SYDNEY,23.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/10/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/10/2024,MAID TO CLEAN BRUNSWICK EAS,132.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/10/2024,THE MIND ROOM MELBOURNE,240.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+18/10/2024,LS ALL ARE WELCOME THORNBURY,25.25,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+18/10/2024,CURRY CAFE NORTHCOTE NORTHCOTE,117.59,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+18/10/2024,IKKORYU FUKUOKA RA MELBOURNE,27.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+18/10/2024,NIXIE NOX RICHMOND,25.41,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+19/10/2024,SQ *AREPA DAYS PRESTON,7.26,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+19/10/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,72.68,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+20/10/2024,METRO PETROLEUM RESERV RESERVOIR,72.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+20/10/2024,MECCA NORTHLAND RICHMOND,160.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+20/10/2024,WOOLWORTHS/NORTHLAND S/C PRESTON,244.3,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+21/10/2024,SQ *EXHIBITION ST MELBOURNE,14.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+21/10/2024,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+23/10/2024,IGA ABBOTSFORD ABBOTSFORD,3.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+23/10/2024,WOOLWORTHS ONLINE BELLA VISTA,176.78,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+23/10/2024,GOOGLE PAYMENT IE LTD GOO DUBLIN,33.5,Isabelle,unclassified,False,0,Isabelle,False,True,19.99 EUR,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/10/2024,AMAZON AU SYDNEY SOUTH,25.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+23/10/2024,CHOMP CAFE ABBOTSFORD,6.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+23/10/2024,NIGHT OWL PHARMACY RESERVOIR,44.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+24/10/2024,UPDOC--L.UPDOC.CO/CP ARNCLIFFE,39.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+24/10/2024,THE MIND ROOM MELBOURNE,5.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+25/10/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+25/10/2024,MELBOURNE ZOO PARKVILLE,39.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,TAMMYS BOREK PRESTON,35.61,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,EASYPARK PRAHRAN,1.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,AFTERPAY AFTERPAY.COM,171.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,FERGUSON FANE AUS TKTS LONDON,117.32,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,GORDYS PLACE PRESTON,6.07,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,PRIME VIDEO CHANNELS SYDNEY,6.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+27/10/2024,WOOLWORTHS ONLINE BELLA VISTA,162.78,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+26/10/2024,MCDONALDS PRESTON PRESTON,35.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+27/10/2024,APPLE.COM/BILL SYDNEY,24.48,Isabelle,unclassified,False,0,Isabelle,False,True,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+28/10/2024,ZLR*TRENERRY CAFE ABBOTSFORD,12.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+28/10/2024,SQ *FALCO BAKERY ABBOTSFORD,6.39,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,DR MORSE ABBOTSFORD,13.72,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,SQ *FALCO BAKERY ABBOTSFORD,15.22,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,EL JANNAH PRESTON PRESTON,21.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,ZLR*BAR LINGO THORNBURY,15.27,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,ZLR*BAR LINGO THORNBURY,23.42,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,ZLR*BAR LINGO THORNBURY,75.36,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,ZLR*BAR LINGO THORNBURY,7.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+29/10/2024,MYKI VICT PARK RS VPK ABBOTSFORD,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+30/10/2024,KIESER TRAINING VICTOR NORTHCOTE,63.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+30/10/2024,SQ *KAEDE COLLINGWOOD,5.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+30/10/2024,MAID TO CLEAN BRUNSWICK EAS,132.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+30/10/2024,NAKED WINES +611300898677,80.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+30/10/2024,NAKED WINES +611300898677,123.86,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+31/10/2024,UNCLE DREW CLIFTON HILL,5.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+31/10/2024,DD *DOORDASH GREENSTRE MELBOURNE,26.17,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,doordash,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+01/11/2024,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+01/11/2024,NO 22 CAFE MELBOURNE,24.64,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+01/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,23.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+01/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,9.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+02/11/2024,IKEA RICHMOND RICHMOND,37.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+02/11/2024,IKEA RICHMOND RICHMOND,421.05,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,ikea,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+02/11/2024,WOOLWORTHS ONLINE BELLA VISTA,309.7,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,woolworths,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+02/11/2024,SQ *MR HOT DOGS KEW,22.33,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+02/11/2024,SQ *365 COFFEE & FOOD ABBOTSFORD,9.96,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+02/11/2024,KMART 1163 RICHMOND,103.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+03/11/2024,METRO PETROLEUM RESERV RESERVOIR,65.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+03/11/2024,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+03/11/2024,SQ *FLORIAN CARLTON,58.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+01/11/2024,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+03/11/2024,MCDONALDS PRESTON PRESTON,11.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+04/11/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+04/11/2024,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+03/11/2024,NIB HEALTH FUNDS LIMITED NEWCASTLE,379.47,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+04/11/2024,SUNCORP INSURANCE BRISBANE,241.19,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+04/11/2024,SP YARNN CLEVELAND,63.57,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+05/11/2024,EL JANNAH PRESTON PRESTON,52.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+05/11/2024,MAX-UNITED PTY LTD RESERVOIR,38.78,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+06/11/2024,KIESER TRAINING VICTOR NORTHCOTE,127.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+06/11/2024,SQ *KELSO SANDWICH SHOP ABBOTSFORD,23.62,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+06/11/2024,WOOLWORTHS ONLINE BELLA VISTA,109.7,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+06/11/2024,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+05/11/2024,NIGHT OWL PHARMACY RESERVOIR,48.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+07/11/2024,CLAYTON AND ME RESERVOIR,6.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,SELECT 7 MELBOURNE,3.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,SARDINAS MELBOURNE,54.14,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,UMBERTO ESPRESSO BAR THORNBURY,73.49,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,1800 LASAGNE THORNBURY,168.49,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,MCDONALDS 950029 PRESTON,13.7,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,UBER* TRIP SYDNEY,27.57,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+09/11/2024,SQ *CONO GELATERIA PRESTON,30.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+09/11/2024,AMAZON AU SYDNEY SOUTH,29.59,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+10/11/2024,SQ *BRUNETTI ORO FLINDERS MELBOURNE,16.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+10/11/2024,REGENT THEATRE MELBOURNE,26.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+08/11/2024,FLINDERS STREET PHAR MELBOURNE,11.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+10/11/2024,SUSHI HUB SWANSTON MELBOURNE,4.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+10/11/2024,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,9.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,METRO PETROLEUM RESERV RESERVOIR,53.17,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,MUSEUMS VICTORIA MELBOURNE,38.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,WOOLWORTHS ONLINE BELLA VISTA,108.03,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,MUSEUM VICTORIA ADMISS CARLTON,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,MUSEUMS BOARD OF VIC CARLTON,35.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,EASEY ST SIDINGS PL COLLINGWOOD,53.27,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+11/11/2024,SQ *KAEDE COLLINGWOOD,5.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+12/11/2024,EASYPARK PRAHRAN,5.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+12/11/2024,AFTERPAY AFTERPAY.COM,171.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+12/11/2024,CHOMP 452 ABBOTSFORD,9.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+12/11/2024,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+13/11/2024,LS ALL ARE WELCOME THORNBURY,21.71,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+13/11/2024,AFTERPAY AFTERPAY.COM,247.04,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+13/11/2024,DR CHRISTOPHER TURNER NORTHCOTE,97.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+14/11/2024,CLAYTON AND ME RESERVOIR,5.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+14/11/2024,STRAY NEIGHBOUR MELBOURNE,126.11,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+14/11/2024,CAPTAIN DARLING PRESTON,45.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+14/11/2024,AMAZON AU SYDNEY SOUTH,26.35,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+15/11/2024,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+15/11/2024,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+15/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,2.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,HUNGRY JACKS FRANKSTON STH,42.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hungry jack,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,SQ *MERRICKS STORE MERRICKS,44.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,MERRICKS GENERAL WINE MERRICKS,56.18,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,BLOOD ORANGE HAWTHORN EAST,144.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,SP HALCYON NIGHTS NORTHCOTE,277.49,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/11/2024,GRAND WASH AUTO THORNBURY,30.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/11/2024,IKEA RICHMOND RICHMOND,15.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/11/2024,IKEA RICHMOND RICHMOND,25.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/11/2024,IKEA RICHMOND RICHMOND,2.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/11/2024,IKEA RICHMOND RICHMOND,178.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+17/11/2024,UMAMI BLACK RICHMOND,22.22,Isabelle,unclassified,False,0,Isabelle,False,False,,,241021 - ANZ Credit Card Statement Oct-Nov.pdf
+16/11/2024,SPOTIFY SYDNEY,23.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/11/2024,SQ *SYCAMORE MEADOWS RESERVOIR,15.07,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+18/11/2024,WOOLWORTHS ONLINE BELLA VISTA,234.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+19/11/2024,METRO PETROLEUM RESERV RESERVOIR,60.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+19/11/2024,SQ *KAEDE COLLINGWOOD,11.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+19/11/2024,SP AXIL COFFEE HAWTHORN,74.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+20/11/2024,LS CARWYN CELLARS PTY THORNBURY,21.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+20/11/2024,LS CARWYN CELLARS PTY THORNBURY,8.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+20/11/2024,PRIOR THORNBURY THORNBURY,86.28,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+20/11/2024,NORMANBY PHARMACY THORNBURY,14.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+20/11/2024,ZLR*THE PARK HOTEL ABBO ABBOTSFORD,137.42,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+21/11/2024,SP HARA THE LABEL SOUTH YARRA,144.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+21/11/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,259.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+21/11/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,189.19,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,WWW.TAKEAWAYPIZZA.MELB PRESTON,57.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,19.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,18.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,MAX-UNITED PTY LTD RESERVOIR,23.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,29.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,6.06,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+22/11/2024,SQ *SYCAMORE MEADOWS RESERVOIR,13.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+23/11/2024,WOOLWORTHS ONLINE BELLA VISTA,62.77,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+23/11/2024,NORTHCOTE AQUATIC AND NORTHCOTE,9.09,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+23/11/2024,HOYTS SYDNEY,83.85,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+24/11/2024,NORTHLAND KANDY PTY L PRESTON,7.12,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+24/11/2024,APPLE.COM/BILL SYDNEY,1.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+24/11/2024,APPLE.COM/BILL SYDNEY,22.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+24/11/2024,MCDONALDS PRESTON PRESTON,11.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+25/11/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+25/11/2024,SQ *SKINNYS EATERY PRESTON,42.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+25/11/2024,WOOLWORTHS/334 MURRAY RD PRESTON,522.65,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,woolworths,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+25/11/2024,APPLE.COM/BILL SYDNEY,5.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,IPY*NORTHCOTE REC NORTHCOTE,58.37,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,PAYSTAY SOUTH WHARF,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,AFTERPAY AFTERPAY.COM,171.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,SQ *CONO GELATERIA RESERVOIR,30.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,PRIME VIDEO CHANNELS SYDNEY,6.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,BUNNINGS 466000 THOMASTOWN,175.06,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,SOUTH OF JOHNSTON COLLINGWOOD,41.11,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+26/11/2024,KFC RESERVOIR RESERVOIR,13.95,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kfc,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+27/11/2024,METRO PETROLEUM RESERV RESERVOIR,70.98,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+27/11/2024,SQ *KAEDE COLLINGWOOD,6.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+27/11/2024,COCACOLAEPP MELBOURNE AIR,6.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ola,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+27/11/2024,CHOMP CAFE ABBOTSFORD,14.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+28/11/2024,THE GROCER AND THE CHEF BEACONSFIELD,13.59,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+28/11/2024,THE GROCER AND THE CHEF BEACONSFIELD,5.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+28/11/2024,THE GROCER AND THE CHEF BEACONSFIELD,24.96,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+28/11/2024,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+28/11/2024,DIDIMOBILITY SYDNEY,36.62,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,didi,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+28/11/2024,KULD CREAMERY FREMANTLE,9.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+29/11/2024,MELB ONSTREET PARKING MELBOURNE,6.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,parking,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+29/11/2024,HELLOFRESH AU CHIPPENDALE,77.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+29/11/2024,DAMIEN PHILLIPS HEIDELBERG,320.0,Isabelle,unclassified,False,0,Isabelle,True,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+30/11/2024,SQ *JUICE PALACE FREMANTL SOUTH FREMANT,9.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+30/11/2024,SQ *SYCAMORE MEADOWS RESERVOIR,6.49,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+30/11/2024,RUNNINGWT/218 MARINE TERR SOUTH FREMANT,10.15,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+29/11/2024,EDWARDES LAKES HOTEL RESERVOIR,51.61,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+29/11/2024,EDWARDES LAKES HOTEL RESERVOIR,9.11,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+01/12/2024,MECCA BRANDS PTY LTD RICHMOND,152.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+01/12/2024,SQ *ETHOS DELI EAST FREMANTL,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+01/12/2024,BEACH CAFE/9 OCEAN ROAD SOUTH FREMANT,5.69,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+01/12/2024,SQ *PREMIUM BUSINESS FUND EAST FREMANTL,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+30/11/2024,THE GROCER AND THE CHEF BEACONSFIELD,39.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+01/12/2024,QANTAS AIRWAYS LTD (EC MASCOT,73.85,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,qantas,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+01/12/2024,SQ *SYCAMORE MEADOWS RESERVOIR,6.62,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,WOOLWORTHS ONLINE BELLA VISTA,237.83,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,DD *DOORDASH MISSCHU MELBOURNE,50.58,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,doordash,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,UBER* TRIP SYDNEY,41.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,AFTERPAY AFTERPAY.COM,198.66,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,SQ *CAM'S ABBOTSFORD,89.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,98.88,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,NIB HEALTH FUNDS LIMITED NEWCASTLE,379.47,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+02/12/2024,AMAZON AU SYDNEY SOUTH,32.62,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,SUNCORP INSURANCE BRISBANE,324.74,Isabelle,unclassified,False,0,Isabelle,True,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+03/12/2024,SQ *FALCO BAKERY COLLINGWOOD,21.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+04/12/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+04/12/2024,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,METRO PETROLEUM RESERV RESERVOIR,42.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,THE LORNE HOTEL LORNE,25.77,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,THE LORNE HOTEL LORNE,15.16,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,MERIVALE ME&U* ME&U SYDNEY,135.06,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,MERIVALE ME&U* ME&U SYDNEY,12.77,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,POST REGENT WEST LPO PRESTON,10.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,CUMBERLAND LORNE LORNE,1391.5,Isabelle,unclassified,False,0,Isabelle,True,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+05/12/2024,AMAZON AU SYDNEY SOUTH,22.95,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+06/12/2024,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+06/12/2024,MOONS CAFE LORNE,13.84,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+06/12/2024,LS HAH LORNE BEACH LORNE,74.39,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+06/12/2024,LS HAH LORNE BEACH LORNE,10.12,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+06/12/2024,ALMYRA - LORNE LORNE,15.23,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+07/12/2024,MOONS CAFE LORNE,65.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+07/12/2024,MOONS CAFE LORNE,25.37,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+07/12/2024,ALMYRA - LORNE LORNE,8.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+07/12/2024,GRAND PACIFIC HOTEL LO LORNE,150.26,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+08/12/2024,MOONS CAFE LORNE,36.64,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+08/12/2024,LS HAH LORNE BEACH LORNE,21.15,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+06/12/2024,CAPTAIN HOOKED LORNE,59.86,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+07/12/2024,GHANDA LORNE,22.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+08/12/2024,AMPOL WERRIBEE 37031F WERRIBEE,7.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+08/12/2024,SMP*GREAT OCEAN ROAD B LORNE,24.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+08/12/2024,LOUTTIT BAY BAKERY LORNE,20.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,AU79 NORTHLAND PRESTON,11.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,GRAND WASH AUTO THORNBURY,30.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,MYC NORTHLAND GANCE PRESTON,38.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,DANCING SUSHI PTY LTD PRESTON,26.76,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,LUSH NORTHLAND PRESTON,19.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,KMART 1090 PRESTON,6.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,TARGET 5121 PRESTON,101.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,KMART 1090 PRESTON,126.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,ZLR*WOLF AND SWILL THORNBURY,111.56,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,LOVISA PTY LTD PRESTON,16.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+09/12/2024,SQ *KAEDE COLLINGWOOD,11.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+10/12/2024,ZLR*TRENERRY CAFE ABBOTSFORD,16.24,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+10/12/2024,AFTERPAY AFTERPAY.COM,130.78,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+10/12/2024,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,9.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+10/12/2024,NAKED WINES +611300898677,69.86,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,METRO PETROLEUM RESERV RESERVOIR,64.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,WOOLWORTHS ONLINE BELLA VISTA,301.28,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,woolworths,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,SQ *KELSO SANDWICH SHOP ABBOTSFORD,17.31,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,BUNNINGS 466000 THOMASTOWN,253.54,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,BUNNINGS 466000 THOMASTOWN,183.54,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,KFC RESERVOIR RESERVOIR,23.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kfc,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+11/12/2024,KFC RESERVOIR RESERVOIR,3.75,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kfc,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,SARGENT CAKES RESERVOIR,11.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,SQ *ATTRIA WINE RICHMOND,106.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,DR TIMOTHY CHEW NORTHCOTE,97.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,CHOMP CAFE ABBOTSFORD,22.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,MCDONALDS PRESTON PRESTON,20.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,PLINEPH RESERVOIR RESERVOIR,7.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+12/12/2024,PLINEPH RESERVOIR RESERVOIR,17.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+13/12/2024,HAZELDESSOUS MELBOURNE,76.15,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+13/12/2024,STRAY NEIGHBOUR PRESTON,350.11,Isabelle,unclassified,False,0,Isabelle,True,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+13/12/2024,STRAY NEIGHBOUR PRESTON,37.55,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+13/12/2024,NORTHCOTE AQUATIC AND NORTHCOTE,13.94,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+14/12/2024,WWW.BENZINACANTINA.COM PRESTON,116.38,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+14/12/2024,VILLAGE CINEMAS COBU COBURG,41.53,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cinema,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+14/12/2024,VILLAGE CINEMAS COBU COBURG,23.07,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cinema,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,OFFICEWORKS 0327 CAMPB CVIC,22.54,Isabelle,home_office_equipment,True,100,Thomas,False,False,,officeworks,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,OFFICEWORKS 0327 CAMPBELLFIELD,24.94,Isabelle,home_office_equipment,True,100,Thomas,False,False,,officeworks,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,SQ *CONO GELATERIA RESERVOIR,6.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,OFFICEWORKS 0327 CAMPBELLFIELD,5.0,Isabelle,home_office_equipment,True,100,Thomas,False,False,,officeworks,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,SQ *SYCAMORE MEADOWS RESERVOIR,32.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+15/12/2024,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,METRO PETROLEUM RESERV RESERVOIR,44.44,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,MCDONALDS PRESTON PRESTON,11.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,INDIANACCENTCUISINE WOLLERT,71.91,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,SPOTIFY SYDNEY,23.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,MCDONALDS PRESTON PRESTON,11.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+16/12/2024,SQ *KAEDE COLLINGWOOD,17.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,HARDROCK CLIMBING PT MELBOURNE,30.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,LONDON TAVERN HOTEL RICHM ALBURY,24.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,LONDON TAVERN HOTEL RICHM ALBURY,49.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,SQ *KELSO SANDWICH SHOP ABBOTSFORD,32.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,WOOLWORTHS ONLINE BELLA VISTA,209.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,SP AXIL COFFEE HAWTHORN,86.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,241120 - ANZ Credit Card Statement Nov-Dec.pdf
+17/12/2024,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+17/12/2024,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+18/12/2024,EASYPARK PRAHRAN,13.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+18/12/2024,CHOMP CAFE ABBOTSFORD,15.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+18/12/2024,CHOMP CAFE ABBOTSFORD,4.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+19/12/2024,LOLLIPOPS PLAYLAND & CA PRESTON,18.82,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+19/12/2024,WOOLWORTHS/334 MURRAY RD PRESTON,87.14,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+19/12/2024,SP MINIMAL DESK SETU OAKLEIGH,76.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+19/12/2024,BUNNINGS 632000 PRESTON,209.09,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+19/12/2024,WACOM AUSTRALIA PTY. LTD SYDNEY,168.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+20/12/2024,ZLR*BLACKHEARTS & SPARR MELBOURNE,53.59,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+20/12/2024,TALARIA PODIATRIST OF THORNBURY,68.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+20/12/2024,UBER *TRIP HELP.UBER.COM SYDNEY,19.38,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+21/12/2024,SQ *MADERA BAR & CAFE BRUNSWICK EAS,12.6,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,METRO PETROLEUM RESERV RESERVOIR,76.98,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,RACV INSURANCE MELBOURNE,267.42,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,RACV INSURANCE MELBOURNE,361.63,Isabelle,unclassified,False,0,Isabelle,True,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,MYER NORTHLAND PRESTON,39.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,FOSTER & BLACK II PT DONCASTER,12.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,LAURENTBAKERYDONCASTER DONCASTER,28.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,TARGET 5121 PRESTON,23.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,BWS LIQUOR/NORTHLAND S/C PRESTON,61.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,READINGS DONCASTER DONCASTER,54.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,KMART 1373 DONCASTER,266.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,TARGET 5121 PRESTON,0.15,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,WOOLWORTHS/NORTHLAND S/C PRESTON,87.34,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,BIG W/619 DONCASTER RD DONCASTER,7.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,big w,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,PRICELINE NORTHLAND PRESTON,28.71,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,ADAIRS KIDS - DONCAS DONCASTER,104.97,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,SMIGGLE PTY LTD DONCASTER,59.96,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,SPORTSGIRL 303376 DONCASTER,147.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,SPORTSGIRL 303376 DONCASTER,0.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,SPORTSGIRL 303665 PRESTON,69.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,WESTFIELD DONCASTER DONCASTER,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,JB HI FI DONCASTER DONCASTER,56.94,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,KITCHENWARE STATION PRESTON,16.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+23/12/2024,BETTYS BURGERS AUSTRAL PRESTON,94.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,APPLE.COM/BILL SYDNEY,1.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,TYLERS MILKBAR PRESTON,68.11,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,WOOLWORTHS/334 MURRAY RD PRESTON,71.52,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,SQ *ANNA FLYNN PRESTON,30.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,BWS LIQUOR/334 MURRAY RD PRESTON,165.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,LS PINKYS PRESTON,179.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+24/12/2024,APPLE.COM/BILL SYDNEY,5.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+25/12/2024,RING BASIC PLAN HTTPSRING.COM,51.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+25/12/2024,LINKT MELBOURNE MELBOURNE,40.34,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+25/12/2024,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+26/12/2024,MCDONALDS CROYDON CROYDON,12.3,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+26/12/2024,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+26/12/2024,AMAZON AU SYDNEY SOUTH,25.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+26/12/2024,EVE STUDIO PRESTON,417.4,Isabelle,unclassified,False,0,Isabelle,True,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+27/12/2024,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+28/12/2024,WOOLWORTHS/334 MURRAY RD PRESTON,92.7,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+29/12/2024,SP WRITE TO ME AU VERMONT SOUTH,131.35,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+28/12/2024,CHEMIST WAREHOUSE PRESTON,78.46,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+29/12/2024,DD *DOORDASH JACKYJONE MELBOURNE,99.19,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,doordash,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+29/12/2024,AMAZON AU SYDNEY SOUTH,98.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+30/12/2024,WOOLWORTHS ONLINE BELLA VISTA,234.19,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+30/12/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,37.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+30/12/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,12.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+30/12/2024,NORTHCOTE AQUATIC AND NORTHCOTE,93.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+30/12/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,193.72,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+30/12/2024,AMAZON MARKETPLACE AU SYDNEY SOUTH,100.02,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,DUMPLINGS PLUS PRESTON,62.62,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,BAILEY NELSON PRESTON,115.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,MYC NORTHLAND GANCE PRESTON,4.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,COTTON ON KIDS 3256 PRESTON,17.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,THE ATHLETE'S FOOT N PRESTON,246.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,AU79 NORTHLAND PRESTON,11.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,METRO PETROLEUM RESERV RESERVOIR,70.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,UZT PTY LTD PRESTON,99.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,MECCA NORTHLAND RICHMOND,13.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,KMART 1090 PRESTON,18.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+31/12/2024,SPORTSGIRL 303665 PRESTON,9.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+01/01/2025,TURN THE CORNER CLINIC NORTHCOTE,41.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+02/01/2025,SQ *SUNSET CINEMA ABBOTSFORD,11.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cinema,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+02/01/2025,SQ *SUNSET CINEMA ABBOTSFORD,12.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cinema,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+02/01/2025,TURN THE CORNER CLINIC NORTHCOTE,100.05,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+02/01/2025,NIB HEALTH FUNDS LIMITED NEWCASTLE,379.47,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+03/01/2025,ZLR*LUKE'S BAKERY RESEVOIR,33.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+03/01/2025,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+03/01/2025,FIRST* PARKING BRISBANE,35.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,parking,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+03/01/2025,SUNCORP INSURANCE BRISBANE,324.74,Isabelle,unclassified,False,0,Isabelle,True,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+04/01/2025,LS LEAGUE OF HONEST CO LALOR,22.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+04/01/2025,RYDGES MELBOURNE ICP MELBOURNE,35.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+04/01/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+04/01/2025,NANDOS BOURKE STREET MELBOURNE,46.85,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+04/01/2025,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+05/01/2025,WOOLWORTHS ONLINE BELLA VISTA,290.83,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+03/01/2025,PLINEPH RESERVOIR RESERVOIR,59.29,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+05/01/2025,CHEMIST WAREHOUSE PRESTON,112.28,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+05/01/2025,LORDS OF THE NRTH PL THORNBURY,107.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+06/01/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+06/01/2025,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+05/01/2025,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+06/01/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+07/01/2025,UNITED SUSHI AHIPOKE RICHMOND,20.81,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+07/01/2025,SQ *KAEDE COLLINGWOOD,12.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+07/01/2025,WOOLWORTHS/PLENTY RD & DU PRESTON,18.97,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+07/01/2025,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+07/01/2025,ZLR*RED ROOSTER PRESTON PRESTON,5.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+08/01/2025,SQ *FISHBOWL RICHMOND RICHMOND,20.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+08/01/2025,UBER* TRIP WWW.UBER.COM/,19.11,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+08/01/2025,MCDONALDS CLIFTON HIL CLIFTON HILL,32.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+08/01/2025,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+09/01/2025,P4L RESERVOIR RESERVOIR,56.97,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+09/01/2025,TALARIA PODIATRIST OF THORNBURY,128.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+09/01/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+09/01/2025,UPDOC--L.UPDOC.CO/CP ARNCLIFFE,49.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+09/01/2025,METRO PETROLEUM RESERV RESERVOIR,46.88,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+10/01/2025,METRO PETROLEUM RESERV RESERVOIR,35.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+10/01/2025,SQ *MASTER ROLL VIETNAM ( RICHMOND,18.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+10/01/2025,PARKABLE* 60 CREMORNE BRISBANE,11.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+10/01/2025,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,9.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+11/01/2025,THE LORNE HOTEL LORNE,69.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+11/01/2025,IL MATTO GEELONG,72.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+11/01/2025,CALTEX 30415 TORQUAY,38.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+11/01/2025,SMP*THE SALTY DOG FISH LORNE,4.37,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+10/01/2025,MCDONALDS FAWKNER II FAWKNER,41.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+12/01/2025,YARRAVALLEYWATER YVOW MITCHAM,424.59,Isabelle,unclassified,False,0,Isabelle,True,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+12/01/2025,PLINEPH TORQUAY TORQUAY,29.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+13/01/2025,PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+14/01/2025,SOCIALLY AWKWARD CREMORNE,14.21,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+14/01/2025,WOOLWORTHS ONLINE BELLA VISTA,264.73,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+14/01/2025,SP AXIL COFFEE HAWTHORN,86.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+14/01/2025,PARKABLE* 60 CREMORNE BRISBANE,11.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+15/01/2025,METRO PETROLEUM RESERV RESERVOIR,72.96,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+15/01/2025,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+15/01/2025,SQ *SYCAMORE MEADOWS 1800595310,29.44,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+15/01/2025,PARKABLE* 60 CREMORNE BRISBANE,11.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,241220 - ANZ Credit Card Statement Dec-Jan.pdf
+15/01/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/01/2025,ACADEMY UNIFORMS THOMAS THOMASTOWN,414.1,Isabelle,unclassified,False,0,Isabelle,True,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/01/2025,DENDEKE PRESTON,177.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/01/2025,SQ *MIDI COFFEE RICHMOND,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/01/2025,AMAZON AU SYDNEY SOUTH,26.35,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/01/2025,SPOTIFY SYDNEY,23.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,MELB BOUTIQUE FLOWER PRESTON,60.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,CHEMIST WAREHOUSE PRESTON,57.76,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,SASHCON PTY LTD HEIDELBERG,13.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,HELLOFRESH AU CHIPPENDALE,84.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,WOOLWORTHS ONLINE BELLA VISTA,139.76,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,PRIMEVIDEO SYDNEY,34.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,EL JANNAH PRESTON PRESTON,12.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,NORTHCOTE AQUATIC AND NORTHCOTE,9.09,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+19/01/2025,DONUT KING NORTHLAND PRESTON,3.56,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/01/2025,MCDONALDS PRESTON PRESTON,25.05,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+19/01/2025,YOYOGI SUSHI BAR GILBERTONVIC,12.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+19/01/2025,SALSAS (NORTHLAND) PRESTON,18.15,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+19/01/2025,MAX-UNITED PTY LTD RESERVOIR,75.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+19/01/2025,HOYTS SYDNEY,87.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+20/01/2025,MCDONALDS PRESTON PRESTON,11.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+20/01/2025,WOOLWORTHS ONLINE BELLA VISTA,91.56,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+20/01/2025,SQ *SYCAMORE MEADOWS 1800595310,26.39,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+21/01/2025,SQ *MIDI COFFEE RICHMOND,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+22/01/2025,FRESH DAILY GOZLEME PTY PRESTON,28.49,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+22/01/2025,SOCIALLY AWKWARD CREMORNE,14.21,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+23/01/2025,SP THEKIDDOSPACE AU THEKIDDOSPACE,36.04,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+23/01/2025,SP THEKIDDOSPACE AU HTTPSTHEKIDDO,28.83,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+21/01/2025,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+22/01/2025,TAKEAWAY PIZZA PRESTON,40.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+23/01/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+23/01/2025,TYLERS MILKBAR PRESTON,46.56,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+23/01/2025,SQ *MIDI COFFEE RICHMOND,11.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,HELLOFRESH AU CHIPPENDALE,84.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,THE CHERRY TREE HOTEL CREMORNE,48.72,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,NORTHCOTE AQUATIC AND NORTHCOTE,14.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,APPLE.COM/BILL SYDNEY,1.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,APPLE.COM/BILL SYDNEY,5.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+24/01/2025,LILAC WINE BAR CREMORNE,82.24,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+25/01/2025,MELBOURNE ZOO PARKVILLE,11.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+25/01/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/01/2025,TAMMYS BOREK PRESTON,29.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/01/2025,EASYPARK PRAHRAN,1.24,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/01/2025,WOOLWORTHS ONLINE BELLA VISTA,186.72,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/01/2025,EZI*TIMEZONE AUSTRALIA NORTH SYDNEY,120.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/01/2025,MCDONALDS 950029 PRESTON,26.55,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+26/01/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+27/01/2025,MYC NORTHLAND GANCE PRESTON,21.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+27/01/2025,YOYOGI SUSHI BAR GILBERTONVIC,25.89,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+27/01/2025,SHOES & SOX PRESTON PRESTON,123.12,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+27/01/2025,SP YARNN CLEVELAND,66.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+23/01/2025,DOT MYKI RELOAD MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+27/01/2025,METRO PETROLEUM RESERV RESERVOIR,72.71,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+28/01/2025,RACV INSURANCE MELBOURNE,133.69,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+28/01/2025,RACV INSURANCE MELBOURNE,180.82,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+28/01/2025,TALARIA PODIATRIST OF THORNBURY,590.0,Isabelle,unclassified,False,0,Isabelle,True,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+28/01/2025,LS ALL ARE WELCOME THORNBURY,27.47,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+28/01/2025,LS ALL ARE WELCOME THORNBURY,4.04,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+28/01/2025,CHOMP 452 ABBOTSFORD,13.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+29/01/2025,UNITED SUSHI AHIPOKE RICHMOND,13.33,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+29/01/2025,WOOLWORTHS ONLINE BELLA VISTA,110.25,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+29/01/2025,SQ *MIDI COFFEE RICHMOND,8.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+29/01/2025,DYSON APPLIANCES AU TAREN POINT,129.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+30/01/2025,TYLERS MILKBAR PRESTON,68.42,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+30/01/2025,TYLERS MILKBAR PRESTON,7.89,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+30/01/2025,RING STANDARD PLAN HTTPSRING.COM,154.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+31/01/2025,HELLOFRESH AU CHIPPENDALE,6.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+31/01/2025,HELLOFRESH AU CHIPPENDALE,65.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+31/01/2025,SQ *MIDI COFFEE RICHMOND,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+31/01/2025,NORTHCOTE AQUATIC AND NORTHCOTE,11.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+31/01/2025,DD *DOORDASH BAMBAMSBU MELBOURNE,59.73,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,doordash,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+01/02/2025,SHOES & SOX PRESTON PRESTON,87.96,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+01/02/2025,SQ *MADERA AND CASERA CAF BRUNSWICK EAS,20.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+01/02/2025,DAN MURPHY'S/147-153 BELL PRESTON,60.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+01/02/2025,KMART 1090 PRESTON,63.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+01/02/2025,SUPER CHEAP AUTO PRESTON,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+02/02/2025,WOOLWORTHS ONLINE BELLA VISTA,147.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+30/01/2025,DEPARTMENT OF TRANSPORT MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+31/01/2025,MCDONALDS PRESTON PRESTON,19.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+02/02/2025,NORTHCOTE AQUATIC AND NORTHCOTE,35.87,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+03/02/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+03/02/2025,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+03/02/2025,ORGANICS AT PRESTON MARK PRESTON,25.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+03/02/2025,NIB HEALTH FUNDS LIMITED NEWCASTLE,379.47,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+04/02/2025,ZLR*TRENERRY CAFE ABBOTSFORD,18.07,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+04/02/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+05/02/2025,SPOTIFY AB STOCKHOLM,16.47,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+05/02/2025,OPENAI OPENAI.COM,18.36,Isabelle,software_subscriptions,True,100,Thomas,False,True,11.00 USD,openai,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+04/02/2025,CHOMP CAFE ABBOTSFORD,7.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+04/02/2025,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+04/02/2025,AMAZON MARKETPLACE AU SYDNEY SOUTH,879.99,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,amazon,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+05/02/2025,PARKABLE* 60 CREMORNE BRISBANE,11.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+05/02/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+06/02/2025,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+06/02/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+06/02/2025,WOOLWORTHS ONLINE BELLA VISTA,245.22,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+06/02/2025,TAKEAWAY PIZZA PRESTON,98.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+06/02/2025,AMAZON AU SYDNEY SOUTH,33.15,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+07/02/2025,HELLOFRESH AU CHIPPENDALE,65.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+07/02/2025,THE CHERRY TREE HOTEL CREMORNE,43.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+07/02/2025,SQ *MIDI COFFEE RICHMOND,11.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+07/02/2025,THE CHERRY TREE HOTEL CREMORNE,12.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+08/02/2025,LS ADENEY MILK BAR KEW,16.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+08/02/2025,METRO PETROLEUM RESERV RESERVOIR,74.64,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+09/02/2025,SQ *CONO GELATERIA RESERVOIR,6.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+09/02/2025,WOOLWORTHS/PLENTY RD & DU PRESTON,82.94,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+06/02/2025,DEPARTMENT OF TRANSPORT MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+08/02/2025,HIGH BELL PTY LTD PRESTON,3.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+10/02/2025,NORTHLAND DENTAL GP HEIDELBERG WE,22.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+10/02/2025,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,9.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,LS ALL ARE WELCOME THORNBURY,16.36,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,SQ *MASTER ROLL VIETNAM ( RICHMOND,13.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,SQ *FALCO BAKERY COLLINGWOOD,6.39,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,SP AXIL COFFEE HAWTHORN,86.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+10/02/2025,APPLE.COM/AU SYDNEY,15.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,DEPARTMENT OF TRANSPORT MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+12/02/2025,MELB AUDIOLOGY AND SP CARLTON,45.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+12/02/2025,UNITED SUSHI AHIPOKE RICHMOND,11.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+12/02/2025,SQ *HARERUYA PTY LTD CARLTON,19.79,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,MCDONALDS 950029 PRESTON,25.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+11/02/2025,MCDONALDS 950029 PRESTON,15.35,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+13/02/2025,CHEMIST WAREHOUSE PRESTON,20.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+13/02/2025,EASYPARK PRAHRAN,12.82,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+13/02/2025,EASYPARK PRAHRAN,6.02,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+13/02/2025,UNITED SUSHI AHIPOKE RICHMOND,11.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+13/02/2025,EZI*EZIDEBIT CHILDCARE PHILIP,34.58,Isabelle,childcare_family,False,0,Isabelle,False,False,,childcare,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+13/02/2025,TAMMYS BOREK PRESTON,20.35,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+14/02/2025,WOOLWORTHS ONLINE BELLA VISTA,206.66,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+14/02/2025,SQ *FISHBOWL RICHMOND RICHMOND,18.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+14/02/2025,HUBBL - BINGE NORTH RYDE,19.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+14/02/2025,SARDINAS MELBOURNE,38.42,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/02/2025,SQ *AREPA DAYS PRESTON,34.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+16/02/2025,QUITELIKE.COM SURRY HILLS,108.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/02/2025,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/02/2025,DR STEFAN PANCZAK NORTHCOTE,38.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250120 - ANZ Credit Card Statement Jan-Feb.pdf
+17/02/2025,SPOTIFY P342657D26 SYDNEY,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+18/02/2025,WOOLWORTHS ONLINE BELLA VISTA,235.77,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,METRO PETROLEUM RESERV RESERVOIR,73.41,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,ZLR*LUKE'S BAKERY RESEVOIR,11.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,DR STEFAN PANCZAK NORTHCOTE,155.14,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,SP WHO GIVES A CRAP MELBOURNE,37.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,CLAYTON AND ME RESERVOIR,13.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,ZLR*THE YARRA HOTEL ABBOTSFORD,30.29,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,ZLR*THE YARRA HOTEL ABBOTSFORD,45.43,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,ZLR*THE YARRA HOTEL ABBOTSFORD,35.34,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+19/02/2025,PLINEPH RESERVOIR RESERVOIR,16.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+20/02/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+20/02/2025,UNITED SUSHI AHIPOKE RICHMOND,11.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+20/02/2025,SQ *KELSO SANDWICH SHOP ABBOTSFORD,16.29,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+20/02/2025,EZI*EZIDEBIT CHILDCARE PHILIP,34.58,Isabelle,childcare_family,False,0,Isabelle,False,False,,childcare,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+20/02/2025,DEPARTMENT OF TRANSPORT MELBOURNE,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+21/02/2025,SQ *AKIMBO BREAD NORTHCOTE,19.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+21/02/2025,SQ *MIDI COFFEE RICHMOND,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+22/02/2025,ROUND BIRD LILYDALE,17.72,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+22/02/2025,SQ *MADERA AND CASERA CAF BRUNSWICK EAS,19.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+22/02/2025,SQ *CONO GELATERIA RESERVOIR,17.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,PANINO MIO PRESTON,32.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,SQ *CONTRABAND COFFEE TRA PRESTON,15.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,SQ *CONTRABAND COFFEE TRA PRESTON,7.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,DAN MURPHY'S/147-153 BELL PRESTON,86.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,QUITELIKE.COM SURRY HILLS,135.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,GREEN AND GOLD FLOWERS PT PRESTON,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,ORGANICS AT PRESTON MARK PRESTON,13.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,CNP* NEWYORKER - DIGIT CONDENAST.COM,7.14,Isabelle,unclassified,False,0,Isabelle,False,True,4.40 USD,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+22/02/2025,TAKEAWAY PIZZA PRESTON,80.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+22/02/2025,LORDS OF THE NRTH PL THORNBURY,107.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,SMP*PUBLIQUE BAKERY PRESTON,14.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+24/02/2025,WOOLWORTHS ONLINE BELLA VISTA,160.16,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,ALDI STORES - PRESTON PRESTON,6.92,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,aldi,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+23/02/2025,ALDI STORES - PRESTON PRESTON,7.6,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,aldi,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+24/02/2025,APPLE.COM/BILL SYDNEY,1.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+25/02/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+24/02/2025,DEPARTMENT OF TRANSPORT MELBOURNE,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+25/02/2025,RICHMOND MEX PTY LTD RICHMOND,16.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+25/02/2025,ZLR*BAR LINGO THORNBURY,107.94,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+25/02/2025,ZLR*BAR LINGO THORNBURY,30.55,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+26/02/2025,BAR IDDA BRUNSWICK EAS,63.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+26/02/2025,KFC AU RESERVOIR RESERVOIR,23.25,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kfc,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+26/02/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+26/02/2025,MCDONALDS DT 0140 KEYSBOROUGH,12.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+26/02/2025,ALDERMAN GROUP PTY L BRUNSWICK EAS,23.38,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+27/02/2025,EZI*EZIDEBIT CHILDCARE PHILIP,34.58,Isabelle,childcare_family,False,0,Isabelle,False,False,,childcare,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+27/02/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+28/02/2025,RACV INSURANCE MELBOURNE,133.69,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+28/02/2025,RACV INSURANCE MELBOURNE,180.82,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+28/02/2025,UNITED SUSHI AHIPOKE RICHMOND,15.96,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,WOOLWORTHS ONLINE BELLA VISTA,167.41,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,WOOLWORTHS/334 MURRAY RD PRESTON,22.35,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,SQ *MADERA AND CASERA CAF BRUNSWICK EAS,34.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,PRIMEVIDEO SYDNEY,6.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,IKEA RICHMOND RICHMOND,21.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,IKEA RICHMOND RICHMOND,14.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,IKEA RICHMOND RICHMOND,43.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,LS MOOGLE BREWING PTY RICHMOND,28.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+02/03/2025,METRO PETROLEUM RESERVOIR,65.71,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+02/03/2025,AMZNPRIMEAU MEMBERSHIP SYDNEY SOUTH,79.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amznprimeau membership,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+02/03/2025,QUITELIKE.COM SURRY HILLS,117.19,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+01/03/2025,I LOVE PHO PTY LTD RICHMOND,56.56,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+02/03/2025,NETFLIX AUSTRALIA PTY LTD MELBOURNE,25.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+03/03/2025,NIB HEALTH FUNDS LIMITED NEWCASTLE,379.47,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+04/03/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+04/03/2025,PARKABLE* 233 PUNT ROA BRISBANE,10.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+04/03/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+04/03/2025,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+05/03/2025,TYLERS MILKBAR PRESTON,42.46,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+05/03/2025,SQ *MIDI COFFEE RICHMOND,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+05/03/2025,NORTHLAND DENTAL GP HEIDELBERG WE,60.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,WOOLWORTHS ONLINE BELLA VISTA,134.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,EZI*EZIDEBIT CHILDCARE PHILIP,34.58,Isabelle,childcare_family,False,0,Isabelle,False,False,,childcare,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,ZLR*THE YARRA HOTEL ABBOTSFORD,43.41,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,CHOMP CAFE ABBOTSFORD,28.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,MCDONALDS PRESTON PRESTON,9.6,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,MYKI REGENT RS REG REGENT WEST,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+07/03/2025,SQ *MIDI COFFEE RICHMOND,12.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+07/03/2025,EL JANNAH PRESTON PRESTON,23.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+07/03/2025,NORTHCOTE AQUATIC AND NORTHCOTE,17.48,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+08/03/2025,IKEA PTY LTD TEMPE,2619.5,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,ikea,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+08/03/2025,SQ *MADERA AND CASERA CAF BRUNSWICK EAS,15.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+08/03/2025,INDIANACCENTCUISINE WOLLERT,75.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+09/03/2025,BWS LIQUOR/334 MURRAY RD PRESTON,45.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+09/03/2025,WOOLWORTHS/334 MURRAY RD PRESTON,42.08,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+09/03/2025,SP KESTER BLACK AU H3G PRAHRAN,23.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+09/03/2025,QUITELIKE.COM SURRY HILLS,123.89,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+06/03/2025,DEPARTMENT OF TRANSPORT MELBOURNE,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+08/03/2025,EDWARDES LAKES HOTEL RESERVOIR,23.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+08/03/2025,MCDONALDS PRESTON PRESTON,17.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+10/03/2025,METRO PETROLEUM RESERVOIR,78.76,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+10/03/2025,SQ *KELLY'S BAR AND KITCH OLINDA,52.44,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+09/03/2025,MCDONALDS 950032 CROYDON,36.25,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+10/03/2025,SASSAFRAS SWEET CO OLINDA,26.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+11/03/2025,SP AXIL COFFEE HAWTHORN,86.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+11/03/2025,CHOMP CAFE ABBOTSFORD,8.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+11/03/2025,IKEA PTY LTD TEMPE,850.0,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,ikea,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+12/03/2025,WOOLWORTHS ONLINE BELLA VISTA,307.62,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+12/03/2025,CHOMP 452 ABBOTSFORD,15.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+13/03/2025,EZI*EZIDEBIT CHILDCARE PHILIP,34.58,Isabelle,childcare_family,False,0,Isabelle,False,False,,childcare,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+13/03/2025,HUBBL - BINGE NORTH RYDE,19.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+14/03/2025,UBER *EATS HELP.UBER.COM SYDNEY,85.49,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+15/03/2025,BUNNINGS 466000 THOMASTOWN,337.7,Isabelle,unclassified,False,0,Isabelle,True,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+15/03/2025,SQ *POLLY BAR FITZROY,49.71,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+15/03/2025,SQ *POLLY BAR FITZROY,62.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+15/03/2025,SP CARWYN CELLARS THORNBURY,15.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+15/03/2025,PAYSTAY SOUTH WHARF,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+16/03/2025,SATURDAY QUIZ TIME BELGRAVE,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+16/03/2025,BUNNINGS 539000 FAIRFIELD,97.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+17/03/2025,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+17/03/2025,WOOLWORTHS ONLINE BELLA VISTA,115.96,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250220 - ANZ Credit Card Statement Feb-Mar.pdf
+17/03/2025,SPOTIFY P3506AD8C1 SYDNEY,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+17/03/2025,NIGHT OWL PHARMACY RESERVOIR,15.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+18/03/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+18/03/2025,CHOMP CAFE ABBOTSFORD,5.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+19/03/2025,METRO PETROLEUM RESERVOIR,70.86,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+19/03/2025,ZLR*THE YARRA HOTEL ABBOTSFORD,20.19,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+19/03/2025,AMAZON MARKETPLACE AU SYDNEY SOUTH,79.3,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+20/03/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+20/03/2025,SQ *FALCO BAKERY ABBOTSFORD,21.61,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+20/03/2025,EZI*EZIDEBIT CHILDCARE PHILIP,34.58,Isabelle,childcare_family,False,0,Isabelle,False,False,,childcare,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+21/03/2025,WOOLWORTHS ONLINE BELLA VISTA,88.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+21/03/2025,WWW.TAKEAWAYPIZZA.MELB PRESTON,78.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+21/03/2025,MAX-UNITED PTY LTD RESERVOIR,26.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+22/03/2025,IKEA RICHMOND RICHMOND,125.6,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,ikea,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+22/03/2025,SQ *FAZEEK BRUNSWICK EAS,60.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+22/03/2025,SQ *MADERA AND CASERA CAF BRUNSWICK EAS,12.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+22/03/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,7.24,Isabelle,unclassified,False,0,Isabelle,False,True,4.40 USD,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+21/03/2025,NIGHT OWL PHARMACY RESERVOIR,71.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+22/03/2025,BUNNINGS 466000 THOMASTOWN,38.09,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+23/03/2025,HUNGRY JACKS BELL ST,31.15,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hungry jack,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+23/03/2025,QUITELIKE.COM SURRY HILLS,127.91,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+23/03/2025,PAYSTAY SOUTH WHARF,10.31,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+24/03/2025,APPLE.COM/BILL SYDNEY,1.49,Isabelle,unclassified,False,0,Isabelle,False,True,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+24/03/2025,WOOLWORTHS/334 MURRAY RD PRESTON,192.93,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+24/03/2025,AMAZON AU SYDNEY SOUTH,3.1,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,SQ *KAEDE ABBOTSFORD,6.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,SQ *THE KEYS PRESTON PRESTON,71.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,SQ *THE KEYS PRESTON PRESTON,41.41,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,SQ *THE KEYS PRESTON PRESTON,16.16,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,THE KEYS PRESTON PTY L PRESTON,10.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+25/03/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+26/03/2025,SQ *FALCO BAKERY ABBOTSFORD,26.18,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+26/03/2025,MITCH STUDIO FAIRFIELD MELBOURNE,150.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+26/03/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+27/03/2025,SQ *CONO GELATERIA RESERVOIR,23.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+27/03/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+28/03/2025,RACV INSURANCE MELBOURNE,133.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+28/03/2025,RACV INSURANCE MELBOURNE,180.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+28/03/2025,AMAZON AU SYDNEY SOUTH,51.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,7-ELEVEN 1010 RESERVOIR,8.1,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,7-eleven,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,NIKOS CAKES FAIRFIELD FAIRFIELD,110.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,WOOLWORTHS/18 WALPOLE ST KEW,32.21,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,WOOLWORTHS/18 WALPOLE ST KEW,9.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,SMP*MITCH FAIRFIELD 3D FAIRFIELD,247.01,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,BUNNINGS 539000 FAIRFIELD,38.05,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,ZLR*CHIN CHIN MELBOURNE MELBOURNE,201.82,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+30/03/2025,METRO PETROLEUM RESERVOIR,76.35,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+30/03/2025,WOOLWORTHS ONLINE BELLA VISTA,181.02,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,VICTORIAN ARTS CENTRE MELBOURNE,26.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+29/03/2025,THEARTCENTRE MELBOURNE,26.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,CHOMP 452 ABBOTSFORD,9.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,CHOMP CAFE ABBOTSFORD,5.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,LINKT MELBOURNE MELBOURNE,38.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,NETFLIX AUSTRALIA PTY LTD MELBOURNE,25.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,UBER *TRIP HELP.UBER.COM SYDNEY,25.01,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,CHOMP 452 ABBOTSFORD,20.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+01/04/2025,DEPARTMENT OF TRANSPORT MELBOURNE,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,7-ELEVEN 1155 RESEARCH,8.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,7-eleven,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,CHIRNSIDE PARK COUNT CHIRNSIDE PAR,19.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,CHIRNSIDE PARK COUNT CHIRNSIDE PAR,12.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,CHIRNSIDE PARK COUNT CHIRNSIDE PAR,72.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,TURN THE CORNER CLINIC NORTHCOTE,114.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+02/04/2025,NIB HEALTH FUNDS LIMITED NEWCASTLE,395.99,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,SQ *MASTER ROLL VIETNAM ( RICHMOND,13.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,WOOLWORTHS ONLINE BELLA VISTA,279.66,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,MAX KIRWAN M/LAND PRESTON,165.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,DEPARTMENT OF TRANSPORT MELBOURNE,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,AMAZON MARKETPLACE AU SYDNEY SOUTH,42.97,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+03/04/2025,AMAZON MARKETPLACE AU SYDNEY SOUTH,58.61,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+04/04/2025,HELLOFRESH AU CHIPPENDALE,40.39,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+04/04/2025,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+04/04/2025,NORTHCOTE AQUATIC AND NORTHCOTE,7.88,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+04/04/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+05/04/2025,MELBOURNE POROIA FISH RESERVOIR,16.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+05/04/2025,MERRI CAFE BRUNSWICK EAS,59.96,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+05/04/2025,PRIMEVIDEO SYDNEY,6.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+04/04/2025,EDWARDES LAKES HOTEL RESERVOIR,38.98,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+05/04/2025,NIGHT OWL PHARMACY RESERVOIR,31.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+06/04/2025,PENINSULA HOT SPRINGS FINGAL,45.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+06/04/2025,MCDONALDS PRESTON PRESTON,25.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+06/04/2025,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+07/04/2025,WOOLWORTHS ONLINE BELLA VISTA,84.43,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+07/04/2025,PEVAN & SARAH CUB CLUB ELTHAM,120.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+07/04/2025,PARKABLE* 60 CREMORNE BRISBANE,11.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+08/04/2025,DR MORSE ABBOTSFORD,25.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+08/04/2025,HECTOR'S DELI RICHMOND,44.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+08/04/2025,SP AXIL COFFEE HAWTHORN,86.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+08/04/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+08/04/2025,YARRAVALLEYWATER YVOW MITCHAM,469.01,Isabelle,unclassified,False,0,Isabelle,True,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+09/04/2025,WOOLWORTHS/18 WALPOLE ST KEW,16.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+09/04/2025,SQ *FALCO BAKERY ABBOTSFORD,22.62,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+10/04/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+10/04/2025,SARDINAS MELBOURNE,38.42,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+11/04/2025,METRO PETROLEUM RESERVOIR,71.39,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+11/04/2025,MELBOURNE POROIA FISH RESERVOIR,42.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+12/04/2025,JETSTAR AIRWAYS BARANGAROO,12.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,jetstar,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+12/04/2025,JETSTAR AIRWAYS BARANGAROO,5.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,jetstar,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+12/04/2025,ZLR*T4 TWO JOHNS TAPHOU TULLAMARINE,33.47,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+12/04/2025,MONDOMENU TWO JOHNS - T4 MELBOURNE,79.56,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+13/04/2025,MADALENASBAR SOUTH FREMANT,29.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+13/04/2025,BEACH CAFE/9 OCEAN ROAD SOUTH FREMANT,17.79,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+13/04/2025,SQ *EVERYDAY BREAD HAMILTON HILL,38.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+11/04/2025,MAX KIRWAN M/LAND PRESTON,381.65,Isabelle,unclassified,False,0,Isabelle,True,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,OPTIMAL SIMMS RD HAMILTON HILL,57.87,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,SQ *LOVERS DELI & CANTEEN BEACONSFIELD,11.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,SQ *EVERYDAY BREAD HAMILTON HILL,18.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,MARGARET RIVER REGIO COWARAMUP,69.97,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,TURN THE CORNER CLINIC NORTHCOTE,41.93,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,776PIN* CHARGEFOX PTY LTD NORTH MELBOUR,20.57,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+13/04/2025,HUBBL - BINGE NORTH RYDE,19.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+14/04/2025,HUNGRY JACKS DALYELLUP,32.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hungry jack,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,WHITE ELEPHANT CAFE GNARABUP,79.29,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,COLES 0310 MARGARET RIV,17.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,coles,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,LIQUORLAND 2991 MARGARET RIV,23.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,SQ *THE SPOT ITALIANO LA MARGARET RIVE,6.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,978PIN* CHARGEFOX PTY LTD NORTH MELBOUR,17.84,Isabelle,unclassified,False,0,Isabelle,False,False,,,250320 - ANZ Credit Card Statement Mar-Apr.pdf
+15/04/2025,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/04/2025,MARGARET RIVER BREWH MARGARET RIVE,23.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/04/2025,MARGARET RIVER BREWH MARGARET RIVE,101.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/04/2025,MARGARET RIVER BREWH MARGARET RIVE,8.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/04/2025,PLINE PH MARGARET RVR MARGARET RIVE,24.57,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/04/2025,GRACIES GENERAL GRACETOWN,55.04,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/04/2025,COLES 0310 MARGARET RIV,12.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,coles,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/04/2025,MARGARET RIVER REGIO COWARAMUP,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/04/2025,SPORTS POWER MARGARET RIVE,34.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/04/2025,LEEUWIN ESTATE MARGARET RIVE,378.0,Isabelle,unclassified,False,0,Isabelle,True,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/04/2025,LEEUWIN ESTATE MARGARET RIVE,27.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,963PIN* CHARGEFOX PTY LTD NORTH MELBOUR,8.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,IPY*NORTHCOTE REC NORTHCOTE,5.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,BEAN DREAMIN COFFEE CO WEST BUSSELTO,39.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,CLANCY'S FISH PUB FREMANTLE,28.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,CLANCY'S FISH PUB FREMANTLE,26.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,CLANCYS FREMANTLE FREMANTLE,66.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,AMPOL FORREST H 51001F PINJARRA,9.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,VASSE VILLAGE BY BUNBU VASSE,24.38,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,SQ *EVERYDAY BREAD HAMILTON HILL,40.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,SPOTIFY P35F4C74B0 SYDNEY,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,AMPOL FORREST H 51001F WEST PINJARRA,4.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+18/04/2025,THE GROCER AND THE CHEF BEACONSFIELD,10.48,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+18/04/2025,THE GROCER AND THE CHEF BEACONSFIELD,21.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+18/04/2025,HELLOFRESH AU CHIPPENDALE,79.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+18/04/2025,BEACONSFIELD CARWASH P BEACONSFIELD,22.35,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+18/04/2025,ZEPHYR CAFE EAST FREMANTL,33.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250422 - ANZ Credit Card Statement Apr-May.pdf
+19/04/2025,BUFF NAIL STUDIOS FITZROY,100.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+19/04/2025,CG COLLECTIVE FREO FREMANTLE,177.18,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+19/04/2025,SQ *WILD BAKERY SOUTH FREMANT,58.7,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+19/04/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,7.12,Isabelle,unclassified,False,0,Isabelle,False,True,4.40 USD,,250422 - ANZ Credit Card Statement Apr-May.pdf
+19/04/2025,LA CABANA BAR TAQUER SOUTH FREMANT,205.73,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+20/04/2025,RUNNINGWT/218 MARINE TERR SOUTH FREMANT,11.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+20/04/2025,SQ *LOVERS DELI & CANTEEN BEACONSFIELD,19.84,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+20/04/2025,RUNNING WITH THIEVES SOUTH FREMANT,126.31,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+19/04/2025,PEACHES FRESH FOOD M SOUTH FREMANT,39.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+20/04/2025,PHARMACY 777 HILTON HILTON,21.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+21/04/2025,RW SOUTH FREMANTLE SOUTH FREMANT,185.06,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+21/04/2025,QUITELIKE.COM SURRY HILLS,143.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+21/04/2025,SP YARNN CLEVELAND,66.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+22/04/2025,SOCIALLY AWKWARD CREMORNE,10.12,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/04/2025,KFC PINJARRA PINJARRA,3.95,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kfc,250422 - ANZ Credit Card Statement Apr-May.pdf
+21/04/2025,MCDONALDS FAWKNER II FAWKNER,48.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250422 - ANZ Credit Card Statement Apr-May.pdf
+21/04/2025,JETSTAR AIRWAYS BARANGAROO,45.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,jetstar,250422 - ANZ Credit Card Statement Apr-May.pdf
+21/04/2025,JETSTAR AIRWAYS BARANGAROO,15.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,jetstar,250422 - ANZ Credit Card Statement Apr-May.pdf
+22/04/2025,AMAZON AU SYDNEY SOUTH,40.54,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,ZLR*LUKE'S BAKERY RESEVOIR,11.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,APPLE.COM/BILL SYDNEY,40.98,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,SQ *KAEDE ABBOTSFORD,7.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,SQ *CAM'S ABBOTSFORD,29.81,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,AIRBNB * HM42TJD3AD SURRY HILLS,898.08,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,airbnb,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,MICROSOFT*STORE MSBILL.INFO,49.95,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,SQ *SYCAMORE MEADOWS RESERVOIR,22.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+24/04/2025,WOOLWORTHS ONLINE BELLA VISTA,269.49,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+24/04/2025,WOOLWORTHS/334 MURRAY RD PRESTON,142.13,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+24/04/2025,WOOLWORTHS ONLINE BELLA VISTA,119.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+25/04/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,DAN MURPHY'S/147-153 BELL PRESTON,102.89,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,WOOLWORTHS/334 MURRAY RD PRESTON,113.87,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,SKINNY DOG HOTEL KEW,52.27,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,SKINNY DOG HOTEL KEW,37.1,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,AMAZON MARKETPLACE AU SYDNEY SOUTH,37.99,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250422 - ANZ Credit Card Statement Apr-May.pdf
+26/04/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250422 - ANZ Credit Card Statement Apr-May.pdf
+25/04/2025,NIGHT OWL PHARMACY RESERVOIR,56.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,APPLE.COM/BILL SYDNEY,12.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+23/04/2025,TURN THE CORNER CLINIC NORTHCOTE,206.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,LONDON TAVERN HOTEL RICHM ALBURY,33.04,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,LONDON TAVERN HOTEL RICHM ALBURY,8.13,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,LONDON TAVERN HOTEL RICHM ALBURY,12.71,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,LONDON TAVERN HOTEL RICHM ALBURY,9.15,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,SQ *MIDI RICHMOND,5.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,RACV INSURANCE MELBOURNE,133.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,RACV INSURANCE MELBOURNE,180.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,COLES 7998 RICHMOND,20.55,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,coles,250422 - ANZ Credit Card Statement Apr-May.pdf
+27/04/2025,GRILLD PTY LTD RICHMOND,29.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,RICHMOND MEX PTY LTD RICHMOND,16.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,CHOMP CAFE ABBOTSFORD,5.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,CHOMP CAFE ABBOTSFORD,14.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250422 - ANZ Credit Card Statement Apr-May.pdf
+28/04/2025,CHEMIST WAREHOUSE RICHMOND,23.98,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+29/04/2025,GREENSTREAT SWAN STRE RICHMOND,24.26,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+29/04/2025,NORTHLAND DENTAL GP HEIDELBERG WE,80.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+29/04/2025,CHOMP CAFE ABBOTSFORD,5.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250422 - ANZ Credit Card Statement Apr-May.pdf
+29/04/2025,ZLR*KINGS DOMAIN RICHMO CREMORNE,100.64,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+29/04/2025,UBER *EATS HELP.UBER.COM SYDNEY,52.29,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250422 - ANZ Credit Card Statement Apr-May.pdf
+30/04/2025,POKERO SUSHI PRESTON,3.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+30/04/2025,TARGET 5121 PRESTON,128.15,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250422 - ANZ Credit Card Statement Apr-May.pdf
+30/04/2025,UNITED SUSHI AHIPOKE RICHMOND,11.92,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+30/04/2025,TARGET 5121 PRESTON,68.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250422 - ANZ Credit Card Statement Apr-May.pdf
+30/04/2025,APPLE.COM/BILL SYDNEY,23.47,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,WOOLWORTHS ONLINE BELLA VISTA,223.26,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,PRIME VIDEO CHANNELS SYDNEY,10.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,41.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,D C ROASTERS PL RESERVOIR,5.56,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+01/05/2025,UBER *EATS HELP.UBER.COM SYDNEY,31.22,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250422 - ANZ Credit Card Statement Apr-May.pdf
+02/05/2025,METRO PETROLEUM RESERVOIR,69.28,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250422 - ANZ Credit Card Statement Apr-May.pdf
+02/05/2025,TARGET 5121 PRESTON,40.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250422 - ANZ Credit Card Statement Apr-May.pdf
+02/05/2025,SQ *RICHMOND RICHMOND,22.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+02/05/2025,KMART 1090 PRESTON,91.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,250422 - ANZ Credit Card Statement Apr-May.pdf
+02/05/2025,NORTHCOTE AQUATIC AND NORTHCOTE,14.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+03/05/2025,NETFLIX.COM MELBOURNE,25.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,netflix.com,250422 - ANZ Credit Card Statement Apr-May.pdf
+03/05/2025,AUBURN HOTEL HAWTHORN EAST,30.84,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250422 - ANZ Credit Card Statement Apr-May.pdf
+03/05/2025,SQ *SYCAMORE MEADOWS RESERVOIR,13.44,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+03/05/2025,UBER *TRIP HELP.UBER.COM SYDNEY,18.95,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250422 - ANZ Credit Card Statement Apr-May.pdf
+04/05/2025,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+02/05/2025,MYKI RICHMOND RS RMD RICHMOND,26.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+03/05/2025,UBER *TRIP SYDNEY,6.05,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250422 - ANZ Credit Card Statement Apr-May.pdf
+04/05/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+04/05/2025,MCDONALDS KEW KEW,48.55,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250422 - ANZ Credit Card Statement Apr-May.pdf
+04/05/2025,QUITELIKE.COM SURRY HILLS,86.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+05/05/2025,SARGENT CAKES RESERVOIR,17.81,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+05/05/2025,NIB HEALTH FUNDS LIMITED NEWCASTLE,395.99,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,TARGET 5121 PRESTON,174.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,KMART 1090 PRESTON,4.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,KMART 1090 PRESTON,37.15,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,TARGET 5121 PRESTON,29.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,WOOLWORTHS/334 MURRAY RD PRESTON,96.76,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,WOOLWORTHS/334 MURRAY RD PRESTON,39.43,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,SQ *KIKUCHI NORTHLAND PRESTON,8.51,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+06/05/2025,MYC NORTHLAND GANCE PRESTON,26.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+07/05/2025,ZLR*TRENERRY CAFE ABBOTSFORD,17.76,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250422 - ANZ Credit Card Statement Apr-May.pdf
+07/05/2025,THE MIND ROOM MELBOURNE,225.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+08/05/2025,STUDLEY PARK BOATHOUS KEW,15.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+08/05/2025,SQ *MASTER ROLL VIETNAM ( RICHMOND,13.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+08/05/2025,UNCLE DREW CLIFTON HILL,13.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+08/05/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,56.87,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+09/05/2025,GRILLD PTY LTD RICHMOND,26.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+09/05/2025,SARGENT CAKES RESERVOIR,32.97,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+10/05/2025,SQ *MT NAIL & BEAUTY RESERVOIR,127.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+10/05/2025,WOOLWORTHS ONLINE BELLA VISTA,121.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+10/05/2025,WWW.TAKEAWAYPIZZA.MELB PRESTON,29.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+10/05/2025,THORNBURY PICTUREHOUSE BRUNSWICK,230.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+11/05/2025,SQ *STANDING ROOM COFFEE FITZROY NORTH,19.77,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+11/05/2025,SQ *JUST FALAFS FITZROY NORTH,5.05,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+11/05/2025,SQ *JUST FALAFS FITZROY NORTH,63.12,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+11/05/2025,QUITELIKE.COM SURRY HILLS,86.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+12/05/2025,JUJUS DELI THORNBURY,41.72,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+12/05/2025,DKS VENDING TRINITY BEACH,4.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+13/05/2025,SALT HOUSE CAIRNS CITY,22.33,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+13/05/2025,APPLE.COM/BILL SYDNEY,30.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+14/05/2025,WOOLWORTHS ONLINE BELLA VISTA,126.83,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250422 - ANZ Credit Card Statement Apr-May.pdf
+13/05/2025,HUBBL - BINGE NORTH RYDE,19.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+14/05/2025,MCDONALDS PRESTON PRESTON,28.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,APPLE.COM/BILL SYDNEY,51.97,Isabelle,unclassified,False,0,Isabelle,False,True,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,AUDIBLE LIMITED AU MELBOURNE,16.45,Isabelle,streaming_creative,True,30,Isabelle,False,False,,audible,250422 - ANZ Credit Card Statement Apr-May.pdf
+15/05/2025,UBER *EATS HELP.UBER.COM SYDNEY,90.49,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250422 - ANZ Credit Card Statement Apr-May.pdf
+16/05/2025,NORTHCOTE AQUATIC AND NORTHCOTE,15.76,Isabelle,unclassified,False,0,Isabelle,False,False,,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/05/2025,METRO PETROLEUM RESERVOIR,75.35,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/05/2025,SQ *MADERA BAR & CAFE BRUNSWICK EAS,18.5,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/05/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,7.13,Isabelle,unclassified,False,0,Isabelle,False,True,4.40 USD,,250422 - ANZ Credit Card Statement Apr-May.pdf
+17/05/2025,SPOTIFY P36E393234 SYDNEY,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+18/05/2025,WOOLWORTHS ONLINE BELLA VISTA,181.04,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+18/05/2025,QUITELIKE.COM SURRY HILLS,86.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+18/05/2025,DEPARTMENT OF TRANSPORT MELBOURNE,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+20/05/2025,COLORES BY CALVINO RESERVOIR,5.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+20/05/2025,CHOMP CAFE ABBOTSFORD,21.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250520 - ANZ Credit Card Statement May-Jun.pdf
+20/05/2025,ROD LAVER ARENA MELBOURNE,50.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+20/05/2025,ROD LAVER ARENA MELBOURNE,6.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+20/05/2025,MYKI REGENT RS REG REGENT WEST,10.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+21/05/2025,APPLE.COM/BILL SYDNEY,59.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+21/05/2025,THE MIND ROOM MELBOURNE,225.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+21/05/2025,APPLE.COM/BILL SYDNEY,10.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/05/2025,SQ *MASTER ROLL VIETNAM ( RICHMOND,15.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/05/2025,SQ *LUTHER'S SCOOPS THORN THORNBURY,22.22,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/05/2025,SQ *PEACHES WINE BAR THORNBURY,10.16,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/05/2025,ZLR*BAR LINGO THORNBURY,118.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/05/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+22/05/2025,SPIRO KOUTSIS THORNBURY,50.85,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+23/05/2025,WOOLWORTHS ONLINE BELLA VISTA,124.19,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,TARGET 5121 PRESTON,73.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,KMART 1090 PRESTON,20.75,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,kmart,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,CERES GROCERY BRUNSWICK EAS,5.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,SQ *MADERA BAR & CAFE BRUNSWICK EAS,6.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,CERES MARKET COFFEE BRUNSWICK EAS,22.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,UMBERTO ESPRESSO BAR THORNBURY,208.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,UNIQLO NORTHLAND PRESTON,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+24/05/2025,AMAZON AU SYDNEY SOUTH,40.54,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250520 - ANZ Credit Card Statement May-Jun.pdf
+25/05/2025,PRINCESS THEATRE MELBOURNE,14.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+25/05/2025,NORTHCOTE AQUATIC AND NORTHCOTE,20.41,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+25/05/2025,NORTHCOTE AQUATIC AND NORTHCOTE,12.12,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+25/05/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+25/05/2025,DISNEY PLUS 1800-965160,209.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,disney plus,250520 - ANZ Credit Card Statement May-Jun.pdf
+26/05/2025,CLINIQUE AUSTRALIA ERSKINEVILLE,126.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+26/05/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Isabelle,streaming_creative,True,30,Isabelle,False,False,,prime video,250520 - ANZ Credit Card Statement May-Jun.pdf
+26/05/2025,OPENAI *CHATGPT SUBSCR OPENAI.COM,35.54,Isabelle,software_subscriptions,True,100,Thomas,False,True,22.00 USD,chatgpt,250520 - ANZ Credit Card Statement May-Jun.pdf
+27/05/2025,APPLE.COM/BILL SYDNEY,12.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+27/05/2025,WOOLWORTHS ONLINE BELLA VISTA,164.63,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+27/05/2025,MINH TRI PTY LTD CREMORNE,11.63,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,KLARNA*AIRBNB AUSTRA SYDNEY,270.44,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,airbnb,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,RACV INSURANCE MELBOURNE,133.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,RACV INSURANCE MELBOURNE,180.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,METRO PETROLEUM RESERVOIR,64.94,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,SQ *FISHBOWL RICHMOND RICHMOND,19.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,THECENTEREDLIFE.CO THECENTEREDLI,48.43,Isabelle,unclassified,False,0,Isabelle,False,True,29.98 USD,,250520 - ANZ Credit Card Statement May-Jun.pdf
+26/05/2025,DEPARTMENT OF TRANSPORT MELBOURNE,50.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,MELBOURNE ZOO PARKVILLE,9.1,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+28/05/2025,MELBOURNE ZOO PARKVILLE,27.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,WWW.TAKEAWAYPIZZA.MELB PRESTON,74.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,EASYPARK PRAHRAN,1.01,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+29/05/2025,UNCLE DREW CLIFTON HILL,6.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,AUSSIE BROADBAND LIMITED MORWELL,105.0,Isabelle,internet_phone,True,65,Isabelle,False,False,,aussie broadband,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,TYLERS MILKBAR PRESTON,60.22,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,SQ *MT NAIL & BEAUTY RESERVOIR,55.88,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,WOOLWORTHS ONLINE BELLA VISTA,128.75,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,WINESPEAKECELLAR+DELI DAYLESFORD,45.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,LS DAYLESFORD HOTEL DAYLESFORD,107.24,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+30/05/2025,LS DAYLESFORD HOTEL DAYLESFORD,18.3,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+31/05/2025,GOURMET LARDER DAYLESFORD,12.21,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+31/05/2025,TERLETZKY PTY LTD DAYLESFORD,20.73,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+31/05/2025,MANTEAU NOIR PTY LTD DAYLESFORD,53.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+31/05/2025,WINESPEAKECELLAR+DELI DAYLESFORD,137.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+31/05/2025,HOTEL FRANGOS & KOUKLA DAYLESFORD,18.11,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+01/06/2025,LAKE HOUSE RETREAT PTY LT DAYLESFORD,66.55,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+01/06/2025,WWW.WOMBATHILLHOUSE.CO DAYLESFORD,12.33,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+01/06/2025,WWW.WOMBATHILLHOUSE.CO DAYLESFORD,5.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+01/06/2025,MCDONALDS FAWKNER II FAWKNER,11.8,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250520 - ANZ Credit Card Statement May-Jun.pdf
+02/06/2025,COLES 0599 RESERVOIR,51.87,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,coles,250520 - ANZ Credit Card Statement May-Jun.pdf
+03/06/2025,NORTHLAND DENTAL GP HEIDELBERG WE,75.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+02/06/2025,NETFLIX AUSTRALIA PTY LTD MELBOURNE,25.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+03/06/2025,NIB HEALTH FUNDS LIMITED NEWCASTLE,395.99,Isabelle,health_insurance,False,0,Isabelle,True,False,,nib,250520 - ANZ Credit Card Statement May-Jun.pdf
+03/06/2025,APPLE.COM/BILL SYDNEY,2.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+03/06/2025,GRILLD PTY LTD RICHMOND,15.4,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,WOOLWORTHS ONLINE BELLA VISTA,291.13,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,SQ *STANDING ROOM COFFEE FITZROY NORTH,47.66,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,SQ *STANDING ROOM COFFEE FITZROY NORTH,22.31,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,PARKABLE* 60 CREMORNE BRISBANE,11.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+05/06/2025,BEFORESUNSET AI BEFORESUNSET.,131.08,Isabelle,unclassified,False,0,Isabelle,False,True,81.60 USD,,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,THE MIND ROOM MELBOURNE,225.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+04/06/2025,NIGHT OWL PHARMACY RESERVOIR,31.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+05/06/2025,METRO PETROLEUM RESERVOIR,73.01,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250520 - ANZ Credit Card Statement May-Jun.pdf
+05/06/2025,TYLERS MILKBAR PRESTON,76.51,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+05/06/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,34.58,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+05/06/2025,SARDINAS MELBOURNE,25.28,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+06/06/2025,NAKED WINES +611300898677,40.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+06/06/2025,NORTHCOTE AQUATIC AND NORTHCOTE,30.72,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+07/06/2025,ZLR*LOLLIPOP'S PLAYLAND PRESTON,13.07,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+07/06/2025,LAKESIDE BAKERY RESERVOIR,42.74,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+07/06/2025,DISTRICT BOTTLE STORE PASCOE VALE,40.45,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+07/06/2025,SQ *MADERA BAR & CAFE BRUNSWICK EAS,7.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250520 - ANZ Credit Card Statement May-Jun.pdf
+08/06/2025,SQ *MADERA BAR & CAFE BRUNSWICK EAS,10.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250520 - ANZ Credit Card Statement May-Jun.pdf
+08/06/2025,WOOLWORTHS/334 MURRAY RD PRESTON,86.17,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+08/06/2025,"REPLIT, INC. REPLIT.COM",23.98,Isabelle,software_subscriptions,True,100,Thomas,False,True,15.00 USD,replit,250520 - ANZ Credit Card Statement May-Jun.pdf
+08/06/2025,QUITELIKE.COM SURRY HILLS,86.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+09/06/2025,RED BEAN COFFEE PRESTON,62.31,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+10/06/2025,SQ *KAEDE ABBOTSFORD,6.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+10/06/2025,SP HAIRHOUSE.COM.AU DONCASTER,117.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,KLARNA*AIRBNB SYDNEY,270.45,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,airbnb,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,WOOLWORTHS ONLINE BELLA VISTA,196.26,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,SQ *KAEDE ABBOTSFORD,6.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,SQ *BEEFS BARBERS ABBOTSF ABBOTSFORD,40.69,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,SQ *KELSO SANDWICH SHOP ABBOTSFORD,13.24,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,ZLR*THE PARK HOTEL ABBO ABBOTSFORD,27.89,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,ZLR*THE PARK HOTEL ABBO ABBOTSFORD,49.7,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,ZLR*THE PARK HOTEL ABBO ABBOTSFORD,7.61,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,ZLR*THE PARK HOTEL ABBO ABBOTSFORD,30.43,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+11/06/2025,ZLR*THE PARK HOTEL ABBO ABBOTSFORD,34.48,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250520 - ANZ Credit Card Statement May-Jun.pdf
+12/06/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+12/06/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,41.67,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+13/06/2025,HUNGRY JACKS BELL ST,26.65,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hungry jack,250520 - ANZ Credit Card Statement May-Jun.pdf
+13/06/2025,"REPLIT, INC. REPLIT.COM",80.02,Isabelle,software_subscriptions,True,100,Thomas,False,True,50.06 USD,replit,250520 - ANZ Credit Card Statement May-Jun.pdf
+13/06/2025,HUBBL - BINGE NORTH RYDE,19.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+14/06/2025,SQ *MADERA BAR & CAFE BRUNSWICK EAS,9.3,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250520 - ANZ Credit Card Statement May-Jun.pdf
+14/06/2025,WOOLWORTHS ONLINE BELLA VISTA,114.69,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250520 - ANZ Credit Card Statement May-Jun.pdf
+14/06/2025,MCDONALDS 950614 KEW,27.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250520 - ANZ Credit Card Statement May-Jun.pdf
+14/06/2025,DD *DOORDASH PHONPISAI MELBOURNE,59.54,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,doordash,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,MOPA THOMASTOWN THOMASTOWN,24.43,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,MOPA THOMASTOWN THOMASTOWN,5.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,UNICEF AUSTRALIA PYRMONT,250.0,Isabelle,donations,True,100,Isabelle,False,False,,unicef,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,METRO PETROLEUM RESERVOIR,62.18,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,MDC ENTERTAINMENT PL SOUTH YARRA,14.24,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,MDC ENTERTAINMENT PL SOUTH YARRA,31.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,SQ *SYCAMORE MEADOWS RESERVOIR,10.69,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+15/06/2025,BRAVEHEARTS FOUNDATION ARUNDEL,250.0,Isabelle,donations,True,100,Isabelle,False,False,,bravehearts,250520 - ANZ Credit Card Statement May-Jun.pdf
+16/06/2025,DAREBIN CITY COUNCIL PRESTON,210.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+16/06/2025,DAN MURPHYS ONLINE BELLA VISTA,256.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+16/06/2025,SQ *SENSE OF SELF 1800595310,100.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250520 - ANZ Credit Card Statement May-Jun.pdf
+16/06/2025,ONEPASS MEMBERSHIP PERTH,20.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,onepass,250520 - ANZ Credit Card Statement May-Jun.pdf
+17/06/2025,OPENART AI OPENART.AI,134.48,Isabelle,unclassified,False,0,Isabelle,False,True,84.00 USD,,250520 - ANZ Credit Card Statement May-Jun.pdf
+17/06/2025,UBER *TRIP HELP.UBER.COM SYDNEY,10.76,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,uber,250520 - ANZ Credit Card Statement May-Jun.pdf
+17/06/2025,SPOTIFY P37C6BC89D SYDNEY,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+17/06/2025,CHOMP CAFE ABBOTSFORD,6.4,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+17/06/2025,CHOMP CAFE ABBOTSFORD,9.9,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+17/06/2025,ZLR*THE YARRA HOTEL ABBOTSFORD,25.24,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,hotel,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+17/06/2025,MYKI VICT PARK RS VPK ABBOTSFORD,20.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,PRIMEVIDEO SYDNEY,19.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,PRIMEVIDEO SYDNEY,4.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,SQ *FALCO BAKERY ABBOTSFORD,15.2,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,WOOLWORTHS ONLINE BELLA VISTA,177.17,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,SQ *SENSE OF SELF COLLINGWOOD,75.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,THE MIND ROOM MELBOURNE,225.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+18/06/2025,APPLE.COM/BILL SYDNEY,63.98,Isabelle,unclassified,False,0,Isabelle,False,True,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+19/06/2025,7-ELEVEN 1010 RESERVOIR,7.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,7-eleven,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+19/06/2025,SQ *KAEDE ABBOTSFORD,29.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+19/06/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,23.38,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+20/06/2025,BUNNINGS 466000 THOMASTOWN,150.04,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+21/06/2025,SQ *ASSEMBLY GROUND ESSENDON,6.65,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+21/06/2025,SQ *ASSEMBLY GROUND ESSENDON,55.26,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+20/06/2025,NIGHT OWL PHARMACY RESERVOIR,48.3,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+20/06/2025,NIGHT OWL PHARMACY RESERVOIR,15.9,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+22/06/2025,TARGET WILLIAMS LAND,168.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,target,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+22/06/2025,WOOLWORTHS ONLINE BELLA VISTA,109.05,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+22/06/2025,"REPLIT, INC. REPLIT.COM",81.35,Isabelle,software_subscriptions,True,100,Thomas,False,True,50.64 USD,replit,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+21/06/2025,MY CHEMIST RESERVO RESERVOIR,84.26,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+23/06/2025,SQ *SYCAMORE MEADOWS RESERVOIR,5.09,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+24/06/2025,SQ *SYCAMORE MEADOWS 1800595310,28.42,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+24/06/2025,SQ *RESERVOIR SPORTING CL RESERVOIR,6.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+24/06/2025,AMAZON AU SYDNEY SOUTH,51.0,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,amazon,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+24/06/2025,SCHOOLPIX 0387864800,67.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+25/06/2025,KLARNA*AIRBNB SYDNEY,270.45,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,airbnb,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+25/06/2025,DR DAVINDER NAGAH NORTHCOTE,113.57,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+25/06/2025,WOOLWORTHS/334 MURRAY RD PRESTON,36.53,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,OPENAI *CHATGPT SUBSCR OPENAI.COM,35.13,Isabelle,software_subscriptions,True,100,Thomas,False,True,22.00 USD,chatgpt,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+25/06/2025,APPLE.COM/BILL SYDNEY,14.99,Isabelle,unclassified,False,0,Isabelle,False,True,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+25/06/2025,CHEMIST WAREHOUSE PRESTON,225.48,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+25/06/2025,MCDONALDS PRESTON PRESTON,19.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,mcdonald,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,IPY*NORTHCOTE REC NORTHCOTE,41.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,TALLBOY AND MOOSE PRESTON,34.27,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,TALLBOY AND MOOSE PRESTON,16.13,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,TALLBOY & MOOSE BREWIN PRESTON,74.24,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,EZI*THEIRCARE PTY LTD GLEN IRIS,46.75,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,THE MIND ROOM MELBOURNE,245.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+26/06/2025,UNCLE DREW CLIFTON HILL,13.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+27/06/2025,7-ELEVEN 1010 RESERVOIR,8.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,7-eleven,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+27/06/2025,SQ *BICYCLE THIEVES CAFE NORTHCOTE,32.2,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,cafe,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+28/06/2025,METRO PETROLEUM RESERVOIR,81.09,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,petrol,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+28/06/2025,WOOLWORTHS/334 MURRAY RD PRESTON,93.11,Isabelle,personal_not_deductible,False,0,Isabelle,False,False,,woolworths,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+28/06/2025,WWW.TAKEAWAYPIZZA.MELB PRESTON,73.8,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+28/06/2025,CHEMIST WAREHOUSE PRESTON,20.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+28/06/2025,CHEMIST WAREHOUSE PRESTON,303.11,Isabelle,unclassified,False,0,Isabelle,True,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+29/06/2025,MOONEE VALLEY COUNCIL MOONEE PONDS,108.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+29/06/2025,QUITELIKE.COM SURRY HILLS,86.99,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,SQ *RESERVOIR SPORTING CL RESERVOIR,2.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,OFFICEWORKS BENTLEIGH EAS,1705.0,Isabelle,home_office_equipment,True,100,Thomas,True,False,,officeworks,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,RACV INSURANCE MELBOURNE,133.53,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,RACV INSURANCE MELBOURNE,180.6,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,FOLINOS QUALITY MEAT RESERVOIR,44.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,SQ *RESERVOIR SPORTING CL RESERVOIR,15.5,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,SQ *RESERVOIR SPORTING CL RESERVOIR,4.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,SP AXIL COFFEE HAWTHORN,91.0,Isabelle,unclassified,False,0,Isabelle,False,False,,,250620 - ANZ Credit Card Statement Jun-Jul.pdf
+30/06/2025,AMAZON MARKETPLACE AU SYDNEY SOUTH,2168.98,Isabelle,personal_not_deductible,False,0,Isabelle,True,False,,amazon,250620 - ANZ Credit Card Statement Jun-Jul.pdf
