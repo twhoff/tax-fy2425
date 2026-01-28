@@ -1,3 +1,9 @@
+---
+description: Workflow for preparing Australian tax documents for H&R Block appointment using Beads issue tracking.
+model: Claude Opus 4.5 (copilot)
+argument-hint: Use this prompt to guide the AI through the tax document preparation workflow for Thomas Hoffmann and Isabelle Mason for the 2024-2025 financial year.
+---
+
 # Tax FY24-25 Preparation Workflow
 
 > **Implementation prompt for AI agents to prepare Australian tax documents for H&R Block appointment**
