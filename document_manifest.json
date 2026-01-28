@@ -1,0 +1,1338 @@
+{
+  "generated": "2026-01-29T03:11:24.926175",
+  "fy_range": "2024-07-01 to 2025-06-30",
+  "total_processed": 83,
+  "results": [
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Isabelle/SCRATCH INCOME 2024_25 _ Australian Taxation Office.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - SCRATCH INCOME 2024_25 _ Australian Taxation Office.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "01/07/2024",
+        "30/06/2025",
+        "03/07/2025",
+        "18/12/2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Thomas/128053_Hoffmann, Thomas - ESS Statement.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - 128053_Hoffmann, Thomas - ESS Statement.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "20/03/2024",
+        "18/08/2024",
+        "19/11/2024",
+        "30 June 2025",
+        "01 July \n2024",
+        "1 March 2025",
+        "15 March 2025",
+        "1 July 2009"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Thomas/128053_Thomas_Hoffmann_20240708 Atlassian ESS statement.pdf",
+      "status": "success",
+      "extracted_date": "2024-06-30",
+      "suggested_name": "240630 - 128053_Thomas_Hoffmann_20240708 Atlassian ESS statement.pdf",
+      "confidence": 0.45,
+      "dates_found": [
+        "01 July 2023",
+        "30 June 2024",
+        "1 July 2009",
+        "20 MAR 2024"
+      ],
+      "error_message": "Date 2024-06-30 is outside FY24-25 (Jul 2024 - Jun 2025)"
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Thomas/ATLASSIAN FY24-25.pdf",
+      "status": "success",
+      "extracted_date": "2024-11-28",
+      "suggested_name": "241128 - ATLASSIAN FY24-25.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2024-11-28",
+        "01/07/2024",
+        "20/11/2024",
+        "01/07/2025",
+        "24-11-28"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Thomas/SEEK FY24-25.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-24",
+      "suggested_name": "250624 - SEEK FY24-25.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "06/01/2025",
+        "24/06/2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Thomas/SelfWealth-2025-Annual-Statement-Australia.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - SelfWealth-2025-Annual-Statement-Australia.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "1 Jul 2024",
+        "30 Jun 2025",
+        "16 July 2024",
+        "1 Oct 2024",
+        "16 Oct 2024",
+        "2 Jan 2025",
+        "17 Jan 2025",
+        "1 Apr 2025",
+        "16 Apr 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/1. Income/Thomas/User Certified W-8BEN 04_01_2024.pdf",
+      "status": "no_date",
+      "extracted_date": null,
+      "suggested_name": null,
+      "confidence": 0.0,
+      "dates_found": [],
+      "error_message": "No date could be extracted from document"
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Isabelle/DONATION - Cancer Council - Receipt-ch_3RRLnNCKshs1Bx4v0h2XeQCP.pdf",
+      "status": "no_date",
+      "extracted_date": null,
+      "suggested_name": null,
+      "confidence": 0.0,
+      "dates_found": [],
+      "error_message": "No date could be extracted from document"
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Isabelle/Isabelle - Cheek Media subscription Substack - media .png",
+      "status": "success",
+      "extracted_date": "2025-05-08",
+      "suggested_name": "250508 - Isabelle - Cheek Media subscription Substack - media.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "May 8, 2024",
+        "May 8, 2025",
+        "May 10, 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Isabelle/Izzi - Apple - ChatGPT.pdf",
+      "status": "success",
+      "extracted_date": "2025-05-15",
+      "suggested_name": "250515 - Izzi - Apple - ChatGPT.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "23 Apr 2025",
+        "15 May 2025",
+        "24 Apr 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/10 August 2024 Prime Membership.pdf",
+      "status": "success",
+      "extracted_date": "2024-08-10",
+      "suggested_name": "240810 - 10 August 2024 Prime Membership.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "10.08.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/10.07.2024 prime membership.pdf",
+      "status": "success",
+      "extracted_date": "2024-07-10",
+      "suggested_name": "240710 - Prime membership.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "10.07.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/2024 08 30 Label Maker.pdf",
+      "status": "success",
+      "extracted_date": "2024-08-30",
+      "suggested_name": "240830 - 2024 08 30 Label Maker.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "18/12/2025",
+        "30 August 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/2024 09 06 Pomodoro Timer.pdf",
+      "status": "success",
+      "extracted_date": "2024-09-06",
+      "suggested_name": "240906 - 2024 09 06 Pomodoro Timer.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "18/12/2025",
+        "6 September 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/2024 09 10 Prime membership.pdf",
+      "status": "success",
+      "extracted_date": "2024-09-10",
+      "suggested_name": "240910 - 2024 09 10 Prime membership.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "10.09.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/2024 11 21 Air purifier, ring camera, neato battery, iPhone case .pdf",
+      "status": "success",
+      "extracted_date": "2024-12-23",
+      "suggested_name": "241223 - 2024 11 21 Air purifier, ring camera, neato battery, iPhone case.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "18/12/2025",
+        "21 November 2024",
+        "23 December 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/20241230 Ring camera.pdf",
+      "status": "success",
+      "extracted_date": "2024-12-30",
+      "suggested_name": "241230 - Ring camera.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "29.12.2024",
+        "30.12.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/20250426 Projector Screen for home office.pdf",
+      "status": "success",
+      "extracted_date": "2025-05-27",
+      "suggested_name": "250527 - Projector Screen for home office.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "18/12/2025",
+        "26 April 2025",
+        "27 May 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/20250630 Clock Thomas.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Clock Thomas.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "18/12/2025",
+        "30 June 2025",
+        "31 July 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/20250630 Thomas Work iPad Amazon.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Thomas Work iPad Amazon.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "30.06.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/DONATION Bravehearts Receipt.pdf",
+      "status": "no_date",
+      "extracted_date": null,
+      "suggested_name": null,
+      "confidence": 0.0,
+      "dates_found": [],
+      "error_message": "No date could be extracted from document"
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/DONATION UNICEF receipt.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-15",
+      "suggested_name": "250615 - DONATION UNICEF receipt.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "15/06/2025",
+        "18/12/2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/IKEA - Proof of payment_Tax Invoice for order 217427154.pdf",
+      "status": "success",
+      "extracted_date": "2025-03-15",
+      "suggested_name": "250315 - IKEA - Proof of payment_Tax Invoice for order 217427154.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "3/11/2025",
+        "11/3/25",
+        "15/3/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/IKEA - large bookshelves - AUINV25000001074493_TaxInvoice.pdf",
+      "status": "success",
+      "extracted_date": "2025-03-11",
+      "suggested_name": "250311 - IKEA - large bookshelves - AUINV25000001074493_TaxInvoice.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "8/3/25",
+        "11/3/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/LG Gram Portabl Screen - MWAVE.pdf",
+      "status": "success",
+      "extracted_date": "2024-08-01",
+      "suggested_name": "240801 - LG Gram Portabl Screen - MWAVE.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "01/08/2024",
+        "31/07/2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Officeworks Invoice 622487770 - iPhone and Apple pencil pro.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Officeworks Invoice 622487770 - iPhone and Apple pencil pro.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "30.06.2025",
+        "01.07.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Thomas - Officeworks printing.pdf",
+      "status": "success",
+      "extracted_date": "2024-12-15",
+      "suggested_name": "241215 - Thomas - Officeworks printing.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "15/12/2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Thomas - Spotify - 10 hours of audio books credit.pdf",
+      "status": "success",
+      "extracted_date": "2025-02-04",
+      "suggested_name": "250204 - Thomas - Spotify - 10 hours of audio books credit.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "4 February 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Thomas - ring doorbell - security invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-11-22",
+      "suggested_name": "241122 - Thomas - ring doorbell - security invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "21.11.2024",
+        "22.11.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Thomas Nebula Projector Invoice a86-503-0841978-9659007.pdf",
+      "status": "success",
+      "extracted_date": "2025-02-04",
+      "suggested_name": "250204 - Thomas Nebula Projector Invoice a86-503-0841978-9659007.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-12-18",
+        "2025-02-04",
+        "25-12-18",
+        "25-02-04"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Time Timer Invoice.PDF",
+      "status": "success",
+      "extracted_date": "2024-08-08",
+      "suggested_name": "240808 - Time Timer Invoice.PDF",
+      "confidence": 1.0,
+      "dates_found": [
+        "08/08/2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Your Replit receipt [#1456-5098].pdf",
+      "status": "success",
+      "extracted_date": "2025-06-22",
+      "suggested_name": "250622 - Your Replit receipt [#1456-5098].pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "Jun 22, 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Your Replit receipt [#1500-4809].pdf",
+      "status": "success",
+      "extracted_date": "2025-06-13",
+      "suggested_name": "250613 - Your Replit receipt [#1500-4809].pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "Jun 13, 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Your receipt from Replit #2888-0200.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-07",
+      "suggested_name": "250607 - Your receipt from Replit #2888-0200.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "June 7, 2025",
+        "JUL 7, 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Your tax invoice from Apple..pdf",
+      "status": "success",
+      "extracted_date": "2025-06-18",
+      "suggested_name": "250618 - Your tax invoice from Apple..pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "18 June 2025",
+        "15 July 2025",
+        "18 July 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/2. Deductions/Thomas/Your upcoming 1Password invoice (Thomas and Isabelle)..pdf",
+      "status": "success",
+      "extracted_date": "2025-01-14",
+      "suggested_name": "250114 - Your upcoming 1Password invoice (Thomas and Isabelle)..pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "January 14, 2025",
+        "January 14, 2026"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/3. Health Insurance/Private Health Insurance - NIB - 2024 - 2025 tax statement.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Private Health Insurance - NIB - 2024 - 2025 tax statement.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "1 July 2024",
+        "30 June 2025",
+        "1 July 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/3. Health Insurance/nib-health-insurance-tax-statement-ISABELLE.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Nib-health-insurance-tax-statement-ISABELLE.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "1 July 2024",
+        "30 June 2025",
+        "1 July 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/3. Health Insurance/nib-health-insurance-tax-statement-THOMAS.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Nib-health-insurance-tax-statement-THOMAS.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "1 July 2024",
+        "30 June 2025",
+        "1 July 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2024-09-19.pdf",
+      "status": "success",
+      "extracted_date": "2024-10-14",
+      "suggested_name": "241014 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2024-09-19",
+        "12/09/2024",
+        "09/09/2024",
+        "10/09/2024",
+        "13/09/2024",
+        "11/09/2024",
+        "16/09/2024",
+        "14/09/2024",
+        "17/09/2024",
+        "15/09/2024",
+        "18/09/2024",
+        "24-09-19",
+        "20/08/24",
+        "14/10/24"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2024-10-20.pdf",
+      "status": "success",
+      "extracted_date": "2024-11-14",
+      "suggested_name": "241114 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2024-10-20",
+        "20/09/2024",
+        "18/09/2024",
+        "23/09/2024",
+        "19/09/2024",
+        "24/09/2024",
+        "21/09/2024",
+        "22/09/2024",
+        "25/09/2024",
+        "27/09/2024",
+        "30/09/2024",
+        "26/09/2024",
+        "01/10/2024",
+        "29/09/2024",
+        "02/10/2024",
+        "03/10/2024",
+        "04/10/2024",
+        "07/10/2024",
+        "05/10/2024",
+        "08/10/2024",
+        "06/10/2024",
+        "09/10/2024",
+        "10/10/2024",
+        "11/10/2024",
+        "14/10/2024",
+        "15/10/2024",
+        "12/10/2024",
+        "13/10/2024",
+        "16/10/2024",
+        "17/10/2024",
+        "18/10/2024",
+        "24-10-20",
+        "14/11/24"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2024-11-19.pdf",
+      "status": "success",
+      "extracted_date": "2024-12-03",
+      "suggested_name": "241203 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2024-11-19",
+        "21/10/2024",
+        "16/10/2024",
+        "17/10/2024",
+        "18/10/2024",
+        "22/10/2024",
+        "19/10/2024",
+        "20/10/2024",
+        "23/10/2024",
+        "24/10/2024",
+        "25/10/2024",
+        "28/10/2024",
+        "26/10/2024",
+        "29/10/2024",
+        "27/10/2024",
+        "30/10/2024",
+        "31/10/2024",
+        "01/11/2024",
+        "04/11/2024",
+        "02/11/2024",
+        "05/11/2024",
+        "03/11/2024",
+        "06/11/2024",
+        "07/11/2024",
+        "08/11/2024",
+        "11/11/2024",
+        "09/11/2024",
+        "12/11/2024",
+        "10/11/2024",
+        "13/11/2024",
+        "14/11/2024",
+        "15/11/2024",
+        "18/11/2024",
+        "16/11/2024",
+        "17/11/2024",
+        "24-11-19",
+        "03/12/24"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2024-12-19.pdf",
+      "status": "success",
+      "extracted_date": "2025-01-02",
+      "suggested_name": "250102 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2024-12-19",
+        "20/11/2024",
+        "16/11/2024",
+        "17/11/2024",
+        "18/11/2024",
+        "21/11/2024",
+        "19/11/2024",
+        "22/11/2024",
+        "25/11/2024",
+        "23/11/2024",
+        "26/11/2024",
+        "24/11/2024",
+        "27/11/2024",
+        "28/11/2024",
+        "29/11/2024",
+        "02/12/2024",
+        "30/11/2024",
+        "03/12/2024",
+        "01/12/2024",
+        "04/12/2024",
+        "05/12/2024",
+        "06/12/2024",
+        "09/12/2024",
+        "07/12/2024",
+        "10/12/2024",
+        "08/12/2024",
+        "11/12/2024",
+        "12/12/2024",
+        "13/12/2024",
+        "16/12/2024",
+        "14/12/2024",
+        "17/12/2024",
+        "15/12/2024",
+        "18/12/2024",
+        "24-12-19",
+        "02/01/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-01-19.pdf",
+      "status": "success",
+      "extracted_date": "2025-02-03",
+      "suggested_name": "250203 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-01-19",
+        "20/12/2024",
+        "17/12/2024",
+        "18/12/2024",
+        "23/12/2024",
+        "19/12/2024",
+        "21/12/2024",
+        "27/12/2024",
+        "24/12/2024",
+        "25/12/2024",
+        "30/12/2024",
+        "26/12/2024",
+        "28/12/2024",
+        "31/12/2024",
+        "29/12/2024",
+        "02/01/2025",
+        "03/01/2025",
+        "06/01/2025",
+        "01/01/2025",
+        "04/01/2025",
+        "07/01/2025",
+        "05/01/2025",
+        "08/01/2025",
+        "09/01/2025",
+        "10/01/2025",
+        "13/01/2025",
+        "11/01/2025",
+        "14/01/2025",
+        "15/01/2025",
+        "12/01/2025",
+        "16/01/2025",
+        "17/01/2025",
+        "25-01-19",
+        "03/02/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-02-19.pdf",
+      "status": "success",
+      "extracted_date": "2025-05-02",
+      "suggested_name": "250502 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-02-19",
+        "20/01/2025",
+        "14/01/2025",
+        "15/01/2025",
+        "16/01/2025",
+        "17/01/2025",
+        "18/01/2025",
+        "21/01/2025",
+        "19/01/2025",
+        "22/01/2025",
+        "23/01/2025",
+        "24/01/2025",
+        "28/01/2025",
+        "25/01/2025",
+        "26/01/2025",
+        "29/01/2025",
+        "27/01/2025",
+        "30/01/2025",
+        "31/01/2025",
+        "03/02/2025",
+        "01/02/2025",
+        "04/02/2025",
+        "02/02/2025",
+        "05/02/2025",
+        "06/02/2025",
+        "07/02/2025",
+        "10/02/2025",
+        "08/02/2025",
+        "11/02/2025",
+        "09/02/2025",
+        "12/02/2025",
+        "13/02/2025",
+        "14/02/2025",
+        "17/02/2025",
+        "18/02/2025",
+        "16/02/2025",
+        "1 May 2025",
+        "2 May 2025",
+        "25-02-19",
+        "05/03/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-03-19.pdf",
+      "status": "success",
+      "extracted_date": "2025-04-02",
+      "suggested_name": "250402 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-03-19",
+        "20/02/2025",
+        "17/02/2025",
+        "18/02/2025",
+        "21/02/2025",
+        "19/02/2025",
+        "24/02/2025",
+        "22/02/2025",
+        "25/02/2025",
+        "23/02/2025",
+        "26/02/2025",
+        "27/02/2025",
+        "28/02/2025",
+        "03/03/2025",
+        "01/03/2025",
+        "04/03/2025",
+        "02/03/2025",
+        "05/03/2025",
+        "06/03/2025",
+        "07/03/2025",
+        "10/03/2025",
+        "08/03/2025",
+        "11/03/2025",
+        "09/03/2025",
+        "12/03/2025",
+        "13/03/2025",
+        "14/03/2025",
+        "17/03/2025",
+        "15/03/2025",
+        "18/03/2025",
+        "16/03/2025",
+        "25-03-19",
+        "02/04/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-04-21.pdf",
+      "status": "success",
+      "extracted_date": "2025-05-05",
+      "suggested_name": "250505 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-04-21",
+        "20/03/2025",
+        "17/03/2025",
+        "21/03/2025",
+        "18/03/2025",
+        "19/03/2025",
+        "24/03/2025",
+        "22/03/2025",
+        "25/03/2025",
+        "23/03/2025",
+        "26/03/2025",
+        "27/03/2025",
+        "28/03/2025",
+        "31/03/2025",
+        "29/03/2025",
+        "01/04/2025",
+        "30/03/2025",
+        "02/04/2025",
+        "03/04/2025",
+        "04/04/2025",
+        "07/04/2025",
+        "05/04/2025",
+        "08/04/2025",
+        "09/04/2025",
+        "06/04/2025",
+        "10/04/2025",
+        "11/04/2025",
+        "14/04/2025",
+        "12/04/2025",
+        "15/04/2025",
+        "13/04/2025",
+        "16/04/2025",
+        "17/04/2025",
+        "25-04-21",
+        "05/05/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-05-19.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-02",
+      "suggested_name": "250602 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-05-19",
+        "22/04/2025",
+        "15/04/2025",
+        "16/04/2025",
+        "17/04/2025",
+        "18/04/2025",
+        "19/04/2025",
+        "20/04/2025",
+        "23/04/2025",
+        "21/04/2025",
+        "24/04/2025",
+        "28/04/2025",
+        "25/04/2025",
+        "26/04/2025",
+        "29/04/2025",
+        "27/04/2025",
+        "30/04/2025",
+        "01/05/2025",
+        "02/05/2025",
+        "05/05/2025",
+        "03/05/2025",
+        "06/05/2025",
+        "04/05/2025",
+        "07/05/2025",
+        "08/05/2025",
+        "09/05/2025",
+        "12/05/2025",
+        "10/05/2025",
+        "13/05/2025",
+        "11/05/2025",
+        "14/05/2025",
+        "15/05/2025",
+        "16/05/2025",
+        "17/05/2025",
+        "25-05-19",
+        "02/06/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-06-19.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-19",
+      "suggested_name": "250619 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-06-19",
+        "20/05/2025",
+        "17/05/2025",
+        "18/05/2025",
+        "21/05/2025",
+        "22/05/2025",
+        "23/05/2025",
+        "26/05/2025",
+        "24/05/2025",
+        "27/05/2025",
+        "25/05/2025",
+        "28/05/2025",
+        "29/05/2025",
+        "30/05/2025",
+        "02/06/2025",
+        "31/05/2025",
+        "03/06/2025",
+        "01/06/2025",
+        "04/06/2025",
+        "05/06/2025",
+        "06/06/2025",
+        "09/06/2025",
+        "07/06/2025",
+        "10/06/2025",
+        "08/06/2025",
+        "11/06/2025",
+        "12/06/2025",
+        "13/06/2025",
+        "16/06/2025",
+        "14/06/2025",
+        "17/06/2025",
+        "15/06/2025",
+        "18/06/2025",
+        "25-06-19",
+        "03/07/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/2025-07-20.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - .pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "2025-07-20",
+        "20/06/2025",
+        "17/06/2025",
+        "18/06/2025",
+        "23/06/2025",
+        "19/06/2025",
+        "21/06/2025",
+        "24/06/2025",
+        "22/06/2025",
+        "25/06/2025",
+        "26/06/2025",
+        "27/06/2025",
+        "30/06/2025",
+        "28/06/2025",
+        "02/07/2025",
+        "29/06/2025",
+        "03/07/2025",
+        "01/07/2025",
+        "04/07/2025",
+        "07/07/2025",
+        "05/07/2025",
+        "08/07/2025",
+        "06/07/2025",
+        "09/07/2025",
+        "10/07/2025",
+        "11/07/2025",
+        "14/07/2025",
+        "12/07/2025",
+        "15/07/2025",
+        "13/07/2025",
+        "16/07/2025",
+        "17/07/2025",
+        "18/07/2025",
+        "25-07-20",
+        "04/08/25"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/5. Bank Statements/FY24-25/Interest details - Bank Australia.pdf",
+      "status": "success",
+      "extracted_date": "2025-06-30",
+      "suggested_name": "250630 - Interest details - Bank Australia.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "29/01/2026",
+        "1 Jul 2024",
+        "30 Jun 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/6. References/HR-Block-Your-Handy-Tax-Checklist-0524-D1.pdf",
+      "status": "no_date",
+      "extracted_date": null,
+      "suggested_name": null,
+      "confidence": 0.0,
+      "dates_found": [],
+      "error_message": "No date could be extracted from document"
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/H&R Block receipt tax.png",
+      "status": "success",
+      "extracted_date": "2025-01-21",
+      "suggested_name": "250121 - H&R Block receipt tax.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "21/01/2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/15.07.2024 Paramount Plus.pdf",
+      "status": "success",
+      "extracted_date": "2024-07-15",
+      "suggested_name": "240715 - Paramount Plus.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "15.07.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/16 August 2024 Paramount Plus.pdf",
+      "status": "success",
+      "extracted_date": "2024-08-16",
+      "suggested_name": "240816 - 16 August 2024 Paramount Plus.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "16.08.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2024 08 27 Hayu.pdf",
+      "status": "success",
+      "extracted_date": "2024-08-27",
+      "suggested_name": "240827 - 2024 08 27 Hayu.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.08.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2024-09 Audible.png",
+      "status": "success",
+      "extracted_date": "2024-09-16",
+      "suggested_name": "240916 - 2024-09 Audible.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "16 September 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2024-10 Audible.png",
+      "status": "success",
+      "extracted_date": "2024-10-16",
+      "suggested_name": "241016 - 2024-10 Audible.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "16 October 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2024-11 Audible.png",
+      "status": "success",
+      "extracted_date": "2024-11-16",
+      "suggested_name": "241116 - 2024-11 Audible.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "16 November 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2024-12 Audible.png",
+      "status": "success",
+      "extracted_date": "2024-12-16",
+      "suggested_name": "241216 - 2024-12 Audible.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "16 December 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2025-04 Audible.png",
+      "status": "success",
+      "extracted_date": "2025-04-15",
+      "suggested_name": "250415 - 2025-04 Audible.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "15 April 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/2025-05 Audible.png",
+      "status": "success",
+      "extracted_date": "2025-05-15",
+      "suggested_name": "250515 - 2025-05 Audible.png",
+      "confidence": 1.0,
+      "dates_found": [
+        "15 May 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/26 July 2024 Hayu.pdf",
+      "status": "success",
+      "extracted_date": "2024-07-26",
+      "suggested_name": "240726 - 26 July 2024 Hayu.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "26.07.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Apple - Cleanup Pro(1).pdf",
+      "status": "success",
+      "extracted_date": "2025-06-15",
+      "suggested_name": "250615 - Izzi - Apple - Cleanup Pro(1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "15 May 2025",
+        "22 May 2025",
+        "15 Jun 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Apple - Cleanup Pro(2).pdf",
+      "status": "success",
+      "extracted_date": "2025-05-29",
+      "suggested_name": "250529 - Izzi - Apple - Cleanup Pro(2).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "21 May 2025",
+        "29 May 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Apple - Cleanup Pro(3).pdf",
+      "status": "success",
+      "extracted_date": "2025-05-21",
+      "suggested_name": "250521 - Izzi - Apple - Cleanup Pro(3).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "21 May 2025",
+        "21 May 2026"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Apple - Cleanup Pro.pdf",
+      "status": "success",
+      "extracted_date": "2025-05-25",
+      "suggested_name": "250525 - Izzi - Apple - Cleanup Pro.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "30 Apr 2025",
+        "01 May 2025",
+        "25 May 2025",
+        "08 May 2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Apple - YouTube Premium.pdf",
+      "status": "success",
+      "extracted_date": "2024-12-18",
+      "suggested_name": "241218 - Izzi - Apple - YouTube Premium.pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "24 Nov 2024",
+        "18 Dec 2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2024-09 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-09-27",
+      "suggested_name": "240927 - Izzi - Hayu - 2024-09 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.09.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2024-10 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-10-27",
+      "suggested_name": "241027 - Izzi - Hayu - 2024-10 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.10.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2024-12 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-12-27",
+      "suggested_name": "241227 - Izzi - Hayu - 2024-12 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.12.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2025_01 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-01-27",
+      "suggested_name": "250127 - Izzi - Hayu - 2025_01 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.01.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2025_02 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-02-27",
+      "suggested_name": "250227 - Izzi - Hayu - 2025_02 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.02.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2025_03 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-03-27",
+      "suggested_name": "250327 - Izzi - Hayu - 2025_03 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.03.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2025_04 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-04-26",
+      "suggested_name": "250426 - Izzi - Hayu - 2025_04 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "26.04.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu - 2025_05 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-05-26",
+      "suggested_name": "250526 - Izzi - Hayu - 2025_05 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "26.05.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Hayu 2024-11 - invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-11-27",
+      "suggested_name": "241127 - Izzi - Hayu 2024-11 - invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "27.11.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Paramount - 2024_09 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-09-15",
+      "suggested_name": "240915 - Izzi - Paramount - 2024_09 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "15.09.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Paramount - 2024_10 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-10-16",
+      "suggested_name": "241016 - Izzi - Paramount - 2024_10 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "16.10.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Paramount - 2024_11 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-11-16",
+      "suggested_name": "241116 - Izzi - Paramount - 2024_11 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "16.11.2024"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Paramount - 2025_04 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-04-01",
+      "suggested_name": "250401 - Izzi - Paramount - 2025_04 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "01.04.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - Paramount - 2025_05 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2025-05-01",
+      "suggested_name": "250501 - Izzi - Paramount - 2025_05 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "01.05.2025"
+      ],
+      "error_message": ""
+    },
+    {
+      "original_path": "/Users/twhoffmann/Library/CloudStorage/GoogleDrive-hoffmatw@gmail.com/My Drive/Filing Cabinet/Australia/Tax/Tax 2024-2025/Isabelle/Izzi - paramount subscription - 2024_12 invoice (1).pdf",
+      "status": "success",
+      "extracted_date": "2024-12-16",
+      "suggested_name": "241216 - Izzi - paramount subscription - 2024_12 invoice (1).pdf",
+      "confidence": 1.0,
+      "dates_found": [
+        "16.12.2024"
+      ],
+      "error_message": ""
+    }
+  ]
+}
