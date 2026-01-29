@@ -198,33 +198,33 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 
 | #   | Item                   | Thomas                     | Isabelle        | Status |
 | --- | ---------------------- | -------------------------- | --------------- | ------ |
-| 1   | PAYG Income Statements | Atlassian, SEEK            | SCRATCH         | ☐      |
-| 2   | Lump Sum/Termination   | $5,694 + $6,375 leave      | —               | ☐      |
-| 3   | Interest Income        | $34.96 (Bank Aus)          | —               | ☐      |
-| 4   | Dividend Statements    | $34.46 + $2.81 FC          | —               | ☐      |
-| 5   | Managed Funds          | N/A                        | N/A             | ☐      |
-| 6   | Rental Property        | N/A                        | N/A             | ☐      |
-| 7   | Business Income        | Tizzi ($0)                 | N/A             | ☐      |
-| 8   | Capital Gains          | $7,974.12 RSU              | —               | ☐      |
-| 9   | ESS/RSU                | $62,270.51                 | —               | ☐      |
-| 10  | Motor Vehicle          | N/A                        | N/A             | ☐      |
-| 11  | Travel Expenses        | N/A                        | N/A             | ☐      |
-| 12  | Uniforms               | N/A                        | N/A             | ☐      |
-| 13  | Subscriptions/Tools    | GitHub, ChatGPT, etc.      | —               | ☐      |
-| 14  | Self-Education         | —                          | —               | ☐      |
-| 15  | Professional Dev       | —                          | —               | ☐      |
-| 16  | WFH Expenses           | 960 hrs                    | 768 hrs         | ☐      |
-| 17  | Other Work Expenses    | Equipment, phone, internet | Phone, internet | ☐      |
-| 18  | Donations              | Bravehearts, UNICEF        | Cancer Council  | ☐      |
-| 19  | Income Protection      | N/A                        | N/A             | ☐      |
-| 20  | Health Insurance       | NIB                        | NIB             | ☐      |
-| 21  | PAYG Instalments       | N/A                        | N/A             | ☐      |
-| 22  | Spouse Details         | ✓                          | ✓               | ☐      |
-| 23  | Bank Details           | ✓                          | ✓               | ☐      |
+| 1   | PAYG Income Statements | Atlassian, SEEK            | SCRATCH         | ✓      |
+| 2   | Lump Sum/Termination   | $5,694 + $6,375 leave      | —               | ✓      |
+| 3   | Interest Income        | $34.96 (Bank Aus)          | —               | ✓      |
+| 4   | Dividend Statements    | $34.46 + $2.81 FC          | —               | ✓      |
+| 5   | Managed Funds          | N/A                        | N/A             | ✓      |
+| 6   | Rental Property        | N/A                        | N/A             | ✓      |
+| 7   | Business Income        | Tizzi ($0)                 | N/A             | ✓      |
+| 8   | Capital Gains          | $7,974.12 RSU              | —               | ✓      |
+| 9   | ESS/RSU                | $62,270.51                 | —               | ✓      |
+| 10  | Motor Vehicle          | N/A                        | N/A             | ✓      |
+| 11  | Travel Expenses        | N/A                        | N/A             | ✓      |
+| 12  | Uniforms               | N/A                        | N/A             | ✓      |
+| 13  | Subscriptions/Tools    | $589.89 verified           | —               | ✓      |
+| 14  | Self-Education         | N/A                        | N/A             | ✓      |
+| 15  | Professional Dev       | N/A                        | N/A             | ✓      |
+| 16  | WFH Expenses           | 960 hrs = $672             | 1,095 hrs = $766.50 | ✓      |
+| 17  | Other Work Expenses    | Equip $7,967 + Internet $614 | Streaming $285 | ✓      |
+| 18  | Donations              | $500 (Bravehearts, UNICEF) | $20.37 Cancer Council | ✓      |
+| 19  | Income Protection      | N/A                        | N/A             | ✓      |
+| 20  | Health Insurance       | NIB                        | NIB             | ✓      |
+| 21  | PAYG Instalments       | N/A                        | N/A             | ✓      |
+| 22  | Spouse Details         | ✓                          | ✓               | ✓      |
+| 23  | Bank Details           | ✓                          | ✓               | ✓      |
 | 24  | CCS Reconciliation     | N/A (post-NOA)             | N/A (post-NOA)  | ✓      |
-| 25  | Division 293           | ✓                          | N/A             | ☐      |
-| 26  | Foreign Income         | RSU (USD→AUD)              | N/A             | ☐      |
-| 27  | Government Payments    | N/A                        | N/A             | ☐      |
+| 25  | Division 293           | Likely applies             | N/A             | ✓      |
+| 26  | Foreign Income         | RSU (USD→AUD) verified     | N/A             | ✓      |
+| 27  | Government Payments    | N/A                        | N/A             | ✓      |
 
 ## Tax Estimates Reference (VERIFIED ✅)
 
