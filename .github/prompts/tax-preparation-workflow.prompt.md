@@ -21,7 +21,7 @@ bd ready  # View available work
 - **Appointment:** H&R Block (tomorrow)
 - **Goal:** Prepare all documents for Thomas Hoffmann and Isabelle Mason tax returns
 - **Critical Threshold:** $4,000+ deductions for Thomas to avoid $3,336 CCS penalty
-- **Combined Taxable Income:** ~$369,003.91 (need to reduce below $365,604)
+- **Combined Taxable Income:** ~$369,003.91 (need to reduce below $367,563)
 
 ## Workflow Phases
 
@@ -124,7 +124,7 @@ bd ready nrk      # See checklist items
 | 4 | Dividend Statements | $34.46 + FC | — |
 | 5 | ESS/RSU Statements | $62,270.51 | — |
 | 6 | Capital Gains | $7,974.12 | — |
-| 7 | WFH Records | 960 hrs | 768 hrs |
+| 7 | WFH Records | 960 hrs | 1,095 hrs |
 | 8 | Phone/Internet | 60-70% work | 60-70% work |
 | 9 | Software Subscriptions | GitHub, ChatGPT, etc. | — |
 | 10 | Donations | Bravehearts, UNICEF | Cancer Council |
@@ -181,13 +181,13 @@ Must achieve **$4,000+ deductions for Thomas** to cross CCS cliff:
 
 | Category | Thomas | Isabelle |
 |----------|--------|----------|
-| WFH (67c/hr) | $643 | $515 |
+| WFH (70c/hr FY24-25) | $672 | $766.50 |
 | Internet (60-70%) | ~$425 | ~$425 |
 | Phone (60-70%) | ~$440 | ~$390 |
 | Software (Tizzi) | ~$1,500+ | — |
 | Equipment (Tizzi) | ~$3,600+ | — |
 | Donations | ~$200 | ~$100 |
-| **TOTAL** | **~$6,800+** | ~$1,430 |
+| **TOTAL** | **~$6,900+** | ~$1,680 |
 
 ✅ Target $4,000 easily achievable with Tizzi strategy
 

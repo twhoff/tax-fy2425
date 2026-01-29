@@ -104,7 +104,7 @@ Note: May 2024 vesting was reported in FY23-24.
 
 ## CCS Strategy - CRITICAL
 
-**CCS Cliff at ~$365,604 combined taxable income**
+**CCS Cliff at ~$367,563 combined taxable income** (Higher CCS multi-child rate cutoff)
 
 | Scenario | Taxable Income | Oliver CCS | Repayment | Savings |
 |----------|---------------|------------|-----------|---------|
@@ -115,20 +115,20 @@ Note: May 2024 vesting was reported in FY23-24.
 
 ## Deduction Categories
 
-### Work From Home (WFH) - Fixed Rate Method (67c/hour)
+### Work From Home (WFH) - Fixed Rate Method (70c/hour for FY24-25)
 
 **Thomas:**
 | Employer | Period | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs |
 |----------|--------|-------|-------------|--------|---------|
-| Atlassian | Jul-Nov 2024 | 20 | 2 | 60 | 480 |
-| SEEK | Jan-Jun 2025 | 24 | 2 | 50 | 480 |
-| **Total** | | | | | **960 hrs × $0.67 = $643** |
+| Atlassian | Jul-Nov 2024 | 20 | 2 | 12 | 480 |
+| SEEK | Jan-Jun 2025 | 24 | 2 | 10 | 480 |
+| **Total** | | | | | **960 hrs × $0.70 = $672** |
 
 **Isabelle:**
 | Employer | Period | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs |
 |----------|--------|-------|-------------|--------|---------|
-| SCRATCH | Full FY | 48 | 2 | 40 | 768 |
-| **Total** | | | | | **768 hrs × $0.67 = $515** |
+| SCRATCH | Full FY | 48 | 3 | 7.6 | 1,095 |
+| **Total** | | | | | **1,095 hrs × $0.70 = $766.50** |
 
 ### Phone & Internet (Separate from WFH fixed rate)
 

@@ -2,7 +2,7 @@
 
 > **Last Updated:** 29 January 2026  
 > **Appointment:** H&R Block  
-> **Goal:** Combined taxable income < $365,604 for CCS multi-child discount
+> **Goal:** Combined taxable income < $367,563 for CCS multi-child discount
 
 ---
 
@@ -50,12 +50,12 @@
 
 ### Thomas Hoffmann (Target: $4,000+ for CCS threshold)
 
-#### Work From Home - Fixed Rate Method
+#### Work From Home - Fixed Rate Method (70c/hr for FY24-25)
 | Employer | Period | Weeks | WFH Days/wk | Hrs/wk | WFH Hours |
 |----------|--------|-------|-------------|--------|-----------|
-| Atlassian | Jul-Nov 2024 | 20 | 2 | 60 | 480 |
-| SEEK | Jan-Jun 2025 | 24 | 2 | 50 | 480 |
-| **Total** | | | | | **960 hrs × $0.67 = $643.20** |
+| Atlassian | Jul-Nov 2024 | 20 | 2 | 12 | 480 |
+| SEEK | Jan-Jun 2025 | 24 | 2 | 10 | 480 |
+| **Total** | | | | | **960 hrs × $0.70 = $672** |
 
 #### Equipment (Tizzi ABN - Instant Asset Write-off)
 | Document | Description | Est. Value |
@@ -93,7 +93,7 @@
 ### Thomas Deduction Estimate
 | Category | Amount |
 |----------|--------|
-| WFH (960 hrs) | $643 |
+| WFH (960 hrs) | $672 |
 | Equipment | ~$4,000 |
 | Software | ~$500 |
 | Phone/Internet | ~$1,192 |
@@ -104,11 +104,11 @@
 
 ### Isabelle Mason
 
-#### Work From Home - Fixed Rate Method
+#### Work From Home - Fixed Rate Method (70c/hr for FY24-25)
 | Employer | Period | Weeks | WFH Days/wk | Hrs/wk | WFH Hours |
 |----------|--------|-------|-------------|--------|-----------|
-| SCRATCH | Full FY | 48 | 2 | 40 | 768 |
-| **Total** | | | | | **768 hrs × $0.67 = $514.56** |
+| SCRATCH | Full FY | 48 | 3 | 7.6 | 1,095 |
+| **Total** | | | | | **1,095 hrs × $0.70 = $766.50** |
 
 #### Professional Subscriptions (30% work use)
 | Service | Annual | 30% Claim |
@@ -136,11 +136,11 @@
 ### Isabelle Deduction Estimate
 | Category | Amount |
 |----------|--------|
-| WFH (768 hrs) | $515 |
+| WFH (1,095 hrs) | $766.50 |
 | Subscriptions (30%) | $128 |
 | Phone | ~$360 |
 | Donations | TBC |
-| **TOTAL** | **~$1,003** |
+| **TOTAL** | **~$1,255** |
 
 ---
 
@@ -211,8 +211,8 @@ Files with no extractable dates - please add dates and move to appropriate folde
 | Metric | Thomas | Isabelle | Combined |
 |--------|--------|----------|----------|
 | Est. Taxable Income | ~$256,334 | ~$112,670 | ~$369,004 |
-| Target (for CCS) | — | — | < $365,604 |
-| Est. Deductions | ~$6,335 | ~$1,003 | ~$7,338 |
+| Target (for CCS) | — | — | < $367,563 |
+| Est. Deductions | ~$6,364 | ~$1,255 | ~$7,619 |
 | **Gap to Target** | | | **Within reach** ✅ |
 
 **Division 293:** Thomas likely subject to additional 15% super tax on contributions (income + super > $250k)

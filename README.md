@@ -183,7 +183,7 @@ Reference: [HR Block Tax Checklist FY24-25](6.%20References/240701%20-%20HR%20Bl
 - Requires contemporaneous hours log (not estimates)
 
 ### CCS Strategy
-- Combined income ~$369k exceeds CCS cliff at $365,604
+- Combined income ~$369k exceeds CCS cliff at $367,563
 - Thomas deductions $4k+ crosses multi-child discount threshold
 - Expected saving: ~$3,336 on CCS repayment
 
