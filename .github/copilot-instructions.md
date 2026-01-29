@@ -263,15 +263,17 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 | WFH Fixed Rate       | $672.00        | $766.50       | $1,438.50      |
 | Equipment            | $8,212.49      | —             | $8,212.49      |
 | Software             | $589.89        | —             | $589.89        |
-| Internet (65%)       | $614.25        | —             | $614.25        |
+| Internet             | $945.00        | —             | $945.00        |
 | Productivity Tools   | $48.43         | —             | $48.43         |
-| Audible (100%)       | $98.70         | —             | $98.70         |
-| Professional Reading | —              | $27.80        | $27.80         |
-| Streaming (30%)      | —              | $245.75       | $245.75        |
+| Audible              | $98.70         | —             | $98.70         |
+| Professional Reading | —              | $55.61        | $55.61         |
+| Streaming            | —              | $819.18       | $819.18        |
 | Conferences          | —              | $81.00        | $81.00         |
 | Donations            | $500.00        | $20.37        | $520.37        |
 | Home Office Cleaning | $101.61        | —             | $101.61        |
-| **Total Deductions** | **$10,837.37** | **$1,141.42** | **$11,978.79** |
+| **Total (Gross)**    | **$11,168.12** | **$1,742.66** | **$12,910.78** |
+
+**Note:** Some items have work-use apportionment (Internet 65%, Streaming 30%, Professional Reading 50%). Accountant to apply percentages.
 
 ### Net Taxable Income
 | Metric             | Thomas          | Isabelle        | Combined        |
