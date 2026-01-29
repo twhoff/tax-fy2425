@@ -10,13 +10,13 @@
 
 | Metric | Thomas | Isabelle | Combined |
 |--------|--------|----------|----------|
-| **Gross Income** | $246,535 | $111,470 | $358,040 |
-| **Deductions (Gross)** | $11,168 | $1,743 | $12,911 |
-| **WFH Hours** | 960 hrs | 1,095 hrs | 2,055 hrs |
-| **WFH Deduction (70c/hr)** | $672 | $767 | $1,439 |
+| **Gross Income** | TBD | TBD | TBD |
+| **Deductions (Gross)** | TBD | TBD | TBD |
+| **WFH Hours** | TBD hrs | TBD hrs | TBD hrs |
+| **WFH Deduction (70c/hr)** | TBD | TBD | TBD |
 
 ### Key Thresholds
-- ✅ **CCS target achieved** - Combined taxable income $346,061 is $21,502 under $367,563 threshold
+- ⏳ **CCS target** - TBD
 - ⚠️ **Division 293** applies to Thomas (income + super > $250k)
 - ✅ **MLS exempt** - NIB hospital cover held all year
 
@@ -85,28 +85,28 @@ Tax 2024-2025/
 
 ## 💼 Deductions Summary
 
-### Thomas ($11,168.12 gross)
+### Thomas (TBD gross)
 
 | Category | Amount | Key Items |
 |----------|--------|-----------|
-| **Home Office Equipment** | $8,212 | iPad Pro M4, iPhone 16 Pro, WACOM, IKEA PAX, LG Monitor |
-| **Software Subscriptions** | $590 | Replit, ChatGPT, OpenArt AI, BeforeSunset AI, 1Password |
-| **Internet** | $945 | Aussie Broadband (work use to be apportioned) |
-| **WFH Fixed Rate** | $672 | 960 hours × $0.70/hr |
-| **Audible** | $99 | Audiobooks for professional development |
-| **Donations** | $500 | UNICEF $250, Bravehearts $250 |
-| **Productivity Tools** | $48 | TheCenteredLife ADHD planner |
-| **Home Office Cleaning** | $102 | Maid to Clean (15.38% floor area) |
+| **Home Office Equipment** | TBD | iPad Pro M4, iPhone 16 Pro, WACOM, IKEA PAX, LG Monitor |
+| **Software Subscriptions** | TBD | Replit, ChatGPT, OpenArt AI, BeforeSunset AI, 1Password |
+| **Internet** | TBD | Aussie Broadband (work use to be apportioned) |
+| **WFH Fixed Rate** | TBD | TBD hours × $0.70/hr |
+| **Audible** | TBD | Audiobooks for professional development |
+| **Donations** | TBD | UNICEF, Bravehearts |
+| **Productivity Tools** | TBD | TheCenteredLife ADHD planner |
+| **Home Office Cleaning** | TBD | Maid to Clean (TBD% floor area) |
 
-### Isabelle ($1,742.66 gross)
+### Isabelle (TBD gross)
 
 | Category | Amount | Key Items |
 |----------|--------|-----------|
-| **Streaming Services** | $819 | Disney+, Netflix, Spotify, Paramount+ (work use to be apportioned) |
-| **WFH Fixed Rate** | $767 | 1,095 hours × $0.70/hr |
-| **Conferences & Events** | $81 | Victorian Arts Centre |
-| **Professional Reading** | $56 | New Yorker (work use to be apportioned) |
-| **Donations** | $20 | Cancer Council |
+| **Streaming Services** | TBD | Disney+, Netflix, Spotify, Paramount+ (work use to be apportioned) |
+| **WFH Fixed Rate** | TBD | TBD hours × $0.70/hr |
+| **Conferences & Events** | TBD | Victorian Arts Centre |
+| **Professional Reading** | TBD | New Yorker (work use to be apportioned) |
+| **Donations** | TBD | Cancer Council |
 
 ---
 
@@ -158,8 +158,8 @@ Reference: [HR Block Tax Checklist FY24-25](6.%20References/240701%20-%20HR%20Bl
 | 13 | Subscriptions/Tools | ✅ $590 | — |
 | 14 | Self-Education | N/A | N/A |
 | 15 | Professional Dev | N/A | N/A |
-| 16 | WFH Expenses | ✅ 960 hrs = $672 | ✅ 1,095 hrs = $767 |
-| 17 | Other Work Expenses | ✅ Equip $8,212 | ✅ Streaming $819 |
+| 16 | WFH Expenses | ⏳ TBD hrs | ⏳ TBD hrs |
+| 17 | Other Work Expenses | ⏳ Equip TBD | ⏳ Streaming TBD |
 | 18 | Donations | ✅ $500 | ✅ $20 |
 | 19 | Income Protection | N/A | N/A |
 | 20 | Health Insurance | ✅ NIB | ✅ NIB |
@@ -188,8 +188,8 @@ Reference: [HR Block Tax Checklist FY24-25](6.%20References/240701%20-%20HR%20Bl
 - **Equipment claimed separately** (iPad, monitors, etc.)
 - Requires contemporaneous hours log (not estimates)
 
-### CCS Strategy ✅ ACHIEVED
-- Combined taxable income $346,061 is **$21,502 under** $367,563 threshold
+### CCS Strategy ⏳ TBD
+- Combined taxable income TBD - verify against $367,563 threshold
 - CCS multi-child rate preserved
 - CCS reconciliation happens after NOA issued (not part of tax return)
 

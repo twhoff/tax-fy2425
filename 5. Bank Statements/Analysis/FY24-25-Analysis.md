@@ -14,17 +14,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Transactions Analysed | 1,708 |
-| Deductible Transactions | 86 |
-| Thomas Deductible Total (bank statements) | $3,537.85 |
-| Thomas WFH Fixed Rate (960 hrs × $0.70) | $672.00 |
-| **Thomas Total** | **$4,209.85** ✅ |
-| Isabelle Deductible Total (bank statements) | $386.60 |
-| Isabelle WFH Fixed Rate (1,095 hrs × $0.70) | $766.50 |
-| **Isabelle Total** | **$1,153.10** |
-| **Combined Deductible** | **$5,362.95** |
+| Total Transactions Analysed | TBD |
+| Deductible Transactions | TBD |
+| Thomas Deductible Total (bank statements) | TBD |
+| Thomas WFH Fixed Rate (TBD hrs × $0.70) | TBD |
+| **Thomas Total** | **TBD** |
+| Isabelle Deductible Total (bank statements) | TBD |
+| Isabelle WFH Fixed Rate (TBD hrs × $0.70) | TBD |
+| **Isabelle Total** | **TBD** |
+| **Combined Deductible** | **TBD** |
 
-**CCS Impact:** Thomas deductions exceed $4,000 target, reducing combined taxable income below $367,563 threshold for higher CCS multi-child rate (est. savings ~$3,336).
+**CCS Impact:** TBD - recalculate Thomas deductions against $4,000 target.
 
 **Note:** Amounts shown are adjusted for work-use percentages where applicable.
 
@@ -46,7 +46,7 @@
 | 05/06/2025 | BEFORESUNSET AI | $131.08 | Tizzi ABN |
 | 23/04/2025 | 1PASSWORD | $49.95 | Tizzi ABN |
 
-**Subtotal:** $589.89
+**Subtotal:** TBD
 
 ### Home Office Equipment (100% Deductible)
 
@@ -57,7 +57,7 @@
 | 15/12/2024 | OFFICEWORKS 0327 CAMPB CVIC | $22.54 | Printing supplies |
 | 15/12/2024 | OFFICEWORKS 0327 CAMPBELLFIELD | $5.00 | Printing supplies |
 
-**Subtotal:** $1,757.48
+**Subtotal:** TBD
 
 ### Productivity Tools (100% Deductible)
 
@@ -65,7 +65,7 @@
 |------|-------------|--------|-------|
 | Various | THECENTEREDLIFE | $48.43 | ADHD productivity planner |
 
-**Subtotal:** $48.43
+**Subtotal:** TBD
 
 ### Professional Reading (50% Work Use)
 
@@ -73,7 +73,7 @@
 |------|-------------|--------|----------|
 | Various | NEW YORKER / CONDÉ NAST | $55.61 | $27.80 |
 
-**Subtotal:** $55.61 → **$27.80 deductible**
+**Subtotal:** TBD → **TBD deductible**
 
 ### Internet (65% Work Use - Shared Account)
 
@@ -89,7 +89,7 @@
 | 06/05/2025 | AUSSIE BROADBAND LIMITED | $105.00 | $68.25 |
 | 30/05/2025 | AUSSIE BROADBAND LIMITED | $105.00 | $68.25 |
 
-**Subtotal:** $945.00 → **$614.25 deductible**
+**Subtotal:** TBD → **TBD deductible**
 
 ### Donations (100% Deductible)
 
@@ -98,21 +98,21 @@
 | 15/06/2025 | UNICEF AUSTRALIA | $250.00 | ✓ Verified |
 | 15/06/2025 | BRAVEHEARTS FOUNDATION | $250.00 | ✓ Verified |
 
-**Subtotal:** $500.00
+**Subtotal:** TBD
 
 ### Thomas Total (Bank Statements)
 
 | Category | Raw Amount | Work % | Deductible |
 |----------|------------|--------|------------|
-| Software Subscriptions | $589.89 | 100% | $589.89 |
-| Home Office Equipment | $1,757.48 | 100% | $1,757.48 |
-| Productivity Tools | $48.43 | 100% | $48.43 |
-| Professional Reading | $55.61 | 50% | $27.80 |
-| Internet | $945.00 | 65% | $614.25 |
-| Donations | $500.00 | 100% | $500.00 |
-| **Bank Statement Subtotal** | | | **$3,537.85** |
-| WFH Fixed Rate | 960 hrs × $0.70 | 100% | $672.00 |
-| **TOTAL THOMAS** | | | **$4,209.85** ✅ |
+| Software Subscriptions | TBD | 100% | TBD |
+| Home Office Equipment | TBD | 100% | TBD |
+| Productivity Tools | TBD | 100% | TBD |
+| Professional Reading | TBD | 50% | TBD |
+| Internet | TBD | 65% | TBD |
+| Donations | TBD | 100% | TBD |
+| **Bank Statement Subtotal** | | | **TBD** |
+| WFH Fixed Rate | TBD hrs × $0.70 | 100% | TBD |
+| **TOTAL THOMAS** | | | **TBD** |
 
 ---
 
@@ -129,7 +129,7 @@
 | Multiple | AUDIBLE LIMITED | $131.60 | $39.48 |
 | Multiple | PARAMOUNT+, HAYU, HUBBL/BINGE | $198.60 | $59.58 |
 
-**Subtotal:** $950.78 → **$285.23 deductible**
+**Subtotal:** TBD → **TBD deductible**
 
 ### Conferences & Events (100% Work Use)
 
@@ -137,7 +137,7 @@
 |------|-------------|--------|-------|
 | Various | VICTORIAN ARTS CENTRE | $81.00 | Creative industry conferences |
 
-**Subtotal:** $81.00
+**Subtotal:** TBD
 
 ### Donations (100% Deductible)
 
@@ -145,18 +145,18 @@
 |------|-----------|--------|------------|
 | 22/05/2025 | CANCER COUNCIL VIC (Bank Australia) | $20.37 | ✓ Verified |
 
-**Subtotal:** $20.37
+**Subtotal:** TBD
 
 ### Isabelle Total (Bank Statements)
 
 | Category | Raw Amount | Work % | Deductible |
 |----------|------------|--------|------------|
-| Streaming Services | $950.78 | 30% | $285.23 |
-| Conferences/Events | $81.00 | 100% | $81.00 |
-| Donations | $20.37 | 100% | $20.37 |
-| **Bank Statement Subtotal** | | | **$386.60** |
-| WFH Fixed Rate | 1,095 hrs × $0.70 | 100% | $766.50 |
-| **TOTAL ISABELLE** | | | **$1,153.10** |
+| Streaming Services | TBD | 30% | TBD |
+| Conferences/Events | TBD | 100% | TBD |
+| Donations | TBD | 100% | TBD |
+| **Bank Statement Subtotal** | | | **TBD** |
+| WFH Fixed Rate | TBD hrs × $0.70 | 100% | TBD |
+| **TOTAL ISABELLE** | | | **TBD** |
 
 ---
 
@@ -164,32 +164,32 @@
 
 | Owner | Bank Statements | WFH Fixed Rate | Total |
 |-------|-----------------|----------------|-------|
-| Thomas | $3,537.85 | $672.00 | **$4,209.85** ✅ |
-| Isabelle | $386.60 | $766.50 | **$1,153.10** |
-| **TOTAL** | **$3,924.45** | **$1,438.50** | **$5,362.95** |
+| Thomas | TBD | TBD | **TBD** |
+| Isabelle | TBD | TBD | **TBD** |
+| **TOTAL** | **TBD** | **TBD** | **TBD** |
 
 ### Deduction Totals by Category
 
 | Category | Count | Gross | Work % | Deductible |
 |----------|-------|-------|--------|------------|
-| software_subscriptions | 9 | $589.89 | 100% | $589.89 |
-| home_office_equipment | 4 | $1,757.48 | 100% | $1,757.48 |
-| internet_phone | 9 | $945.00 | 65% | $614.25 |
-| streaming_creative | 51 | $950.78 | 30% | $285.23 |
-| donations | 3 | $520.37 | 100% | $520.37 |
-| conferences_events | 4 | $81.00 | 100% | $81.00 |
-| productivity_tools | 1 | $48.43 | 100% | $48.43 |
-| professional_reading | 5 | $55.61 | 50% | $27.80 |
-| **TOTAL** | **86** | **$4,948.56** | | **$3,924.46** |
+| software_subscriptions | TBD | TBD | 100% | TBD |
+| home_office_equipment | TBD | TBD | 100% | TBD |
+| internet_phone | TBD | TBD | 65% | TBD |
+| streaming_creative | TBD | TBD | 30% | TBD |
+| donations | TBD | TBD | 100% | TBD |
+| conferences_events | TBD | TBD | 100% | TBD |
+| productivity_tools | TBD | TBD | 100% | TBD |
+| professional_reading | TBD | TBD | 50% | TBD |
+| **TOTAL** | **TBD** | **TBD** | | **TBD** |
 
 ---
 
 ## CCS Impact Analysis
 
 - **Target threshold:** Combined taxable income < $367,563 for higher CCS multi-child rate
-- **Thomas deductions:** $4,209.85 ✅ (exceeds $4,000 target)
-- **Effect:** Should reduce combined income below threshold
-- **Estimated CCS savings:** ~$3,336 in reduced repayment
+- **Thomas deductions:** TBD (target: exceed $4,000)
+- **Effect:** TBD
+- **Estimated CCS savings:** TBD
 
 ---
 

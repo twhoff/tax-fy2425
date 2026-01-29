@@ -71,26 +71,26 @@ Examples:
 
 ## Income Summary
 
-### Thomas (VERIFIED ✅)
+### Thomas (NEEDS RECALCULATION)
 | Source                   | Amount (AUD)    | Notes                                |
 | ------------------------ | --------------- | ------------------------------------ |
-| Atlassian PAYG           | **$86,255.70**  | Inc. $5,694.33 leave + ETP $9,595.77 |
-| SEEK PAYG                | **$90,000.00**  | Inc. $6,375.00 leave payout          |
-| ESS Income (RSU vesting) | $62,270.51      | Aug + Nov 2024 vestings only         |
-| Capital Gain (RSU sales) | $7,974.12       | No CGT discount (held <12 months)    |
+| Atlassian PAYG           | **TBD**         | Inc. leave + ETP                     |
+| SEEK PAYG                | **TBD**         | Inc. leave payout                    |
+| ESS Income (RSU vesting) | TBD             | Aug + Nov 2024 vestings only         |
+| Capital Gain (RSU sales) | TBD             | No CGT discount (held <12 months)    |
 | Tizzi ABN                | $0              | No revenue - expenses only           |
-| **Thomas Total**         | **$246,534.79** |                                      |
+| **Thomas Total**         | **TBD**         |                                      |
 
-### Isabelle (VERIFIED ✅)
+### Isabelle (NEEDS RECALCULATION)
 | Source       | Amount (AUD)    | Notes                                               |
 | ------------ | --------------- | --------------------------------------------------- |
-| SCRATCH PAYG | **$111,470.05** | Inc. $1,572 bonus + $1,199.64 home office allowance |
+| SCRATCH PAYG | **TBD**         | Inc. bonus + home office allowance                  |
 
 ### Shared
 | Source                  | Amount (AUD) | Notes                   |
 | ----------------------- | ------------ | ----------------------- |
-| Bank Australia interest | $34.96       | Joint account           |
-| SelfWealth dividends    | $34.46       | Franking credits: $2.81 |
+| Bank Australia interest | TBD          | Joint account           |
+| SelfWealth dividends    | TBD          | Franking credits: TBD   |
 
 **Banks:** Bank Australia (savings), Bendigo (offset - not taxable), ANZ (credit card)
 **NO:** BOQ, term deposits, crypto, rental income, foreign accounts
@@ -99,22 +99,22 @@ Examples:
 
 | Vesting Date | Shares | Value (USD) | ATO Rate        | Value (AUD)    | Sale Date | CGT (AUD)     |
 | ------------ | ------ | ----------- | --------------- | -------------- | --------- | ------------- |
-| 18-Aug-24    | 105    | $16,192.05  | 1.501289        | $24,308.95     | 5-Nov-24  | $10,460.95    |
-| 18-Nov-24    | 105    | $25,062.45  | 1.514679        | $37,961.57     | 20-Nov-24 | $211.73       |
-|              |        |             | **ESS Income:** | **$62,270.51** | **CGT:**  | **$7,974.12** |
+| 18-Aug-24    | TBD    | TBD         | TBD             | TBD            | TBD       | TBD           |
+| 18-Nov-24    | TBD    | TBD         | TBD             | TBD            | TBD       | TBD           |
+|              |        |             | **ESS Income:** | **TBD**        | **CGT:**  | **TBD**       |
 
 Note: May 2024 vesting was reported in FY23-24.
 
-## CCS Strategy - ✅ TARGET ACHIEVED
+## CCS Strategy - ⏳ NEEDS RECALCULATION
 
 **CCS Cliff at ~$367,563 combined taxable income** (Higher CCS multi-child rate cutoff)
 
 | Scenario            | Taxable Income  | Status           |
 | ------------------- | --------------- | ---------------- |
-| Original estimate   | $369,003.91     | ❌ Over threshold |
-| **With deductions**    | **$346,060.97** | **✅ Well under** |
+| Original estimate   | TBD             | ⏳ Pending        |
+| **With deductions**    | **TBD**         | **⏳ Pending**    |
 
-**Result:** Combined taxable income $346,061 is $21,502 under the $367,563 threshold.
+**Result:** TBD - recalculate combined taxable income against $367,563 threshold.
 
 **Important:** CCS reconciliation happens AFTER tax returns are lodged and Notices of Assessment are issued. No CCS statement is required for tax preparation.
 
@@ -125,60 +125,60 @@ Note: May 2024 vesting was reported in FY23-24.
 **Thomas:**
 | Employer  | Period       | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs                    |
 | --------- | ------------ | ----- | ----------- | ------ | -------------------------- |
-| Atlassian | Jul-Nov 2024 | 20    | 2           | 12     | 480                        |
-| SEEK      | Jan-Jun 2025 | 24    | 2           | 10     | 480                        |
-| **Total** |              |       |             |        | **960 hrs × $0.70 = $672** |
+| Atlassian | Jul-Nov 2024 | TBD   | TBD         | TBD    | TBD                        |
+| SEEK      | Jan-Jun 2025 | TBD   | TBD         | TBD    | TBD                        |
+| **Total** |              |       |             |        | **TBD hrs × $0.70 = TBD** |
 
 **Isabelle:**
 | Employer  | Period  | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs                         |
 | --------- | ------- | ----- | ----------- | ------ | ------------------------------- |
-| SCRATCH   | Full FY | 48    | 3           | 7.6    | 1,095                           |
-| **Total** |         |       |             |        | **1,095 hrs × $0.70 = $766.50** |
+| SCRATCH   | Full FY | TBD   | TBD         | TBD    | TBD                             |
+| **Total** |         |       |             |        | **TBD hrs × $0.70 = TBD**       |
 
 ### Phone & Internet (Verified from Bank Statements)
 
 | Item                 | Annual  | Work % | Deductible  |
 | -------------------- | ------- | ------ | ----------- |
-| Internet (Aussie BB) | $945.00 | 65%    | **$614.25** |
+| Internet (Aussie BB) | TBD     | TBD%   | **TBD**     |
 
 **Note:** Phone expenses not claimed separately - covered by WFH fixed rate method.
 
-### Home Office Equipment (Tizzi ABN - Instant Asset Write-off) ✅ VERIFIED
+### Home Office Equipment (Tizzi ABN - Instant Asset Write-off) ⏳ NEEDS RECALCULATION
 | Item                     | Invoice     | Amount        |
 | ------------------------ | ----------- | ------------- |
-| iPad Pro M4 13"          | Amazon      | $2,148.99     |
-| iPhone 16 Pro            | Officeworks | $1,528.00     |
-| Apple Pencil Pro         | Officeworks | $177.00       |
-| PAX Wardrobe (storage)   | IKEA        | $2,619.50     |
-| Nebula Capsule Projector | Amazon      | $879.99       |
-| LG Portable Monitor      | MWAVE       | $502.63       |
-| Projector Screen         | Amazon      | $37.99        |
-| Clock                    | Amazon      | $19.99        |
-| Printing supplies        | Officeworks | $52.48        |
-| **Total Equipment**      |             | **$7,966.57** |
+| iPad Pro M4 13"          | Amazon      | TBD           |
+| iPhone 16 Pro            | Officeworks | TBD           |
+| Apple Pencil Pro         | Officeworks | TBD           |
+| PAX Wardrobe (storage)   | IKEA        | TBD           |
+| Nebula Capsule Projector | Amazon      | TBD           |
+| LG Portable Monitor      | MWAVE       | TBD           |
+| Projector Screen         | Amazon      | TBD           |
+| Clock                    | Amazon      | TBD           |
+| Printing supplies        | Officeworks | TBD           |
+| **Total Equipment**      |             | **TBD**       |
 
 **Strategy:** Claim as Tizzi business expenses (Option A - instant write-off) to maximise FY24-25 deductions.
 
-### Software Subscriptions (Thomas - Tizzi Business) ✅ VERIFIED
+### Software Subscriptions (Thomas - Tizzi Business) ⏳ NEEDS RECALCULATION
 | Subscription       | Use                 | Amount      |
 | ------------------ | ------------------- | ----------- |
-| Replit (3 charges) | Development         | $185.35     |
-| ChatGPT Plus (3)   | AI/productivity     | $89.03      |
-| OpenArt AI         | AI image generation | $134.48     |
-| BeforeSunset AI    | AI productivity     | $131.08     |
-| 1Password          | Security            | $49.95      |
-| **Total Software** |                     | **$589.89** |
+| Replit (3 charges) | Development         | TBD         |
+| ChatGPT Plus (3)   | AI/productivity     | TBD         |
+| OpenArt AI         | AI image generation | TBD         |
+| BeforeSunset AI    | AI productivity     | TBD         |
+| 1Password          | Security            | TBD         |
+| **Total Software** |                     | **TBD**     |
 
 Note: GitHub Copilot, WARP Terminal, Medium, LinkedIn Premium not found in bank statements.
 
-### Donations (Tax-Deductible DGR) ✅ VERIFIED
+### Donations (Tax-Deductible DGR) ⏳ NEEDS RECALCULATION
 **Thomas:**
-- UNICEF: $250.00 (15/06/2025)
-- Bravehearts: $250.00 (16/06/2025)
-- **Total: $500.00**
+- UNICEF: TBD
+- Bravehearts: TBD
+- **Total: TBD**
 
 **Isabelle:**
-- Cancer Council VIC: $20.37 (22/05/2025)
+- Cancer Council VIC: TBD
 
 Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separately.
 
@@ -188,18 +188,18 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 
 | Date       | Amount      |
 | ---------- | ----------- |
-| 05/09/2024 | $132.13     |
-| 18/09/2024 | $132.13     |
-| 02/10/2024 | $132.13     |
-| 16/10/2024 | $132.13     |
-| 30/10/2024 | $132.13     |
-| **Total**  | **$660.65** |
+| 05/09/2024 | TBD         |
+| 18/09/2024 | TBD         |
+| 02/10/2024 | TBD         |
+| 16/10/2024 | TBD         |
+| 30/10/2024 | TBD         |
+| **Total**  | **TBD**     |
 
 **Calculation:**
-- Home office (lounge): 4m × 5m = 20 m²
-- Total house area: 130 m²
-- Work percentage: 20 ÷ 130 = **15.38%**
-- Deductible: $660.65 × 15.38% = **$101.61**
+- Home office (lounge): TBD m²
+- Total house area: TBD m²
+- Work percentage: TBD%
+- Deductible: TBD
 
 ### NOT Claiming
 - Motor vehicle expenses
@@ -218,23 +218,23 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 | #   | Item                   | Thomas                       | Isabelle              | Status |
 | --- | ---------------------- | ---------------------------- | --------------------- | ------ |
 | 1   | PAYG Income Statements | Atlassian, SEEK              | SCRATCH               | ✓      |
-| 2   | Lump Sum/Termination   | $5,694 + $6,375 leave        | —                     | ✓      |
-| 3   | Interest Income        | $34.96 (Bank Aus)            | —                     | ✓      |
-| 4   | Dividend Statements    | $34.46 + $2.81 FC            | —                     | ✓      |
+| 2   | Lump Sum/Termination   | TBD leave                    | —                     | ✓      |
+| 3   | Interest Income        | TBD (Bank Aus)               | —                     | ✓      |
+| 4   | Dividend Statements    | TBD + TBD FC                 | —                     | ✓      |
 | 5   | Managed Funds          | N/A                          | N/A                   | ✓      |
 | 6   | Rental Property        | N/A                          | N/A                   | ✓      |
 | 7   | Business Income        | Tizzi ($0)                   | N/A                   | ✓      |
-| 8   | Capital Gains          | $7,974.12 RSU                | —                     | ✓      |
-| 9   | ESS/RSU                | $62,270.51                   | —                     | ✓      |
+| 8   | Capital Gains          | TBD RSU                      | —                     | ✓      |
+| 9   | ESS/RSU                | TBD                          | —                     | ✓      |
 | 10  | Motor Vehicle          | N/A                          | N/A                   | ✓      |
 | 11  | Travel Expenses        | N/A                          | N/A                   | ✓      |
 | 12  | Uniforms               | N/A                          | N/A                   | ✓      |
-| 13  | Subscriptions/Tools    | $589.89 verified             | —                     | ✓      |
+| 13  | Subscriptions/Tools    | TBD                          | —                     | ✓      |
 | 14  | Self-Education         | N/A                          | N/A                   | ✓      |
 | 15  | Professional Dev       | N/A                          | N/A                   | ✓      |
-| 16  | WFH Expenses           | 960 hrs = $672               | 1,095 hrs = $766.50   | ✓      |
-| 17  | Other Work Expenses    | Equip $7,967 + Internet $614 | Streaming $285        | ✓      |
-| 18  | Donations              | $500 (Bravehearts, UNICEF)   | $20.37 Cancer Council | ✓      |
+| 16  | WFH Expenses           | TBD hrs = TBD                | TBD hrs = TBD         | ✓      |
+| 17  | Other Work Expenses    | Equip TBD + Internet TBD     | Streaming TBD         | ✓      |
+| 18  | Donations              | TBD (Bravehearts, UNICEF)    | TBD Cancer Council    | ✓      |
 | 19  | Income Protection      | N/A                          | N/A                   | ✓      |
 | 20  | Health Insurance       | NIB                          | NIB                   | ✓      |
 | 21  | PAYG Instalments       | N/A                          | N/A                   | ✓      |
@@ -245,44 +245,44 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 | 26  | Foreign Income         | RSU (USD→AUD) verified       | N/A                   | ✓      |
 | 27  | Government Payments    | N/A                          | N/A                   | ✓      |
 
-## Tax Estimates Reference (VERIFIED ✅)
+## Tax Estimates Reference (NEEDS RECALCULATION)
 
 ### Income
 | Source           | Thomas          | Isabelle        | Combined        |
 | ---------------- | --------------- | --------------- | --------------- |
-| PAYG Gross       | $176,255.70     | $111,470.05     | $287,725.75     |
-| ESS (RSU)        | $62,270.51      | —               | $62,270.51      |
-| Capital Gains    | $7,974.12       | —               | $7,974.12       |
-| Dividends        | $34.46          | —               | $34.46          |
-| Interest         | —               | —               | $34.96          |
-| **Total Income** | **$246,534.79** | **$111,470.05** | **$358,039.76** |
+| PAYG Gross       | TBD             | TBD             | TBD             |
+| ESS (RSU)        | TBD             | —               | TBD             |
+| Capital Gains    | TBD             | —               | TBD             |
+| Dividends        | TBD             | —               | TBD             |
+| Interest         | —               | —               | TBD             |
+| **Total Income** | **TBD**         | **TBD**         | **TBD**         |
 
 ### Deductions
 | Category             | Thomas         | Isabelle      | Combined       |
 | -------------------- | -------------- | ------------- | -------------- |
-| WFH Fixed Rate       | $672.00        | $766.50       | $1,438.50      |
-| Equipment            | $8,212.49      | —             | $8,212.49      |
-| Software             | $589.89        | —             | $589.89        |
-| Internet             | $945.00        | —             | $945.00        |
-| Productivity Tools   | $48.43         | —             | $48.43         |
-| Audible              | $98.70         | —             | $98.70         |
-| Professional Reading | —              | $55.61        | $55.61         |
-| Streaming            | —              | $819.18       | $819.18        |
-| Conferences          | —              | $81.00        | $81.00         |
-| Donations            | $500.00        | $20.37        | $520.37        |
-| Home Office Cleaning | $101.61        | —             | $101.61        |
-| **Total (Gross)**    | **$11,168.12** | **$1,742.66** | **$12,910.78** |
+| WFH Fixed Rate       | TBD            | TBD           | TBD            |
+| Equipment            | TBD            | —             | TBD            |
+| Software             | TBD            | —             | TBD            |
+| Internet             | TBD            | —             | TBD            |
+| Productivity Tools   | TBD            | —             | TBD            |
+| Audible              | TBD            | —             | TBD            |
+| Professional Reading | —              | TBD           | TBD            |
+| Streaming            | —              | TBD           | TBD            |
+| Conferences          | —              | TBD           | TBD            |
+| Donations            | TBD            | TBD           | TBD            |
+| Home Office Cleaning | TBD            | —             | TBD            |
+| **Total (Gross)**    | **TBD**        | **TBD**       | **TBD**        |
 
 **Note:** Some items have work-use apportionment (Internet 65%, Streaming 30%, Professional Reading 50%). Accountant to apply percentages.
 
 ### Net Taxable Income
 | Metric             | Thomas          | Isabelle        | Combined        |
 | ------------------ | --------------- | --------------- | --------------- |
-| Gross Income       | $246,534.79     | $111,470.05     | $358,039.76     |
-| Less Deductions    | ($10,837.37)    | ($1,141.42)     | ($11,978.79)    |
-| **Taxable Income** | **$235,697.42** | **$110,328.63** | **$346,060.97** |
+| Gross Income       | TBD             | TBD             | TBD             |
+| Less Deductions    | (TBD)           | (TBD)           | (TBD)           |
+| **Taxable Income** | **TBD**         | **TBD**         | **TBD**         |
 | CCS Target         | —               | —               | < $367,563      |
-| **Status**         |                 |                 | **✅ ACHIEVED**  |
+| **Status**         |                 |                 | **⏳ PENDING**   |
 
 **Division 293:** Thomas likely subject to additional 15% super tax (income + super > $250k)
 

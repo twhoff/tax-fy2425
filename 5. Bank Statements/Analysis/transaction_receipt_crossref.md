@@ -1,12 +1,12 @@
 # Bank Statement Transaction Cross-Reference
 
-Generated: 2026-01-29 03:38
+Generated: TBD
 
 ## Summary
 
-- **Total Deductible Transactions:** 49
-- **Matched to Receipts:** 49 (100%)
-- **No Receipt Found:** 0 (0%)
+- **Total Deductible Transactions:** TBD
+- **Matched to Receipts:** TBD
+- **No Receipt Found:** TBD
 
 ---
 
