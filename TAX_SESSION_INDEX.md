@@ -93,11 +93,12 @@
 | 1Password | $49.95 | Security |
 | **Subtotal Software** | **$589.89** | 100% deductible |
 
-#### Donations (DGR)
-| Document | Charity |
-|----------|---------|
-| [250615 - UNICEF Donation Receipt.pdf](2.%20Deductions/Thomas/250615%20-%20UNICEF%20Donation%20Receipt.pdf) | UNICEF |
-| ⚠️ [DONATION Bravehearts Receipt.pdf](NEEDS%20MANUAL%20PROCESSING/DONATION%20Bravehearts%20Receipt.pdf) | Bravehearts (needs date) |
+#### Donations (DGR) ✅ VERIFIED
+| Date | Document | Charity | Amount |
+|------|----------|---------|--------|
+| 15/06/2025 | [250615 - UNICEF Donation Receipt.pdf](2.%20Deductions/Thomas/250615%20-%20UNICEF%20Donation%20Receipt.pdf) | UNICEF | $250.00 |
+| 16/06/2025 | [250616 - Bravehearts Donation Receipt.pdf](2.%20Deductions/Thomas/250616%20-%20Bravehearts%20Donation%20Receipt.pdf) | Bravehearts | $250.00 |
+| **Total** | | | **$500.00** |
 
 #### Internet (Verified from Bank Statements - 65% Work Use)
 | Description | Raw Amount | Adjusted |
@@ -227,15 +228,11 @@
 
 ---
 
-## ⚠️ Needs Manual Processing
+## ✅ Manual Processing Complete
 
-Files with no extractable dates - please add dates and move to appropriate folders:
-
-| File | Action Required |
-|------|-----------------|
-| DONATION Bravehearts Receipt.pdf | Add donation date, move to 2. Deductions/Thomas/ |
-
-**✅ Resolved:** Cancer Council donation ($20.37 on 22/05/2025) found in Bank Australia statements.
+All donation receipts have been dated and moved to appropriate folders:
+- ✅ Bravehearts: 16/06/2025 → [2. Deductions/Thomas/](2.%20Deductions/Thomas/)
+- ✅ Cancer Council: 22/05/2025 (verified from Bank Australia)
 
 ---
 
@@ -281,7 +278,7 @@ Files with no extractable dates - please add dates and move to appropriate folde
 ## ✅ Pre-Appointment Checklist
 
 - [ ] Obtain CCS Annual Statement from Isabelle
-- [ ] Add date to Bravehearts donation receipt (move to 2. Deductions/Thomas/)
+- [x] ~~Add date to Bravehearts donation receipt~~ ✅ Done (16/06/2025)
 - [x] ~~Verify PAYG figures from Atlassian, SEEK, SCRATCH statements~~ ✅ Done
 - [x] ~~Calculate exact phone/internet amounts from bills~~ ✅ Internet verified ($945), phone not claiming
 - [ ] Discuss IKEA PAX claim with accountant (home office storage - $2,619.50)
