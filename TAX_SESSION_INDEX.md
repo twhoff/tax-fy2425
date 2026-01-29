@@ -3,7 +3,7 @@
 > **Last Updated:** 29 January 2026  
 > **Appointment:** H&R Block  
 > **Goal:** Combined taxable income < $367,563 for CCS multi-child discount  
-> **Status:** ✅ GOAL ACHIEVED - Thomas deductions $4,209.85 exceed $4,000 target
+> **Status:** ✅ GOAL ACHIEVED - Combined taxable income **$346,433** (well under $367,563 target)
 
 ---
 
@@ -25,19 +25,29 @@
 
 ### Thomas Hoffmann
 
-| Source | Document | Amount (AUD) |
-|--------|----------|--------------|
-| Atlassian PAYG | [241128 - Atlassian PAYG Statement FY24-25.pdf](1.%20Income/Thomas/241128%20-%20Atlassian%20PAYG%20Statement%20FY24-25.pdf) | TBC (inc. $5,694.33 leave) |
-| SEEK PAYG | [250624 - SEEK PAYG Statement FY24-25.pdf](1.%20Income/Thomas/250624%20-%20SEEK%20PAYG%20Statement%20FY24-25.pdf) | TBC (inc. $6,375.00 leave) |
-| ESS (RSU Vesting) | [250630 - Atlassian ESS Statement FY24-25.pdf](1.%20Income/Thomas/250630%20-%20Atlassian%20ESS%20Statement%20FY24-25.pdf) | **$62,270.51** |
-| Capital Gain (RSU Sales) | (from ESS statement) | **$7,974.12** (no CGT discount) |
-| Dividends | [250630 - SelfWealth Annual Statement.pdf](1.%20Income/Thomas/250630%20-%20SelfWealth%20Annual%20Statement.pdf) | $34.46 + $2.81 FC |
+| Source | Document | Amount (AUD) | Tax Withheld |
+|--------|----------|--------------|-------------|
+| Atlassian PAYG | [241128 - Atlassian PAYG Statement FY24-25.pdf](1.%20Income/Thomas/241128%20-%20Atlassian%20PAYG%20Statement%20FY24-25.pdf) | **$86,255.70** | $27,239.00 |
+| SEEK PAYG | [250624 - SEEK PAYG Statement FY24-25.pdf](1.%20Income/Thomas/250624%20-%20SEEK%20PAYG%20Statement%20FY24-25.pdf) | **$90,000.00** | $26,688.00 |
+| ESS (RSU Vesting) | [250630 - Atlassian ESS Statement FY24-25.pdf](1.%20Income/Thomas/250630%20-%20Atlassian%20ESS%20Statement%20FY24-25.pdf) | **$62,270.51** | — |
+| Capital Gain (RSU Sales) | (from ESS statement) | **$7,974.12** | — |
+| Dividends | [250630 - SelfWealth Annual Statement.pdf](1.%20Income/Thomas/250630%20-%20SelfWealth%20Annual%20Statement.pdf) | $34.46 + $2.81 FC | — |
+| **Thomas Total** | | **$246,534.79** | $53,927.00 |
+
+**Notes:**
+- Atlassian inc. $5,694.33 unused leave + ETP $9,595.77 (PAYGW $3,071)
+- SEEK inc. $6,375.00 leave payout + $12 workplace giving (already deducted)
 
 ### Isabelle Mason
 
-| Source | Document | Amount (AUD) |
-|--------|----------|--------------|
-| SCRATCH PAYG | [250630 - SCRATCH PAYG Statement FY24-25.pdf](1.%20Income/Isabelle/250630%20-%20SCRATCH%20PAYG%20Statement%20FY24-25.pdf) | TBC |
+| Source | Document | Amount (AUD) | Tax Withheld |
+|--------|----------|--------------|-------------|
+| SCRATCH PAYG | [250630 - SCRATCH PAYG Statement FY24-25.pdf](1.%20Income/Isabelle/250630%20-%20SCRATCH%20PAYG%20Statement%20FY24-25.pdf) | **$111,470.05** | $34,312.00 |
+
+**Notes:**
+- Inc. $1,572 bonus + $11,160.48 paid leave
+- Home Office Allowance: $1,199.64 (already taxed)
+- Super: $12,819.06
 
 ### Shared
 
@@ -58,16 +68,20 @@
 | SEEK | Jan-Jun 2025 | 24 | 2 | 10 | 480 |
 | **Total** | | | | | **960 hrs × $0.70 = $672** |
 
-#### Equipment (Tizzi ABN - Instant Asset Write-off)
-| Document | Description | Est. Value |
-|----------|-------------|------------|
-| [250630 - Officeworks iPhone Apple Pencil Pro.pdf](2.%20Deductions/Thomas/250630%20-%20Officeworks%20iPhone%20Apple%20Pencil%20Pro.pdf) | iPhone + Apple Pencil Pro | ~$1,800 |
-| [250630 - Amazon iPad Invoice.pdf](2.%20Deductions/Thomas/250630%20-%20Amazon%20iPad%20Invoice.pdf) | Work iPad | ~$1,500 |
-| [250311 - IKEA Large Bookshelves Tax Invoice.pdf](2.%20Deductions/Thomas/250311%20-%20IKEA%20Large%20Bookshelves%20Tax%20Invoice.pdf) | Bookshelves | ~$300 |
-| [240801 - LG Gram Portable Screen MWAVE.pdf](2.%20Deductions/Thomas/240801%20-%20LG%20Gram%20Portable%20Screen%20MWAVE.pdf) | Portable Monitor | TBC |
-| [250204 - Nebula Projector Invoice.pdf](2.%20Deductions/Thomas/250204%20-%20Nebula%20Projector%20Invoice.pdf) | Projector | TBC |
-| [250527 - Projector Screen Home Office.pdf](2.%20Deductions/Thomas/250527%20-%20Projector%20Screen%20Home%20Office.pdf) | Projector Screen | TBC |
-| **Subtotal Equipment** | | **~$4,000+** |
+#### Equipment (Tizzi ABN - Instant Asset Write-off) ✅ VERIFIED
+| Document | Description | Amount | Source |
+|----------|-------------|--------|--------|
+| [250630 - Officeworks iPhone Apple Pencil Pro.pdf](2.%20Deductions/Thomas/250630%20-%20Officeworks%20iPhone%20Apple%20Pencil%20Pro.pdf) | iPhone 16 Pro + Apple Pencil Pro | **$1,705.00** | Bank + Invoice |
+| [250630 - Amazon iPad Invoice.pdf](2.%20Deductions/Thomas/250630%20-%20Amazon%20iPad%20Invoice.pdf) | iPad Pro M4 13" 256GB | **$2,148.99** | Invoice |
+| [240801 - LG Gram Portable Screen MWAVE.pdf](2.%20Deductions/Thomas/240801%20-%20LG%20Gram%20Portable%20Screen%20MWAVE.pdf) | LG gram +view 16" Portable Monitor | **$502.63** | Invoice |
+| [250204 - Nebula Projector Invoice.pdf](2.%20Deductions/Thomas/250204%20-%20Nebula%20Projector%20Invoice.pdf) | Anker Nebula Capsule 3 Projector | **$879.99** | Invoice |
+| [250527 - Projector Screen Home Office.pdf](2.%20Deductions/Thomas/250527%20-%20Projector%20Screen%20Home%20Office.pdf) | Yisiga 120" Projector Screen | **$37.99** | Invoice |
+| [250311 - IKEA Large Bookshelves Tax Invoice.pdf](2.%20Deductions/Thomas/250311%20-%20IKEA%20Large%20Bookshelves%20Tax%20Invoice.pdf) | PAX Wardrobe System (office storage) | **$2,619.50** | Invoice |
+| [250630 - Clock Invoice.pdf](2.%20Deductions/Thomas/250630%20-%20Clock%20Invoice.pdf) | Wall Clock (office) | **$19.99** | Invoice |
+| Officeworks (Dec 2024) | Printing supplies | **$52.48** | Bank |
+| **Subtotal Equipment** | | **$7,966.57** | |
+
+**⚠️ Note:** Only $1,757.48 was captured in bank statement analysis. The remaining $6,209.09 is from invoices (Amazon/IKEA/MWAVE payments not on ANZ card).
 
 #### Software Subscriptions (Verified from Bank Statements)
 | Service | Amount | Notes |
@@ -102,13 +116,17 @@
 | Category | Amount | Source |
 |----------|--------|--------|
 | WFH Fixed Rate (960 hrs) | $672.00 | Manual calculation |
-| Home Office Equipment | $1,757.48 | Bank statements |
+| Home Office Equipment | **$7,966.57** | Bank + Invoices |
 | Software Subscriptions | $589.89 | Bank statements |
 | Internet (65%) | $614.25 | Bank statements |
 | Productivity Tools | $48.43 | Bank statements |
 | Professional Reading (50%) | $27.80 | Bank statements |
 | Donations (DGR) | $500.00 | Bank statements |
-| **TOTAL** | **$4,209.85** | ✅ Exceeds $4k target |
+| **TOTAL** | **$10,418.94** | ✅ Exceeds $4k target |
+
+**Note:** Equipment breakdown:
+- From bank statements: $1,757.48
+- From invoices (not on ANZ): $6,209.09
 
 ---
 
@@ -199,11 +217,13 @@
 
 | Document | Owner | Priority | Notes |
 |----------|-------|----------|-------|
-| NAB Credit Card Statements (Jul-Aug 2024) | Thomas | 🔴 HIGH | May have work expenses |
 | CCS Annual Statement | Isabelle | 🔴 HIGH | Needed for reconciliation |
-| Phone Bills (12 months) | Both | 🟡 MED | For phone deduction calculation |
-| Internet Bills (12 months) | Shared | 🟡 MED | For internet deduction calculation |
-| LinkedIn Premium Receipts | Thomas | 🟢 LOW | 50% marketing claim |
+| NAB Credit Card Statements (Jul-Aug 2024) | Thomas | 🟡 MED | May have work expenses (optional) |
+
+**✅ Resolved:**
+- Internet: Verified from ANZ bank statements ($945.00 Aussie Broadband)
+- Phone: Not claiming separately (covered by WFH fixed rate method)
+- LinkedIn Premium: Not found in bank analysis (may not have subscribed)
 
 ---
 
@@ -214,24 +234,45 @@ Files with no extractable dates - please add dates and move to appropriate folde
 | File | Action Required |
 |------|-----------------|
 | DONATION Bravehearts Receipt.pdf | Add donation date, move to 2. Deductions/Thomas/ |
-| DONATION - Cancer Council.pdf | Add donation date, move to 2. Deductions/Isabelle/ |
+
+**✅ Resolved:** Cancer Council donation ($20.37 on 22/05/2025) found in Bank Australia statements.
 
 ---
 
 ## 📊 Tax Estimate Summary
 
+### Income (VERIFIED ✅)
+| Source | Thomas | Isabelle | Combined |
+|--------|--------|----------|----------|
+| PAYG (Gross) | $176,255.70 | $111,470.05 | $287,725.75 |
+| ESS (RSU Vesting) | $62,270.51 | — | $62,270.51 |
+| Capital Gains | $7,974.12 | — | $7,974.12 |
+| Dividends | $34.46 | — | $34.46 |
+| Interest | — | — | $34.96 |
+| **Total Income** | **$246,534.79** | **$111,470.05** | **$358,039.80** |
+
+### Deductions (VERIFIED ✅)
 | Metric | Thomas | Isabelle | Combined |
 |--------|--------|----------|----------|
-| Est. Taxable Income | ~$256,334 | ~$112,670 | ~$369,004 |
+| Bank Statement Deductions | $3,537.85 | $386.60 | $3,924.45 |
+| Invoice Equipment (not in bank) | $6,209.09 | — | $6,209.09 |
+| WFH Fixed Rate | $672.00 | $766.50 | $1,438.50 |
+| **Total Deductions** | **$10,418.94** | **$1,153.10** | **$11,572.04** |
+
+### Net Taxable Income
+| Metric | Thomas | Isabelle | Combined |
+|--------|--------|----------|----------|
+| Gross Income | $246,534.79 | $111,470.05 | $358,039.80 |
+| Less Deductions | ($10,418.94) | ($1,153.10) | ($11,572.04) |
+| **Taxable Income** | **$236,115.85** | **$110,316.95** | **$346,432.80** |
 | Target (for CCS) | — | — | < $367,563 |
-| **Verified Deductions** | **$4,209.85** ✅ | **$1,153.10** | **$5,362.95** |
-| **Gap to Target** | | | **ACHIEVED** ✅ |
+| **Status** | | | **✅ WELL UNDER TARGET** |
 
 ### CCS Impact Analysis
 | Scenario | Est. Taxable Income | CCS Rate | Savings |
 |----------|---------------------|----------|--------|
-| Without deductions | $369,004 | Lower rate | — |
-| With $4k+ deductions | ~$363,641 | Higher rate | **~$3,336** |
+| Without deductions | $358,040 | Higher rate | — |
+| With $10k+ deductions | **$346,433** | Higher rate | **✅ Secure** |
 
 **Division 293:** Thomas likely subject to additional 15% super tax on contributions (income + super > $250k)
 
@@ -240,7 +281,8 @@ Files with no extractable dates - please add dates and move to appropriate folde
 ## ✅ Pre-Appointment Checklist
 
 - [ ] Obtain CCS Annual Statement from Isabelle
-- [ ] Add dates to donation receipts in NEEDS MANUAL PROCESSING
-- [ ] Verify PAYG figures from Atlassian, SEEK, SCRATCH statements
-- [ ] Calculate exact phone/internet amounts from bills
+- [ ] Add date to Bravehearts donation receipt (move to 2. Deductions/Thomas/)
+- [x] ~~Verify PAYG figures from Atlassian, SEEK, SCRATCH statements~~ ✅ Done
+- [x] ~~Calculate exact phone/internet amounts from bills~~ ✅ Internet verified ($945), phone not claiming
+- [ ] Discuss IKEA PAX claim with accountant (home office storage - $2,619.50)
 - [ ] Note: Isabelle cleared HECS during FY24-25 (may receive refund for overpayment)
