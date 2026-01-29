@@ -266,3 +266,77 @@ When preparing documents:
 - Division 293: Applies when income + super contributions > $250,000
 - Phone/internet: 60-70% work use justified by remote work patterns
 - LinkedIn Premium: Only Tizzi marketing portion deductible (not job searching)
+
+## Processing Highlighted Bank Statements
+
+### Problem Statement
+ANZ credit card statements may have **yellow-highlighted rows** marking transactions of interest (e.g., potential deductions, subscriptions to review). Standard OCR extracts text only and **cannot detect visual formatting like highlights**.
+
+### ⚠️ Common Mistakes to Avoid
+1. **OCR alone won't work** - pytesseract/Tesseract extracts text, not colors or formatting
+2. **Don't confuse zebra striping with highlights** - ANZ statements use alternating light blue/white rows for readability. This is NOT highlighting.
+3. **Don't guess at highlight colors** - Always confirm with the user what color the highlights are before attempting detection
+
+### Correct Process
+
+**Step 1: Extract PDF pages as images**
+```python
+import fitz  # PyMuPDF
+import os
+
+pdf_path = 'path/to/statement.pdf'
+output_dir = 'highlighted_pages'
+os.makedirs(output_dir, exist_ok=True)
+
+pdf = fitz.open(pdf_path)
+for i, page in enumerate(pdf):
+    mat = fitz.Matrix(2, 2)  # 2x zoom for better quality
+    pix = page.get_pixmap(matrix=mat)
+    pix.save(f'{output_dir}/page_{i+1}.png')
+```
+
+**Step 2: Have user attach PNG images to chat**
+- AI can view PNG/JPG images but NOT PDF files directly
+- Transaction pages are typically pages 2-4 (page 1 is summary, last page is points)
+
+**Step 3: Visual inspection for highlights**
+- Look for rows with distinctly different background color from the alternating blue/white pattern
+- Yellow highlights appear as a warmer tone compared to the cool blue zebra striping
+- Request user confirmation of identified rows before proceeding
+
+### Automated Yellow Highlight Detection (Future Enhancement)
+```python
+import fitz
+from PIL import Image
+import io
+import numpy as np
+
+def detect_yellow_rows(pdf_path):
+    """Detect rows with yellow highlighting in ANZ statements."""
+    pdf = fitz.open(pdf_path)
+    highlighted_rows = []
+    
+    for page_num, page in enumerate(pdf):
+        mat = fitz.Matrix(2, 2)
+        pix = page.get_pixmap(matrix=mat)
+        img = Image.open(io.BytesIO(pix.tobytes('png')))
+        img_array = np.array(img)
+        
+        # Yellow detection: High R, High G, Low B
+        # Typical yellow highlight RGB: (255, 255, 0) to (255, 255, 150)
+        for y in range(img_array.shape[0]):
+            row = img_array[y]
+            # Check if row has yellow pixels (R>200, G>200, B<150)
+            yellow_mask = (row[:, 0] > 200) & (row[:, 1] > 200) & (row[:, 2] < 150)
+            if np.sum(yellow_mask) > 100:  # Threshold for "highlighted row"
+                highlighted_rows.append((page_num + 1, y))
+    
+    return highlighted_rows
+```
+
+### ANZ Statement Structure Reference
+- **Page 1:** Account summary, payment details
+- **Pages 2-4:** Transaction details (this is where highlights appear)
+- **Last page:** Qantas points summary
+- **Zebra striping:** Alternating rows with light blue (#E6F3FF approximate) and white backgrounds
+- **Yellow highlights:** User-applied highlighting for transactions to review

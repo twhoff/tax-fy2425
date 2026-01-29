@@ -15,7 +15,8 @@ TAX_CATEGORIES = {
             "replit", "1password", "github", "copilot", "chatgpt", "openai",
             "warp", "medium", "adobe", "figma", "slack",
             "notion", "dropbox", "google workspace", "microsoft 365",
-            "aws", "azure", "heroku", "vercel", "netlify", "digitalocean"
+            "aws", "azure", "heroku", "vercel", "netlify", "digitalocean",
+            "microsoft*store", "msbill", "beforesunset", "openart"
         ],
         "default_owner": "Thomas",
         "work_use_percent": 100,
@@ -34,11 +35,12 @@ TAX_CATEGORIES = {
         "description": "Streaming services for creative research (Isabelle)",
         "keywords": [
             "paramount+", "hayu", "audible", "youtube premium", "netflix.com",
-            "stan.com", "disney plus", "apple tv+", "prime video"
+            "stan.com", "disney plus", "apple tv+", "prime video",
+            "spotify", "hubbl", "binge", "ad free for primevideo"
         ],
         "default_owner": "Isabelle",
         "work_use_percent": 30,
-        "notes": "Creative Director research - 30% work use justified"
+        "notes": "Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts."
     },
     
     "home_office_equipment": {
@@ -104,6 +106,39 @@ TAX_CATEGORIES = {
         "default_owner": "Thomas",
         "work_use_percent": 100,
         "notes": "Must relate to current employment"
+    },
+    
+    "professional_reading": {
+        "description": "News and professional reading subscriptions",
+        "keywords": [
+            "newyorker", "condenast", "new yorker", "economist", "afr",
+            "financial review", "wsj", "wall street journal", "nytimes"
+        ],
+        "default_owner": "Thomas",
+        "work_use_percent": 50,
+        "notes": "50% work use for industry awareness and professional reading"
+    },
+    
+    "productivity_tools": {
+        "description": "ADHD and productivity tools",
+        "keywords": [
+            "thecenteredlife", "centered life", "focusmate", "brain.fm",
+            "todoist", "asana", "monday.com"
+        ],
+        "default_owner": "Thomas",
+        "work_use_percent": 100,
+        "notes": "ADHD productivity tools for work effectiveness"
+    },
+    
+    "conferences_events": {
+        "description": "Work conferences and industry events",
+        "keywords": [
+            "victorian arts centre", "theartcentre", "princess theatre",
+            "convention centre", "melbourne convention", "exhibition"
+        ],
+        "default_owner": "Isabelle",
+        "work_use_percent": 100,
+        "notes": "Creative industry conferences and events"
     },
     
     "tax_affairs": {

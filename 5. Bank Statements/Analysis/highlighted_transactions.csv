@@ -1,0 +1,43 @@
+date_transaction,description,amount,statement_period,category,owner,work_use_percent,notes
+20/03/2025,SPOTIFY P3506AD8C1 SYDNEY,19.99,Mar-Apr 2025,streaming_creative,Isabelle,30,Podcasts leadership/creativity
+24/03/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,7.24,Mar-Apr 2025,professional_reading,Thomas,50,News subscription
+24/03/2025,INCL OVERSEAS TXN FEE,0.21,Mar-Apr 2025,professional_reading,Thomas,50,Fee for New Yorker
+31/03/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Mar-Apr 2025,streaming_creative,Isabelle,30,Already tracked
+02/04/2025,VICTORIAN ARTS CENTRE MELBOURNE,26.50,Mar-Apr 2025,conferences_events,Isabelle,100,Work conference
+02/04/2025,THEARTCENTRE MELBOURNE,26.00,Mar-Apr 2025,conferences_events,Isabelle,100,Work conference
+03/04/2025,AUSSIE BROADBAND LIMITED MORWELL,105.00,Mar-Apr 2025,internet_phone,Isabelle,65,Already tracked
+03/04/2025,PRIME VIDEO CHANNELS SYDNEY,10.99,Mar-Apr 2025,streaming_creative,Isabelle,30,Already tracked
+04/04/2025,NETFLIX AUSTRALIA PTY LTD MELBOURNE,25.99,Mar-Apr 2025,streaming_creative,Isabelle,30,Already tracked
+07/04/2025,PRIMEVIDEO SYDNEY,6.99,Mar-Apr 2025,streaming_creative,Isabelle,30,Already tracked
+22/04/2025,AUDIBLE LIMITED AU MELBOURNE,16.45,Apr-May 2025,streaming_creative,Isabelle,30,Already tracked
+22/04/2025,SPOTIFY P35F4C74B0 SYDNEY,19.99,Apr-May 2025,streaming_creative,Isabelle,30,Podcasts leadership/creativity
+22/04/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,7.12,Apr-May 2025,professional_reading,Thomas,50,News subscription
+22/04/2025,INCL OVERSEAS TXN FEE,0.24,Apr-May 2025,professional_reading,Thomas,50,Fee for New Yorker
+28/04/2025,MICROSOFT*STORE MSBILL.INFO,49.95,Apr-May 2025,software_subscriptions,Thomas,100,Microsoft 365
+28/04/2025,PRIME VIDEO CHANNELS SYDNEY,7.99,Apr-May 2025,streaming_creative,Isabelle,30,Already tracked
+05/05/2025,PRIME VIDEO CHANNELS SYDNEY,10.99,Apr-May 2025,streaming_creative,Isabelle,30,Already tracked
+05/05/2025,NETFLIX.COM MELBOURNE,25.99,Apr-May 2025,streaming_creative,Isabelle,30,Already tracked
+06/05/2025,AD FREE FOR PRIMEVIDEO SYDNEY,2.99,Apr-May 2025,streaming_creative,Isabelle,30,Prime Video addon
+08/05/2025,AUSSIE BROADBAND LIMITED MORWELL,105.00,Apr-May 2025,internet_phone,Isabelle,65,Already tracked
+19/05/2025,HUBBL - BINGE NORTH RYDE,19.00,Apr-May 2025,streaming_creative,Isabelle,30,Streaming
+19/05/2025,AUDIBLE LIMITED AU MELBOURNE,16.45,Apr-May 2025,streaming_creative,Isabelle,30,Already tracked
+19/05/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,7.13,Apr-May 2025,professional_reading,Thomas,50,News subscription
+19/05/2025,INCL OVERSEAS TXN FEE,0.24,Apr-May 2025,professional_reading,Thomas,50,Fee for New Yorker
+20/05/2025,SPOTIFY P36E393234 SYDNEY,19.99,May-Jun 2025,streaming_creative,Isabelle,30,Podcasts leadership/creativity
+27/05/2025,PRINCESS THEATRE MELBOURNE,14.50,May-Jun 2025,conferences_events,Isabelle,100,Work conference
+28/05/2025,DISNEY PLUS 1800-965160,209.99,May-Jun 2025,streaming_creative,Isabelle,30,Already tracked
+28/05/2025,OPENAI CHATGPT SUBSCR OPENAI.COM,35.54,May-Jun 2025,software_subscriptions,Thomas,100,Already tracked
+30/05/2025,THECENTEREDLIFE.CO THECENTEREDLI,48.43,May-Jun 2025,productivity_tools,Thomas,100,ADHD productivity planner
+30/05/2025,INCL OVERSEAS TXN FEE,1.64,May-Jun 2025,productivity_tools,Thomas,100,Fee for TheCenteredLife
+05/06/2025,NETFLIX AUSTRALIA PTY LTD MELBOURNE,25.99,May-Jun 2025,streaming_creative,Isabelle,30,Already tracked
+06/06/2025,BEFORESUNSET AI BEFORESUNSET,131.08,May-Jun 2025,software_subscriptions,Thomas,100,AI productivity tool
+06/06/2025,INCL OVERSEAS TXN FEE,4.43,May-Jun 2025,software_subscriptions,Thomas,100,Fee for BeforeSunset
+10/06/2025,REPLIT INC REPLIT.COM,23.98,May-Jun 2025,software_subscriptions,Thomas,100,Already tracked
+10/06/2025,INCL OVERSEAS TXN FEE,0.81,May-Jun 2025,software_subscriptions,Thomas,100,Fee for Replit
+16/06/2025,REPLIT INC REPLIT.COM,80.02,May-Jun 2025,software_subscriptions,Thomas,100,Already tracked
+16/06/2025,INCL OVERSEAS TXN FEE,2.71,May-Jun 2025,software_subscriptions,Thomas,100,Fee for Replit
+16/06/2025,HUBBL - BINGE NORTH RYDE,19.00,May-Jun 2025,streaming_creative,Isabelle,30,Streaming
+17/06/2025,UNICEF AUSTRALIA PYRMONT,250.00,Jun-Jul 2025,donations,Thomas,100,Already tracked
+18/06/2025,BRAVEHEARTS FOUNDATION ARUNDEL,250.00,Jun-Jul 2025,donations,Thomas,100,Already tracked
+18/06/2025,OPENART AI OPENART.AI,134.48,Jun-Jul 2025,software_subscriptions,Thomas,100,AI image generation
+18/06/2025,INCL OVERSEAS TXN FEE,4.55,Jun-Jul 2025,software_subscriptions,Thomas,100,Fee for OpenArt

@@ -1,0 +1,87 @@
+date,transaction_description,source,category,default_owner,work_use_percent,gross_amount,deductible_amount,notes
+01/04/2025,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+01/04/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,10.99,3.297,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+01/05/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,10.99,3.297,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+01/11/2024,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+02/12/2024,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+03/01/2025,NETFLIX.COM MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,25.99,7.796999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+03/02/2025,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+03/02/2025,NETFLIX.COM MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,25.99,7.796999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+03/05/2025,NETFLIX.COM MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,25.99,7.796999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+03/10/2024,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+03/10/2024,NETFLIX.COM MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,25.99,7.796999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+03/11/2024,NETFLIX.COM MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,25.99,7.796999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+03/12/2024,NETFLIX.COM MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,25.99,7.796999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/01/2025,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/02/2025,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/03/2025,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+04/03/2025,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/04/2025,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/05/2025,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/11/2024,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+04/12/2024,AD FREE FOR PRIMEVIDEO SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,2.99,0.897,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+05/02/2025,SPOTIFY AB STOCKHOLM,ANZ Credit Card,streaming_creative,Isabelle,30,16.47,4.941,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+05/02/2025,OPENAI OPENAI.COM,ANZ Credit Card,software_subscriptions,Thomas,100,18.36,18.36,Most are Tizzi ABN business expenses
+05/06/2025,BEFORESUNSET AI BEFORESUNSET.,ANZ Credit Card,software_subscriptions,Thomas,100,131.08,131.08,Most are Tizzi ABN business expenses
+06/01/2025,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+06/05/2025,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+08/06/2025,"REPLIT, INC. REPLIT.COM",ANZ Credit Card,software_subscriptions,Thomas,100,23.98,23.98,Most are Tizzi ABN business expenses
+10/03/2025,SASSAFRAS SWEET CO OLINDA,ANZ Credit Card,professional_reading,Thomas,50,26.98,13.49,50% work use for industry awareness and professional reading
+13/03/2025,HUBBL - BINGE NORTH RYDE,ANZ Credit Card,streaming_creative,Isabelle,30,19.0,5.7,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+13/04/2025,HUBBL - BINGE NORTH RYDE,ANZ Credit Card,streaming_creative,Isabelle,30,19.0,5.7,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+13/05/2025,HUBBL - BINGE NORTH RYDE,ANZ Credit Card,streaming_creative,Isabelle,30,19.0,5.7,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+13/06/2025,"REPLIT, INC. REPLIT.COM",ANZ Credit Card,software_subscriptions,Thomas,100,80.02,80.02,Most are Tizzi ABN business expenses
+13/06/2025,HUBBL - BINGE NORTH RYDE,ANZ Credit Card,streaming_creative,Isabelle,30,19.0,5.7,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+14/02/2025,HUBBL - BINGE NORTH RYDE,ANZ Credit Card,streaming_creative,Isabelle,30,19.0,5.7,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+15/04/2025,AUDIBLE LIMITED AU MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,16.45,4.935,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+15/05/2025,AUDIBLE LIMITED AU MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,16.45,4.935,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+15/06/2025,UNICEF AUSTRALIA PYRMONT,ANZ Credit Card,donations,check_card,100,250.0,250.0,Verify DGR status at ABN Look-up
+15/06/2025,BRAVEHEARTS FOUNDATION ARUNDEL,ANZ Credit Card,donations,check_card,100,250.0,250.0,Verify DGR status at ABN Look-up
+15/09/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,9.99,2.997,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+15/10/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,10.99,3.297,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+15/11/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,10.99,3.297,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+15/12/2024,OFFICEWORKS 0327 CAMPB CVIC,ANZ Credit Card,home_office_equipment,Thomas,100,22.54,22.54,Verify item is work-related before claiming
+15/12/2024,OFFICEWORKS 0327 CAMPBELLFIELD,ANZ Credit Card,home_office_equipment,Thomas,100,24.94,24.94,Verify item is work-related before claiming
+15/12/2024,OFFICEWORKS 0327 CAMPBELLFIELD,ANZ Credit Card,home_office_equipment,Thomas,100,5.0,5.0,Verify item is work-related before claiming
+15/12/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,10.99,3.297,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/01/2025,SPOTIFY SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,23.99,7.196999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/09/2024,SPOTIFY SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,23.99,7.196999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/09/2024,AUDIBLE LIMITED AU MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,16.45,4.935,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/10/2024,SPOTIFY SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,23.99,7.196999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/10/2024,AUDIBLE LIMITED AU MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,16.45,4.935,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/11/2024,AUDIBLE LIMITED AU MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,16.45,4.935,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/11/2024,SPOTIFY SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,23.99,7.196999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/12/2024,SPOTIFY SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,23.99,7.196999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+16/12/2024,AUDIBLE LIMITED AU MELBOURNE,ANZ Credit Card,streaming_creative,Isabelle,30,16.45,4.935,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+17/02/2025,SPOTIFY P342657D26 SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,19.99,5.996999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+17/03/2025,SPOTIFY P3506AD8C1 SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,19.99,5.996999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+17/04/2025,SPOTIFY P35F4C74B0 SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,19.99,5.996999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+17/05/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,ANZ Credit Card,professional_reading,Thomas,50,7.13,3.565,50% work use for industry awareness and professional reading
+17/05/2025,SPOTIFY P36E393234 SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,19.99,5.996999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+17/06/2025,OPENART AI OPENART.AI,ANZ Credit Card,software_subscriptions,Thomas,100,134.48,134.48,Most are Tizzi ABN business expenses
+17/06/2025,SPOTIFY P37C6BC89D SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,19.99,5.996999999999999,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+19/04/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,ANZ Credit Card,professional_reading,Thomas,50,7.12,3.56,50% work use for industry awareness and professional reading
+2025-05-22,POS #665785 - Cancer Council VIC\,Bank Australia (Everyday Access),donations,check_card,100,20.37,20.37,Verify DGR status at ABN Look-up
+21/10/2024,SQ *EXHIBITION ST MELBOURNE,ANZ Credit Card,conferences_events,Isabelle,100,14.0,14.0,Creative industry conferences and events
+22/03/2025,NEWYORKER - DIGITAL SU CONDENAST.COM,ANZ Credit Card,professional_reading,Thomas,50,7.24,3.62,50% work use for industry awareness and professional reading
+22/06/2025,"REPLIT, INC. REPLIT.COM",ANZ Credit Card,software_subscriptions,Thomas,100,81.35,81.35,Most are Tizzi ABN business expenses
+23/02/2025,CNP* NEWYORKER - DIGIT CONDENAST.COM,ANZ Credit Card,professional_reading,Thomas,50,7.14,3.57,50% work use for industry awareness and professional reading
+23/04/2025,MICROSOFT*STORE MSBILL.INFO,ANZ Credit Card,software_subscriptions,Thomas,100,49.95,49.95,Most are Tizzi ABN business expenses
+25/05/2025,PRINCESS THEATRE MELBOURNE,ANZ Credit Card,conferences_events,Isabelle,100,14.5,14.5,Creative industry conferences and events
+25/05/2025,DISNEY PLUS 1800-965160,ANZ Credit Card,streaming_creative,Isabelle,30,209.99,62.997,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/01/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,7.99,2.397,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/02/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,7.99,2.397,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/03/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,7.99,2.397,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/04/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,7.99,2.397,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/05/2025,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,7.99,2.397,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/05/2025,OPENAI *CHATGPT SUBSCR OPENAI.COM,ANZ Credit Card,software_subscriptions,Thomas,100,35.54,35.54,Most are Tizzi ABN business expenses
+26/06/2025,OPENAI *CHATGPT SUBSCR OPENAI.COM,ANZ Credit Card,software_subscriptions,Thomas,100,35.13,35.13,Most are Tizzi ABN business expenses
+26/09/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,6.99,2.097,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/10/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,6.99,2.097,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/11/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,6.99,2.097,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+26/12/2024,PRIME VIDEO CHANNELS SYDNEY,ANZ Credit Card,streaming_creative,Isabelle,30,7.99,2.397,Creative Director research - 30% work use justified. Spotify for leadership/creativity podcasts.
+29/03/2025,VICTORIAN ARTS CENTRE MELBOURNE,ANZ Credit Card,conferences_events,Isabelle,100,26.5,26.5,Creative industry conferences and events
+29/03/2025,THEARTCENTRE MELBOURNE,ANZ Credit Card,conferences_events,Isabelle,100,26.0,26.0,Creative industry conferences and events
+29/05/2025,THECENTEREDLIFE.CO THECENTEREDLI,ANZ Credit Card,productivity_tools,Thomas,100,48.43,48.43,ADHD productivity tools for work effectiveness
+30/05/2025,AUSSIE BROADBAND LIMITED MORWELL,ANZ Credit Card,internet_phone,shared,65,105.0,68.25,Using fixed-rate method - only claim separately if actual cost method
+30/06/2025,OFFICEWORKS BENTLEIGH EAS,ANZ Credit Card,home_office_equipment,Thomas,100,1705.0,1705.0,Verify item is work-related before claiming
