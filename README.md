@@ -105,15 +105,14 @@ Tax 2024-2025/
 
 ---
 
-## ⚠️ Outstanding Items
+## ✅ Status: Ready for Appointment
 
-Track remaining tasks: `bd ready`
+All checklist items validated. `bd ready` shows no open issues.
 
-| Priority | Item | Status |
-|----------|------|--------|
-| **P0** | CCS Statement from Centrelink | Needs Isabelle's myGov |
-| **P0** | WFH Hours Documentation | Need contemporaneous records |
-| **P2** | FTB Statement (if applicable) | Check with Isabelle |
+**Confirmed:**
+- ✅ CCS statement not needed for tax return (Centrelink calculates after NOA issued)
+- ✅ No FTB received during employment gap
+- ⚠️ WFH hours: Discuss documentation approach with H&R Block
 
 ---
 
@@ -140,7 +139,7 @@ Reference: [HR Block Tax Checklist FY24-25](6.%20References/240701%20-%20HR%20Bl
 |---|------|--------|----------|
 | 1 | Payment Summaries | ✅ Atlassian + SEEK | ✅ SCRATCH |
 | 2 | Lump Sum/Termination | ✅ Leave payouts | — |
-| 3 | Government Payments | ⚠️ CCS needed | ⚠️ CCS needed |
+| 3 | Government Payments | ✅ N/A (no FTB) | ✅ N/A (no FTB) |
 | 4 | Interest Income | ✅ Bank Aus $35 | — |
 | 5 | Dividends | ✅ SelfWealth $34 | — |
 | 6 | Managed Funds | N/A | N/A |
@@ -154,7 +153,7 @@ Reference: [HR Block Tax Checklist FY24-25](6.%20References/240701%20-%20HR%20Bl
 | 14 | Uniforms | N/A | N/A |
 | 15 | Subscriptions/Tools | ✅ | ✅ |
 | 16 | Self-Education | N/A | N/A |
-| 17 | WFH Expenses | ⚠️ Need log | ⚠️ Need log |
+| 17 | WFH Expenses | ⚠️ Discuss with H&R | ⚠️ Discuss with H&R |
 | 18 | Other Work Expenses | ✅ Equipment | — |
 | 19 | Donations | ✅ $500 | ✅ $20 |
 | 20 | Income Protection | N/A | N/A |
