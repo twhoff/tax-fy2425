@@ -112,9 +112,9 @@ Note: May 2024 vesting was reported in FY23-24.
 | Scenario            | Taxable Income  | Status           |
 | ------------------- | --------------- | ---------------- |
 | Original estimate   | $369,003.91     | ❌ Over threshold |
-| **With deductions** | **$346,331.19** | **✅ Well under** |
+| **With deductions**    | **$346,085.27** | **✅ Well under** |
 
-**Result:** Combined taxable income $346,331 is $21,232 under the $367,563 threshold.
+**Result:** Combined taxable income $346,085 is $21,478 under the $367,563 threshold.
 
 **Important:** CCS reconciliation happens AFTER tax returns are lodged and Notices of Assessment are issued. No CCS statement is required for tax preparation.
 
@@ -261,7 +261,7 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 | Category             | Thomas         | Isabelle      | Combined       |
 | -------------------- | -------------- | ------------- | -------------- |
 | WFH Fixed Rate       | $672.00        | $766.50       | $1,438.50      |
-| Equipment            | $7,966.57      | —             | $7,966.57      |
+| Equipment           | $8,212.49     | —             | $8,212.49     |
 | Software             | $589.89        | —             | $589.89        |
 | Internet (65%)       | $614.25        | —             | $614.25        |
 | Productivity Tools   | $48.43         | —             | $48.43         |
@@ -270,14 +270,14 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 | Conferences          | —              | $81.00        | $81.00         |
 | Donations            | $500.00        | $20.37        | $520.37        |
 | Home Office Cleaning | $101.61        | —             | $101.61        |
-| **Total Deductions** | **$10,520.55** | **$1,153.10** | **$11,673.65** |
+| **Total Deductions**| **$10,766.47**| **$1,153.10** | **$11,919.57**|
 
 ### Net Taxable Income
 | Metric             | Thomas          | Isabelle        | Combined        |
 | ------------------ | --------------- | --------------- | --------------- |
 | Gross Income       | $246,534.79     | $111,470.05     | $358,039.76     |
-| Less Deductions    | ($10,520.55)    | ($1,153.10)     | ($11,673.65)    |
-| **Taxable Income** | **$236,014.24** | **$110,316.95** | **$346,331.19** |
+| Less Deductions    | ($10,766.47)    | ($1,153.10)     | ($11,919.57)    |
+| **Taxable Income** | **$235,768.32** | **$110,316.95** | **$346,085.27** |
 | CCS Target         | —               | —               | < $367,563      |
 | **Status**         |                 |                 | **✅ ACHIEVED**  |
 
