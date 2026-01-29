@@ -112,9 +112,9 @@ Note: May 2024 vesting was reported in FY23-24.
 | Scenario               | Taxable Income  | Status        |
 | ---------------------- | --------------- | ------------- |
 | Original estimate      | $369,003.91     | ❌ Over threshold |
-| **With deductions**    | **$346,432.80** | **✅ Well under** |
+| **With deductions**    | **$346,331.19** | **✅ Well under** |
 
-**Result:** Combined taxable income $346,433 is $21,130 under the $367,563 threshold.
+**Result:** Combined taxable income $346,331 is $21,232 under the $367,563 threshold.
 
 **Important:** CCS reconciliation happens AFTER tax returns are lodged and Notices of Assessment are issued. No CCS statement is required for tax preparation.
 
@@ -181,6 +181,24 @@ Note: GitHub Copilot, WARP Terminal, Medium, LinkedIn Premium not found in bank 
 - Cancer Council VIC: $20.37 (22/05/2025)
 
 Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separately.
+
+### Home Office Cleaning (Thomas - Tizzi Business) ✅ VERIFIED
+**Maid to Clean** - Fortnightly cleaning service including home office area
+
+| Date | Amount |
+| ------------ | -------- |
+| 05/09/2024 | $132.13 |
+| 18/09/2024 | $132.13 |
+| 02/10/2024 | $132.13 |
+| 16/10/2024 | $132.13 |
+| 30/10/2024 | $132.13 |
+| **Total** | **$660.65** |
+
+**Calculation:**
+- Home office (lounge): 4m × 5m = 20 m²
+- Total house area: 130 m²
+- Work percentage: 20 ÷ 130 = **15.38%**
+- Deductible: $660.65 × 15.38% = **$101.61**
 
 ### NOT Claiming
 - Motor vehicle expenses
@@ -250,14 +268,15 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 | Streaming (30%)     | —             | $285.23       | $285.23       |
 | Conferences         | —             | $81.00        | $81.00        |
 | Donations           | $500.00       | $20.37        | $520.37       |
-| **Total Deductions**| **$10,418.94**| **$1,153.10** | **$11,572.04**|
+| Home Office Cleaning| $101.61       | —             | $101.61       |
+| **Total Deductions**| **$10,520.55**| **$1,153.10** | **$11,673.65**|
 
 ### Net Taxable Income
 | Metric              | Thomas        | Isabelle      | Combined      |
 | ------------------- | ------------- | ------------- | ------------- |
 | Gross Income        | $246,534.79   | $111,470.05   | $358,039.76   |
-| Less Deductions     | ($10,418.94)  | ($1,153.10)   | ($11,572.04)  |
-| **Taxable Income**  | **$236,115.85** | **$110,316.95** | **$346,432.80** |
+| Less Deductions     | ($10,520.55)  | ($1,153.10)   | ($11,673.65)  |
+| **Taxable Income**  | **$236,014.24** | **$110,316.95** | **$346,331.19** |
 | CCS Target          | —             | —             | < $367,563    |
 | **Status**          |               |               | **✅ ACHIEVED** |
 
