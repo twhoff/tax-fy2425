@@ -182,8 +182,9 @@ Note: GitHub Copilot, WARP Terminal, Medium, LinkedIn Premium not found in bank 
 
 Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separately.
 
-### Home Office Cleaning (Thomas - Tizzi Business) ✅ VERIFIED
+### Home Office Cleaning (Thomas - Tizzi Business) ⚠️ DISCUSS WITH H&R BLOCK
 **Maid to Clean** - Fortnightly cleaning service including home office area
+**Note:** Invoices available from email if required by accountant.
 
 | Date | Amount |
 | ------------ | -------- |
