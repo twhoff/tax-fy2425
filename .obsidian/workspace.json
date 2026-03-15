@@ -11,14 +11,10 @@
             "id": "06604bad5a4dd26e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TAX_SESSION_INDEX.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TAX_SESSION_INDEX"
+              "title": "New tab"
             }
           }
         ]

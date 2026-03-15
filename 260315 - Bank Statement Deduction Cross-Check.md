@@ -3,7 +3,7 @@
 **Generated:** 15 March 2026
 **Sources:** 11 ANZ Credit Card statements (Aug 2024 – Jul 2025) + Bank Australia CSV (Jul – Sep 2024)
 **Total transactions scanned:** 1428
-**Potentially deductible:** 178 (120 Thomas, 58 Isabelle)
+**Potentially deductible:** 148 (90 Thomas, 58 Isabelle) — plus 30 Apple transactions identified as not claimable
 
 **How to use:** Review each transaction. Tick if confirmed as a deduction. Cross out or add notes for items to exclude or query.
 
@@ -11,94 +11,112 @@
 
 # Thomas
 
-## Apple subscription (check) (43 transactions, $767.01 gross)
+## Apple — iCloud+ Thomas (9 transactions, $134.91 gross)
 
-- [ ] **23/09/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$22.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **27/09/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **30/09/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **07/10/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **18/10/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$59.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+> **Partially claimable** — Thomas's iCloud+ (hoffmatw@gmail.com) used for Tizzi business document storage and backups. Apply business-use percentage.
+
 - [ ] **28/10/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **30/10/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$24.48** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **06/11/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **27/11/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **27/11/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$22.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — inferred — posts ~28th, matches Thomas's iCloud renewing ~25th
 - [ ] **27/11/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **28/11/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$5.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **06/12/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **27/12/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **27/12/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$5.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **30/12/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **07/01/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **28/01/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **28/01/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$5.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **28/01/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **06/02/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **14/02/2025** — **Thomas** — APPLE.COM/AU SYDNEY — **$15.00** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **27/02/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **27/02/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **07/03/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **26/03/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **27/03/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **07/04/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **28/04/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$40.98** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **28/04/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **29/04/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$12.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **05/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$23.47** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **07/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **16/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$30.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **19/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$51.97** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **23/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$59.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **26/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$10.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **28/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **29/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$12.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **06/06/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$2.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **06/06/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
-- [ ] **23/06/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$63.98** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (Thomas) — verified — hoffmatw@gmail.com
 - [ ] **30/06/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
-	- Apple subscription — check if work-related app or personal
+	- iCloud+ 2TB (likely Thomas) — inferred — posts 30th, consistent with Thomas's iCloud renewing ~25th
+
+## Apple — ChatGPT via Apple (mixed invoices) (2 transactions, $92.95 gross)
+
+> **Partially claimable** — These bundled Apple charges include ChatGPT Plus ($59.98 total) used for Tizzi AI Engineering business. Billed via Izzi's Apple Account but Thomas is the primary business user. Remainder is personal (Cleanup app).
+
+- [ ] **28/04/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$40.98** (ANZ Credit Card)
+	- ChatGPT $29.99 + Cleanup $10.99 — verified — isabelle.clara.mason@gmail.com — ChatGPT ($29.99) is Thomas/Tizzi business; Cleanup ($10.99) is personal
+- [ ] **19/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$51.97** (ANZ Credit Card)
+	- ChatGPT $29.99 + Cleanup $10.99 + Cleanup $10.99 — verified — isabelle.clara.mason@gmail.com — ChatGPT ($29.99) is Thomas/Tizzi business; Cleanup ($21.98) is personal
+
+## Apple — needs checking (2 transactions, $78.98 gross)
+
+> **Needs checking** — No matching invoice found. Check Apple purchase history for details.
+
+- [ ] **14/02/2025** — **Thomas** — APPLE.COM/AU SYDNEY — **$15.00** (ANZ Credit Card)
+	- App Store purchase (unknown) — no invoice — APPLE.COM/AU (not /BILL), one-time purchase
+- [ ] **23/06/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$63.98** (ANZ Credit Card)
+	- Unknown Apple bundle — no invoice — likely multiple subscriptions bundled, needs checking with Apple receipt history
+
+## Apple — NOT CLAIMABLE (30 transactions, $460.17 gross)
+
+> **Not claimable** — Personal subscriptions identified from Apple invoices. Kept here for bank statement reconciliation only. Do not include in deductions.
+> Items: NYT Games (Izzi), YouTube Premium (Izzi), iCloud+ (Izzi), Swann Security (Thomas), Apple TV+ (Thomas), Sleep Cycle (Thomas), Cleanup app (Izzi)
+
+- [ ] **23/09/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$22.99** (ANZ Credit Card)
+	- YouTube Premium — inferred — matches Izzi's recurring YouTube Premium ($22.99/mo)
+- [ ] **27/09/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
+	- NYT Games — inferred — matches Izzi's recurring NYT Games ($1.49/mo)
+- [ ] **30/09/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — inferred — posts ~30th/7th, matches Izzi's iCloud renewing ~4th
+- [ ] **07/10/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — inferred — posts ~7th, matches Izzi's iCloud renewing ~4th
+- [ ] **18/10/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$59.99** (ANZ Credit Card)
+	- Cleanup: Clean Storage Space (annual) — inferred — matches Izzi's recurring Cleanup app ($59.99 annual)
+- [ ] **30/10/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$24.48** (ANZ Credit Card)
+	- YouTube Premium $22.99 + NYT Games $1.49 — inferred — bundled Izzi subscriptions ($22.99 + $1.49 = $24.48)
+- [ ] **06/11/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — inferred — posts ~6th, matches Izzi's iCloud renewing ~4th
+- [ ] **27/11/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
+	- NYT Games: Word, Number, Logic — verified — isabelle.clara.mason@gmail.com
+- [ ] **27/11/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$22.99** (ANZ Credit Card)
+	- YouTube Premium — verified — isabelle.clara.mason@gmail.com
+- [ ] **28/11/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$5.49** (ANZ Credit Card)
+	- Swann Security — verified — hoffmatw@gmail.com — home security camera
+- [ ] **06/12/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
+- [ ] **27/12/2024** — **Izzi** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
+	- NYT Games: Word, Number, Logic — verified — isabelle.clara.mason@gmail.com
+- [ ] **27/12/2024** — **Thomas** — APPLE.COM/BILL SYDNEY — **$5.49** (ANZ Credit Card)
+	- Swann Security — verified — hoffmatw@gmail.com — home security camera
+- [ ] **07/01/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
+- [ ] **28/01/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
+	- NYT Games: Word, Number, Logic — verified — isabelle.clara.mason@gmail.com
+- [ ] **28/01/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$5.49** (ANZ Credit Card)
+	- Swann Security — verified — hoffmatw@gmail.com — home security camera
+- [ ] **06/02/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
+- [ ] **27/02/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
+	- NYT Games: Word, Number, Logic — verified — isabelle.clara.mason@gmail.com
+- [ ] **07/03/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
+- [ ] **26/03/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$1.49** (ANZ Credit Card)
+	- NYT Games: Word, Number, Logic — verified — isabelle.clara.mason@gmail.com
+- [ ] **07/04/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
+- [ ] **29/04/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$12.99** (ANZ Credit Card)
+	- Apple TV+ — verified — hoffmatw@gmail.com — personal entertainment
+- [ ] **05/05/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$23.47** (ANZ Credit Card)
+	- Cleanup $10.99 + NYT Games $1.49 + Cleanup $10.99 — verified — isabelle.clara.mason@gmail.com — all personal apps
+- [ ] **07/05/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
+- [ ] **16/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$30.99** (ANZ Credit Card)
+	- Sleep Cycle - Sleep Tracker — verified — hoffmatw@gmail.com — personal health app
+- [ ] **23/05/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$59.99** (ANZ Credit Card)
+	- Cleanup: Clean Storage Space (annual) — verified — isabelle.clara.mason@gmail.com — personal device maintenance
+- [ ] **26/05/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$10.99** (ANZ Credit Card)
+	- Cleanup: Clean Storage Space — inferred — matches Izzi's recurring Cleanup app
+- [ ] **29/05/2025** — **Thomas** — APPLE.COM/BILL SYDNEY — **$12.99** (ANZ Credit Card)
+	- Apple TV+ — verified — hoffmatw@gmail.com — personal entertainment
+- [ ] **06/06/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$2.99** (ANZ Credit Card)
+	- NYT Games: Word, Number, Logic — verified — isabelle.clara.mason@gmail.com — price increase from $1.49
+- [ ] **06/06/2025** — **Izzi** — APPLE.COM/BILL SYDNEY — **$14.99** (ANZ Credit Card)
+	- iCloud+ 2TB (Izzi) — verified — isabelle.clara.mason@gmail.com
 
 ## Donation (DGR) (2 transactions, $500.00 gross)
 
@@ -412,7 +430,10 @@
 
 ## Thomas by Category
 
-- Apple subscription (check): 43 items, **$767.01**
+- Apple — iCloud+ Thomas: 9 items, **$134.91**
+- Apple — ChatGPT via Apple (mixed): 2 items, **$92.95** (ChatGPT component: $59.98)
+- Apple — needs checking: 2 items, **$78.98**
+- Apple — NOT CLAIMABLE: 30 items, ~~$460.17~~
 - Donation (DGR): 2 items, **$500.00**
 - Home office cleaning: 5 items, **$660.65**
 - Home office equipment: 3 items, **$52.48**
@@ -422,7 +443,7 @@
 - Professional reading: 4 items, **$28.63**
 - Purchase (check receipt): 32 items, **$2,761.05**
 - Software subscription: 9 items, **$589.89**
-- **TOTAL: $10,705.29**
+- **TOTAL: $10,245.12**
 
 ## Isabelle by Category
 
@@ -432,16 +453,16 @@
 
 ## Combined
 
-- Thomas: **$10,705.29**
+- Thomas: **$10,245.12**
 - Isabelle: **$1,109.75**
-- **COMBINED: $11,815.04**
+- **COMBINED: $11,354.87**
 
 ---
 
 ## Notes
 
 - **Amazon purchases** need receipt cross-referencing — not all Amazon purchases are deductible
-- **Apple subscriptions** need checking — could be personal apps or work tools
+- **Apple subscriptions** — analysed via 50 Apple invoices: 13 potentially claimable, 30 personal (not claimable), see sub-sections above
 - **IKEA purchases** need checking — only office furniture (PAX, bookshelves) is deductible
 - **Streaming services** at 30% work use for Isabelle (Creative Director research)
 - Amounts shown are **gross** — work-use percentages need to be applied where relevant
@@ -453,6 +474,7 @@
 - **Suncorp Insurance** — general insurance (car/home), not income protection
 - **Ring security plan** — home security not typically deductible as work expense
 - **Sassafras Sweet Co** — confectionery shop, not professional reading
+- **Apple personal subscriptions** — 30 transactions ($460.17) identified via Apple invoices as personal: NYT Games, YouTube Premium, iCloud+ (Izzi's account), Swann Security, Apple TV+, Sleep Cycle, Cleanup app. Kept in document for reconciliation but not claimable.
 
 ## Coverage gaps
 
