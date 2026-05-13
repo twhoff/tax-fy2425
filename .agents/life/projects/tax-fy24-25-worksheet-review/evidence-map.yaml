@@ -1,0 +1,656 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.2
+source_register: ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+classification_values:
+  - household_answer_needed
+  - source_law_question
+  - calculation_check
+  - evidence_gap
+  - h_and_r_block_decision
+
+inventory_summary:
+  income_thomas_files: 6
+  income_isabelle_files: 1
+  deduction_thomas_files: 28
+  deduction_isabelle_files: 31
+  health_insurance_files: 2
+  family_files: 0
+  bank_analysis_files: 7
+  bank_statement_files_top_level: 13
+  references_files: 2
+  hr_block_draft_files: 2
+
+worksheet_sections:
+  - id: A1
+    title: Thomas income
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:14"
+    classifications:
+      - calculation_check
+      - evidence_gap
+      - h_and_r_block_decision
+      - household_answer_needed
+    linked_evidence:
+      - "1. Income/Thomas/241128 - Atlassian PAYG Statement FY24-25.pdf"
+      - "1. Income/Thomas/250624 - SEEK PAYG Statement FY24-25.pdf"
+      - "1. Income/Thomas/250630 - Atlassian ESS Statement FY24-25.pdf"
+      - "1. Income/Thomas/250630 - SelfWealth Annual Statement.pdf"
+      - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    missing_or_unresolved:
+      - "Atlassian ETP amount conflict: worksheet/instructions mention $5,694.33 leave payout, H&R Block draft shows $9,595 ETP taxable component."
+      - "ESS amount conflict: Atlassian ESS source amount versus H&R Block $63,143."
+      - "RSU CGT amount is not visibly reconciled to the H&R Block draft capital gains section."
+      - "Second Bank Australia/interest account in H&R Block draft needs identification."
+      - "Tizzi $0 revenue requires household confirmation that no invoices were issued."
+      - "Vanguard/SelfWealth ownership and whether both are separate investments needs confirmation."
+    next_issue: TaxFY2425-c6j.3
+
+  - id: A2
+    title: Thomas D4 work-related self-education
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:67"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - evidence_gap
+    linked_evidence:
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+      - "2. Deductions/Thomas/241016 - Audible Subscription.png"
+      - "2. Deductions/Thomas/241116 - Audible Subscription.png"
+      - "2. Deductions/Thomas/241216 - Audible Subscription.png"
+      - "2. Deductions/Thomas/250204 - Spotify Audiobooks Credit.pdf"
+      - "2. Deductions/Thomas/250415 - Audible Subscription.png"
+      - "2. Deductions/Thomas/250515 - Audible Subscription.png"
+    missing_or_unresolved:
+      - "TheCenteredLife ADHD planner receipt was not seen in the top-level Thomas deduction file inventory; bank evidence exists in the cross-check."
+      - "Audible title list and work relationship are household facts still needed."
+      - "Self-education source rule has now been fetched in the source register; item-level employment connection remains a household/H&R Block question."
+    next_issue: TaxFY2425-c6j.4
+
+  - id: A3
+    title: Thomas D5 other work-related expenses
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:82"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+      - evidence_gap
+      - h_and_r_block_decision
+    linked_evidence:
+      - "2. Deductions/Thomas/250607 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250613 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250622 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250114 - 1Password Invoice.pdf"
+      - "2. Deductions/Thomas/240801 - LG Gram Portable Screen MWAVE.pdf"
+      - "2. Deductions/Thomas/250204 - Nebula Projector Invoice.pdf"
+      - "2. Deductions/Thomas/241121 - Air Purifier Ring Camera Neato Battery iPhone Case.pdf"
+      - "2. Deductions/Thomas/250527 - Projector Screen Home Office.pdf"
+      - "2. Deductions/Thomas/250630 - Clock Invoice.pdf"
+      - "2. Deductions/Thomas/240830 - Label Maker.pdf"
+      - "5. Bank Statements/Analysis/FY24-25-Analysis.md"
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "WFH hours need household confirmation and contemporaneous records."
+      - "Internet claim conflicts with fetched WFH fixed-rate source if claimed separately from fixed rate."
+      - "OpenArt AI and BeforeSunset AI receipts are not listed in the Thomas deduction file inventory; bank evidence exists in cross-check."
+      - "Microsoft Store/1Password duplicate or mismatch needs resolution."
+      - "Old iPhone 12, Apple Watch, AirPods and monitor carried-forward asset evidence is not in the FY24-25 receipt folder."
+      - "Maid to Clean invoices were not seen in the top-level deduction file inventory."
+      - "Additional tools GitHub Copilot, WARP Terminal, Medium and LinkedIn Premium remain not found unless user supplies receipts or excludes them."
+    next_issue: TaxFY2425-c6j.4
+
+  - id: A4
+    title: Thomas D9 gifts and donations
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:195"
+    classifications:
+      - source_law_question
+      - h_and_r_block_decision
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Thomas/250615 - UNICEF Donation Receipt.pdf"
+      - "2. Deductions/Thomas/250616 - Bravehearts Donation Receipt.pdf"
+      - "1. Income/Thomas/250624 - SEEK PAYG Statement FY24-25.pdf"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "ABN Lookup DGR status checks still need source capture for each recipient."
+      - "SEEK salary-sacrifice donation needs H&R Block treatment check to avoid double counting."
+    next_issue: TaxFY2425-c6j.4
+
+  - id: A5
+    title: Thomas D10 cost of managing tax affairs
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:210"
+    classifications:
+      - source_law_question
+      - calculation_check
+    linked_evidence:
+      - "6. References/250121 - HR Block Receipt.png"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    missing_or_unresolved:
+      - "Cost-of-managing-tax-affairs source has now been fetched in the source register; H&R Block allocation remains unresolved because the receipt is addressed to Isabelle and totals $428 while Thomas's draft claim is $204."
+    next_issue: TaxFY2425-c6j.4
+
+  - id: A6
+    title: Tizzi business schedule P8
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:218"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+      - h_and_r_block_decision
+    linked_evidence:
+      - "2. Deductions/Thomas/250630 - Amazon iPad Invoice.pdf"
+      - "2. Deductions/Thomas/250630 - Officeworks iPhone Apple Pencil Pro.pdf"
+      - "2. Deductions/Thomas/241122 - Ring Doorbell Security Invoice.pdf"
+      - "2. Deductions/Thomas/241230 - Ring Camera.pdf"
+      - "2. Deductions/Thomas/250607 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250613 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250622 - Replit Receipt.pdf"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "Tizzi $0 revenue and no issued invoices require household confirmation."
+      - "Private-use percentages for iPad, iPhone, Apple Pencil and subscriptions are household facts still needed."
+      - "Simplified depreciation/instant asset write-off and non-commercial-loss sources have now been fetched in the source register; first-used timing, private-use percentages and deferred-loss confirmation remain H&R Block/household questions."
+      - "H&R Block must confirm deferred-loss treatment and whether claimed business schedule entries are correct."
+    next_issue: TaxFY2425-c6j.5
+
+  - id: A7
+    title: Thomas health insurance and Medicare
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:253"
+    classifications:
+      - source_law_question
+      - calculation_check
+    linked_evidence:
+      - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-THOMAS.pdf"
+      - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-ISABELLE.pdf"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "FY2024-25 MLS and PHI rebate threshold sources are now captured in the source register."
+      - "Isabelle's own H&R Block draft still needs confirmation that the same NIB statement rows were entered on Isabelle's return."
+      - "Medicare levy calculation should be rerun deterministically after confirmed taxable income."
+    next_issue: TaxFY2425-c6j.7
+
+  - id: A8
+    title: Thomas other tax items
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:266"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - h_and_r_block_decision
+    linked_evidence:
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "Division 293 ATO source has now been fetched; final amount depends on ATO/fund-reported concessional contribution data and final Division 293 income."
+      - "Thomas needs to confirm no HELP debt."
+      - "Isabelle taxable income/spouse details need reconciliation to Isabelle return/source documents, not only Thomas draft."
+      - "H&R Block draft income-test field shows Number of dependent children as 0 even though household facts list Harlow and Oliver; H&R Block should confirm whether this field is correct."
+    next_issue: TaxFY2425-c6j.7
+
+  - id: A9
+    title: Thomas tax estimate
+    owner: Thomas
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:280"
+    classifications:
+      - calculation_check
+      - h_and_r_block_decision
+    linked_evidence:
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - "verify_calculations.py"
+      - "scripts/au_tax.py"
+    missing_or_unresolved:
+      - "Final calculation must wait for confirmed income, deductions, ESS/CGT, Tizzi and household inputs."
+    next_issue: TaxFY2425-c6j.9
+
+  - id: B1
+    title: Isabelle income
+    owner: Isabelle
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:300"
+    classifications:
+      - household_answer_needed
+      - calculation_check
+      - evidence_gap
+    linked_evidence:
+      - "1. Income/Isabelle/250630 - SCRATCH PAYG Statement FY24-25.pdf"
+      - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    missing_or_unresolved:
+      - "Isabelle's own H&R Block draft return was not found; Thomas draft only contains spouse details."
+      - "HELP/HECS withholding and debt-cleared timing need source document or household confirmation."
+      - "SCRATCH income statement reports a separate $1,199.64 Home Office allowance; H&R Block must confirm it is included correctly on Isabelle's own return."
+      - "Vanguard ownership/share needs household confirmation."
+    next_issue: TaxFY2425-c6j.6
+
+  - id: B2
+    title: Isabelle D5 work-related expenses
+    owner: Isabelle
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:320"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+      - evidence_gap
+    linked_evidence:
+      - "2. Deductions/Isabelle/241218 - YouTube Premium Subscription.pdf"
+      - "2. Deductions/Isabelle/250508 - Cheek Media Substack Subscription.png"
+      - "2. Deductions/Isabelle/250521 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/250525 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/250529 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/250615 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/241215 - Officeworks Printing.pdf"
+      - "2. Deductions/Isabelle/240710 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240810 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240910 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240715 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240816 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240915 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/241016 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/250401 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240726 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/240827 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/240927 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241027 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241127 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241227 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250127 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250227 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250327 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250426 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250526 - Hayu Subscription.pdf"
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "SCRATCH WFH hours are still TBD and need records/household confirmation."
+      - "Streaming and event work-use percentages need Isabelle's work-purpose explanations."
+      - "Disney+, Netflix, Spotify, Audible, Hubbl/Binge receipts are not all present as supplier receipts in Isabelle's folder; bank evidence exists in cross-check."
+      - "Creative industry event details are household facts still needed."
+      - "Self-education/subscription source rules have been fetched in the source register; Isabelle still needs item-level employment-duty connection and apportionment support."
+    next_issue: TaxFY2425-c6j.6
+
+  - id: B3
+    title: Isabelle D9 gifts and donations
+    owner: Isabelle
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:390"
+    classifications:
+      - source_law_question
+      - evidence_gap
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Isabelle/250522 - Cancer Council Donation Receipt.pdf"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "TaxFY2425-c6j.8 found the Cancer Council Victoria payment in the full-year Bank Australia CSV on 2025-05-22; the older bank cross-check prose saying it was not found is stale."
+      - "ABN Lookup DGR verification has been captured for Cancer Council Victoria."
+    next_issue: TaxFY2425-c6j.6
+
+  - id: B4
+    title: Isabelle D10 cost of managing tax affairs
+    owner: Isabelle
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:397"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - evidence_gap
+    linked_evidence:
+      - "6. References/250121 - HR Block Receipt.png"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "A $428 H&R Block receipt addressed to Isabelle exists, but Thomas D10 already claims $204; Isabelle's allocation needs H&R Block explanation before using any residual amount."
+      - "Cost-of-managing-tax-affairs source has now been fetched in the source register; Isabelle allocation still needs review under TaxFY2425-c6j.6."
+    next_issue: TaxFY2425-c6j.6
+
+  - id: B5
+    title: Isabelle health insurance, Medicare, HELP
+    owner: Isabelle
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:405"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+    linked_evidence:
+      - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-ISABELLE.pdf"
+      - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-THOMAS.pdf"
+      - "1. Income/Isabelle/250630 - SCRATCH PAYG Statement FY24-25.pdf"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "HELP/HECS source has been fetched; payroll withholding details, debt-cleared timing and Isabelle's own return still need reconciliation."
+      - "MLS/rebate threshold sources are now fetched; Isabelle's own return still needs confirmation for NIB row entry."
+    next_issue: TaxFY2425-c6j.6
+
+  - id: C1
+    title: Combined income and CCS threshold
+    owner: Household
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:425"
+    classifications:
+      - source_law_question
+      - calculation_check
+      - h_and_r_block_decision
+    linked_evidence:
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - "verify_calculations.py"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "Services Australia CCS balancing source has now been fetched for post-lodgement timing."
+      - "Final combined income and CCS threshold/margin must wait for confirmed return inputs and TaxFY2425-c6j.9."
+    next_issue: TaxFY2425-c6j.7
+
+  - id: C2
+    title: Family and FTB
+    owner: Household
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:436"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - evidence_gap
+    linked_evidence: []
+    missing_or_unresolved:
+      - "No files were found under 4. Family in the worktree."
+      - "FTB receipt/status is a household fact still needed if relevant."
+      - "Services Australia FTB balancing source has now been fetched for post-lodgement timing."
+    next_issue: TaxFY2425-c6j.7
+
+  - id: C3
+    title: Banking and accounts
+    owner: Household
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:445"
+    classifications:
+      - household_answer_needed
+      - calculation_check
+      - evidence_gap
+    linked_evidence:
+      - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+      - "5. Bank Statements/Analysis/bank_australia_transactions.csv"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+      - "5. Bank Statements/FY24-25/Transactions_2024-07-01_2024-09-30.csv"
+    missing_or_unresolved:
+      - "Confirm no BOQ, term deposits, crypto, foreign accounts, rental income, or other accounts."
+      - "Bank Australia coverage conflict: inventory has a Jul-Sep CSV and analysis CSV; cross-check notes must be resolved in child .8."
+      - "July ANZ coverage must be reconciled with Transactions_2024-07-01_2024-09-30.csv and statement folder coverage."
+      - "Joint Bank Australia interest split and VDHG ownership/share should be confirmed before final calculations."
+    next_issue: TaxFY2425-c6j.7
+
+  - id: D
+    title: Bank statement cross-check and missed deductions
+    owner: Household
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:459"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+      - evidence_gap
+      - h_and_r_block_decision
+    linked_evidence:
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+      - "5. Bank Statements/Analysis/bank_australia_transactions.csv"
+      - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+      - "5. Bank Statements/Analysis/highlighted_transactions.csv"
+      - "5. Bank Statements/Analysis/transaction_crossref.csv"
+      - "5. Bank Statements/Analysis/transaction_receipt_crossref.md"
+      - "scripts/receipt_matcher.py"
+      - "scripts/tax_categories.py"
+      - "scripts/anz_parser.py"
+      - "scripts/bank_australia_parser.py"
+    missing_or_unresolved:
+      - "Bank/receipt cross-check review now records the current status of missing early-FY ANZ coverage, Bank Australia full-year coverage, Apple unknowns, Amazon receipts, IKEA classification, Cancer Council bank reconciliation, and receipt false positives."
+      - "Part D missed-deduction categories have been explicitly scanned; unresolved items are household or H&R Block questions rather than confirmed new deductions."
+      - "Generated receipt matches are not reliable enough for automatic use; several false positives were identified and documented."
+    next_issue: TaxFY2425-c6j.8
+
+  - id: E
+    title: Sign-off and H&R Block questions
+    owner: Household
+    worksheet_ref: "260315 - Deduction Review Worksheet.md:505"
+    classifications:
+      - household_answer_needed
+      - h_and_r_block_decision
+      - calculation_check
+    linked_evidence:
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - ".agents/life/projects/tax-fy24-25-worksheet-review/evidence-map.yaml"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "Sign-off must wait for child issues .3 through .10."
+      - "H&R Block Summary Error Report warnings/errors must be included in the final change pack."
+    next_issue: TaxFY2425-c6j.10
+
+bank_cross_check_categories:
+  - id: bank-thomas-apple-icloud
+    title: Apple iCloud+ Thomas
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:14"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+    linked_evidence:
+      - "5. Bank Statements/FY24-25/Emails/"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "Business-use percentage and exact work/Tizzi connection required."
+
+  - id: bank-thomas-apple-chatgpt
+    title: Apple ChatGPT via Apple mixed invoices
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:37"
+    classifications:
+      - household_answer_needed
+      - calculation_check
+    linked_evidence:
+      - "5. Bank Statements/FY24-25/Emails/"
+      - "2. Deductions/Isabelle/250515 - ChatGPT Plus Subscription.pdf"
+    missing_or_unresolved:
+      - "Mixed Apple charges need component split confirmed before being used."
+
+  - id: bank-thomas-apple-needs-checking
+    title: Apple needs checking
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:46"
+    classifications:
+      - evidence_gap
+      - household_answer_needed
+    linked_evidence:
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "Apple purchase history missing for 14/02/2025 $15.00 and 23/06/2025 $63.98."
+
+  - id: bank-apple-not-claimable
+    title: Apple not claimable reconciliation bucket
+    owner: Household
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:55"
+    classifications:
+      - calculation_check
+    linked_evidence:
+      - "5. Bank Statements/FY24-25/Emails/"
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+    missing_or_unresolved:
+      - "Kept for reconciliation; do not use as deduction unless new evidence changes classification."
+
+  - id: bank-thomas-donations
+    title: Thomas DGR donation transactions
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:125"
+    classifications:
+      - source_law_question
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Thomas/250615 - UNICEF Donation Receipt.pdf"
+      - "2. Deductions/Thomas/250616 - Bravehearts Donation Receipt.pdf"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "ABN Lookup DGR checks still need capture."
+
+  - id: bank-thomas-cleaning
+    title: Home office cleaning transactions
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:132"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - evidence_gap
+    linked_evidence:
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+      - "5. Bank Statements/Analysis/bank_australia_transactions.csv"
+    missing_or_unresolved:
+      - "Supplier invoices not seen; floor area and dedicated-office basis need confirmation."
+
+  - id: bank-thomas-home-office-equipment
+    title: Home office equipment Officeworks transactions
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:145"
+    classifications:
+      - household_answer_needed
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Thomas/250630 - Officeworks iPhone Apple Pencil Pro.pdf"
+      - "2. Deductions/Isabelle/241215 - Officeworks Printing.pdf"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "Specific Officeworks print/equipment purpose needs confirmation."
+
+  - id: bank-thomas-ikea
+    title: Home office furniture IKEA classification
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:154"
+    classifications:
+      - household_answer_needed
+      - evidence_gap
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Thomas/250311 - IKEA Large Bookshelves Tax Invoice.pdf"
+      - "2. Deductions/Thomas/250315 - IKEA Proof of Payment.pdf"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "Which IKEA transactions relate to PAX/bookshelves versus personal furniture needs item-level classification."
+
+  - id: bank-thomas-internet
+    title: Internet transactions
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:180"
+    classifications:
+      - source_law_question
+      - h_and_r_block_decision
+      - calculation_check
+    linked_evidence:
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    missing_or_unresolved:
+      - "Must be resolved against fixed-rate method source to avoid double counting."
+
+  - id: bank-thomas-productivity-professional-reading
+    title: Productivity tool and professional reading
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:200"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - evidence_gap
+    linked_evidence:
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "TheCenteredLife supplier receipt and New Yorker work-use basis need support."
+
+  - id: bank-thomas-amazon
+    title: Amazon purchase receipt checks
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:213"
+    classifications:
+      - evidence_gap
+      - household_answer_needed
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Thomas/250630 - Amazon iPad Invoice.pdf"
+      - "2. Deductions/Thomas/250204 - Nebula Projector Invoice.pdf"
+      - "2. Deductions/Thomas/250527 - Projector Screen Home Office.pdf"
+      - "5. Bank Statements/Analysis/transaction_receipt_crossref.md"
+    missing_or_unresolved:
+      - "Not all Amazon transactions are deductible; receipt cross-references need sanity checking for false positives."
+
+  - id: bank-thomas-software
+    title: Thomas software subscription transactions
+    owner: Thomas
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:246"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+      - h_and_r_block_decision
+    linked_evidence:
+      - "2. Deductions/Thomas/250607 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250613 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250622 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250114 - 1Password Invoice.pdf"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "D5 versus Tizzi allocation and work-use percentages must be decided."
+      - "OpenArt AI, BeforeSunset AI and some ChatGPT receipt evidence needs matching to supplier records."
+
+  - id: bank-isabelle-events
+    title: Isabelle conference and creative event transactions
+    owner: Isabelle
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:259"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - evidence_gap
+    linked_evidence:
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "Event names, business purpose, and receipts/tickets need confirmation."
+
+  - id: bank-isabelle-streaming
+    title: Isabelle streaming creative research transactions
+    owner: Isabelle
+    worksheet_ref: "260315 - Bank Statement Deduction Cross-Check.md:271"
+    classifications:
+      - household_answer_needed
+      - source_law_question
+      - calculation_check
+    linked_evidence:
+      - "2. Deductions/Isabelle/241218 - YouTube Premium Subscription.pdf"
+      - "2. Deductions/Isabelle/250508 - Cheek Media Substack Subscription.png"
+      - "2. Deductions/Isabelle/240710 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240810 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240910 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240715 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240816 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240915 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/241016 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/250401 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240726 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/240827 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/240927 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241027 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241127 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241227 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250127 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250227 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250327 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250426 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/250526 - Hayu Subscription.pdf"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    missing_or_unresolved:
+      - "Work-use rationale and source-law support are high-risk and must be addressed before claim recommendations."
+
+global_known_gaps:
+  - "No files found under 4. Family in the worktree."
+  - "July 2024 ANZ coverage must be reconciled: cross-check says missing, but a Jul-Sep transaction CSV exists."
+  - "Bank Australia coverage conflict must be resolved: cross-check says Jul-Sep only, inventory includes analysis CSV naming full-year use."
+  - "Apple purchase history missing for two unknown Apple transactions."
+  - "Amazon and IKEA receipt/category matching needs sanity checking, not blind reliance on generated summaries."
+  - "Possible receipt cross-reference false positives must be reviewed before claims are finalised."
+  - "Isabelle's separate H&R Block draft return was not found in the inventory."
+  - "Several tax-law sources remain source_needed or extraction_pending in the source register."

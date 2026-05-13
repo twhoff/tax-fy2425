@@ -5,3 +5,5 @@
 .beads-credential-key
 .github/context-mode
 .agent-sessions.json
+.agent-chat.json
+.agent-chat.lock

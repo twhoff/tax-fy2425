@@ -1,0 +1,180 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.5
+status: ready_for_h_and_r_block_questions
+
+sources_used:
+  - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+  - "260315 - Deduction Review Worksheet.md"
+  - "2. Deductions/Thomas/250630 - Amazon iPad Invoice.pdf"
+  - "2. Deductions/Thomas/250630 - Officeworks iPhone Apple Pencil Pro.pdf"
+  - "2. Deductions/Thomas/241122 - Ring Doorbell Security Invoice.pdf"
+  - "2. Deductions/Thomas/241230 - Ring Camera.pdf"
+  - "2. Deductions/Thomas/250607 - Replit Receipt.pdf"
+  - "2. Deductions/Thomas/250613 - Replit Receipt.pdf"
+  - "2. Deductions/Thomas/250622 - Replit Receipt.pdf"
+  - "5. Bank Statements/Analysis/FY24-25-Analysis.md"
+  - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+  - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+source_register_updates:
+  - id: business-simpler-depreciation-instant-asset-write-off
+    result: "Updated instant asset write-off, 2024-25 $20,000 source, home-based business expenses, and business deduction record sources to source_fetched."
+  - id: non-commercial-losses
+    result: "Updated non-commercial loss deferral and four-tests sources to source_fetched."
+
+reviewed_items:
+  - id: business-details-income
+    return_section: P2-P8 Business details and income
+    h_and_r_block_amounts:
+      business_name: TIZZI
+      abn: "76 726 293 951"
+      industry_code: "70000"
+      activity: "Computer System Design and Related Services"
+      status: "Commenced business during year"
+      total_business_income: 0
+    evidence_amounts:
+      household_instruction_abn_start_date: "2024-06-28"
+      repository_known_revenue: 0
+    source_rules:
+      - household-facts-not-tax-law
+    classification: h_and_r_block_question
+    result: >-
+      H&R Block has Tizzi business income as $0, consistent with the household
+      instructions and no revenue evidence found in this slice. However, the H&R
+      draft says the business commenced during the year while the household
+      instructions say Tizzi started on 28 Jun 2024, just before FY2024-25.
+    risks:
+      - "Confirm whether H&R Block needs the actual business start date rather than a generic 'commenced during year' status."
+
+  - id: depreciation-assets
+    return_section: P8 Depreciation expenses
+    h_and_r_block_amounts:
+      depreciation_expenses: 3854
+    evidence_amounts:
+      ipad_invoice_date: "2025-06-30"
+      ipad_total: 2148.99
+      iphone_pencil_invoice_date: "2025-06-30"
+      iphone_pencil_dispatch_date: "2025-07-01"
+      iphone_pencil_total: 1705.00
+      exact_sum: 3853.99
+      h_and_r_block_rounding_difference: 0.01
+    source_rules:
+      - business-simpler-depreciation-instant-asset-write-off
+      - records-substantiation
+    classification: h_and_r_block_question_and_timing_risk
+    result: >-
+      The P8 depreciation amount ties to iPad Pro $2,148.99 plus iPhone 16 Pro
+      and Apple Pencil Pro $1,705, rounded to $3,854. Both assets are under the
+      $20,000 instant asset write-off threshold, but the deduction depends on the
+      business-use portion and the asset being first used or installed ready for
+      use by 30 Jun 2025. The Officeworks invoice shows dispatch date 01 Jul
+      2025, creating a timing question for the iPhone/Pencil claim.
+    risks:
+      - "Confirm first-used/installed-ready-for-use date for iPad and iPhone/Pencil."
+      - "Confirm business/private use percentages, especially for the iPhone."
+      - "Confirm whether the iPhone 16 Pro replaced the iPhone 12 still depreciated under employee D5."
+
+  - id: ring-security
+    return_section: P8 All other expenses (RING)
+    h_and_r_block_amounts:
+      ring_expense: 78
+    evidence_amounts:
+      ring_doorbell_invoice_date: "2024-11-22"
+      ring_doorbell_total: 78.00
+      ring_camera_invoice_date: "2024-12-30"
+      ring_camera_total: 98.00
+      ring_subscription_bank_amounts:
+        - 51.45
+        - 154.45
+    source_rules:
+      - business-simpler-depreciation-instant-asset-write-off
+      - records-substantiation
+    classification: h_and_r_block_question_and_private_use_risk
+    result: >-
+      H&R Block's P8 RING amount ties to the $78 Ring doorbell receipt only. The
+      separate $98 Ring indoor-camera receipt and Ring subscription bank charges
+      are not in the P8 amount. The business connection and private/security use
+      basis need H&R Block review before relying on the doorbell claim.
+    risks:
+      - "Home security hardware is high private-use risk unless there is a clear business-use rationale and apportionment."
+      - "Confirm why the $98 Ring camera is excluded and whether any Ring subscription charges should also be excluded."
+
+  - id: replit-subscriptions
+    return_section: P8 All other expenses (SUB)
+    h_and_r_block_amounts:
+      sub_expense: 93
+    evidence_amounts:
+      replit_bank_aud_total: 185.35
+      replit_bank_aud_50_percent: 92.68
+      replit_receipt_displayed_total: 115.70
+      replit_receipt_display_currency: "not AUD on receipts; bank amounts are AUD"
+      h_and_r_block_d5_also_lists_replit: true
+    source_rules:
+      - business-simpler-depreciation-instant-asset-write-off
+      - records-substantiation
+    classification: h_and_r_block_question_and_double_count_risk
+    result: >-
+      P8 SUB $93 appears to be a rounded 50% business-use allocation of the
+      Replit AUD bank total $185.35. H&R Block's D5 employee subscription detail
+      also lists Replit, creating a likely double-count risk unless D5 excludes
+      the same Replit charges.
+    risks:
+      - "Confirm Replit business-use percentage and whether the remaining portion belongs anywhere."
+      - "Do not claim the same Replit charges in both D5 employee deductions and P8 business expenses."
+
+  - id: deferred-non-commercial-loss
+    return_section: P9 Business loss activity and item 16 deferred non-commercial losses
+    h_and_r_block_amounts:
+      total_expenses: 4025
+      business_loss: 4025
+      loss_code: "8 (deferred)"
+      deferred_non_primary_production_loss: 4025
+    evidence_amounts:
+      income: 0
+      depreciation: 3854
+      ring: 78
+      sub: 93
+      deterministic_total_expenses: 4025
+    source_rules:
+      - non-commercial-losses
+    classification: confirmed_subject_to_expense_changes
+    result: >-
+      The P8 expenses add to the $4,025 loss, and the draft defers the same
+      amount as a non-commercial business loss. With $0 business income, Tizzi
+      does not pass the assessable income test, and the available facts do not
+      suggest the profits, real property, or other assets tests are met. Deferral
+      appears consistent, subject to any expense corrections above.
+
+deterministic_checks:
+  p8_depreciation_claimed: 3854
+  p8_ipad_plus_iphone_exact: 3853.99
+  p8_depreciation_rounding_difference: 0.01
+  replit_bank_aud_total: 185.35
+  replit_bank_aud_50_percent: 92.68
+  p8_sub_claimed: 93
+  ring_doorbell_total: 78.00
+  ring_camera_total: 98.00
+  p8_total_expenses: 4025
+  p8_total_expenses_check: 4025
+  p8_business_income: 0
+  p9_deferred_loss: 4025
+
+h_and_r_block_questions:
+  - "Please confirm Tizzi's actual commencement/start date. Household instructions say the ABN/business started 28 Jun 2024, while the draft says 'commenced business during year'."
+  - "Please confirm whether the iPad Pro was first used or installed ready for business use by 30 Jun 2025."
+  - "Please confirm whether the iPhone 16 Pro and Apple Pencil Pro were first used or installed ready for business use by 30 Jun 2025. The Officeworks invoice date is 30 Jun 2025 but dispatch date is 01 Jul 2025."
+  - "Please confirm business/private use percentages for the iPad Pro, iPhone 16 Pro, and Apple Pencil Pro, especially because the iPhone is likely mixed use."
+  - "Please confirm whether claiming the iPhone 16 Pro under Tizzi affects the old iPhone 12 still depreciated under Thomas employee D5."
+  - "Please confirm the business rationale and private-use apportionment for claiming the $78 Ring doorbell under P8."
+  - "Please confirm why the $98 Ring indoor-camera receipt and Ring subscription bank charges are excluded, and whether they should remain excluded."
+  - "Please confirm P8 SUB $93 is intended to be 50% of the Replit AUD bank total $185.35, and confirm the remaining Replit portion is not also claimed under employee D5."
+  - "Please confirm that the $4,025 Tizzi loss is deferred under non-commercial loss rules and does not reduce Thomas's FY2024-25 taxable income."
+
+blocked_inputs:
+  - "Business/private use percentages for iPad Pro, iPhone 16 Pro, Apple Pencil Pro, Ring doorbell, and Replit."
+  - "First-used or installed-ready-for-use dates for iPad Pro and iPhone/Pencil."
+  - "H&R Block confirmation of whether the iPhone 16 Pro replaced the iPhone 12 for work use."
+  - "Tizzi commencement date confirmation for FY2024-25 business details."

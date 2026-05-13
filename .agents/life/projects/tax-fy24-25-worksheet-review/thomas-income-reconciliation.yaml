@@ -1,0 +1,162 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.3
+status: ready_for_h_and_r_block_questions
+
+sources_used:
+  - "1. Income/Thomas/241128 - Atlassian PAYG Statement FY24-25.pdf"
+  - "1. Income/Thomas/250624 - SEEK PAYG Statement FY24-25.pdf"
+  - "1. Income/Thomas/250630 - Atlassian ESS Statement FY24-25.pdf"
+  - "1. Income/Thomas/250630 - SelfWealth Annual Statement.pdf"
+  - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+  - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+  - "verify_calculations.py"
+  - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+reconciled_items:
+  - id: atlassian-payg
+    item: Atlassian PAYG salary and wages
+    source_amounts:
+      gross_amount: 71765.22
+      other_paid_leave: 8796.15
+      unused_leave_on_termination: 5694.33
+      total_gross: 86255.70
+      payg_withheld: 27239.00
+      allowance_tasks: 250.00
+      employer_super_liability: 10396.84
+    h_and_r_block_amounts:
+      gross_payment_display: 86255
+      tax_withheld: 27239
+      allowances: 250
+    result: "Matches H&R Block after whole-dollar display. The $5,694.33 unused leave is inside the PAYG salary/wages total, not the separate ETP taxable component."
+    classification: confirmed_with_rounding
+
+  - id: seek-payg
+    item: SEEK PAYG salary and wages
+    source_amounts:
+      gross_amount: 83625.00
+      other_paid_leave: 6375.00
+      total_gross: 90000.00
+      payg_withheld: 26688.00
+      workplace_giving_deduction: 12.00
+      employer_super_liability: 10350.00
+    h_and_r_block_amounts:
+      gross_payment_display: 90000
+      tax_withheld: 26688
+    result: "Matches H&R Block whole-dollar display. Workplace giving $12 appears in the PAYG source and must be handled carefully in D9 to avoid double counting."
+    classification: confirmed_with_d9_followup
+
+  - id: atlassian-etp
+    item: Atlassian employment termination payment
+    source_amounts:
+      etp_date: "2024-11-28"
+      etp_type: "O"
+      etp_taxable_component: 9595.77
+      etp_withholding: 3071.00
+    h_and_r_block_amounts:
+      date_of_payment: "2024-11-28"
+      etp_code: "BT"
+      taxable_component_display: 9595
+      tax_withheld: 3071
+    result: "Amount and withholding reconcile to H&R Block after whole-dollar display, but the source ETP type/code shown by the PAYG statement differs from the H&R Block draft code."
+    classification: h_and_r_block_question
+
+  - id: atlassian-ess
+    item: Atlassian ESS / RSU income
+    source_amounts:
+      reportable_event_period: "2024-07-01 to 2025-06-30"
+      item: "F - discount from deferral schemes"
+      row_1_taxing_point: "2024-08-18"
+      row_1_description: "Vesting date"
+      row_1_interests: 105
+      row_1_reportable_discount_aud: 24422
+      row_2_taxing_point: "2024-11-19"
+      row_2_description: "Sale Date"
+      row_2_interests: 105
+      row_2_reportable_discount_aud: 38721
+      total_reportable_discount_aud: 63143
+      taxable_australian_portion: "100% both rows"
+      taxable_foreign_portion: "0% both rows"
+    h_and_r_block_amounts:
+      discount_from_deferral_schemes: 63143
+      total_assessable_discount_amount: 63143
+    result: "H&R Block matches the Atlassian FY2024-25 ESS statement. The older $62,270.51 value in verify_calculations.py / README differs by $872.49 and appears stale against the current ESS statement."
+    classification: confirmed_against_current_ess_statement
+
+  - id: rsu-cgt
+    item: RSU capital gain question
+    source_amounts:
+      repository_rsu_sale_files_found: false
+      old_script_cgt_value: 7974.12
+      old_readme_cgt_value: 7974
+    h_and_r_block_amounts:
+      h_and_r_block_visible_rsu_cgt: null
+      h_and_r_block_vanguard_net_capital_gain_total: 11.02
+      h_and_r_block_vanguard_net_capital_gain_thomas_share: 5.51
+    result: "No separate RSU sale/broker evidence was found in the current repository. The draft return visibly includes Vanguard/managed-fund CGT only, not a separate RSU CGT line. The $7,974 RSU CGT figure exists in README/script/worksheet history but lacks current source evidence in the mapped files."
+    classification: h_and_r_block_question_and_evidence_gap
+
+  - id: bank-australia-interest
+    item: Bank Australia interest
+    source_amounts:
+      total_interest: 34.96
+      thomas_half_share: 17.48
+      statement_accounts:
+        - "Everyday Access 12350422"
+        - "Bonus Saver 12350423"
+    h_and_r_block_amounts:
+      bank_australia_total_interest: 34.96
+      bank_australia_thomas_share: 17.48
+      second_account_total_interest: 1.95
+      second_account_thomas_share: 0.98
+    result: "The $34.96 / $17.48 Bank Australia amount matches source evidence. The extra H&R Block second-account interest of $1.95 total / $0.98 share has no source evidence yet."
+    classification: partial_match_with_evidence_gap
+
+  - id: selfwealth-vdhg
+    item: SelfWealth / Vanguard VDHG distributions and managed fund values
+    source_amounts:
+      account_holders: "MR THOMAS WILLIAM HOFFMANN MRS ISABELLE CLARA MASON"
+      holding: "VDHG - VNGD DIV HIGH GROWTH"
+      units: 12
+      estimated_dividends_and_distributions_total: 34.46
+      estimated_franking_credits_total: 2.81
+      transaction_summary: "No transactions during this period"
+    h_and_r_block_amounts:
+      fund: "VANGUARD DIVERSIFIED HIGH GROWTH IND ETF"
+      account_holders: 2
+      franked_distribution_total: 3.81
+      franked_distribution_thomas_share: 1.91
+      franking_credits_total: 9.54
+      franking_credits_thomas_share: 4.77
+      assessable_foreign_income_total: 7.96
+      assessable_foreign_income_thomas_share: 3.98
+      net_capital_gain_total: 11.02
+      net_capital_gain_thomas_share: 5.51
+    result: "The SelfWealth statement is an estimated annual holdings/dividend summary, not a full AMMA/tax statement. H&R Block has more granular VDHG tax components than the SelfWealth estimate. Treat H&R Block's Vanguard figures as requiring AMMA/source confirmation rather than replacing them with the SelfWealth estimate."
+    classification: h_and_r_block_question_and_source_gap
+
+deterministic_checks:
+  payg_source_total: 176255.70
+  payg_h_and_r_block_display_total: 176255
+  tax_withheld_source_total_including_etp: 56998
+  ess_source_total: 63143
+  ess_h_and_r_block_total: 63143
+  ess_diff_source_minus_h_and_r_block: 0
+  ess_diff_h_and_r_block_minus_old_script: 872.49
+  bank_interest_total: 34.96
+  bank_interest_half_share: 17.48
+
+h_and_r_block_questions:
+  - "Please confirm the Atlassian ETP code: the PAYG source text shows ETP type O, while the H&R Block draft shows code BT. The taxable component $9,595.77 and withholding $3,071 reconcile, but the code/type display does not."
+  - "Please confirm the $5,694.33 unused leave is not being treated as the ETP taxable component. The PAYG statement shows it inside the $86,255.70 salary/wages total, separate from the $9,595.77 ETP taxable component."
+  - "Please confirm that Item 12 ESS should use the current Atlassian ESS statement total of $63,143. This matches H&R Block and differs from the older $62,270.51 worksheet/script value by $872.49."
+  - "Please confirm whether any separate RSU capital gain must be reported. The current repository does not contain broker/sale evidence; the draft visibly shows only Vanguard/managed-fund CGT of $11.02 total / $5.51 Thomas share, while older repo notes mention $7,974 RSU CGT."
+  - "Please identify the source for the extra interest account in the H&R Block draft: $1.95 total / $0.98 Thomas share. The Bank Australia statement supports $34.96 total / $17.48 Thomas share."
+  - "Please confirm the source document for the Vanguard/VDHG managed fund components in the draft, ideally the AMMA/tax statement, because the SelfWealth annual statement only gives estimated dividends/distributions and franking credits."
+
+blocked_inputs:
+  - "Separate RSU broker/sale or E*TRADE/Shareworks tax statement if the $7,974 CGT figure is still intended."
+  - "AMMA/Vanguard tax statement supporting the managed fund components in the H&R Block draft."
+  - "Evidence for the extra $1.95 interest account shown in the H&R Block draft."

@@ -5,6 +5,8 @@
 
 **How to use:** Work through each section together. Tick the checkbox when confirmed. Add notes beneath any item that needs discussion or correction. Mark anything uncertain with ⚠️.
 
+**Agent review update - 13 May 2026:** The detailed H&R Block request pack is in `260513 - H&R Block Change Request Pack.md`. Key updates: the current Atlassian ESS statement supports $63,143, not the old $62,270 script value; the $5,694.33 unused leave is inside Atlassian salary/wages, separate from the $9,595.77 ETP; H&R Block's visible D5 home-office line is 808 hours x 70c, not a separate internet claim; and the closest CCS stress test is only $709.19 under the $367,563 higher-CCS cutoff.
+
 ---
 
 # PART A — THOMAS
@@ -25,17 +27,17 @@
 ### Employment Termination Payment (ETP)
 
 - [ ] **Atlassian ETP** — $9,595 taxable component, $3,071 tax withheld, ETP code BT, dated 28/11/2024
-	- This is the unused leave payout. H&R Block has it as $9,595 but copilot instructions say $5,694.33 — which is correct?
+	- Agent review: this is separate from the $5,694.33 unused leave. The $5,694.33 unused leave is inside the Atlassian salary/wages amount. The PAYG source amount and withholding reconcile, but the PAYG extraction shows ETP type O while the H&R Block draft shows code BT. Ask H&R Block to confirm the correct ETP code.
 	- Notes:
 
 ### Employee Share Scheme (ESS / RSUs)
 
 - [ ] **Atlassian ESS** — $63,143 deferral scheme discount (H&R Block figure)
-	- The ESS statement says $62,270 — which figure is correct? Difference of $873
+	- Agent review: the current FY2024-25 Atlassian ESS statement and H&R Block both support $63,143. The older $62,270.51 figure in earlier repo notes/scripts is stale.
 	- This covers Aug 2024 and Nov 2024 vestings only (May 2024 was FY23-24)
 	- Notes:
 - [ ] **RSU Capital Gains** — the ESS statement shows $7,974 CGT. Where is this on the H&R Block return?
-	- H&R Block shows $11.02 capital gains from Vanguard but no RSU CGT line item — has this been missed?
+	- H&R Block shows $11.02 capital gains from Vanguard but no visible RSU CGT line item. Agent review did not find current broker/sale evidence in the repository. Ask H&R Block whether the historical $7,974.12 RSU CGT figure must be added.
 	- Notes:
 
 ### Interest Income
@@ -98,8 +100,8 @@
 ### Internet
 
 - [ ] **Aussie Broadband** — $105/mo × 9 months = $945 gross
-	- H&R Block claimed $808 at 70% work use — our analysis had $945 at 65%. Which is correct?
-	- ⚠️ **IMPORTANT:** Under the fixed-rate method, internet is already included in the 70c/hr. If claiming internet separately on top of WFH fixed rate, you're mixing methods. Confirm with H&R Block that this is intentional and compliant.
+	- Agent review: H&R Block's visible draft appears to claim 808 WFH hours x $0.70 = $565.60, not $808 internet at 70% work use. There is no visible separate internet line in the draft.
+	- ⚠️ **IMPORTANT:** Under the fixed-rate method, internet is already included in the 70c/hr. Do not add the bank-analysis internet amount unless H&R Block switches method or explains compliant treatment.
 	- Notes:
 
 ### Software Subscriptions
@@ -199,7 +201,7 @@ New acquisitions this year:
 - [ ] **Bravehearts Foundation** — $250.00 (DGR verified ✓, receipt filed)
 	- Notes:
 - [ ] **SEEK salary sacrifice donation** — $12.00
-	- ⚠️ This appears on the SEEK PAYG summary. Is it already deducted from the $90,000 gross, or does it need a separate D9 entry? Risk of double-counting.
+	- ⚠️ Agent review: ATO guidance says donations made under a salary sacrifice arrangement cannot be claimed as gifts or donations. Ask H&R Block to remove or explain this D9 entry.
 	- Notes:
 
 **Donation notes:**
@@ -272,7 +274,7 @@ These are on the **business schedule**, not personal deductions. Tizzi had $0 re
 - [ ] **HELP/HECS debt** — $0 shown. Confirm Thomas has no HELP debt
 	- Notes:
 - [ ] **Spouse details** — Isabelle's taxable income shown as $110,118
-	- Does this match Isabelle's return? Her PAYG gross is $111,470.05 — the difference would be her deductions
+	- Does this match Isabelle's return? Her SCRATCH PAYG gross is $111,470.05 and the income statement separately reports a $1,199.64 Home Office allowance. Isabelle's own H&R Block draft is required to confirm final taxable income, allowance treatment, deductions and HELP position.
 	- Notes:
 
 ---
@@ -429,6 +431,7 @@ These are on the **business schedule**, not personal deductions. Tizzi had $0 re
 	- Isabelle taxable income: ~$110,118 (per spouse details)
 	- Combined: ~$356,316
 	- Are we under the $367,563 threshold? Margin: ~$11,247
+	- Agent review stress test: if historical RSU CGT $7,974.12 is added, the SEEK D9 $12 claim is removed, and Isabelle is proxied at SCRATCH gross plus Home Office allowance before deductions, combined income is $366,853.81. That is only $709.19 under the higher-CCS cutoff, so final ATI is threshold-critical.
 	- Notes:
 - [ ] **CCS reconciliation** happens AFTER Notices of Assessment are issued — no action needed now
 	- Notes:
@@ -458,9 +461,11 @@ These are on the **business schedule**, not personal deductions. Tizzi had $0 re
 
 ### Data Sources
 
-- [ ] **ANZ Credit Card** — all_transactions.csv (1,256 transactions, Sep 2024 – Jul 2025)
+- [ ] **ANZ Credit Card** — all_transactions.csv (1,256 transactions, 9 Sep 2024 – 30 Jun 2025)
 - [ ] **Bank Australia** — bank_australia_transactions.csv (452 transactions, Jul 2024 – Jun 2025)
 - [ ] **Highlighted transactions** — highlighted_transactions.csv (43+ manually flagged items)
+
+⚠️ Agent review: ANZ/NAB credit-card coverage from 1 Jul 2024 to 8 Sep 2024 remains a document gap unless the household confirms those statements are unnecessary.
 
 ### Scan for Missed Deductions
 
@@ -511,7 +516,8 @@ For each category below, scan the bank statements for transactions that **aren't
 - [ ] **Streaming 30% work use** — Isabelle is comfortable defending this at audit
 - [ ] **Internet claim method** — confirmed no double-counting with WFH fixed rate
 - [ ] **Tizzi equipment private use %** — confirmed for iPad and iPhone
-- [ ] **ESS/CGT figures** — confirmed correct ($63,143 or $62,270? CGT $7,974 included?)
+- [ ] **ESS/CGT figures** — ESS confirmed at $63,143 from current statement; confirm whether RSU CGT $7,974.12 is included or must be added
+- [ ] **Agent review pack checked** — review `260513 - H&R Block Change Request Pack.md` and carry H&R Block questions into the appointment
 - [ ] **Bank statement cross-check** completed — no missed deductions
 
 ## New Deductions Identified

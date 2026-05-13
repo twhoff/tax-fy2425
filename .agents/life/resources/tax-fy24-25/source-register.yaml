@@ -1,0 +1,855 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.1
+rule: >-
+  Do not rely on model memory for Australian tax law. Each tax-law assertion must
+  be supported by an ATO or credible FY2024-25 source before it is used in a
+  worksheet conclusion or H&R Block request.
+
+source_status_values:
+  - source_fetched
+  - source_identified_extract_pending
+  - source_needed
+  - not_tax_law_household_fact
+
+topics:
+  - id: wfh-fixed-rate-2024-25
+    title: Working from home fixed-rate method
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:84"
+      - "260315 - Deduction Review Worksheet.md:322"
+      - "260315 - Deduction Review Worksheet.md:512"
+    downstream_issues:
+      - TaxFY2425-c6j.4
+      - TaxFY2425-c6j.6
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - What is the FY2024-25 cents-per-hour rate?
+      - Which expenses are included in the fixed rate and cannot be claimed again?
+      - What WFH hour records are required?
+      - Which home-office items can be claimed separately?
+    sources:
+      - authority: ATO
+        title: Fixed rate method
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/working-from-home-expenses/fixed-rate-method"
+        access_date: "2026-05-13"
+        fy_relevance: "Page text explicitly mentions the 2024-25 rate. Last updated 6 May 2025."
+        exact_claim: >-
+          For 2024-25 the fixed-rate method uses 70 cents per work hour. The rate
+          includes home/mobile internet, phone usage, energy, stationery and
+          computer consumables, and these covered expenses cannot also be claimed
+          separately. The ATO page also states actual WFH hours must be recorded
+          and estimates are not acceptable.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Working from home expenses
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/working-from-home-expenses"
+        access_date: "2026-05-13"
+        fy_relevance: "General WFH page, last updated 6 May 2025."
+        exact_claim: >-
+          To claim WFH expenses, the taxpayer must work from home to fulfil
+          employment duties, incur additional running expenses, and keep records.
+          The page identifies fixed-rate and actual-cost methods and says the
+          fixed-rate method allows separate claims for expenses not covered by the
+          fixed rate, such as decline in value of depreciating assets.
+        confidence: high
+        status: source_fetched
+
+  - id: records-substantiation
+    title: Records and substantiation for work and other deductions
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:465"
+      - "260315 - Bank Statement Deduction Cross-Check.md:46"
+      - "260315 - Deduction Review Worksheet.md:515"
+    downstream_issues:
+      - TaxFY2425-c6j.2
+      - TaxFY2425-c6j.8
+      - TaxFY2425-c6j.10
+    questions_to_answer:
+      - When is a bank or credit-card statement enough?
+      - What written evidence is needed for work expenses?
+      - How long must records be kept?
+      - What exceptions apply for small or hard-to-get receipts?
+    sources:
+      - authority: ATO
+        title: Records you need to keep
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/records-you-need-to-keep"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO record-keeping guidance, last updated 16 June 2025."
+        exact_claim: >-
+          Work-related expense claims require eligibility, written evidence such
+          as a receipt or invoice, and a record showing how the expense relates to
+          income and how work/private use was calculated. The page states a bank
+          or credit-card statement on its own generally is not written evidence,
+          and written evidence is generally kept for 5 years from lodgement.
+        confidence: high
+        status: source_fetched
+
+  - id: gifts-donations-dgr
+    title: Gifts, donations, DGR status, workplace giving
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:195"
+      - "260315 - Deduction Review Worksheet.md:390"
+    downstream_issues:
+      - TaxFY2425-c6j.4
+      - TaxFY2425-c6j.6
+    questions_to_answer:
+      - Which donations are deductible?
+      - How is DGR status verified?
+      - How should salary-sacrifice or workplace-giving donations be treated?
+    sources:
+      - authority: ATO
+        title: Gifts and donations
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/gifts-and-donations"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO gifts and donations guidance. Last updated 28 October 2025."
+        exact_claim: >-
+          A deductible gift or donation must be made to an organisation with DGR
+          status, be a genuine gift without material benefit, be money or
+          property, meet any gift conditions, and be supported by a record such as
+          a receipt. The page also says donations made under a salary sacrifice
+          arrangement cannot be claimed as gifts or donations.
+        confidence: high
+        status: source_fetched
+      - authority: ABR
+        title: ABN Lookup - Deductible gift recipients
+        url: "https://abr.business.gov.au/Tools/DgrListing"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ABR DGR endorsed entity listing used for Thomas and Isabelle donation recipients."
+        exact_claim: >-
+          The ABR DGR endorsed entity download lists Australian Committee for
+          UNICEF Limited, ABN 35060581437, active with DGR status date
+          2020-07-01; Bravehearts Foundation Limited, ABN 41496913890, active
+          with DGR status date 2000-07-01; and Cancer Council Victoria, ABN
+          61426486715, active with DGR status date 2014-01-01.
+        confidence: high
+        status: source_fetched
+
+  - id: ess-and-rsu-income
+    title: Employee share schemes and RSU assessable income
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:31"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:83"
+    downstream_issues:
+      - TaxFY2425-c6j.3
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - Which ESS amount belongs in FY2024-25?
+      - How should the Atlassian ESS statement and H&R Block figure be reconciled?
+      - Does any ESS deferral/taxing-point rule affect the $873 difference?
+    sources:
+      - authority: ATO
+        title: Employee share schemes
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/income-you-must-declare/employment-income/employee-share-schemes"
+        access_date: "2026-05-13"
+        fy_relevance: "ATO page identified but fetch extraction failed; needs second-pass capture before conclusions."
+        exact_claim: null
+        confidence: pending
+        status: source_identified_extract_pending
+
+  - id: shares-cgt-rsu-and-etf
+    title: CGT for RSU sales, shares, and managed fund distributions
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:37"
+      - "260315 - Deduction Review Worksheet.md:47"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:250"
+    downstream_issues:
+      - TaxFY2425-c6j.3
+      - TaxFY2425-c6j.7
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - Where should RSU sale CGT appear in the draft return?
+      - How should VDHG/managed fund distribution components be reported?
+      - What records are required for shares and units?
+    sources:
+      - authority: ATO
+        title: Shares and similar investments
+        url: "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/shares-and-similar-investments"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO CGT hub for shares and similar investments."
+        exact_claim: >-
+          The page identifies share and unit events that can trigger CGT and links
+          to subtopics for when CGT applies, keeping records, share investing vs
+          trading, claimable losses, dividend reinvestment plans, and trust
+          non-assessable payments.
+        confidence: medium
+        status: source_fetched
+      - authority: ATO
+        title: Records you need to keep
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/records-you-need-to-keep"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO record-keeping guidance."
+        exact_claim: >-
+          For assessable investment income from interest, dividends or managed
+          funds, records may include interest statements, dividend statements,
+          SDS and AMMA statements showing distributions, capital gains or losses,
+          foreign income, and credits such as franking credits.
+        confidence: high
+        status: source_fetched
+
+  - id: foreign-exchange-rates
+    title: Foreign currency conversion for RSU income and proceeds
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:31"
+      - "AGENTS.md:307"
+    downstream_issues:
+      - TaxFY2425-c6j.3
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - Which ATO exchange rate should be used for each vesting/sale date?
+      - Are monthly rates or daily rates required for the relevant RSU amounts?
+    sources:
+      - authority: ATO
+        title: Foreign exchange rates
+        url: "https://www.ato.gov.au/tax-rates-and-codes/foreign-exchange-rates"
+        access_date: "2026-05-13"
+        fy_relevance: "ATO URL identified but fetch extraction failed; needs second-pass capture before conclusions."
+        exact_claim: null
+        confidence: pending
+        status: source_identified_extract_pending
+
+  - id: employee-work-expenses-tools-software-self-education
+    title: Employee software, tools, equipment, self-education, and professional reading
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:67"
+      - "260315 - Deduction Review Worksheet.md:105"
+      - "260315 - Deduction Review Worksheet.md:134"
+      - "260315 - Deduction Review Worksheet.md:178"
+      - "260315 - Deduction Review Worksheet.md:477"
+    downstream_issues:
+      - TaxFY2425-c6j.4
+      - TaxFY2425-c6j.6
+      - TaxFY2425-c6j.8
+    questions_to_answer:
+      - Which software/subscriptions are sufficiently connected to employment duties?
+      - Which assets are immediately deductible, depreciated, or apportioned?
+      - What source supports self-education and professional reading claims?
+    sources:
+      - authority: ATO
+        title: Working from home expenses - fixed rate method
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/working-from-home-expenses/fixed-rate-method"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO WFH fixed-rate page for FY2024-25."
+        exact_claim: >-
+          The fetched page says technology and office furniture such as chairs,
+          desks, computers and bookshelves can be claimed separately from the WFH
+          fixed rate, generally as depreciating assets, and work/private use must
+          be apportioned.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Self-education expenses
+        url: "https://www.ato.gov.au/individuals-and-families/your-tax-return/instructions-to-complete-your-tax-return/mytax-instructions/2025/deductions/work-related-expenses/work-related-self-education-expenses"
+        access_date: "2026-05-13"
+        fy_relevance: "myTax 2025 instructions published 2 June 2025 for work-related self-education expenses."
+        exact_claim: >-
+          To claim work-related self-education expenses, the taxpayer must have
+          incurred the cost, not been reimbursed, have a direct connection to
+          earning employment income, and keep a record. The expense must have a
+          sufficient connection to employment activities by maintaining or
+          improving specific skills or knowledge used in then-current employment,
+          or leading/being likely to lead to increased income from that
+          employment. Expenses are not deductible if they relate only in a
+          general way to current employment or enable new employment.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Computers, laptops and software
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/tools-computers-and-items-you-use-for-work/computers-laptops-and-software"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO employee work-related computer/software page, last updated 16 June 2025."
+        exact_claim: >-
+          To claim computers, laptops and software, the taxpayer must incur the
+          cost, use the item to perform work duties, determine whether the cost is
+          deductible immediately or through decline in value over effective life,
+          keep records of expenses and use, and apportion any private use. The
+          page lists subscriptions and software programs as claimable when used
+          for work, and says items costing more than $300 are generally claimed
+          through decline in value.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Books, periodicals and digital information
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/tools-computers-and-items-you-use-for-work/books-periodicals-and-digital-information"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO employee work-related books/digital information page, last updated 16 June 2025."
+        exact_claim: >-
+          To claim books, periodicals and digital information, the taxpayer must
+          use them in connection with current work duties, keep records, and
+          apportion private use. The page says newspapers, news services and
+          other news subscriptions, and magazines, are generally private expenses
+          unless the taxpayer can show a sufficient connection between specific
+          employment duties and the content of the specific publication; incidental
+          work use is not deductible.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Depreciating assets you use for work
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/tools-computers-and-items-you-use-for-work/depreciating-assets-you-use-for-work"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO employee depreciating-asset page, last updated 16 June 2025."
+        exact_claim: >-
+          Depreciating assets are assets with a limited effective life that can
+          reasonably be expected to lose value over time. The cost is capital and
+          is generally claimed through decline in value unless an immediate
+          deduction is available for eligible assets costing $300 or less. The
+          taxpayer must apportion work/private use and keep records showing how
+          the work-related use was calculated.
+        confidence: high
+        status: source_fetched
+
+  - id: home-office-cleaning
+    title: Home office cleaning and dedicated home office area
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:182"
+    downstream_issues:
+      - TaxFY2425-c6j.4
+      - TaxFY2425-c6j.5
+      - TaxFY2425-c6j.10
+    questions_to_answer:
+      - When can cleaning expenses be claimed separately from WFH fixed rate?
+      - What floor-area and dedicated-room evidence is needed?
+    sources:
+      - authority: ATO
+        title: Fixed rate method
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/work-related-deductions/working-from-home-expenses/fixed-rate-method"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO WFH fixed-rate page for FY2024-25."
+        exact_claim: >-
+          The fetched page says that in limited circumstances where there is a
+          dedicated home office, cleaning expenses relating to work-related use of
+          a room set up as a home office may be claimed separately.
+        confidence: high
+        status: source_fetched
+      - authority: ATO Law
+        title: PCG 2023/1
+        url: "https://www.ato.gov.au/law/view/document?DocID=COG/PCG20231/NAT/ATO/00001&PiT=99991231235958"
+        access_date: null
+        fy_relevance: "Referenced by ATO fixed-rate page; needed for compliance approach detail."
+        exact_claim: null
+        confidence: pending
+        status: source_needed
+
+  - id: business-simpler-depreciation-instant-asset-write-off
+    title: Tizzi business expenses, simplified depreciation, and instant asset write-off
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:218"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:345"
+    downstream_issues:
+      - TaxFY2425-c6j.5
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - Is Tizzi eligible for the claimed business asset treatment?
+      - Which asset threshold and date rules apply for FY2024-25?
+      - How are private-use percentages handled?
+    sources:
+      - authority: ATO
+        title: Simpler depreciation for small business
+        url: "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/depreciation-and-capital-expenses-and-allowances/simpler-depreciation-for-small-business/instant-asset-write-off"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO instant asset write-off page; page states 1 July 2023 to 30 June 2026 limit and includes 2024-25 examples."
+        exact_claim: >-
+          Eligible businesses can claim an immediate deduction for the business
+          portion of the cost of an asset in the year it is first used or
+          installed ready for use. For assets first used or installed ready for
+          use from 1 July 2023 to 30 June 2026, the relevant limit is $20,000.
+          Eligibility depends on aggregated turnover, purchase date, first-use or
+          ready-for-use date, and the asset cost being less than the limit. To
+          work out the deduction, subtract any private-use portion; the full asset
+          cost must still be under the limit.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: $20,000 instant asset write-off for 2024-25
+        url: "https://www.ato.gov.au/businesses-and-organisations/small-business-newsroom/$20000-instant-asset-write-off-for-2024-25"
+        access_date: "2026-05-13"
+        fy_relevance: "ATO small business newsroom article last updated 6 May 2025, explicitly about the 2024-25 income year."
+        exact_claim: >-
+          The instant asset write-off limit is $20,000 for the 2024-25 income
+          year. A business with aggregated annual turnover less than $10 million
+          that uses simplified depreciation may immediately deduct the business
+          part of eligible depreciating assets costing less than $20,000 that are
+          first used or installed ready for use for a taxable purpose between
+          1 July 2024 and 30 June 2025. The usual deduction rules still apply:
+          only the business part can be claimed and records must prove the claim.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Home-based business expenses - sole trader or partnership
+        url: "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/income-and-deductions-for-business/deductions/deductions-for-home-based-business-expenses/home-based-business-expenses-sole-trader-or-partnership"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO sole trader home-based business expense page, last updated 3 July 2025."
+        exact_claim: >-
+          Sole traders can claim home-based running expenses where they run a
+          business from home, including cleaning costs and decline in value or
+          repairs of business equipment. Running expense methods must be
+          reasonable, exclude private normal living costs, and be supported by
+          records. For depreciating assets, private use must be apportioned; a
+          representative 4-week diary can support business/private use.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Records required for your business's tax return - deductions
+        url: "https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/record-keeping-for-business/detailed-business-record-keeping-requirements/running-your-business-records/income-tax-return-records-business/business-deductions-records"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO business deduction record-keeping page for business income tax return records."
+        exact_claim: >-
+          To claim deductions for business expenses, records must substantiate the
+          claim and show how the business-use proportion of relevant expenses was
+          worked out. For home-based business expenses, examples include tax
+          invoices or receipts, utility/cleaning bills, diaries, and evidence of
+          calculations. For other business expenses, examples include receipts,
+          tax invoices, credit-card vouchers, purchase records, worksheets and
+          diaries.
+        confidence: high
+        status: source_fetched
+
+  - id: non-commercial-losses
+    title: Non-commercial losses and deferred Tizzi loss
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:242"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:241"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:311"
+    downstream_issues:
+      - TaxFY2425-c6j.5
+      - TaxFY2425-c6j.9
+      - TaxFY2425-c6j.10
+    questions_to_answer:
+      - Should the Tizzi loss be deferred rather than deducted this year?
+      - Which non-commercial loss test or exception applies or fails?
+    sources:
+      - authority: ATO
+        title: Non-commercial losses
+        url: "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/losses/non-commercial-losses/how-to-defer-your-losses"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO non-commercial loss deferral page, last updated 7 April 2025."
+        exact_claim: >-
+          If a business activity loss cannot be deducted in the current year, it
+          can be deferred for use in a later year. There is no time limit on how
+          long losses can be deferred; they can be offset later against profit
+          from the business activity, if non-commercial loss requirements are met,
+          or if the Commissioner exercises discretion.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Four tests
+        url: "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/losses/non-commercial-losses/offset-or-defer-the-loss-individuals-or-sole-traders/four-tests"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO non-commercial loss four-tests page, last updated 7 April 2025."
+        exact_claim: >-
+          To offset a business loss against other income, an individual or sole
+          trader who meets the income requirement must pass one or more of four
+          tests. The assessable income test requires at least $20,000 assessable
+          income from the business activity for the financial year; the profits
+          test requires a tax profit in 3 out of the past 5 years; the real
+          property test requires at least $500,000 real property used on a
+          continuing basis; and the other assets test requires at least $100,000
+          of other business assets used on a continuing basis.
+        confidence: high
+        status: source_fetched
+
+  - id: private-health-medicare-mls-rebate
+    title: Private health insurance, Medicare levy surcharge, and rebate tier
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:253"
+      - "260315 - Deduction Review Worksheet.md:405"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:177"
+    downstream_issues:
+      - TaxFY2425-c6j.7
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - Does the NIB hospital cover exempt the family from MLS?
+      - Which income threshold/rebate tier applies?
+      - What details from the NIB statements must be entered?
+    sources:
+      - authority: ATO
+        title: Medicare levy surcharge
+        url: "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy-surcharge"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO MLS hub with links to thresholds, family/dependant rules, and return instructions."
+        exact_claim: >-
+          The fetched page is the ATO hub for when MLS is paid, family/dependant
+          rules, income thresholds and rates, and tax-return reporting.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Paying the Medicare levy surcharge
+        url: "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy-surcharge/paying-the-medicare-levy-surcharge"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO MLS liability page, fetched while reviewing FY2024-25 return entries."
+        exact_claim: >-
+          A taxpayer may have to pay MLS if they, their spouse and dependent
+          children do not have an appropriate level of private patient hospital
+          cover and they earn above the relevant income threshold. If appropriate
+          private patient hospital cover is held for the taxpayer, spouse and all
+          dependants, the taxpayer will not pay MLS. The ATO works out MLS from
+          tax-return information and includes any MLS with the Medicare levy on
+          the notice of assessment.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Medicare levy surcharge income, thresholds and rates
+        url: "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy-surcharge/medicare-levy-surcharge-income-thresholds-and-rates"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO MLS threshold page with explicit 2024-25 income threshold table."
+        exact_claim: >-
+          For 2024-25, the MLS family threshold is base tier $194,000 or less,
+          Tier 1 $194,001 to $226,000, Tier 2 $226,001 to $302,000, and Tier 3
+          $302,001 or more. MLS rates are 0%, 1%, 1.25% and 1.5%. The family
+          income threshold is increased by $1,500 for each MLS dependent child
+          after the first. If the taxpayer has a spouse, combined income for MLS
+          purposes is used; income for MLS purposes includes taxable income,
+          reportable fringe benefits, total net investment losses and reportable
+          super contributions, among other listed items.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Private health insurance rebate
+        url: "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/private-health-insurance-rebate"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO rebate hub with links to eligibility, claiming, income thresholds, and statements."
+        exact_claim: >-
+          The fetched page is the ATO hub for rebate eligibility, claiming the
+          rebate, Lifetime Health Cover, income thresholds and rebate rates, and
+          private health insurance statements.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Income thresholds and rates for the private health insurance rebate
+        url: "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/private-health-insurance-rebate/income-thresholds-and-rates-for-the-private-health-insurance-rebate"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO PHI rebate threshold page with explicit 2024-25 income threshold and rebate rate tables."
+        exact_claim: >-
+          Private health insurance rebate entitlement is income tested against
+          income for surcharge purposes and depends on family status at 30 June
+          and the age of the oldest person covered by the policy. For 2024-25,
+          the family threshold is base tier $194,000 or less, Tier 1 $194,001 to
+          $226,000, Tier 2 $226,001 to $302,000, and Tier 3 $302,001 or more;
+          the family income threshold is increased by $1,500 for each MLS
+          dependent child after the first. For 2024-25, the Tier 3 rebate rate is
+          0.000% for all listed age bands. If a policy covers more than one
+          adult, premiums are divided into equal shares by the number of adults
+          covered at the time of payment, and each adult is income tested for
+          their share; dependent persons are not income tested and do not have a
+          share of policy cost.
+        confidence: high
+        status: source_fetched
+
+  - id: division-293
+    title: Division 293 superannuation tax
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:268"
+    downstream_issues:
+      - TaxFY2425-c6j.7
+      - TaxFY2425-c6j.9
+      - TaxFY2425-c6j.10
+    questions_to_answer:
+      - What threshold applies for FY2024-25?
+      - Which income and concessional contribution amounts are included?
+      - Is the assessment separate from the income tax return?
+    sources:
+      - authority: ATO
+        title: Division 293 tax on concessional contributions by high-income earners
+        url: "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/caps-limits-and-tax-on-super-contributions/division-293-tax-on-concessional-contributions-by-high-income-earners"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO Division 293 page, last updated 8 December 2025, used for FY2024-25 high-income super tax review."
+        exact_claim: >-
+          Division 293 tax is an additional tax on super contributions for
+          individuals whose combined income and concessional contributions for
+          Division 293 purposes exceed $250,000. The tax is 15% of the excess
+          over the threshold or the taxable super contributions, whichever is
+          less. The ATO determines Division 293 income from the tax return and
+          super contributions from fund reporting, and sends a Division 293
+          notice after receiving both the income tax return and contribution
+          information from the super fund. Division 293 income is based on the
+          MLS income calculation, disregarding reportable superannuation
+          contributions.
+        confidence: high
+        status: source_fetched
+
+  - id: help-hecs-study-loans
+    title: HELP/HECS repayment and excess withholding
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:310"
+      - "260315 - Deduction Review Worksheet.md:411"
+    downstream_issues:
+      - TaxFY2425-c6j.6
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - How is compulsory HELP repayment calculated for FY2024-25?
+      - What happens if payroll continued withholding after the debt was cleared?
+    sources:
+      - authority: ATO
+        title: Study and training loan repayment thresholds and rates
+        url: "https://www.ato.gov.au/tax-rates-and-codes/study-and-training-support-loans-rates-and-repayment-thresholds"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO page with previous-year table for 2024-25 repayment income thresholds and rates. Last updated 30 October 2025."
+        exact_claim: >-
+          The ATO page says all study and training loan types are covered by the
+          same thresholds and rates for each financial year. For 2024-25 and
+          earlier years, compulsory repayments were based on applying the relevant
+          repayment rate to total repayment income. The 2024-25 table includes
+          nil below $54,435, 6.5% for repayment income from $106,186 to $112,556,
+          7.0% from $112,557 to $119,309, and 10.0% from $159,664 and above. The
+          page defines repayment income as taxable income, reportable fringe
+          benefits, total net investment loss, reportable super contributions,
+          and exempt foreign employment income.
+        confidence: high
+        status: source_fetched
+      - authority: Department of Education StudyAssist
+        title: Loan repayments
+        url: "https://www.studyassist.gov.au/paying-back-your-loan/loan-repayment"
+        access_date: "2026-05-13"
+        fy_relevance: "Current Department of Education HELP repayment explainer, last updated 1 April 2026, used for payroll withholding timing and over-withholding context."
+        exact_claim: >-
+          StudyAssist says HELP debt is repaid through the tax system, the ATO is
+          responsible for managing HELP debt repayments, compulsory repayments are
+          worked out by the ATO when the taxpayer lodges their tax return, PAYG
+          deductions are only applied to HELP debt once the tax return is lodged,
+          and extra PAYG withholding is returned through the tax return if the
+          assessed compulsory repayment is lower than the amount withheld.
+        confidence: high
+        status: source_fetched
+
+  - id: ccs-ftb-centrelink-reconciliation
+    title: CCS and FTB timing after Notices of Assessment
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:425"
+      - "260315 - Deduction Review Worksheet.md:441"
+    downstream_issues:
+      - TaxFY2425-c6j.7
+      - TaxFY2425-c6j.9
+      - TaxFY2425-c6j.11
+    questions_to_answer:
+      - Which income definition/threshold applies to CCS reconciliation?
+      - What happens after both Notices of Assessment issue?
+      - Does FTB need any action before tax lodgement?
+    sources:
+      - authority: Services Australia
+        title: Child Care Subsidy balancing
+        url: "https://www.servicesaustralia.gov.au/balancing-child-care-subsidy"
+        access_date: "2026-05-13"
+        fy_relevance: "Current Services Australia CCS balancing page, used because CCS reconciliation is administered after tax returns."
+        exact_claim: >-
+          Services Australia balances CCS payments from mid-August after family
+          income for the financial year is confirmed. If the taxpayer or partner
+          lodges a tax return, the ATO tells Services Australia the incomes and
+          Services Australia uses that information to balance CCS. Services
+          Australia also states that FTB and CCS are balanced separately.
+        confidence: high
+        status: source_fetched
+      - authority: Services Australia
+        title: Balancing Family Tax Benefit
+        url: "https://www.servicesaustralia.gov.au/balancing-family-tax-benefit"
+        access_date: "2026-05-13"
+        fy_relevance: "Needed if FTB applies."
+        exact_claim: >-
+          Services Australia starts to balance FTB payments after the financial
+          year ends and after the last payment. The taxpayer and partner usually
+          need to confirm income before FTB can be balanced. If returns are
+          lodged, the ATO tells Services Australia the incomes and Services
+          Australia uses that information to balance FTB. Services Australia says
+          FTB and CCS are balanced separately.
+        confidence: high
+        status: source_fetched
+
+  - id: income-tax-medicare-ccs-calculation
+    title: Income tax, Medicare levy, and CCS threshold calculation inputs
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:425"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:345"
+    downstream_issues:
+      - TaxFY2425-c6j.9
+    questions_to_answer:
+      - Which FY2024-25 resident tax rates apply to Thomas's draft taxable income?
+      - Does the full 2% Medicare levy apply in the deterministic scenarios?
+      - What CCS family-income and higher-rate cutoffs apply for the household's threshold check?
+      - Which adjusted taxable income components are relevant for family assistance?
+    sources:
+      - authority: ATO
+        title: Tax rates - Australian resident
+        url: "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO resident tax-rate page; 2024-25 rates are included in the 2020 to 2026 table."
+        exact_claim: >-
+          For Australian residents entitled to the full tax-free threshold, the
+          2024-25 rates are nil to $18,200; 16 cents per dollar from $18,201 to
+          $45,000; $4,288 plus 30 cents per dollar from $45,001 to $135,000;
+          $31,288 plus 37 cents per dollar from $135,001 to $190,000; and
+          $51,638 plus 45 cents per dollar above $190,000. These rates do not
+          include the Medicare levy of 2%.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Medicare levy reduction - family income
+        url: "https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy/medicare-levy-reduction/medicare-levy-reduction-family-income"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO Medicare levy reduction page with explicit 2024-25 family thresholds."
+        exact_claim: >-
+          The Medicare levy is reduced only if family taxable income is below
+          the relevant lower and upper family thresholds. For 2024-25 the lower
+          family threshold is $45,907, increased by $4,216 per dependent child,
+          and the upper family threshold is $57,383, increased by $5,270 per
+          dependent child. The reviewed scenarios are well above these
+          thresholds, so the full 2% Medicare levy is used for deterministic
+          checks.
+        confidence: high
+        status: source_fetched
+      - authority: Services Australia
+        title: Your income can affect Child Care Subsidy
+        url: "https://www.servicesaustralia.gov.au/your-income-can-affect-child-care-subsidy?context=41186"
+        access_date: "2026-05-13"
+        fy_relevance: "Current Services Australia CCS page with family-income and standard-rate thresholds."
+        exact_claim: >-
+          Services Australia works out the CCS percentage using the family's
+          income estimate. Current standard CCS rates are 90% from $0 to
+          $85,279, tapering from above $85,279 to below $535,279, and 0% at
+          $535,279 or more. At the end of the financial year, Services Australia
+          balances CCS using actual adjusted taxable income.
+        confidence: high
+        status: source_fetched
+      - authority: Services Australia
+        title: Your number of children in care can affect higher Child Care Subsidy
+        url: "https://www.servicesaustralia.gov.au/your-number-children-care-can-affect-your-higher-child-care-subsidy?context=41186"
+        access_date: "2026-05-13"
+        fy_relevance: "Current Services Australia higher-CCS page with explicit combined-income cutoff."
+        exact_claim: >-
+          A family may get a higher CCS rate if they get or will be eligible for
+          CCS, family combined income is under $367,563, and the family has more
+          than one CCS-eligible child aged 5 or younger. At $367,563 or more,
+          higher CCS rates no longer apply and all children get the standard CCS
+          rate.
+        confidence: high
+        status: source_fetched
+      - authority: Services Australia
+        title: What adjusted taxable income is
+        url: "https://www.servicesaustralia.gov.au/what-adjusted-taxable-income?context=41186"
+        access_date: "2026-05-13"
+        fy_relevance: "Current Services Australia ATI page for family-assistance income components."
+        exact_claim: >-
+          Adjusted taxable income can include taxable income, foreign income,
+          tax-exempt foreign income, total net investment losses, reportable
+          fringe benefits, reportable superannuation contributions, certain
+          tax-free pensions or benefits, and deemed amounts from account-based
+          income streams. Taxable income is gross income minus allowable
+          deductions and includes wages, bonuses, business income, dividends,
+          investments, bank interest and capital gains.
+        confidence: high
+        status: source_fetched
+
+  - id: tax-agent-fees
+    title: Cost of managing tax affairs
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:210"
+      - "260315 - Deduction Review Worksheet.md:397"
+    downstream_issues:
+      - TaxFY2425-c6j.4
+      - TaxFY2425-c6j.6
+      - TaxFY2425-c6j.10
+    questions_to_answer:
+      - Which prior-year tax agent fees are deductible in FY2024-25?
+      - Does Isabelle have a separate prior-year fee amount to claim?
+    sources:
+      - authority: ATO
+        title: Cost of managing tax affairs
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/cost-of-managing-tax-affairs"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO cost-of-managing-tax-affairs page, last updated 26 June 2025."
+        exact_claim: >-
+          A taxpayer can claim expenses incurred in managing their own tax
+          affairs, including the cost to lodge through a registered tax agent.
+          If one invoice covers associated people such as a spouse, the taxpayer
+          needs to split the fees and keep records showing how the split was
+          worked out. Fees are generally incurred in the income year they are
+          paid.
+        confidence: high
+        status: source_fetched
+
+  - id: income-etp-allowances-interest-dividends
+    title: PAYG income, ETP, allowances, interest, dividends, and managed fund records
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:14"
+      - "260315 - Deduction Review Worksheet.md:25"
+      - "260315 - Deduction Review Worksheet.md:41"
+      - "260315 - Deduction Review Worksheet.md:47"
+      - "260315 - Deduction Review Worksheet.md:300"
+    downstream_issues:
+      - TaxFY2425-c6j.3
+      - TaxFY2425-c6j.6
+      - TaxFY2425-c6j.7
+    questions_to_answer:
+      - Do the draft PAYG, ETP, interest, dividend, and managed fund amounts match source documents?
+      - Are any income sources missing from the draft return?
+    sources:
+      - authority: ATO
+        title: Records you need to keep
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/records-you-need-to-keep"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO record-keeping guidance for income and investment records."
+        exact_claim: >-
+          The fetched page lists income statements, PAYG payment summaries,
+          interest statements, dividend statements, SDS and AMMA statements as
+          records that may support salary, interest, dividends, and managed fund
+          income.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Employment income
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/income-you-must-declare/employment-income"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO employment income page, last updated 15 May 2025."
+        exact_claim: >-
+          Salary and wage payments that need to be declared include normal pay,
+          commissions and bonuses. The page also says taxpayers may receive
+          allowances or other payments in connection with employment that need to
+          be declared in the tax return.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Employment allowances
+        url: "https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/income-you-must-declare/employment-income/employment-allowances"
+        access_date: "2026-05-13"
+        fy_relevance: "Current ATO employment allowances page, last updated 16 June 2025."
+        exact_claim: >-
+          An allowance is a separate amount an employer pays in addition to salary
+          and wages, based on estimated costs or employment conditions. If an
+          employer reports the allowance on the annual income statement, the
+          taxpayer must include it as income in the tax return. Receiving an
+          allowance does not create an automatic deduction; the taxpayer can only
+          claim deductible work-related expenses actually incurred and must keep
+          records.
+        confidence: high
+        status: source_fetched
+      - authority: ATO
+        title: Employment termination payments
+        url: "https://www.ato.gov.au/individuals-and-families/jobs-and-employment-types/working-as-an-employee/leaving-the-workforce/employment-termination-payments"
+        access_date: null
+        fy_relevance: "Needed for Atlassian ETP code/taxable component questions."
+        exact_claim: null
+        confidence: pending
+        status: source_needed
+
+  - id: household-facts-not-tax-law
+    title: Household facts that must come from Thomas/Isabelle, not sources
+    worksheet_refs:
+      - "260315 - Deduction Review Worksheet.md:505"
+    downstream_issues:
+      - TaxFY2425-c6j.2
+      - TaxFY2425-c6j.11
+    questions_to_answer:
+      - Exact WFH hours and contemporaneous records for both taxpayers.
+      - Tizzi private-use percentages for iPad, iPhone, and other mixed-use assets.
+      - Whether streaming/professional-reading work percentages are defensible.
+      - Whether there are extra accounts, income sources, tools, donations, or professional fees.
+    sources:
+      - authority: Household
+        title: Direct confirmation from Thomas and Isabelle
+        url: null
+        access_date: null
+        fy_relevance: "These are factual inputs, not legal authorities."
+        exact_claim: null
+        confidence: pending
+        status: not_tax_law_household_fact

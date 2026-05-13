@@ -1,0 +1,270 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.8
+source_register: ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+scope:
+  worksheet_sections:
+    - "260315 - Deduction Review Worksheet.md:459"
+    - "260315 - Deduction Review Worksheet.md:465"
+  primary_evidence:
+    - "260315 - Bank Statement Deduction Cross-Check.md"
+    - "5. Bank Statements/Analysis/all_transactions.csv"
+    - "5. Bank Statements/Analysis/bank_australia_transactions.csv"
+    - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+    - "5. Bank Statements/Analysis/highlighted_transactions.csv"
+    - "5. Bank Statements/Analysis/transaction_crossref.csv"
+    - "5. Bank Statements/Analysis/transaction_receipt_crossref.md"
+    - "2. Deductions/Thomas/"
+    - "2. Deductions/Isabelle/"
+
+source_checked_topics:
+  - id: records-substantiation
+    status: source_fetched
+  - id: wfh-fixed-rate-2024-25
+    status: source_fetched
+  - id: gifts-donations-dgr
+    status: source_fetched
+  - id: employee-work-expenses-tools-software-self-education
+    status: source_fetched
+  - id: tax-agent-fees
+    status: source_fetched
+
+coverage_checks:
+  - id: anz-analysis-coverage
+    status: unresolved_gap
+    finding: "all_transactions.csv contains 1,256 ANZ rows from 9 Sep 2024 to 30 Jun 2025 across 11 statement PDFs. No ANZ credit-card transactions from 1 Jul 2024 to 8 Sep 2024 are present in the analysis output."
+    action: "Keep early-FY ANZ/NAB credit-card coverage as a household/document gap unless the missing statements are supplied or confirmed irrelevant."
+  - id: bank-australia-analysis-coverage
+    status: resolved
+    finding: "bank_australia_transactions.csv contains 452 Bank Australia rows from 1 Jul 2024 to 30 Jun 2025. The older cross-check note saying Bank Australia was Jul-Sep only is stale for the current analysis files."
+    action: "Use the current full-year Bank Australia CSV for follow-on calculations."
+  - id: family-centrelink-coverage
+    status: evidence_gap
+    finding: "No files were found under 4. Family during TaxFY2425-c6j.7; CCS/FTB remains a post-lodgement household/Services Australia reconciliation topic."
+    action: "Do not treat missing family folder files as a tax-return evidence blocker, but ask household whether any CCS/FTB balancing notices should be retained."
+
+deterministic_checks:
+  - id: deductible-transactions-v2-category-totals
+    method: "Python csv + Decimal aggregation of deductible_transactions_v2.csv"
+    figures:
+      conferences_events:
+        count: 4
+        gross: "81.00"
+        deductible: "81.00"
+      donations:
+        count: 3
+        gross: "520.37"
+        deductible: "520.37"
+      home_office_equipment:
+        count: 4
+        gross: "1757.48"
+        deductible: "1757.48"
+      internet_phone:
+        count: 9
+        gross: "945.00"
+        deductible_at_65_percent: "614.25"
+      productivity_tools:
+        count: 1
+        gross: "48.43"
+        deductible: "48.43"
+      professional_reading:
+        count: 5
+        gross: "55.61"
+        deductible_at_50_percent: "27.81"
+      software_subscriptions:
+        count: 9
+        gross: "589.89"
+        deductible: "589.89"
+      streaming_creative:
+        count: 51
+        gross: "950.78"
+        deductible_at_30_percent: "285.23"
+    finding: "The generated CSV totals differ from the older prose cross-check, especially Isabelle streaming/events, so downstream calculations should use the reviewed status map rather than raw generated totals."
+  - id: deductible-transactions-v2-owner-totals
+    method: "Python csv + Decimal aggregation of deductible_transactions_v2.csv"
+    figures:
+      Isabelle:
+        count: 55
+        gross: "1031.78"
+        deductible: "366.23"
+      Thomas:
+        count: 19
+        gross: "2451.41"
+        deductible: "2423.61"
+      check_card:
+        count: 3
+        gross: "520.37"
+        deductible: "520.37"
+      shared:
+        count: 9
+        gross: "945.00"
+        deductible: "614.25"
+    finding: "Owner totals are generated classification totals only; check_card donations need owner allocation and shared internet should not be claimed separately if the WFH fixed-rate method is used."
+
+receipt_matcher_sanity_check:
+  status: unreliable_for_automatic_use
+  finding: "transaction_crossref.csv and transaction_receipt_crossref.md include obvious false positives from loose date/merchant matching. These should not be relied on without manual receipt review."
+  obvious_false_positive_examples:
+    - "Aussie Broadband internet rows matched to Hayu, Ring, Cheek Media and Cleanup receipts."
+    - "OpenAI rows matched to Spotify Audiobooks, projector screen and Replit receipts."
+    - "Disney+ matched to a Cleanup receipt."
+    - "UNICEF and Bravehearts donations matched to a Cleanup receipt."
+    - "The cross-reference points 15 Dec 2024 Officeworks rows to a Thomas receipt path that is not present; the visible receipt file is under Isabelle deductions."
+  action: "Use receipt filenames and direct receipt/PDF evidence manually; treat generated matches only as a lead."
+
+candidate_status_groups:
+  - id: donations-dgr
+    status: confirmed
+    transactions:
+      - "15/06/2025 UNICEF AUSTRALIA PYRMONT $250.00"
+      - "15/06/2025 BRAVEHEARTS FOUNDATION ARUNDEL $250.00"
+      - "2025-05-22 POS #665785 - Cancer Council VIC $20.37"
+    evidence:
+      - "2. Deductions/Thomas/250615 - UNICEF Donation Receipt.pdf"
+      - "2. Deductions/Thomas/250616 - Bravehearts Donation Receipt.pdf"
+      - "2. Deductions/Isabelle/250522 - Cancer Council Donation Receipt.pdf"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    finding: "UNICEF, Bravehearts and Cancer Council Victoria now have receipt/DGR support; Cancer Council is also present in the full-year Bank Australia CSV, resolving the older prose note that it was not found in bank statements."
+    next_step: "Allocate owner correctly: Thomas for UNICEF/Bravehearts; Isabelle for Cancer Council. Avoid double counting SEEK salary-sacrifice giving."
+  - id: internet-phone
+    status: rejected_for_current_method
+    transactions: "9 Aussie Broadband rows, gross $945.00, generated deductible $614.25 at 65%."
+    evidence:
+      - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+      - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+    finding: "The generated CSV includes internet as deductible, but ATO WFH fixed-rate source says internet and phone are included in the fixed rate. Prior reviews use the fixed-rate method, so separate internet/phone should be excluded unless H&R Block switches to actual-cost treatment."
+    next_step: "Carry as H&R Block method consistency question, not as a confirmed deduction."
+  - id: software-subscriptions-thomas
+    status: mixed_confirmed_and_h_and_r_block_question
+    transactions:
+      - "Replit direct rows $23.98, $80.02, $81.35 have receipts in Thomas deductions."
+      - "OpenAI direct rows $18.36, $35.54, $35.13 have bank evidence; Apple-billed ChatGPT components are separately noted and create double-count risk."
+      - "BeforeSunset AI $131.08 and OpenArt AI $134.48 have bank/highlight evidence but no receipt file found by filename search."
+      - "Microsoft*Store/MSBill $49.95 is labelled 1Password/Microsoft 365 in generated notes, but the visible 1Password invoice is $65.84 and dated January."
+    evidence:
+      - "2. Deductions/Thomas/250607 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250613 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250622 - Replit Receipt.pdf"
+      - "2. Deductions/Thomas/250114 - 1Password Invoice.pdf"
+      - "5. Bank Statements/Analysis/highlighted_transactions.csv"
+    finding: "Replit is receipt-backed. OpenAI/BeforeSunset/OpenArt are plausible Thomas/Tizzi candidates but need receipts/work-use confirmation. 1Password/Microsoft row needs reconciliation because receipt and bank amounts do not match. GitHub Copilot, WARP Terminal, Medium and LinkedIn Premium were not found by filename or transaction keyword scan."
+    next_step: "Ask H&R Block whether these belong in Tizzi P8 or employee D5, and ensure no duplicate Replit/ChatGPT claims across schedules."
+  - id: apple-transactions
+    status: mixed_rejected_and_household_question
+    finding: "Apple analysis in the prose cross-check separates Thomas iCloud, Apple-billed ChatGPT components, unknown Apple rows, and personal Apple subscriptions. The two unknown rows remain 14/02/2025 $15.00 and 23/06/2025 $63.98."
+    next_step: "Confirm Apple purchase history for the two unknown rows; keep personal Apple subscriptions rejected; avoid duplicate ChatGPT claims where Apple-billed components overlap direct OpenAI rows."
+  - id: amazon-receipt-check
+    status: mixed_confirmed_and_rejected
+    transactions:
+      - "04/02/2025 AMAZON MARKETPLACE AU $879.99 matches Nebula Projector invoice."
+      - "26/04/2025 AMAZON MARKETPLACE AU $37.99 matches Projector Screen receipt."
+      - "30/06/2025 AMAZON MARKETPLACE AU $2,168.98 matches iPad $2,148.99 plus clock $19.99 invoice text."
+      - "Other Amazon rows are classified personal_not_deductible in all_transactions.csv unless receipt-level evidence shows work use."
+    evidence:
+      - "2. Deductions/Thomas/250204 - Nebula Projector Invoice.pdf"
+      - "2. Deductions/Thomas/250527 - Projector Screen Home Office.pdf"
+      - "2. Deductions/Thomas/250630 - Amazon iPad Invoice.pdf"
+      - "2. Deductions/Thomas/250630 - Clock Invoice.pdf"
+    finding: "Only receipt-backed Amazon items should flow into Tizzi/employee schedules. The generic 32-row Amazon bucket in the older prose cross-check is too broad to use as a deduction list."
+    next_step: "Carry confirmed receipt-backed Amazon assets into the final calculation according to the Tizzi review and H&R Block treatment."
+  - id: ikea-classification
+    status: mixed_confirmed_and_household_question
+    transactions:
+      - "11/03/2025 IKEA PTY LTD TEMPE $850.00 matches IKEA proof of payment."
+      - "08/03/2025 IKEA PTY LTD TEMPE $2,619.50 appears related to large PAX/bookshelf invoice but needs H&R/household allocation and work-use basis."
+      - "Other IKEA rows total smaller personal/not-yet-classified purchases and should not be claimed without item-level work evidence."
+    evidence:
+      - "2. Deductions/Thomas/250311 - IKEA Large Bookshelves Tax Invoice.pdf"
+      - "2. Deductions/Thomas/250315 - IKEA Proof of Payment.pdf"
+    finding: "IKEA remains a classification risk: some receipts support office storage/furniture, but not all IKEA transactions are deductible."
+    next_step: "Ask H&R Block to apply only the business/work-use portion of confirmed office-storage/furniture items."
+  - id: officeworks-stationery-equipment
+    status: h_and_r_block_question
+    transactions:
+      - "15/12/2024 Officeworks rows $22.54, $24.94, $5.00."
+      - "30/06/2025 Officeworks Bentleigh $1,705.00."
+    evidence:
+      - "2. Deductions/Isabelle/241215 - Officeworks Printing.pdf"
+      - "2. Deductions/Thomas/250630 - Officeworks iPhone Apple Pencil Pro.pdf"
+    finding: "The iPhone/Apple Pencil row is receipt-backed but has first-used/ready-for-use timing questions already captured in the Tizzi review. The 15 Dec Officeworks receipt is under Isabelle deductions, while generated CSV classifies the rows to Thomas."
+    next_step: "Confirm owner and work purpose for the 15 Dec Officeworks printing/supplies rows before calculation."
+  - id: home-office-cleaning
+    status: h_and_r_block_question
+    transactions:
+      - "05/09/2024 Bank Australia Maid To Clean $132.13."
+      - "18/09/2024, 02/10/2024, 16/10/2024, 30/10/2024 ANZ Maid To Clean rows, each $132.13."
+    evidence:
+      - "5. Bank Statements/Analysis/bank_australia_transactions.csv"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+    finding: "Cleaning transactions exist in bank data, but supplier invoices were not found in receipt filename search and floor-area/dedicated-office basis remains a H&R Block question from earlier reviews."
+    next_step: "Keep as H&R Block question, not confirmed solely from bank statement rows."
+  - id: isabelle-streaming-and-events
+    status: h_and_r_block_question
+    transactions: "51 streaming rows in deductible_transactions_v2.csv, gross $950.78, generated deductible $285.23; 4 event rows, gross/deductible $81.00."
+    evidence:
+      - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+      - "2. Deductions/Isabelle/"
+      - ".agents/life/projects/tax-fy24-25-worksheet-review/isabelle-income-deductions-review.yaml"
+    finding: "Streaming/events were already marked unconfirmed in TaxFY2425-c6j.6. The older prose cross-check has 54 streaming rows and $1,028.75, while the current CSV has 51 rows and $950.78, so use the CSV only as a candidate list pending Isabelle/H&R work-purpose support."
+    next_step: "Do not include by default; ask H&R Block whether to claim, reduce or remove each platform/event."
+  - id: professional-reading-productivity
+    status: mixed_h_and_r_block_question_and_rejected
+    transactions:
+      - "TheCenteredLife $48.43 remains a Thomas self-education/productivity H&R question."
+      - "New Yorker rows are plausible professional-reading H&R questions."
+      - "Sassafras Sweet Co $26.98 is a false positive and should be rejected as confectionery/personal unless new evidence appears."
+    evidence:
+      - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+      - "2. Deductions/Thomas/"
+    finding: "Generated professional-reading/productivity classification is over-inclusive and needs item-level employment-duty support."
+    next_step: "Carry only TheCenteredLife/New Yorker as H&R questions; reject Sassafras."
+  - id: work-travel-parking-public-transport
+    status: household_question
+    finding: "Keyword scan found MYKI, parking and Uber trip rows, but the CSV classifies them as unclassified or personal and no work-meeting purpose was evidenced. Uber Eats/gift cards are personal false positives for travel keywords."
+    next_step: "Ask household whether any specific MYKI, parking or Uber trip was for work meetings; otherwise reject."
+  - id: optometry
+    status: source_law_or_h_and_r_block_question
+    finding: "Keyword scan found Bailey Nelson Preston $115.00. No optometry receipt/work requirement evidence was found in deduction folders."
+    next_step: "Ask H&R Block before claiming; treat as rejected unless there is a source-supported work-specific basis."
+  - id: missed-deduction-no-matches
+    status: rejected_or_no_evidence_found
+    categories:
+      professional_memberships: "Only Amazon Prime/OnePass membership false positives found; no industry body fees found."
+      union_fees: "No transaction keyword matches."
+      work_clothing_laundry: "No transaction keyword matches."
+      isabelle_design_tools: "No Adobe/Figma/Canva/design-tool keyword matches."
+      phone_expenses: "No Telstra/Optus/Vodafone/mobile keyword matches in all_transactions.csv; also phone is included in WFH fixed rate if fixed-rate method is used."
+      income_protection_insurance: "No Zurich/TAL/MLC/AIA/income-protection keyword matches."
+      covid_tests: "No COVID/RAT/PCR keyword matches."
+      books_courses: "Kieser Training and Academy Uniforms were false positives from generic training/academy keywords; no Udemy/Coursera/Pluralsight/book/course matches found."
+    next_step: "No new deduction identified from these categories unless the household supplies separate evidence."
+
+h_and_r_block_questions:
+  - "Should the internet rows be excluded because WFH fixed-rate method includes internet/phone, or is H&R Block using actual-cost treatment for any period?"
+  - "Should Thomas software rows be allocated to Tizzi P8 or employee D5, and how do we prevent duplicate Replit/ChatGPT claims?"
+  - "How should the Microsoft*Store/MSBill $49.95 row be treated given the visible 1Password invoice is $65.84?"
+  - "Which Amazon/IKEA/Officeworks assets should be included, and at what business/work-use percentage, after first-used/ready-for-use timing checks?"
+  - "Can bank statements substantiate Maid To Clean rows, or are supplier invoices/floor-area records required before claiming?"
+  - "Should any Isabelle streaming/event rows survive after work-purpose review, and at what apportionment?"
+  - "Can Bailey Nelson optometry be claimed in any circumstance relevant to Thomas or Isabelle, or should it be rejected?"
+
+household_questions:
+  - "Can you supply or confirm no ANZ/NAB credit-card statements are needed for 1 Jul 2024 to 8 Sep 2024?"
+  - "Can you check Apple purchase history for 14/02/2025 $15.00 and 23/06/2025 $63.98?"
+  - "Were any MYKI, parking or Uber trip rows specifically for work meetings rather than private travel?"
+  - "Do you have receipts for BeforeSunset AI, OpenArt AI, direct OpenAI/ChatGPT, Maid To Clean, or any missing Amazon/IKEA work items?"
+  - "Do you have any professional memberships, union fees, phone bills, income-protection premiums, optometry work requirements, COVID tests, or design-tool subscriptions outside the scanned accounts?"
+
+status_summary: >-
+  The generated bank summaries are useful but stale/over-inclusive in places.
+  Bank Australia full-year coverage is now verified and Cancer Council is found.
+  ANZ credit-card coverage before 9 Sep 2024 remains the main statement gap.
+  The receipt matcher has multiple false positives and should not be used
+  automatically. Confirmed items are mostly DGR donations and receipt-backed
+  Replit/Amazon/Officeworks assets, while internet, streaming/events,
+  cleaning, IKEA, software allocation, Apple unknowns and missed-deduction
+  scans remain either rejected, household questions or H&R Block questions as
+  classified above.

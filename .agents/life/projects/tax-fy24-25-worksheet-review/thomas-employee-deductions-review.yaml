@@ -1,0 +1,261 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.4
+status: ready_for_h_and_r_block_questions
+
+sources_used:
+  - "260315 - Deduction Review Worksheet.md"
+  - "260315 - Bank Statement Deduction Cross-Check.md"
+  - "2. Deductions/Thomas/"
+  - "5. Bank Statements/Analysis/FY24-25-Analysis.md"
+  - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+  - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+  - "scripts/tax_categories.py"
+  - "verify_calculations.py"
+  - ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+source_register_updates:
+  - id: employee-work-expenses-tools-software-self-education
+    result: "Updated self-education, computers/software, books/digital information, and employee depreciating-asset sources to source_fetched."
+  - id: gifts-donations-dgr
+    result: "Updated ABR DGR source to source_fetched for UNICEF Australia and Bravehearts Foundation. Cancer Council Victoria was verified later under TaxFY2425-c6j.6."
+  - id: tax-agent-fees
+    result: "Updated cost-of-managing-tax-affairs source to source_fetched."
+
+reviewed_items:
+  - id: d4-self-education
+    return_section: D4 Work-related self-education expenses
+    h_and_r_block_amounts:
+      thecenteredlife: 48
+      audiobooks_professional_development: 99
+      total_display: 147
+    evidence_amounts:
+      thecenteredlife_bank_amount: 48.43
+      audible_receipts_count: 6
+      audible_amount_each: 16.45
+      audible_total: 98.70
+      deterministic_total: 147.13
+    source_rules:
+      - employee-work-expenses-tools-software-self-education
+      - records-substantiation
+    classification: h_and_r_block_and_household_question
+    result: >-
+      H&R Block's rounded D4 total ties to the bank/receipt amounts. The claim
+      still needs a clear current-employment connection: TheCenteredLife must be
+      more than general productivity, and the Audible titles need to be identified
+      as work-related professional development rather than personal listening.
+    risks:
+      - "TheCenteredLife receipt evidence was not found in the Thomas deduction folder; bank evidence alone is weaker substantiation."
+      - "If the Audible charges are the same $16.45 x 6 also listed in H&R Block D5 subscription detail as 'Adobe', there is a possible duplicate claim."
+
+  - id: d5-wfh-fixed-rate
+    return_section: D5 Other work-related expenses
+    h_and_r_block_amounts:
+      recorded_hours: 808
+      rate_per_hour: 0.70
+      claimed_display: 566
+    evidence_amounts:
+      deterministic_claim: 565.60
+      atlassian_hours: 408
+      seek_hours: 400
+    source_rules:
+      - wfh-fixed-rate-2024-25
+      - records-substantiation
+    classification: confirmed_if_household_hours_records_exist
+    result: >-
+      H&R Block's WFH amount is consistent with 808 actual hours at the FY2024-25
+      fixed rate of 70 cents per hour, subject to Thomas having actual-hour
+      records and confirming the Atlassian/SEEK WFH assumptions.
+    risks:
+      - "The worksheet's Internet note appears to misread the H&R Block $808 as internet at 70%; the draft line is WFH hours x 70c, not a separate internet claim."
+      - "ATO fixed-rate rules include home/mobile internet, phone usage, energy, stationery and computer consumables, so the separate bank-analysis internet amount should not be added if fixed rate is used."
+
+  - id: d5-internet-phone
+    return_section: D5 Other work-related expenses
+    h_and_r_block_amounts:
+      visible_separate_internet_claim: null
+    evidence_amounts:
+      aussie_broadband_payments_count: 9
+      gross_total: 945.00
+      bank_analysis_work_percent: 65
+      bank_analysis_deductible_amount: 614.25
+    source_rules:
+      - wfh-fixed-rate-2024-25
+    classification: reject_separate_claim_if_fixed_rate_used
+    result: >-
+      The bank analysis can support the gross cost if the actual-cost method were
+      used, but it should not be claimed separately while claiming WFH fixed rate.
+      H&R Block's visible draft does not show a separate internet line, which is
+      consistent with the fixed-rate method.
+
+  - id: d5-subscriptions-software
+    return_section: D5 Other work-related expenses
+    h_and_r_block_amounts:
+      claimed_display: 616
+      h_and_r_block_detail_total: 616.46
+      replit_detail: 185.41
+      chatgpt_detail: 129.03
+      openart_detail: 134.48
+      adobe_or_audible_detail: 98.70
+      password_security_detail: 68.84
+    evidence_amounts:
+      bank_software_total: 589.89
+      replit_bank_total: 185.35
+      chatgpt_bank_total: 89.03
+      openart_bank_total: 134.48
+      beforesunset_bank_total: 131.08
+      microsoft_store_or_1password_bank_amount: 49.95
+    source_rules:
+      - employee-work-expenses-tools-software-self-education
+      - records-substantiation
+    classification: h_and_r_block_question_and_double_count_risk
+    result: >-
+      The H&R Block subscription detail does not cleanly match bank evidence or
+      receipt names. It appears to use a Replit typo ($80.08 vs $80.02), a ChatGPT
+      typo or unsupported amount ($75.54 vs $35.54), a password-security amount
+      without matching evidence ($68.84 vs $49.95 found), includes a $16.45 x 6
+      item that may already be the D4 Audible claim, and excludes BeforeSunset
+      even though it appears in the bank software list.
+    risks:
+      - "Need decide D5 employee expense vs Tizzi P8 business expense for Replit, ChatGPT, OpenArt, BeforeSunset and 1Password."
+      - "Do not claim the same subscription in D4/D5 and Tizzi P8."
+      - "Software claims need work-duty connection, work/private apportionment, and receipt/invoice evidence."
+
+  - id: d5-work-related-depreciation
+    return_section: D5 Other work-related expenses and WRE depreciation schedule
+    h_and_r_block_amounts:
+      iphone_12_net_decline: 62
+      apple_watch_net_decline: 11
+      airpods_net_decline: 164
+      monitor_decline: 367
+      lg_gram_screen_decline: 459
+      projector_decline: 354
+    source_rules:
+      - employee-work-expenses-tools-software-self-education
+      - records-substantiation
+    classification: household_confirmation_required
+    result: >-
+      The depreciation worksheet is internally consistent with the worksheet notes
+      after private-use reductions. Household confirmation is still needed for
+      ongoing work use and whether the old iPhone 12 was replaced by the iPhone
+      16 Pro claimed on the Tizzi business schedule.
+    risks:
+      - "Assets over $300 generally require decline-in-value treatment and work/private apportionment."
+      - "If an asset stopped being used for work, H&R Block should confirm whether a balancing adjustment or disposal treatment is needed."
+
+  - id: d5-office-items-cleaning
+    return_section: D5 Other work-related expenses
+    h_and_r_block_amounts:
+      cleaning_gross: 529
+      cleaning_claimed: 132
+      projector_screen: 38
+      air_filter_for_office: 259
+      clock_timer: 98
+      label_maker: 79
+      office_item: 425
+    evidence_amounts:
+      cleaning_four_payments_gross: 528.52
+      cleaning_four_payments_at_25_percent: 132.13
+      cleaning_bank_summary_five_payments_gross: 660.65
+      cleaning_bank_summary_five_payments_at_25_percent: 165.16
+      officeworks_printing_supplies_bank_total: 52.48
+    source_rules:
+      - home-office-cleaning
+      - employee-work-expenses-tools-software-self-education
+      - records-substantiation
+    classification: h_and_r_block_question_and_substantiation_risk
+    result: >-
+      H&R Block's cleaning calculation ties to four $132.13 cleans at 25%, but
+      the bank cross-check summary says five cleans. The $425 office item is not
+      clearly reconciled to the available bank-analysis officeworks total of
+      $52.48 and needs source explanation. Cleaning is unusual but may be
+      separately claimable only for a dedicated home office, with defensible floor
+      area and invoices.
+    risks:
+      - "Confirm whether four or five Maid to Clean invoices are intended and whether invoices are available."
+      - "Confirm 25m2/100m2 home office floor-area basis."
+      - "Confirm the $425 office item source and why it is an employee D5 item rather than Tizzi P8 or personal."
+
+  - id: d9-gifts-donations
+    return_section: D9 Gifts or donations
+    h_and_r_block_amounts:
+      other_donations: 500
+      seek_salary_sacrifice: 12
+      total_display: 512
+    evidence_amounts:
+      unicef_receipt: 250
+      bravehearts_receipt: 250
+      dgr_unicef_abr_status: active
+      dgr_bravehearts_abr_status: active
+    source_rules:
+      - gifts-donations-dgr
+      - records-substantiation
+    classification: amend_or_confirm_workplace_giving_treatment
+    result: >-
+      UNICEF and Bravehearts have receipt evidence and were found in the ABR DGR
+      endorsed entity list. The $12 SEEK workplace-giving/salary-sacrifice item
+      should not be separately claimed as a D9 gift if it was made under salary
+      sacrifice or already handled through payroll.
+    risks:
+      - "Ask H&R Block to confirm whether the $12 SEEK entry must be removed to avoid double counting."
+      - "Cancer Council VIC appears in bank analysis but belongs to Isabelle review, not Thomas D9."
+
+  - id: d10-tax-agent-fees
+    return_section: D10 Cost of managing tax affairs
+    h_and_r_block_amounts:
+      agent_fees: 204
+    evidence_amounts:
+      receipt_found_in_references_folder: true
+      receipt_file: "6. References/250121 - HR Block Receipt.png"
+      receipt_date: "2025-01-21"
+      receipt_addressee: "MASON, ISABELLE"
+      receipt_total_paid: 428.00
+      simple_half_share: 214.00
+    source_rules:
+      - tax-agent-fees
+      - records-substantiation
+    classification: allocation_question
+    result: >-
+      The ATO source supports claiming costs incurred to manage the taxpayer's own
+      tax affairs, including lodging through a registered tax agent, generally in
+      the year paid. A receipt exists for $428 paid to H&R Block on 2025-01-21,
+      but it is addressed to Isabelle and a simple 50/50 split would be $214, not
+      Thomas's draft $204 claim. H&R Block should confirm the allocation basis.
+
+deterministic_checks:
+  h_and_r_block_d4_total: 147
+  h_and_r_block_d5_total: 2213
+  h_and_r_block_d9_total: 512
+  h_and_r_block_d10_total: 204
+  h_and_r_block_thomas_deductions_total: 3076
+  d4_evidence_exact_total: 147.13
+  wfh_fixed_rate_claim_exact: 565.60
+  bank_internet_gross_total: 945.00
+  bank_internet_65_percent_amount: 614.25
+  bank_software_total: 589.89
+  h_and_r_block_subscription_detail_total: 616.46
+  h_and_r_block_claimed_subscriptions_minus_bank_software: 26.11
+  cleaning_four_payment_claim: 132.13
+  cleaning_five_payment_claim: 165.16
+
+h_and_r_block_questions:
+  - "Please confirm D4 TheCenteredLife and Audible: what current-employment skills/duties do they maintain or improve, and what Audible titles were included?"
+  - "Please confirm whether the $16.45 x 6 subscription detail shown in D5 as 'Adobe' is actually the same Audible amount already claimed at D4. If yes, remove the duplicate."
+  - "Please confirm there is no separate internet claim in D5 while using the WFH fixed-rate method. The draft appears to use 808 hours x $0.70, not internet, which is correct if fixed rate is used."
+  - "Please reconcile D5 subscriptions: Replit $80.08 vs bank/receipt $80.02, ChatGPT $75.54 vs bank $35.54, Password Security $68.84 vs available $49.95, and BeforeSunset $131.08 excluded from the H&R detail."
+  - "Please confirm which software belongs to employee D5 versus the Tizzi P8 business schedule, and ensure no subscription is claimed in both places."
+  - "Please confirm ongoing work use and disposal/replacement treatment for the old iPhone 12 now that iPhone 16 Pro appears on the Tizzi schedule."
+  - "Please explain the D5 $425 office item and provide the matching receipt or depreciation/work-use treatment."
+  - "Please confirm cleaning uses four or five Maid to Clean invoices, confirm the 25m2/100m2 floor-area basis, and whether H&R Block is comfortable with the dedicated-home-office cleaning claim."
+  - "Please remove or explain the $12 SEEK salary-sacrifice/workplace-giving amount in D9, because ATO guidance says salary-sacrifice donations cannot be claimed as gifts or donations."
+  - "Please confirm the $204 D10 tax-agent-fee allocation. The available H&R Block receipt is addressed to Isabelle and totals $428 paid on 21 Jan 2025, so a simple 50/50 split would be $214 rather than $204."
+
+blocked_inputs:
+  - "Actual WFH hour records/diary supporting 408 Atlassian hours and 400 SEEK hours."
+  - "TheCenteredLife receipt or invoice, plus Thomas's explanation of direct current-employment connection."
+  - "Audible title list for the six $16.45 charges and confirmation they are work-related professional development."
+  - "Maid to Clean invoices and floor-area calculation for home office cleaning."
+  - "Receipt/source for H&R Block's D5 $425 office item and Password Security $68.84 amount."
+  - "H&R Block explanation for why Thomas's D10 tax-agent-fee share is $204 from a $428 receipt addressed to Isabelle."

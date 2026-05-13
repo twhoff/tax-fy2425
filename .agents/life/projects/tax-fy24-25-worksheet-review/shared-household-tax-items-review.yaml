@@ -1,0 +1,186 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.7
+source_register: ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+scope:
+  owner: Household
+  worksheet_sections:
+    - "260315 - Deduction Review Worksheet.md:253"
+    - "260315 - Deduction Review Worksheet.md:266"
+    - "260315 - Deduction Review Worksheet.md:405"
+    - "260315 - Deduction Review Worksheet.md:425"
+    - "260315 - Deduction Review Worksheet.md:436"
+    - "260315 - Deduction Review Worksheet.md:445"
+  primary_evidence:
+    - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-THOMAS.pdf"
+    - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-ISABELLE.pdf"
+    - "260315 - Deduction Review Worksheet.md"
+    - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+    - "5. Bank Statements/Analysis/"
+
+source_checked_topics:
+  - id: private-health-medicare-mls-rebate
+    status: source_fetched
+  - id: division-293
+    status: source_fetched
+  - id: ccs-ftb-centrelink-reconciliation
+    status: source_fetched_for_balancing_timing
+  - id: income-etp-allowances-interest-dividends
+    status: source_fetched
+
+deterministic_checks:
+  - id: h-and-r-combined-taxable-income
+    method: "Python Decimal arithmetic using Thomas H&R draft taxable income and spouse taxable income"
+    figures:
+      thomas_taxable_income: "246198"
+      isabelle_spouse_taxable_income_in_thomas_draft: "110118"
+      combined_taxable_income: "356316"
+    finding: "The worksheet's combined taxable-income figure ties to the Thomas draft inputs, but final combined ATI for CCS/FTB and MLS must wait for Isabelle's own return and TaxFY2425-c6j.9 recalculation."
+  - id: mls-family-tier3-scenario
+    method: "Python Decimal arithmetic from ATO 2024-25 MLS threshold table"
+    figures:
+      family_tier3_start_before_child_increase: "302001"
+      dependent_children_assumed_from_household_facts: 2
+      threshold_increase_after_first_child: "1500"
+      family_tier3_start_after_child_increase: "303501"
+      combined_taxable_income_above_adjusted_tier3_start_by: "52815"
+    finding: "On the draft taxable-income figures, the household is in Tier 3 for PHI rebate/MLS threshold purposes even after the second-child threshold uplift; however MLS is not expected if appropriate private patient hospital cover applied for all 365 days."
+  - id: nib-premium-rows
+    method: "Python Decimal arithmetic from NIB statement/H&R draft premium rows"
+    figures:
+      benefit_code_31_premium: "594"
+      benefit_code_30_premium: "1708"
+      row_total: "2302"
+      rebate_received: "0"
+      hospital_cover_days_thomas: 365
+      hospital_cover_days_isabelle: 365
+    finding: "NIB statements and Thomas's H&R draft agree on two private-health rows, membership 23913733, zero rebate received, and 365 days appropriate private patient hospital cover."
+
+lodgement_items:
+  - "Enter/verify each taxpayer's private health insurance statement rows from their own NIB statement, preserving benefit codes 30 and 31 and rebate received $0."
+  - "Confirm M2 Medicare levy surcharge days not liable remains 365 for Thomas and Isabelle, because both NIB statements show 365 days appropriate private patient hospital cover."
+  - "Confirm spouse details in each return against Isabelle's own H&R Block draft, including taxable income, reportable fringe benefits, reportable super contributions and any net investment loss."
+  - "Confirm whether the H&R draft income-test field 'Number of dependent children = 0' is correct for that field, given household facts show Harlow and Oliver."
+  - "Expect Division 293 to be assessed separately by the ATO if Thomas's Division 293 income plus concessional contributions exceed $250,000."
+  - "Confirm joint Bank Australia interest split and VDHG ownership/share before final income calculations."
+
+post_noa_or_centrelink_items:
+  - "CCS balancing is a Services Australia process after income is confirmed; if tax returns are lodged, the ATO sends income details to Services Australia."
+  - "FTB balancing, if relevant, is separate from CCS balancing and also uses income confirmed after tax returns or non-lodgement advice."
+  - "The worksheet's CCS margin should be recalculated after all return inputs are confirmed in TaxFY2425-c6j.9; no CCS statement was found in 4. Family and no CCS lodgement attachment is needed for the tax return based on the balancing source."
+
+review_items:
+  - id: A7-B5-NIB-PHI
+    area: private_health_insurance
+    status: confirmed_subject_to_isabelle_return_entry
+    evidence:
+      - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-THOMAS.pdf"
+      - "3. Health Insurance/250630 - Nib-health-insurance-tax-statement-ISABELLE.pdf"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    source_topics:
+      - private-health-medicare-mls-rebate
+    finding: "Both NIB statements show membership 23913733, 365 days appropriate private patient hospital cover, premium rows $1,708 benefit code 30 and $594 benefit code 31, and rebate received $0. Thomas's H&R draft matches those rows. Isabelle's own H&R draft is still missing."
+    action: "Ask H&R Block to confirm Isabelle's return has the same NIB statement rows from Isabelle's own statement and that the rows are not combined or entered under the wrong taxpayer."
+  - id: A7-B5-MLS-REBATE-TIER
+    area: private_health_insurance
+    status: source_verified
+    evidence:
+      - "260315 - Deduction Review Worksheet.md"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    source_topics:
+      - private-health-medicare-mls-rebate
+    finding: "ATO MLS and PHI rebate threshold pages place a 2024-25 family at Tier 3 from $302,001 or more, with a $1,500 threshold increase for each MLS dependent child after the first. ATO PHI rebate rates show Tier 3 rebate is 0.000%. NIB reports $0 rebate received, which is consistent with Tier 3."
+    action: "Keep rebate received as $0. The MLS exemption position depends on the 365 days appropriate private patient hospital cover already evidenced by NIB."
+  - id: A8-DIVISION-293
+    area: division_293
+    status: source_verified_separate_assessment_expected
+    evidence:
+      - "260315 - Deduction Review Worksheet.md"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    source_topics:
+      - division-293
+    finding: "ATO says Division 293 applies when combined Division 293 income and concessional super contributions exceed $250,000, and is 15% of the excess over the threshold or taxable super contributions, whichever is less. The ATO sends a Division 293 notice after receiving the tax return and super fund contribution information."
+    action: "Treat the H&R Block Division 293 warning as expected for Thomas, but leave the final amount to ATO assessment or TaxFY2425-c6j.9 scenario calculation once concessional contributions are confirmed."
+  - id: A8-SPOUSE-DETAILS
+    area: spouse_details
+    status: unresolved_until_isabelle_return
+    evidence:
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+      - "1. Income/Isabelle/250630 - SCRATCH PAYG Statement FY24-25.pdf"
+    source_topics:
+      - income-etp-allowances-interest-dividends
+    finding: "Thomas's draft records Isabelle's taxable income as $110,118 and spouse full-year status as yes. Isabelle's SCRATCH PAYG gross is $111,470.05 plus a separate $1,199.64 Home Office allowance, so Isabelle's own return is required to explain the final taxable income and allowance treatment."
+    action: "Ask H&R Block to confirm spouse fields against Isabelle's own return, including taxable income, reportable fringe benefits, reportable super contributions, target foreign income, net investment losses, and any HELP-related details."
+  - id: DEPENDANTS-INCOME-TESTS
+    area: dependants
+    status: h_and_r_block_question
+    evidence:
+      - "260315 - Deduction Review Worksheet.md"
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    source_topics:
+      - private-health-medicare-mls-rebate
+    finding: "Household facts list Harlow and Oliver as dependent children, and ATO MLS/PHI threshold sources use a child-after-first threshold uplift. Thomas's H&R draft income-test section shows 'Number of dependent children' as 0. Because income-test labels can be return-field specific, do not manually change it without H&R Block confirmation."
+    action: "Ask H&R Block whether the draft's dependent-children field should be 0 or 2, and whether any separate MLS/PHI family/dependant fields already capture Harlow and Oliver."
+  - id: C1-CCS-TIMING
+    area: centrelink_reconciliation
+    status: source_verified_for_timing
+    evidence:
+      - "260315 - Deduction Review Worksheet.md"
+    source_topics:
+      - ccs-ftb-centrelink-reconciliation
+    finding: "Services Australia says CCS is balanced from mid-August after family income is confirmed; where taxpayers lodge returns, the ATO tells Services Australia the incomes and Services Australia uses that information to balance CCS."
+    action: "Separate CCS balancing from the tax-return lodgement pack. Recalculate the worksheet's CCS threshold/margin in TaxFY2425-c6j.9 after confirmed taxable income/ATI inputs."
+  - id: C2-FTB-TIMING
+    area: centrelink_reconciliation
+    status: source_verified_for_timing
+    evidence:
+      - "260315 - Deduction Review Worksheet.md"
+      - "4. Family/"
+    source_topics:
+      - ccs-ftb-centrelink-reconciliation
+    finding: "Services Australia says FTB is balanced after the financial year ends and after the last payment, using income from tax returns where returns are lodged. Services Australia also says FTB and CCS are balanced separately. No family documents were found under 4. Family in this worktree."
+    action: "Ask the household whether FTB was received. If yes, treat it as post-lodgement Services Australia reconciliation rather than an H&R Block worksheet attachment unless H&R Block requests details."
+  - id: C3-BANK-ACCOUNT-ASSUMPTIONS
+    area: accounts_and_income_sources
+    status: household_confirmation_needed
+    evidence:
+      - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+      - "5. Bank Statements/Analysis/bank_australia_transactions.csv"
+      - "5. Bank Statements/Analysis/all_transactions.csv"
+      - "5. Bank Statements/FY24-25/Transactions_2024-07-01_2024-09-30.csv"
+    finding: "Worksheet assumptions are Bank Australia joint savings interest split 50/50, Bendigo offset not taxable, ANZ credit card no interest income, and no BOQ, term deposits, crypto, foreign accounts or rental income. Bank coverage and transaction reconciliation are deliberately deferred to TaxFY2425-c6j.8."
+    action: "Ask household to confirm no additional income-bearing accounts or investments. Carry bank coverage conflicts into TaxFY2425-c6j.8."
+
+household_questions:
+  - "Did the household have any BOQ, term deposit, crypto, foreign account, rental income, or other income-bearing account not already listed?"
+  - "Was Family Tax Benefit received during FY2024-25?"
+  - "Does the household have any CCS/FTB letters or balancing notices to retain for later Centrelink reconciliation, even though they are not needed for return lodgement?"
+  - "Are Harlow and Oliver both dependants for all relevant FY2024-25 family/Services Australia contexts?"
+
+h_and_r_block_questions:
+  - "Please confirm Isabelle's own H&R Block draft return and spouse details used in Thomas's return."
+  - "Should Thomas's H&R draft income-test field 'Number of dependent children' be 0 or 2, given Harlow and Oliver?"
+  - "Please confirm both Thomas and Isabelle private health insurance rows are entered from their own NIB statements, with benefit codes 30 and 31, rebate received $0, and 365 days hospital cover."
+  - "Please confirm whether any Division 293 amount should be estimated in the worksheet, or simply left for the ATO separate notice after super fund reporting."
+  - "Please confirm Bank Australia joint interest and VDHG ownership/share before final income calculations."
+
+blocked_inputs:
+  - "Isabelle's own H&R Block draft return."
+  - "Confirmation of the dependent-children field in Thomas's H&R draft."
+  - "Household confirmation of FTB receipt/status."
+  - "Household confirmation of no other accounts/income sources."
+  - "Final confirmed income/deduction figures from TaxFY2425-c6j.8 and TaxFY2425-c6j.9."
+
+status_summary: >-
+  Shared household lodgement items are mostly clean for private health insurance:
+  NIB and Thomas's H&R draft agree on the full-year cover and rebate rows.
+  Division 293 is source-confirmed as a likely separate ATO assessment for
+  Thomas once income and super contribution data are both available. The main
+  unresolved lodgement questions are Isabelle's missing return, the H&R draft
+  dependent-children field, joint investment/account confirmation, and final
+  calculation reruns. CCS and FTB are post-lodgement Services Australia
+  balancing items, not tax-return attachments.

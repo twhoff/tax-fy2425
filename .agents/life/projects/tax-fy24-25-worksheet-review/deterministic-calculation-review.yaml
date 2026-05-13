@@ -1,0 +1,242 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.9
+source_register: ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+scope:
+  worksheet_sections:
+    - "260315 - Deduction Review Worksheet.md:425"
+    - "260315 - Deduction Review Worksheet.md:436"
+    - "260315 - Deduction Review Worksheet.md:445"
+    - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md:345"
+  primary_evidence:
+    - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    - ".agents/life/projects/tax-fy24-25-worksheet-review/thomas-income-reconciliation.yaml"
+    - ".agents/life/projects/tax-fy24-25-worksheet-review/thomas-employee-deductions-review.yaml"
+    - ".agents/life/projects/tax-fy24-25-worksheet-review/tizzi-business-schedule-review.yaml"
+    - ".agents/life/projects/tax-fy24-25-worksheet-review/isabelle-income-deductions-review.yaml"
+    - ".agents/life/projects/tax-fy24-25-worksheet-review/shared-household-tax-items-review.yaml"
+    - ".agents/life/projects/tax-fy24-25-worksheet-review/bank-receipt-cross-check-review.yaml"
+    - "verify_calculations.py"
+
+source_checked_topics:
+  - id: income-tax-medicare-ccs-calculation
+    status: source_fetched
+  - id: division-293
+    status: source_fetched
+  - id: ccs-ftb-centrelink-reconciliation
+    status: source_fetched
+  - id: wfh-fixed-rate-2024-25
+    status: source_fetched
+  - id: gifts-donations-dgr
+    status: source_fetched
+  - id: ess-and-rsu-income
+    status: source_identified_extract_pending
+
+calculation_method:
+  arithmetic_engine: "Python Decimal, ROUND_HALF_UP to cents"
+  tax_rates: "ATO FY2024-25 Australian resident rates from source register topic income-tax-medicare-ccs-calculation"
+  medicare_levy: "2% full levy used because all scenarios are above the family Medicare levy reduction thresholds"
+  medicare_levy_surcharge: "0 in deterministic payable scenarios because NIB statements show 365 days appropriate hospital cover; see TaxFY2425-c6j.7"
+  ccs_threshold: "Services Australia higher-CCS combined family income cutoff: under $367,563"
+  div293_method: "15% of the lesser of excess over $250,000 or concessional contributions, using PAYG employer super amounts as a scenario input pending ATO/fund data"
+  exclusions:
+    - "No HELP repayment for Thomas. Isabelle HELP remains unresolved and belongs on Isabelle's own return."
+    - "No final CCS repayment calculation because Services Australia balances after confirmed ATI; this check is threshold-only."
+    - "No final Isabelle tax payable calculation because Isabelle's own H&R Block draft is missing."
+
+base_inputs:
+  h_and_r_block_draft:
+    thomas_total_income_or_loss: "249274"
+    thomas_deductions: "3076"
+    thomas_taxable_income: "246198"
+    thomas_income_tax: "76927.10"
+    thomas_medicare_levy: "4923.96"
+    tax_withheld_salary_wage_type_income: "56998.00"
+    franking_tax_offset_refundable: "1.53"
+    total_credits: "56999.53"
+    estimated_tax_payable_display: "24851.50 DR"
+    spouse_taxable_income: "110118"
+    combined_taxable_income_from_draft_fields: "356316"
+  super_inputs_for_div293_scenario:
+    atlassian_employer_super_liability: "10396.84"
+    seek_employer_super_liability: "10350.00"
+    total_concessional_super_proxy: "20746.84"
+    note: "ATO will determine final Division 293 from return and super fund reporting."
+
+deterministic_checks:
+  - id: h-and-r-draft-tax-payable-rebuild
+    status: matches_with_rounding_difference
+    method: "Resident tax + 2% Medicare - credits, using Thomas taxable income $246,198"
+    figures:
+      resident_income_tax: "76927.10"
+      medicare_levy: "4923.96"
+      credits: "56999.53"
+      calculated_tax_payable_excluding_div293: "24851.53"
+      h_and_r_display_tax_payable: "24851.50"
+      display_difference: "0.03"
+    finding: "The H&R Block tax estimate rebuilds to within 3 cents, consistent with display/rounding. Division 293 is not included in this payable figure because it is normally separately assessed."
+  - id: h-and-r-combined-ccs-margin
+    status: under_threshold_on_draft_fields
+    method: "Thomas taxable income plus spouse taxable income in Thomas draft"
+    figures:
+      thomas_taxable_income: "246198.00"
+      spouse_taxable_income: "110118.00"
+      combined: "356316.00"
+      higher_ccs_cutoff: "367563.00"
+      margin_under_cutoff: "11247.00"
+    finding: "Using the draft fields only, the household is $11,247 below the current Services Australia higher-CCS cutoff. This is not final ATI because Isabelle's own return and some income questions are unresolved."
+  - id: division-293-draft-scenario
+    status: separate_assessment_expected
+    method: "Thomas taxable income plus PAYG employer super proxy, applying ATO Division 293 formula"
+    figures:
+      thomas_taxable_income: "246198.00"
+      concessional_super_proxy: "20746.84"
+      income_plus_super_proxy: "266944.84"
+      excess_over_threshold: "16944.84"
+      taxable_contributions_proxy: "16944.84"
+      div293_tax_proxy: "2541.73"
+    finding: "A Division 293 notice is likely, but the final amount should be left to ATO assessment or recalculated once final concessional contributions are available."
+  - id: old-verify-script-comparison
+    status: stale_for_current_review
+    method: "Ran python verify_calculations.py and compared assumptions to reviewed artifacts"
+    old_script_output:
+      thomas_income: "246534.79"
+      thomas_adjusted_deductions: "10501.40"
+      thomas_taxable: "236033.39"
+      isabelle_taxable: "110328.62"
+      combined_taxable: "346362.01"
+      ccs_margin: "21200.99"
+      div293_tax: "945.42"
+    finding: "The existing script is useful as a warning but not as the current source of truth. It uses stale or now-rejected assumptions, including the old ESS value, broad deduction inputs, a separate internet amount while using fixed-rate WFH, and a simplified super estimate rather than PAYG/fund contribution data."
+
+scenario_results:
+  - scenario: "H&R draft as entered"
+    status: current_draft_baseline
+    thomas_taxable: "246198.00"
+    isabelle_taxable_or_proxy: "110118.00"
+    combined_income_or_proxy: "356316.00"
+    ccs_margin_under_367563: "11247.00"
+    thomas_income_tax: "76927.10"
+    thomas_medicare_levy: "4923.96"
+    thomas_tax_payable_ex_div293: "24851.53"
+    div293_proxy: "2541.73"
+    note: "Baseline from Thomas H&R draft fields."
+  - scenario: "Remove SEEK salary-sacrifice D9 $12"
+    status: likely_adjustment_if_salary_sacrifice_confirmed
+    thomas_taxable: "246210.00"
+    isabelle_taxable_or_proxy: "110118.00"
+    combined_income_or_proxy: "356328.00"
+    ccs_margin_under_367563: "11235.00"
+    thomas_income_tax: "76932.50"
+    thomas_medicare_levy: "4924.20"
+    thomas_tax_payable_ex_div293: "24857.17"
+    div293_proxy: "2543.53"
+    note: "ATO gifts source says salary-sacrifice donations cannot be claimed separately."
+  - scenario: "If Tizzi deferred loss were incorrectly deducted"
+    status: diagnostic_only_not_recommended
+    thomas_taxable: "242173.00"
+    isabelle_taxable_or_proxy: "110118.00"
+    combined_income_or_proxy: "352291.00"
+    ccs_margin_under_367563: "15272.00"
+    thomas_tax_payable_ex_div293: "22959.78"
+    div293_proxy: "1937.98"
+    note: "Diagnostic only. H&R Block currently defers the $4,025 Tizzi non-commercial loss, so it does not reduce current-year taxable income."
+  - scenario: "If old stale ESS $62,270.51 replaced current ESS $63,143"
+    status: diagnostic_only_rejected_against_current_ess_statement
+    thomas_taxable: "245325.51"
+    isabelle_taxable_or_proxy: "110118.00"
+    combined_income_or_proxy: "355443.51"
+    ccs_margin_under_367563: "12119.49"
+    thomas_tax_payable_ex_div293: "24441.46"
+    div293_proxy: "2410.85"
+    note: "Diagnostic only. Current Atlassian ESS statement and H&R Block both use $63,143."
+  - scenario: "If RSU CGT $7,974.12 must be added"
+    status: diagnostic_until_broker_evidence_confirmed
+    thomas_taxable: "254172.12"
+    isabelle_taxable_or_proxy: "110118.00"
+    combined_income_or_proxy: "364290.12"
+    ccs_margin_under_367563: "3272.88"
+    thomas_tax_payable_ex_div293: "28599.37"
+    div293_proxy: "3112.03"
+    note: "This preserves higher-CCS threshold headroom if Isabelle's draft spouse taxable income is correct, but the RSU sale evidence and H&R treatment are still unresolved."
+  - scenario: "If Isabelle PAYG gross plus allowance used before deductions"
+    status: proxy_only
+    thomas_taxable: "246198.00"
+    isabelle_taxable_or_proxy: "112669.69"
+    combined_income_or_proxy: "358867.69"
+    ccs_margin_under_367563: "8695.31"
+    thomas_tax_payable_ex_div293: "24851.53"
+    div293_proxy: "2541.73"
+    note: "Uses SCRATCH gross plus separate Home Office allowance before any Isabelle deductions. Isabelle's own return is still required."
+  - scenario: "If Isabelle current CSV candidates only deducted from SCRATCH gross plus allowance"
+    status: proxy_only_unconfirmed_deductions
+    thomas_taxable: "246198.00"
+    isabelle_taxable_or_proxy: "112303.46"
+    combined_income_or_proxy: "358501.46"
+    ccs_margin_under_367563: "9061.54"
+    thomas_tax_payable_ex_div293: "24851.53"
+    div293_proxy: "2541.73"
+    note: "Uses $366.23 generated Isabelle candidate deductions from bank CSV; those deductions remain unconfirmed."
+  - scenario: "H&R spouse plus add RSU CGT plus remove SEEK D9"
+    status: stress_test
+    thomas_taxable: "254184.12"
+    isabelle_taxable_or_proxy: "110118.00"
+    combined_income_or_proxy: "364302.12"
+    ccs_margin_under_367563: "3260.88"
+    note: "Stress test using current H&R spouse taxable income."
+  - scenario: "Isabelle gross plus allowance proxy plus add RSU CGT plus remove SEEK D9"
+    status: close_ccs_threshold_stress_test
+    thomas_taxable: "254184.12"
+    isabelle_taxable_or_proxy: "112669.69"
+    combined_income_or_proxy: "366853.81"
+    ccs_margin_under_367563: "709.19"
+    note: "Close-threshold diagnostic. Any additional final ATI additions above this margin, before deductions, could cross the higher-CCS cutoff."
+  - scenario: "Isabelle CSV candidate proxy plus add RSU CGT plus remove SEEK D9"
+    status: close_ccs_threshold_stress_test_with_unconfirmed_isabelle_deductions
+    thomas_taxable: "254184.12"
+    isabelle_taxable_or_proxy: "112303.46"
+    combined_income_or_proxy: "366487.58"
+    ccs_margin_under_367563: "1075.42"
+    note: "Still close and depends on Isabelle deductions being allowed."
+
+review_conclusions:
+  - id: h-and-r-draft-baseline
+    status: arithmetically_reconciled
+    finding: "Thomas's draft tax estimate is arithmetically sound against FY2024-25 rates, Medicare levy and draft credits, with only a $0.03 display difference."
+  - id: ccs-threshold
+    status: under_threshold_but_not_final
+    finding: "The draft-field combined taxable income is comfortably under the higher-CCS cutoff, but the unresolved RSU CGT and Isabelle return issues can reduce headroom materially. The closest stress test is only $709.19 under the cutoff."
+  - id: div293
+    status: likely_separate_notice
+    finding: "Using PAYG employer-super amounts as a proxy, Division 293 is likely around $2,541.73 on the draft baseline and $3,112.03 if the historical RSU CGT is added. Final amount depends on ATO/fund data."
+  - id: verify-calculations-py
+    status: do_not_use_for_final_figures_without_refactor
+    finding: "verify_calculations.py should not be used as the final worksheet calculation engine until updated for current ESS, H&R draft income structure, rejected internet/WFH double-counting, current Isabelle position, and final contribution inputs."
+
+h_and_r_block_questions:
+  - "Please confirm whether the historical RSU CGT figure $7,974.12 must be added to Thomas's return; the current visible draft appears to include only Vanguard/managed-fund CGT."
+  - "Please remove or explain the $12 SEEK D9 salary-sacrifice/workplace-giving claim, because ATO guidance says salary-sacrifice donations cannot be claimed as gifts."
+  - "Please provide Isabelle's own H&R Block draft return, including treatment of the $1,199.64 SCRATCH Home Office allowance, actual deductions, HELP status and spouse fields."
+  - "Please confirm the final combined ATI for CCS after both returns are complete, because the close stress test is only $709.19 under the $367,563 higher-CCS cutoff."
+  - "Please confirm Division 293 is expected to be separately assessed by the ATO and whether H&R Block wants only a warning estimate in the household worksheet."
+  - "Please confirm the Tizzi $4,025 loss remains deferred and does not reduce Thomas's FY2024-25 taxable income."
+
+blocked_inputs:
+  - "Isabelle's own H&R Block draft return."
+  - "RSU broker/sale evidence or H&R Block confirmation that no separate RSU CGT is required."
+  - "Final concessional super contribution data from super fund reporting or H&R Block."
+  - "H&R Block decision on the $12 SEEK workplace-giving/salary-sacrifice entry."
+  - "Final confirmed income-test/ATI components for Services Australia, including reportable fringe benefits, reportable super contributions, net investment losses, foreign income and any child-support adjustment if applicable."
+
+status_summary: >-
+  Thomas's H&R Block draft rebuilds arithmetically and is $11,247 under the
+  Services Australia higher-CCS cutoff using the draft spouse-taxable-income
+  field. The result is not final because Isabelle's own return is missing and
+  the historical RSU CGT question can materially reduce CCS headroom. The closest
+  reasonable stress test remains under the cutoff by $709.19, so the remaining
+  unresolved income and deduction inputs should be treated as threshold-critical.
+  verify_calculations.py is stale for final figures and should be refactored or
+  retired after the worksheet pack is finalised.

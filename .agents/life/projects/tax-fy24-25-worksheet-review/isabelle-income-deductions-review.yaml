@@ -1,0 +1,211 @@
+version: 1
+project: tax-fy24-25-worksheet-review
+created: "2026-05-13"
+last_updated: "2026-05-13"
+related_issue: TaxFY2425-c6j.6
+source_register: ".agents/life/resources/tax-fy24-25/source-register.yaml"
+
+scope:
+  owner: Isabelle Mason
+  worksheet_sections:
+    - "260315 - Deduction Review Worksheet.md:296"
+    - "260315 - Deduction Review Worksheet.md:320"
+    - "260315 - Deduction Review Worksheet.md:390"
+    - "260315 - Deduction Review Worksheet.md:397"
+    - "260315 - Deduction Review Worksheet.md:405"
+  primary_evidence:
+    - "1. Income/Isabelle/250630 - SCRATCH PAYG Statement FY24-25.pdf"
+    - "2. Deductions/Isabelle/"
+    - "260315 - Deduction Review Worksheet.md"
+    - "260315 - Bank Statement Deduction Cross-Check.md"
+    - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+    - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+
+source_checked_topics:
+  - id: wfh-fixed-rate-2024-25
+    status: source_fetched
+  - id: employee-work-expenses-tools-software-self-education
+    status: source_fetched
+  - id: gifts-donations-dgr
+    status: source_fetched
+  - id: tax-agent-fees
+    status: source_fetched
+  - id: help-hecs-study-loans
+    status: source_fetched
+  - id: income-etp-allowances-interest-dividends
+    status: source_fetched
+
+deterministic_checks:
+  - id: scratch-payg-components
+    method: "pdftotext extraction from SCRATCH income statement"
+    figures:
+      salary_and_wages: "98737.57"
+      bonuses_and_commissions: "1572.00"
+      other_paid_leave: "11160.48"
+      total_gross_amount: "111470.05"
+      paygw_withheld: "34312.00"
+      home_office_allowance: "1199.64"
+      employer_super_contribution_liability: "12819.06"
+    finding: "PAYG source confirms the worksheet gross amount, but also shows a separate Home Office allowance that must be checked on Isabelle's own return."
+  - id: h-and-r-spouse-income-difference
+    method: "Decimal arithmetic"
+    figures:
+      scratch_total_gross_amount: "111470.05"
+      h_and_r_spouse_taxable_income: "110118.00"
+      difference_gross_less_spouse_taxable_income: "1352.05"
+      scratch_gross_plus_home_office_allowance: "112669.69"
+      difference_gross_plus_allowance_less_spouse_taxable_income: "2551.69"
+    finding: "Thomas's H&R Block draft only shows spouse taxable income; Isabelle's own return is needed to explain whether the separate allowance and deductions are included correctly."
+  - id: isabelle-bank-analysis-totals
+    method: "Decimal aggregation of deductible_transactions_v2.csv where default_owner == Isabelle"
+    figures:
+      isabelle_rows: 55
+      conferences_events_gross: "81.00"
+      conferences_events_deductible: "81.00"
+      streaming_creative_gross: "950.78"
+      streaming_creative_deductible_at_30_percent: "285.23"
+      total_gross: "1031.78"
+      total_deductible: "366.23"
+    finding: "Generated bank-analysis totals differ from the bank cross-check prose summary, which lists 54 streaming transactions for $1,028.75 plus 4 events for $81.00. Treat these as unconfirmed until TaxFY2425-c6j.8 completes the transaction cross-check."
+  - id: help-rate-examples
+    method: "ATO 2024-25 repayment table and Decimal arithmetic"
+    figures:
+      h_and_r_spouse_taxable_income_110118_rate: "6.5%"
+      h_and_r_spouse_taxable_income_110118_estimated_repayment: "7157.67"
+      scratch_gross_111470_05_rate: "6.5%"
+      scratch_gross_111470_05_estimated_repayment: "7245.55"
+      scratch_gross_plus_allowance_112669_69_rate: "7.0%"
+      scratch_gross_plus_allowance_112669_69_estimated_repayment: "7886.88"
+    finding: "These are only scenario checks, not final HELP amounts, because final repayment income, current debt balance, and Isabelle's own return are not yet confirmed."
+
+review_items:
+  - id: B1-SCRATCH-PAYG
+    area: income
+    status: h_and_r_block_question
+    evidence:
+      - "1. Income/Isabelle/250630 - SCRATCH PAYG Statement FY24-25.pdf"
+    source_topics:
+      - income-etp-allowances-interest-dividends
+    finding: "SCRATCH PAYG gross of $111,470.05 matches the worksheet. The income statement also reports a separate $1,199.64 Home Office allowance. ATO source says an allowance reported on an annual income statement must be included as income and does not create an automatic deduction."
+    action: "Ask H&R Block to confirm Isabelle's own return includes the $1,199.64 Home Office allowance correctly and that any related deductions are based on actual deductible expenses and records."
+  - id: B1-BANK-INTEREST
+    area: income
+    status: deferred_to_shared_household_review
+    evidence:
+      - "5. Bank Statements/FY24-25/250630 - Interest details - Bank Australia.pdf"
+    finding: "Worksheet uses $17.48 as Isabelle's 50% share of the $34.96 joint Bank Australia interest. Shared account treatment is better resolved under TaxFY2425-c6j.7."
+    action: "Carry forward to shared household review."
+  - id: B1-VDHG
+    area: income
+    status: household_question
+    evidence:
+      - "7. HR Block Worksheet (Draft)/J0178900 - 2025 I Form (Worksheets).md"
+    finding: "Thomas's H&R Block draft shows VDHG with 2 account holders and a 50% share, but Isabelle's own H&R Block draft or Vanguard AMMA/SDS statement was not found."
+    action: "Confirm whether VDHG is jointly held and obtain Isabelle's own return or Vanguard tax statement before finalising."
+  - id: B1-HELP-HECS
+    area: income
+    status: h_and_r_block_question
+    evidence:
+      - "1. Income/Isabelle/250630 - SCRATCH PAYG Statement FY24-25.pdf"
+    source_topics:
+      - help-hecs-study-loans
+    finding: "The PAYG statement shows total PAYGW of $34,312 but no separate HELP-specific withholding line in the extracted text. ATO 2024-25 HELP repayment rates mean Isabelle's likely repayment income range could trigger a compulsory repayment if a debt remained, but debt-cleared timing and final repayment income are not confirmed."
+    action: "Ask Isabelle/H&R Block to confirm whether a HELP debt remained at assessment, whether payroll continued withholding after the debt was cleared, and how any excess withholding/refund is handled on Isabelle's own return."
+  - id: B2-WFH
+    area: deductions
+    status: household_question
+    evidence:
+      - "260315 - Deduction Review Worksheet.md"
+    source_topics:
+      - wfh-fixed-rate-2024-25
+      - income-etp-allowances-interest-dividends
+    finding: "WFH hours are still TBD. The $1,199.64 Home Office allowance does not itself substantiate a deduction; WFH fixed-rate claims need actual recorded hours and covered expenses cannot be separately claimed again."
+    action: "Collect Isabelle's actual WFH hours/records and ask H&R Block how the home-office allowance was treated against WFH deductions."
+  - id: B2-STREAMING-RESEARCH
+    area: deductions
+    status: h_and_r_block_question
+    evidence:
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+      - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+      - "2. Deductions/Isabelle/240715 - Paramount Plus Subscription.pdf"
+      - "2. Deductions/Isabelle/240726 - Hayu Subscription.pdf"
+      - "2. Deductions/Isabelle/241218 - YouTube Premium Subscription.pdf"
+    source_topics:
+      - employee-work-expenses-tools-software-self-education
+      - records-substantiation
+    finding: "ATO digital-information/subscription source requires a sufficient connection to current employment duties and apportionment for private use. The proposed 30% streaming claim is apportionment-heavy, not fully matched between CSV and prose summaries, and needs Isabelle's platform-by-platform work purpose."
+    action: "Do not treat the 30% streaming claim as confirmed. Ask H&R Block whether to claim, reduce, or remove each platform after Isabelle provides specific work-use examples and records."
+  - id: B2-CONFERENCES-EVENTS
+    area: deductions
+    status: h_and_r_block_question
+    evidence:
+      - "260315 - Bank Statement Deduction Cross-Check.md"
+      - "5. Bank Statements/Analysis/deductible_transactions_v2.csv"
+    source_topics:
+      - records-substantiation
+      - employee-work-expenses-tools-software-self-education
+    finding: "The bank analysis lists $81.00 of events at 100% work use, but event names/purposes are not evidenced beyond merchant names."
+    action: "Ask Isabelle what each event was and ask H&R Block whether each is deductible as work-related professional development/research or should be removed as private entertainment."
+  - id: B2-CLEANUP-YOUTUBE-CHEEK-PRIME
+    area: deductions
+    status: mixed
+    evidence:
+      - "2. Deductions/Isabelle/241218 - YouTube Premium Subscription.pdf"
+      - "2. Deductions/Isabelle/250508 - Cheek Media Substack Subscription.png"
+      - "2. Deductions/Isabelle/250521 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/250525 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/250529 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/250615 - Cleanup Pro App.pdf"
+      - "2. Deductions/Isabelle/240710 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240810 - Amazon Prime Membership.pdf"
+      - "2. Deductions/Isabelle/240910 - Amazon Prime Membership.pdf"
+    source_topics:
+      - employee-work-expenses-tools-software-self-education
+    finding: "Cheek Media has a visible A$50 receipt to Isabelle and may be professional reading if tied to current Creative Director duties. YouTube Premium and Amazon Prime need work-use support. Cleanup appears to be personal device maintenance in the bank cross-check unless Isabelle can show a work purpose. Apple receipts also include ChatGPT components allocated to Thomas/Tizzi, creating double-count risk if Isabelle also claims them."
+    action: "Classify Cheek as H&R Block question with work-purpose support needed; classify Cleanup as reject unless new work evidence appears; keep Thomas/Tizzi ChatGPT components out of Isabelle D5."
+  - id: B3-CANCER-COUNCIL
+    area: donations
+    status: confirmed_subject_to_payment_reconciliation
+    evidence:
+      - "2. Deductions/Isabelle/250522 - Cancer Council Donation Receipt.pdf"
+    source_topics:
+      - gifts-donations-dgr
+    finding: "Receipt shows Isabelle donated $20.37 to Cancer Council Victoria on 22 May 2025. ABR DGR endorsed download lists Cancer Council Victoria ABN 61426486715 as active with DGR status date 2014-01-01."
+    action: "Keep the D9 claim if the payment account can be reconciled or the receipt is accepted as the supporting record; note that the bank cross-check did not find the transaction."
+  - id: B4-TAX-AGENT-FEES
+    area: deductions
+    status: h_and_r_block_question
+    evidence:
+      - "6. References/250121 - HR Block Receipt.png"
+    source_topics:
+      - tax-agent-fees
+    finding: "ATO source says a spouse invoice needs a split and records showing how the split was worked out. The available $428 H&R Block receipt is addressed to Isabelle, but Thomas's draft already claims $204. A simple residual would be $224, but that is not confirmed as Isabelle's claim."
+    action: "Ask H&R Block to explain the $428 fee allocation between Thomas and Isabelle and enter Isabelle's D10 amount accordingly."
+
+h_and_r_block_questions:
+  - "Please provide or confirm Isabelle's own H&R Block draft return; Thomas's draft only shows spouse details."
+  - "Is the $1,199.64 SCRATCH Home Office allowance included as income on Isabelle's return, and where?"
+  - "What D5/WFH deduction did H&R Block enter for Isabelle, and what WFH hours/records support it?"
+  - "Did Isabelle have a HELP debt at assessment, and did payroll continue HELP withholding after the debt was cleared?"
+  - "Should any 30% streaming/research claims be included, reduced, or removed given the ATO direct-connection and apportionment requirements?"
+  - "Should the $81.00 event total be claimed, and what was each event?"
+  - "Can Cheek Media A$50 be claimed as professional reading for current Creative Director duties?"
+  - "Should Cleanup, YouTube Premium, or Amazon Prime be excluded unless Isabelle provides a specific work-purpose basis?"
+  - "Can the Cancer Council Victoria $20.37 receipt be used despite the bank cross-check not finding the transaction?"
+  - "How should the $428 H&R Block receipt addressed to Isabelle be split between Thomas and Isabelle?"
+
+blocked_inputs:
+  - "Isabelle's own H&R Block draft return."
+  - "Isabelle's HELP/HECS debt balance and debt-cleared date."
+  - "Any payslip or payroll detail showing HELP-specific withholding, if available."
+  - "Isabelle's actual WFH hours and contemporaneous records."
+  - "Platform-by-platform work-use explanations for streaming, YouTube, Cheek, and Prime."
+  - "Event details for Exhibition St, Victorian Arts Centre, Arts Centre, and Princess Theatre transactions."
+  - "Payment-account reconciliation for the Cancer Council donation."
+
+status_summary: >-
+  SCRATCH PAYG gross reconciles to the worksheet, but the separate home-office
+  allowance, Isabelle's missing H&R Block draft, HELP timing, WFH hours, and
+  apportionment-heavy media/event claims prevent final confirmation. Cancer
+  Council DGR status and receipt evidence are verified, subject to payment
+  reconciliation.

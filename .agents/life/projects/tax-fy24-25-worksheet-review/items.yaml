@@ -1,0 +1,224 @@
+- id: taxfy2425-worksheet-001
+  fact: "The active project goal is to complete the FY2024-25 household tax review worksheets and prepare an accountant-ready H&R Block change/request pack."
+  category: status
+  timestamp: "2026-05-13"
+  source: "user request 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities: []
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-002
+  fact: "The user requires Australian tax-law assertions to be verified from the ATO website or another credible source for FY2024-25 before use."
+  category: preference
+  timestamp: "2026-05-13"
+  source: "user request 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities: []
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-003
+  fact: "The user wants the worksheet work decomposed into small Beads epics and sub-tasks to reduce agent drift and hallucination risk."
+  category: preference
+  timestamp: "2026-05-13"
+  source: "user request 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities: []
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-004
+  fact: "A planning note for this work was created at plans/2026-05-13-tax-worksheet-knowledge-base-plan.md in the TaxFY2425-c6j worktree."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities: []
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-005
+  fact: "The Track workflow decomposition was approved and Beads epic TaxFY2425-c6j now has child tasks TaxFY2425-c6j.1 through TaxFY2425-c6j.11."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-006
+  fact: "The first ready Beads tasks are TaxFY2425-c6j.1 source register/topic index and TaxFY2425-c6j.2 worksheet-to-evidence map."
+  category: status
+  timestamp: "2026-05-13"
+  source: "bd ready 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.1
+    - TaxFY2425-c6j.2
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-007
+  fact: "TaxFY2425-c6j.1 was claimed and the source register was created at .agents/life/resources/tax-fy24-25/source-register.yaml with topic slots, source URLs, access dates, FY relevance, exact-claim fields, confidence, and verification status."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.1
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-008
+  fact: "TaxFY2425-c6j.2 was claimed and an evidence map was created at .agents/life/projects/tax-fy24-25-worksheet-review/evidence-map.yaml, mapping worksheet sections and bank cross-check categories to present evidence, missing evidence, owner, classification, and downstream Beads issue."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.2
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-009
+  fact: "TaxFY2425-c6j.3 reconciled Thomas PAYG and ESS source documents against the H&R Block draft: Atlassian and SEEK PAYG match after whole-dollar display, Atlassian ESS Item F total $63,143 matches H&R Block, and the older $62,270.51 script value is stale against the current ESS statement."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.3
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-010
+  fact: "Thomas income reconciliation still needs H&R Block/source follow-up for Atlassian ETP code O vs draft code BT, missing RSU sale/CGT evidence for the historical $7,974 figure, extra $1.95 interest account source, and VDHG/AMMA managed-fund tax statement support."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.3
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-011
+  fact: "TaxFY2425-c6j.4 found Thomas's H&R Block D4-D10 deduction total of $3,076 ties arithmetically, but needs H&R Block review for D4 Audible/TheCenteredLife employment connection, D5 subscription mismatches and D5-vs-Tizzi allocation, no separate internet claim with WFH fixed rate, cleaning invoice count/floor-area basis, SEEK $12 workplace-giving double-count risk, and D10 $204 tax-agent fee allocation from a $428 receipt addressed to Isabelle."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.4
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-012
+  fact: "TaxFY2425-c6j.5 found Tizzi P8 totals tie arithmetically: iPad $2,148.99 plus iPhone/Pencil $1,705 rounds to $3,854 depreciation, Ring $78 plus SUB $93 gives total expenses/loss $4,025, and the same $4,025 is deferred. H&R Block questions remain for business commencement date, first-used/ready-for-use timing for the 30 Jun/1 Jul iPhone/Pencil, private-use percentages, Ring business rationale, Replit D5-vs-P8 double-count risk, and non-commercial loss confirmation."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.5
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-013
+  fact: "TaxFY2425-c6j.6 found Isabelle's SCRATCH PAYG gross $111,470.05 matches the worksheet, but the income statement separately reports a $1,199.64 Home Office allowance and Isabelle's own H&R Block draft return is missing. H&R Block questions remain for allowance treatment, HELP debt/withholding timing, WFH hours, streaming/event apportionment, Cheek/Cleanup/YouTube/Prime treatment, Cancer Council payment reconciliation, and the $428 H&R Block fee split."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.6
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-014
+  fact: "TaxFY2425-c6j.7 found the NIB private health insurance evidence is internally consistent: both taxpayers have membership 23913733, 365 days appropriate private patient hospital cover, $1,708 benefit code 30 plus $594 benefit code 31, and $0 rebate received. H&R Block questions remain for Isabelle's own return, the Thomas draft dependent-children field showing 0 despite Harlow and Oliver, Division 293 final assessment timing, joint Bank Australia/VDHG ownership, FTB status, and no-other-accounts confirmation."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.7
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-015
+  fact: "TaxFY2425-c6j.8 found Bank Australia full-year coverage is present and the Cancer Council payment is in bank_australia_transactions.csv, but ANZ credit-card analysis starts on 9 Sep 2024. The receipt matcher has obvious false positives, so generated transaction-receipt matches must not be used automatically. Missed-deduction scan found no genuine professional memberships, union fees, work clothing/laundry, phone providers, income-protection premiums, COVID tests, Adobe/Figma/Canva tools, or course/book platforms; remaining questions are Apple unknowns, software allocation, IKEA/Amazon/Officeworks asset treatment, Maid To Clean substantiation, work-travel purpose, streaming/events and Bailey Nelson optometry."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.8
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-016
+  fact: "TaxFY2425-c6j.9 deterministic recalculation found Thomas's H&R Block draft tax estimate rebuilds to $24,851.53 payable before Division 293, compared with the displayed $24,851.50 DR. Draft-field combined taxable income is $356,316, which is $11,247 under the Services Australia higher-CCS cutoff of under $367,563. The closest stress test, adding historical RSU CGT $7,974.12, removing SEEK D9 $12, and using Isabelle SCRATCH gross plus allowance before deductions, is $366,853.81, only $709.19 under the cutoff. verify_calculations.py is stale for final figures without refactoring."
+  category: finding
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.9
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-017
+  fact: "TaxFY2425-c6j.10 created 260513 - H&R Block Change Request Pack.md as the accountant-facing request pack. It prioritises possible return corrections for Atlassian ETP code, unused leave vs ETP, RSU CGT, SEEK D9 salary-sacrifice giving, D5 subscriptions, D4/D5 duplicate risk, internet/WFH method, deferred Tizzi loss, Isabelle allowance, and Isabelle NIB entries; then separates accountant judgement calls, household facts, missing evidence, H&R Summary Error Report items, and calculation threshold notes."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.10
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-018
+  fact: "TaxFY2425-c6j.10 updated 260315 - Deduction Review Worksheet.md with corrected agent-review notes for Atlassian ETP/unused leave, current ESS $63,143, missing RSU CGT evidence, internet/WFH fixed-rate treatment, SEEK D9 salary-sacrifice donation risk, Isabelle Home Office allowance, CCS stress-test margin, ANZ early-FY coverage gap, and final sign-off wording."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.10
+  last_accessed: "2026-05-13"
+  access_count: 1
+
+- id: taxfy2425-worksheet-019
+  fact: "TaxFY2425-c6j.11 created 260513 - Final Household Review and Sign-Off.md. The recommendation is ready for accountant review but not ready for final lodgement approval until Isabelle's own return, Isabelle allowance treatment, RSU CGT treatment, SEEK D9, Atlassian ETP code, D4/D5/P8 subscription allocation, WFH records, Tizzi private-use/timing, early-FY card coverage, and no-other-income-source confirmations are resolved."
+  category: milestone
+  timestamp: "2026-05-13"
+  source: "agent action 2026-05-13"
+  status: active
+  superseded_by: null
+  related_entities:
+    - TaxFY2425-c6j.11
+  last_accessed: "2026-05-13"
+  access_count: 1
