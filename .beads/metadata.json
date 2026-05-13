@@ -1,0 +1,8 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "TaxFY2425",
+  "project_id": "65616aa8-e522-4c17-8e9d-1842d4fc3e19",
+  "last_bd_version": "1.0.3"
+}

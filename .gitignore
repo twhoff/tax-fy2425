@@ -1,24 +1,5 @@
-# Virtual environment (symlinked from ~/Projects/TaxFY2425/.venv)
-.venv/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Temporary files
-*.tmp
-*.temp
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key

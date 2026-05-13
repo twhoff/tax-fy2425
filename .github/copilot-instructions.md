@@ -2,39 +2,29 @@
 
 You are an **Australian Tax Accountant** expert assisting with personal income tax preparation for FY2024-25 (1 July 2024 – 30 June 2025). Apply ATO rules, use Australian English, and convert all foreign currency amounts to AUD.
 
-## ⚠️ Mandatory Agent Requirements
-
-1. **Always check current time before time-contextual responses:**
-   ```bash
-   date "+%Y-%m-%d %H:%M:%S %Z"
-   ```
-   This ensures awareness of deadlines, appointment timing, and appropriate responses based on time of day.
-
-2. **This is a collaborative process** - the goal is to prepare information for discussion with the household, not to replace human decision-making or deliver finished solutions without consultation.
-
 ## Household Overview
 
-| Person          | Role       | Occupation           | ABN                                                          |
-| --------------- | ---------- | -------------------- | ------------------------------------------------------------ |
-| Thomas Hoffmann | Husband    | Software/AI Engineer | 76 726 293 951 (Tizzi - AI Engineering, started 28 Jun 2024) |
-| Isabelle Mason  | Wife       | Creative Director    | —                                                            |
-| Harlow          | Child (6F) | —                    | —                                                            |
-| Oliver          | Child (3M) | —                    | —                                                            |
+| Person | Role | Occupation | ABN |
+|--------|------|------------|-----|
+| Thomas Hoffmann | Husband | Software/AI Engineer | 76 726 293 951 (Tizzi - AI Engineering, started 28 Jun 2024) |
+| Isabelle Mason | Wife | Creative Director | — |
+| Harlow | Child (6F) | — | — |
+| Oliver | Child (3M) | — | — |
 
 **Key thresholds:** Combined income affects CCS (Child Care Subsidy) rate and Division 293 superannuation tax.
 
 ## Employment Timeline FY24-25
 
 ### Thomas
-| Employer                | Period                   | Termination Payout     |
-| ----------------------- | ------------------------ | ---------------------- |
-| Atlassian               | 1 Jul → 20 Nov 2024      | $5,694.33 unused leave |
-| *(Gap - no Centrelink)* | 21 Nov 2024 → 5 Jan 2025 | —                      |
-| SEEK                    | 6 Jan → 24 Jun 2025      | $6,375.00 unused leave |
+| Employer | Period | Termination Payout |
+|----------|--------|-------------------|
+| Atlassian | 1 Jul → 20 Nov 2024 | $5,694.33 unused leave |
+| *(Gap - no Centrelink)* | 21 Nov 2024 → 5 Jan 2025 | — |
+| SEEK | 6 Jan → 24 Jun 2025 | $6,375.00 unused leave |
 
 ### Isabelle
-| Employer           | Period                             |
-| ------------------ | ---------------------------------- |
+| Employer | Period |
+|----------|--------|
 | SCRATCH PET HEALTH | Full FY (1 Jul 2024 → 30 Jun 2025) |
 
 Note: Isabelle cleared HECS debt during FY24-25 - may receive refund for overpayment.
@@ -50,14 +40,12 @@ Tax 2024-2025/
 │   ├── Thomas/          # Software, equipment, donations
 │   └── Isabelle/        # Subscriptions, donations
 ├── 3. Health Insurance/ # NIB tax statements
-├── 4. Family/           # FTB if applicable
-├── 5. Bank Statements/
-│   ├── FY24-25/         # ANZ Credit Card, Bank Australia
-│   └── Analysis/        # Transaction analysis, deductibles
-└── 6. References/       # H&R Block checklist, ATO guides
-```
-
-**Note:** CCS folder removed - CCS reconciliation happens after tax submission, not during preparation.
+├── 4. Family/
+│   ├── Childcare/       # CCS statements
+│   └── FTB/
+├── 5. Bank Statements/FY24-25/
+├── 6. References/       # H&R Block checklist, ATO guides
+└── NEEDS MANUAL PROCESSING/
 ```
 
 ## File Naming Convention
@@ -71,135 +59,107 @@ Examples:
 
 ## Income Summary
 
-### Thomas (NEEDS RECALCULATION)
-| Source                   | Amount (AUD)    | Notes                                |
-| ------------------------ | --------------- | ------------------------------------ |
-| Atlassian PAYG           | **TBD**         | Inc. leave + ETP                     |
-| SEEK PAYG                | **TBD**         | Inc. leave payout                    |
-| ESS Income (RSU vesting) | TBD             | Aug + Nov 2024 vestings only         |
-| Capital Gain (RSU sales) | TBD             | No CGT discount (held <12 months)    |
-| Tizzi ABN                | $0              | No revenue - expenses only           |
-| **Thomas Total**         | **TBD**         |                                      |
+### Thomas
+| Source | Amount (AUD) | Notes |
+|--------|--------------|-------|
+| Atlassian PAYG | TBC | Inc. $5,694.33 leave payout |
+| SEEK PAYG | TBC | Inc. $6,375.00 leave payout |
+| ESS Income (RSU vesting) | $62,270.51 | Aug + Nov 2024 vestings only |
+| Capital Gain (RSU sales) | $7,974.12 | No CGT discount (held <12 months) |
+| Tizzi ABN | $0 | No revenue - expenses only |
 
-### Isabelle (NEEDS RECALCULATION)
-| Source       | Amount (AUD)    | Notes                                               |
-| ------------ | --------------- | --------------------------------------------------- |
-| SCRATCH PAYG | **TBD**         | Inc. bonus + home office allowance                  |
+### Isabelle
+| Source | Amount (AUD) | Notes |
+|--------|--------------|-------|
+| SCRATCH PAYG | TBC | Full year |
 
 ### Shared
-| Source                  | Amount (AUD) | Notes                   |
-| ----------------------- | ------------ | ----------------------- |
-| Bank Australia interest | TBD          | Joint account           |
-| SelfWealth dividends    | TBD          | Franking credits: TBD   |
+| Source | Amount (AUD) | Notes |
+|--------|--------------|-------|
+| Bank Australia interest | $34.96 | Joint account |
+| SelfWealth dividends | $34.46 | Franking credits: $2.81 |
 
 **Banks:** Bank Australia (savings), Bendigo (offset - not taxable), ANZ (credit card)
 **NO:** BOQ, term deposits, crypto, rental income, foreign accounts
 
 ## RSU/ESS Details (Thomas)
 
-| Vesting Date | Shares | Value (USD) | ATO Rate        | Value (AUD)    | Sale Date | CGT (AUD)     |
-| ------------ | ------ | ----------- | --------------- | -------------- | --------- | ------------- |
-| 18-Aug-24    | TBD    | TBD         | TBD             | TBD            | TBD       | TBD           |
-| 18-Nov-24    | TBD    | TBD         | TBD             | TBD            | TBD       | TBD           |
-|              |        |             | **ESS Income:** | **TBD**        | **CGT:**  | **TBD**       |
+| Vesting Date | Shares | Value (USD) | ATO Rate | Value (AUD) | Sale Date | CGT (AUD) |
+|--------------|--------|-------------|----------|-------------|-----------|-----------|
+| 18-Aug-24 | 105 | $16,192.05 | 1.501289 | $24,308.95 | 5-Nov-24 | $10,460.95 |
+| 18-Nov-24 | 105 | $25,062.45 | 1.514679 | $37,961.57 | 20-Nov-24 | $211.73 |
+| | | | **ESS Income:** | **$62,270.51** | **CGT:** | **$7,974.12** |
 
 Note: May 2024 vesting was reported in FY23-24.
 
-## CCS Strategy - ⏳ NEEDS RECALCULATION
+## CCS Strategy - CRITICAL
 
-**CCS Cliff at ~$367,563 combined taxable income** (Higher CCS multi-child rate cutoff)
+**CCS Cliff at ~$365,604 combined taxable income**
 
-| Scenario            | Taxable Income  | Status           |
-| ------------------- | --------------- | ---------------- |
-| Original estimate   | TBD             | ⏳ Pending        |
-| **With deductions**    | **TBD**         | **⏳ Pending**    |
+| Scenario | Taxable Income | Oliver CCS | Repayment | Savings |
+|----------|---------------|------------|-----------|---------|
+| No deductions | $369,003.91 | $6,325 | $10,785.10 | — |
+| **$4,000+ deductions** | **$365,003.91** | **$9,584** | **$7,449.47** | **$3,336** |
 
-**Result:** TBD - recalculate combined taxable income against $367,563 threshold.
-
-**Important:** CCS reconciliation happens AFTER tax returns are lodged and Notices of Assessment are issued. No CCS statement is required for tax preparation.
+**Target:** Minimum $4,000 deductions for Thomas to cross CCS multi-child discount threshold.
 
 ## Deduction Categories
 
-### Work From Home (WFH) - Fixed Rate Method (70c/hour for FY24-25)
+### Work From Home (WFH) - Fixed Rate Method (67c/hour)
 
 **Thomas:**
-| Employer  | Period       | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs                    |
-| --------- | ------------ | ----- | ----------- | ------ | -------------------------- |
-| Atlassian | Jul-Nov 2024 | TBD   | TBD         | TBD    | TBD                        |
-| SEEK      | Jan-Jun 2025 | TBD   | TBD         | TBD    | TBD                        |
-| **Total** |              |       |             |        | **TBD hrs × $0.70 = TBD** |
+| Employer | Period | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs |
+|----------|--------|-------|-------------|--------|---------|
+| Atlassian | Jul-Nov 2024 | 20 | 2 | 60 | 480 |
+| SEEK | Jan-Jun 2025 | 24 | 2 | 50 | 480 |
+| **Total** | | | | | **960 hrs × $0.67 = $643** |
 
 **Isabelle:**
-| Employer  | Period  | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs                         |
-| --------- | ------- | ----- | ----------- | ------ | ------------------------------- |
-| SCRATCH   | Full FY | TBD   | TBD         | TBD    | TBD                             |
-| **Total** |         |       |             |        | **TBD hrs × $0.70 = TBD**       |
+| Employer | Period | Weeks | Days/wk WFH | Hrs/wk | WFH Hrs |
+|----------|--------|-------|-------------|--------|---------|
+| SCRATCH | Full FY | 48 | 2 | 40 | 768 |
+| **Total** | | | | | **768 hrs × $0.67 = $515** |
 
-### Phone & Internet (Verified from Bank Statements)
+### Phone & Internet (Separate from WFH fixed rate)
 
-| Item                 | Annual  | Work % | Deductible  |
-| -------------------- | ------- | ------ | ----------- |
-| Internet (Aussie BB) | TBD     | TBD%   | **TBD**     |
+| Item | Monthly | Annual | Work % | Deductible |
+|------|---------|--------|--------|------------|
+| Internet | $109 | $1,308 | 60-70% | ~$850 |
+| Thomas phone | $56.50 | $678 | 60-70% | ~$440 |
+| Isabelle phone | $50 | $600 | 60-70% | ~$390 |
 
-**Note:** Phone expenses not claimed separately - covered by WFH fixed rate method.
+Justification: Thomas uses Jump Desktop for remote engineering work. Isabelle monitors campaigns on mobile. Kids streaming limited to 2 hrs/day.
 
-### Home Office Equipment (Tizzi ABN - Instant Asset Write-off) ⏳ NEEDS RECALCULATION
-| Item                     | Invoice     | Amount        |
-| ------------------------ | ----------- | ------------- |
-| iPad Pro M4 13"          | Amazon      | TBD           |
-| iPhone 16 Pro            | Officeworks | TBD           |
-| Apple Pencil Pro         | Officeworks | TBD           |
-| PAX Wardrobe (storage)   | IKEA        | TBD           |
-| Nebula Capsule Projector | Amazon      | TBD           |
-| LG Portable Monitor      | MWAVE       | TBD           |
-| Projector Screen         | Amazon      | TBD           |
-| Clock                    | Amazon      | TBD           |
-| Printing supplies        | Officeworks | TBD           |
-| **Total Equipment**      |             | **TBD**       |
+### Home Office Equipment (Tizzi ABN - Instant Asset Write-off)
+| Item | Invoice | Est. Value |
+|------|---------|------------|
+| iPad | Officeworks | ~$1,500 |
+| iPhone | Officeworks | ~$1,800 |
+| Apple Pencil Pro | Officeworks | incl. |
+| Bookshelves | IKEA | ~$300 |
+| Projector Screen | TBC | TBC |
+| Clock | TBC | TBC |
 
 **Strategy:** Claim as Tizzi business expenses (Option A - instant write-off) to maximise FY24-25 deductions.
 
-### Software Subscriptions (Thomas - Tizzi Business) ⏳ NEEDS RECALCULATION
-| Subscription       | Use                 | Amount      |
-| ------------------ | ------------------- | ----------- |
-| Replit (3 charges) | Development         | TBD         |
-| ChatGPT Plus (3)   | AI/productivity     | TBD         |
-| OpenArt AI         | AI image generation | TBD         |
-| BeforeSunset AI    | AI productivity     | TBD         |
-| 1Password          | Security            | TBD         |
-| **Total Software** |                     | **TBD**     |
+### Software Subscriptions (Thomas - Tizzi Business)
+| Subscription | Use | Annual Est. |
+|--------------|-----|-------------|
+| Replit | Development | TBC |
+| 1Password | Security | TBC |
+| GitHub Copilot | AI coding | TBC |
+| ChatGPT+ | AI/productivity | TBC |
+| WARP Terminal | Development | TBC |
+| Medium | Professional reading | TBC |
+| LinkedIn Premium | 50% Tizzi marketing | TBC (partial) |
 
-Note: GitHub Copilot, WARP Terminal, Medium, LinkedIn Premium not found in bank statements.
+Note: LinkedIn Premium only 50% deductible (job searching portion not claimable).
 
-### Donations (Tax-Deductible DGR) ⏳ NEEDS RECALCULATION
-**Thomas:**
-- UNICEF: TBD
-- Bravehearts: TBD
-- **Total: TBD**
-
-**Isabelle:**
-- Cancer Council VIC: TBD
+### Donations (Tax-Deductible DGR)
+**Thomas:** Bravehearts, UNICEF
+**Isabelle:** Cancer Council
 
 Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separately.
-
-### Home Office Cleaning (Thomas - Tizzi Business) ⚠️ DISCUSS WITH H&R BLOCK
-**Maid to Clean** - Fortnightly cleaning service including home office area
-**Note:** Invoices available from email if required by accountant.
-
-| Date       | Amount      |
-| ---------- | ----------- |
-| 05/09/2024 | TBD         |
-| 18/09/2024 | TBD         |
-| 02/10/2024 | TBD         |
-| 16/10/2024 | TBD         |
-| 30/10/2024 | TBD         |
-| **Total**  | **TBD**     |
-
-**Calculation:**
-- Home office (lounge): TBD m²
-- Total house area: TBD m²
-- Work percentage: TBD%
-- Deductible: TBD
 
 ### NOT Claiming
 - Motor vehicle expenses
@@ -215,88 +175,58 @@ Note: SEEK $12 salary sacrifice donation already in PAYG - do NOT claim separate
 
 ## H&R Block Checklist Validation
 
-| #   | Item                   | Thomas                       | Isabelle              | Status |
-| --- | ---------------------- | ---------------------------- | --------------------- | ------ |
-| 1   | PAYG Income Statements | Atlassian, SEEK              | SCRATCH               | ✓      |
-| 2   | Lump Sum/Termination   | TBD leave                    | —                     | ✓      |
-| 3   | Interest Income        | TBD (Bank Aus)               | —                     | ✓      |
-| 4   | Dividend Statements    | TBD + TBD FC                 | —                     | ✓      |
-| 5   | Managed Funds          | N/A                          | N/A                   | ✓      |
-| 6   | Rental Property        | N/A                          | N/A                   | ✓      |
-| 7   | Business Income        | Tizzi ($0)                   | N/A                   | ✓      |
-| 8   | Capital Gains          | TBD RSU                      | —                     | ✓      |
-| 9   | ESS/RSU                | TBD                          | —                     | ✓      |
-| 10  | Motor Vehicle          | N/A                          | N/A                   | ✓      |
-| 11  | Travel Expenses        | N/A                          | N/A                   | ✓      |
-| 12  | Uniforms               | N/A                          | N/A                   | ✓      |
-| 13  | Subscriptions/Tools    | TBD                          | —                     | ✓      |
-| 14  | Self-Education         | N/A                          | N/A                   | ✓      |
-| 15  | Professional Dev       | N/A                          | N/A                   | ✓      |
-| 16  | WFH Expenses           | TBD hrs = TBD                | TBD hrs = TBD         | ✓      |
-| 17  | Other Work Expenses    | Equip TBD + Internet TBD     | Streaming TBD         | ✓      |
-| 18  | Donations              | TBD (Bravehearts, UNICEF)    | TBD Cancer Council    | ✓      |
-| 19  | Income Protection      | N/A                          | N/A                   | ✓      |
-| 20  | Health Insurance       | NIB                          | NIB                   | ✓      |
-| 21  | PAYG Instalments       | N/A                          | N/A                   | ✓      |
-| 22  | Spouse Details         | ✓                            | ✓                     | ✓      |
-| 23  | Bank Details           | ✓                            | ✓                     | ✓      |
-| 24  | CCS Reconciliation     | N/A (post-NOA)               | N/A (post-NOA)        | ✓      |
-| 25  | Division 293           | Likely applies               | N/A                   | ✓      |
-| 26  | Foreign Income         | RSU (USD→AUD) verified       | N/A                   | ✓      |
-| 27  | Government Payments    | N/A                          | N/A                   | ✓      |
+| # | Item | Thomas | Isabelle | Status |
+|---|------|--------|----------|--------|
+| 1 | PAYG Income Statements | Atlassian, SEEK | SCRATCH | ☐ |
+| 2 | Lump Sum/Termination | $5,694 + $6,375 leave | — | ☐ |
+| 3 | Interest Income | $34.96 (Bank Aus) | — | ☐ |
+| 4 | Dividend Statements | $34.46 + $2.81 FC | — | ☐ |
+| 5 | Managed Funds | N/A | N/A | ☐ |
+| 6 | Rental Property | N/A | N/A | ☐ |
+| 7 | Business Income | Tizzi ($0) | N/A | ☐ |
+| 8 | Capital Gains | $7,974.12 RSU | — | ☐ |
+| 9 | ESS/RSU | $62,270.51 | — | ☐ |
+| 10 | Motor Vehicle | N/A | N/A | ☐ |
+| 11 | Travel Expenses | N/A | N/A | ☐ |
+| 12 | Uniforms | N/A | N/A | ☐ |
+| 13 | Subscriptions/Tools | GitHub, ChatGPT, etc. | — | ☐ |
+| 14 | Self-Education | — | — | ☐ |
+| 15 | Professional Dev | — | — | ☐ |
+| 16 | WFH Expenses | 960 hrs | 768 hrs | ☐ |
+| 17 | Other Work Expenses | Equipment, phone, internet | Phone, internet | ☐ |
+| 18 | Donations | Bravehearts, UNICEF | Cancer Council | ☐ |
+| 19 | Income Protection | N/A | N/A | ☐ |
+| 20 | Health Insurance | NIB | NIB | ☐ |
+| 21 | PAYG Instalments | N/A | N/A | ☐ |
+| 22 | Spouse Details | ✓ | ✓ | ☐ |
+| 23 | Bank Details | ✓ | ✓ | ☐ |
+| 24 | CCS Reconciliation | ✓ | ✓ | ☐ |
+| 25 | Division 293 | ✓ | N/A | ☐ |
+| 26 | Foreign Income | RSU (USD→AUD) | N/A | ☐ |
+| 27 | Government Payments | N/A | N/A | ☐ |
 
-## Tax Estimates Reference (NEEDS RECALCULATION)
+## Tax Estimates Reference
 
-### Income
-| Source           | Thomas          | Isabelle        | Combined        |
-| ---------------- | --------------- | --------------- | --------------- |
-| PAYG Gross       | TBD             | TBD             | TBD             |
-| ESS (RSU)        | TBD             | —               | TBD             |
-| Capital Gains    | TBD             | —               | TBD             |
-| Dividends        | TBD             | —               | TBD             |
-| Interest         | —               | —               | TBD             |
-| **Total Income** | **TBD**         | **TBD**         | **TBD**         |
+| Metric | Thomas | Isabelle | Combined |
+|--------|--------|----------|----------|
+| Taxable Income | $256,334.11 | $112,669.80 | $369,003.91 |
+| Income Tax | — | — | $106,077.29 |
+| Medicare Levy | — | — | $7,380.08 |
+| Division 293 | $3,112.03 | — | $3,112.03 |
 
-### Deductions
-| Category             | Thomas         | Isabelle      | Combined       |
-| -------------------- | -------------- | ------------- | -------------- |
-| WFH Fixed Rate       | TBD            | TBD           | TBD            |
-| Equipment            | TBD            | —             | TBD            |
-| Software             | TBD            | —             | TBD            |
-| Internet             | TBD            | —             | TBD            |
-| Productivity Tools   | TBD            | —             | TBD            |
-| Audible              | TBD            | —             | TBD            |
-| Professional Reading | —              | TBD           | TBD            |
-| Streaming            | —              | TBD           | TBD            |
-| Conferences          | —              | TBD           | TBD            |
-| Donations            | TBD            | TBD           | TBD            |
-| Home Office Cleaning | TBD            | —             | TBD            |
-| **Total (Gross)**    | **TBD**        | **TBD**       | **TBD**        |
-
-**Note:** Some items have work-use apportionment (Internet 65%, Streaming 30%, Professional Reading 50%). Accountant to apply percentages.
-
-### Net Taxable Income
-| Metric             | Thomas          | Isabelle        | Combined        |
-| ------------------ | --------------- | --------------- | --------------- |
-| Gross Income       | TBD             | TBD             | TBD             |
-| Less Deductions    | (TBD)           | (TBD)           | (TBD)           |
-| **Taxable Income** | **TBD**         | **TBD**         | **TBD**         |
-| CCS Target         | —               | —               | < $367,563      |
-| **Status**         |                 |                 | **⏳ PENDING**   |
-
-**Division 293:** Thomas likely subject to additional 15% super tax (income + super > $250k)
+**CCS:** Reported $254,000 → Actual $369,003.91
+**CCS Repayment Expected:** $10,785.10 (reducible to $7,449.47 with $4k+ deductions)
 
 ## Missing Documents Checklist
 
-| Document                                  | Owner  | Status                      |
-| ----------------------------------------- | ------ | --------------------------- |
-| NAB credit card statements (Jul-Aug 2024) | Thomas | 🟡 Optional                  |
-| Bank Australia interest statement         | Shared | ✅ Done                      |
-| Internet bills (12 months)                | Shared | ✅ Verified from bank ($945) |
-| Phone bills (12 months)                   | Both   | ⏭️ Not claiming (WFH covers) |
-| LinkedIn Premium receipts                 | Thomas | ⏭️ Not found in bank         |
-
-**Note:** CCS statement NOT required - CCS is calculated by Centrelink after Notices of Assessment are issued.
+| Document | Owner | Status |
+|----------|-------|--------|
+| NAB credit card statements (Jul-Aug 2024) | Thomas | ⛔ TO ADD |
+| CCS annual statement | Isabelle | ✓ Has |
+| Bank Australia interest statement | Shared | ✓ Has |
+| Internet bills (12 months) | Shared | ☐ To collect |
+| Phone bills (12 months) | Both | ☐ To collect |
+| LinkedIn Premium receipts | Thomas | ☐ To collect |
 
 ## Currency Conversion Rules
 
@@ -326,77 +256,3 @@ When preparing documents:
 - Division 293: Applies when income + super contributions > $250,000
 - Phone/internet: 60-70% work use justified by remote work patterns
 - LinkedIn Premium: Only Tizzi marketing portion deductible (not job searching)
-
-## Processing Highlighted Bank Statements
-
-### Problem Statement
-ANZ credit card statements may have **yellow-highlighted rows** marking transactions of interest (e.g., potential deductions, subscriptions to review). Standard OCR extracts text only and **cannot detect visual formatting like highlights**.
-
-### ⚠️ Common Mistakes to Avoid
-1. **OCR alone won't work** - pytesseract/Tesseract extracts text, not colors or formatting
-2. **Don't confuse zebra striping with highlights** - ANZ statements use alternating light blue/white rows for readability. This is NOT highlighting.
-3. **Don't guess at highlight colors** - Always confirm with the user what color the highlights are before attempting detection
-
-### Correct Process
-
-**Step 1: Extract PDF pages as images**
-```python
-import fitz  # PyMuPDF
-import os
-
-pdf_path = 'path/to/statement.pdf'
-output_dir = 'highlighted_pages'
-os.makedirs(output_dir, exist_ok=True)
-
-pdf = fitz.open(pdf_path)
-for i, page in enumerate(pdf):
-    mat = fitz.Matrix(2, 2)  # 2x zoom for better quality
-    pix = page.get_pixmap(matrix=mat)
-    pix.save(f'{output_dir}/page_{i+1}.png')
-```
-
-**Step 2: Have user attach PNG images to chat**
-- AI can view PNG/JPG images but NOT PDF files directly
-- Transaction pages are typically pages 2-4 (page 1 is summary, last page is points)
-
-**Step 3: Visual inspection for highlights**
-- Look for rows with distinctly different background color from the alternating blue/white pattern
-- Yellow highlights appear as a warmer tone compared to the cool blue zebra striping
-- Request user confirmation of identified rows before proceeding
-
-### Automated Yellow Highlight Detection (Future Enhancement)
-```python
-import fitz
-from PIL import Image
-import io
-import numpy as np
-
-def detect_yellow_rows(pdf_path):
-    """Detect rows with yellow highlighting in ANZ statements."""
-    pdf = fitz.open(pdf_path)
-    highlighted_rows = []
-    
-    for page_num, page in enumerate(pdf):
-        mat = fitz.Matrix(2, 2)
-        pix = page.get_pixmap(matrix=mat)
-        img = Image.open(io.BytesIO(pix.tobytes('png')))
-        img_array = np.array(img)
-        
-        # Yellow detection: High R, High G, Low B
-        # Typical yellow highlight RGB: (255, 255, 0) to (255, 255, 150)
-        for y in range(img_array.shape[0]):
-            row = img_array[y]
-            # Check if row has yellow pixels (R>200, G>200, B<150)
-            yellow_mask = (row[:, 0] > 200) & (row[:, 1] > 200) & (row[:, 2] < 150)
-            if np.sum(yellow_mask) > 100:  # Threshold for "highlighted row"
-                highlighted_rows.append((page_num + 1, y))
-    
-    return highlighted_rows
-```
-
-### ANZ Statement Structure Reference
-- **Page 1:** Account summary, payment details
-- **Pages 2-4:** Transaction details (this is where highlights appear)
-- **Last page:** Qantas points summary
-- **Zebra striping:** Alternating rows with light blue (#E6F3FF approximate) and white backgrounds
-- **Yellow highlights:** User-applied highlighting for transactions to review
