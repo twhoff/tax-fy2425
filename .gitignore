@@ -4,3 +4,4 @@
 *.db
 .beads-credential-key
 .github/context-mode
+.agent-sessions.json
