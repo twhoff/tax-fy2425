@@ -1,0 +1,1 @@
+../../.agents/agents/haiku-worker.agent.md

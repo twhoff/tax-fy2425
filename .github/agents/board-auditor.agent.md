@@ -1,0 +1,1 @@
+../../.agents/agents/board-auditor.agent.md

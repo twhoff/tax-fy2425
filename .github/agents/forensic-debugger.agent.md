@@ -1,0 +1,1 @@
+../../.agents/agents/forensic-debugger.agent.md

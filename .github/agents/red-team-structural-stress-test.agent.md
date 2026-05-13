@@ -1,0 +1,1 @@
+../../.agents/agents/red-team-structural-stress-test.agent.md
